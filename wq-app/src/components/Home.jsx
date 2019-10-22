@@ -1,12 +1,13 @@
 import React from 'react';
-import { Header, Button } from 'semantic-ui-react';
+import { Grid, Header, Button } from 'semantic-ui-react';
 
 const Home = () => {
-
   return (
     <div>
-      <Header as='h1'>Home</Header>
-      <Button>Home</Button>
+      <Grid stackable columns>
+        <Header as='h1'>Home</Header>
+        <Button>Home</Button>
+      </Grid>
     </div>
   );
 
