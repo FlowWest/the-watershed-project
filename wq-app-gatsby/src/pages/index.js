@@ -7,37 +7,36 @@ import SEO from "../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
 
 const IndexPage = () => {
-  const wqCategoriesData = useStaticQuery(graphql`
-  query {
-    allTestJson {
-      edges {
-        node {
-          category
-          description
-          wqFeatures {
-            name
+
+  const data = useStaticQuery(graphql`
+    query {
+      allWqCategoriesFeaturesJson {
+        edges {
+          node {
+            category
             description
+            features {
+              feature_description
+              name
+            }
           }
         }
       }
     }
-  }
   `)
-
-
 
   return (
     <Layout>
       <SEO title="Home" />
       <Grid>
-        {wqCategoriesData.allTestJson.edges.map( (edge, index) => {
+        {data.allWqCategoriesFeaturesJson.edges.map( (edge, index) => {
           return (
             <Fragment key={index}>
               <GridColumn width={4}>
                 <ScrollModal 
                   category={edge.node.category} 
                   description={edge.node.description} 
-                  wqFeatures={edge.node.wqFeatures}
+                  features={edge.node.features}
                 />
               </GridColumn>
             </Fragment>

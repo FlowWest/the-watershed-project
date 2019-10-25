@@ -9,17 +9,16 @@ const ScrollModal = props => {
     <Modal trigger={<Button>{props.category}</Button>}>
       <Modal.Content>
         <Modal.Description>
-          <Header>{props.category}</Header>
+          <h2>{props.category}</h2>
           <p>{props.description}</p>
-          {props.wqFeatures.map((wqFeature) => {
+          {props.features.map((feature) => {
             return (
               <Fragment>
-                <h3>{wqFeature.name}</h3>
-                <p>{wqFeature.description}</p>
+                <h3>{feature.name}</h3>
+                <p>{feature.feature_description}</p>
               </Fragment>
             )
           })}
-          {/* Each WQ Feature within a Category and it's description */}
         </Modal.Description>
       </Modal.Content>
     </Modal>
