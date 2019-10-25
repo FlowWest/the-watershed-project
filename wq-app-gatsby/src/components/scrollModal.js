@@ -4,7 +4,6 @@ import { Button, Header, Modal } from "semantic-ui-react"
 
 const ScrollModal = props => {
 
-  console.log(props.wqFeatures)
   return (
     <Modal trigger={<Button>{props.category}</Button>}>
       <Modal.Content>

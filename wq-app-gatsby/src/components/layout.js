@@ -8,6 +8,7 @@
 import React from "react"
 // import { useStaticQuery, graphql } from "gatsby"
 import 'semantic-ui-css/semantic.min.css'
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 import SiteHeader from "./siteHeader"
 // import "./layout.css"
