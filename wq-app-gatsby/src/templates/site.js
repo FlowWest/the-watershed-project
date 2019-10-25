@@ -5,9 +5,9 @@ import { Header Grid } from "semantic-ui-react"
 
 export default ({ data }) => {
   const siteData = data.allCreekSiteJson.edges
+  console.log('site data', siteData)
   // need the edge containing current site
   // need list of all other sites, with id and name
-  console.log('site data', siteData)
   return (
     <Layout>
       <Grid>

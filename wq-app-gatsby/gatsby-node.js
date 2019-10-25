@@ -17,6 +17,10 @@ exports.createPages = async function({ actions, graphql }) {
       }
     }
   `)
+  
+  const siteData = await graphql(`
+  
+  `)
 
   data.allCreekSiteJson.edges.forEach(edge => {
     const creekID = edge.node.creek_id
