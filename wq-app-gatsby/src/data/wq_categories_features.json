@@ -1,7 +1,7 @@
 [
   {
     "category": "Vitals",
-    "description": "These are the \"vital signs\" of a creek, telling us the baseline health of the creek.",
+    "description": "These are the “vital signs” of a creek, telling us the baseline health of the creek.",
     "features": [
       {
         "name": "Dissolved Oxygen",
@@ -31,7 +31,7 @@
   },
   {
     "category": "Nutrients",
-    "description": "Nutrients are essential for life in a creek, but in excess, they can lead to overgrowth of algae and ultimately low oxygen conditions and \"dead zones.\"",
+    "description": "Nutrients are essential for life in a creek, but in excess, they can lead to overgrowth of algae and ultimately low oxygen conditions and “dead zones.”",
     "features": [
       {
         "name": "Dead Zones",
@@ -136,6 +136,26 @@
       {
         "name": "Benthic Macroinvertebrates",
         "feature_description": "BMI are bottom-dwelling invertebrates, including many insects that spend part or all of their life in the creek. Each family of BMI are assigned a tolerance value that describes how much pollution they can live with, with a higher number indicates that the organism can put up with a lot of pollution, while organisms with a lower number need very clean water. A healthy stream would have a lot of low-tolerance-value bugs (examples: Mayflies, Stoneflies, and Caddisflies), and not too many high-tolerance-value bugs (snails and worms). By sampling a stream’s bugs, we can get an idea of the stream’s overall health."
+      }
+    ]
+  },
+  {
+    "category": "Observations",
+    "description": "These are easy, visual ways to assess a creek.",
+    "features": [
+      {
+        "name": "Water odor, clarity, color, flow, and the presence of things such as foam, scum, and plants",
+        "feature_description": "These are observations that can be made without the use of instruments, ideally by community members living on the creek or made in addition to collecting measurements of other parameters."
+      }
+    ]
+  },
+  {
+    "category": "Restoration Sites",
+    "description": "These projects restore creeks in an effort to improve water quality and wildlife habitat.",
+    "features": [
+      {
+        "name": "Restoration sites",
+        "feature_description": "Restoration sites aim to improve creek health by restoring some aspects of a healthy creek, such as native vegetation on creek banks to stabilize them, vegetated buffers on either side of the creek to reduce direct stormwater input, and improving creek substrate."
       }
     ]
   }
