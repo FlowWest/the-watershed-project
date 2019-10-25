@@ -12,7 +12,7 @@ const ScrollModal = props => {
           <Header>{props.category}</Header>
           <p>{props.description}</p>
           {props.wqFeatures.map((wqFeature) => {
-            return(
+            return (
               <Fragment>
                 <h3>{wqFeature.name}</h3>
                 <p>{wqFeature.description}</p>
