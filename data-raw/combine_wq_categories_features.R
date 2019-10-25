@@ -12,5 +12,5 @@ data <- wq_features %>%
 data %>% 
   group_by(category, description) %>% 
   nest(.key = "features") %>% 
-  toJSON(pretty = TRUE) %>% 
+  toJSON() #%>% 
   write_json('wq-app-gatsby/src/data/wq_categories_features.json')
