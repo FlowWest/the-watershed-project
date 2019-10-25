@@ -1,21 +1,29 @@
-import React from 'react'
-import { Button, Header, Modal } from 'semantic-ui-react'
+import React, { Fragment } from "react"
+import { Button, Header, Modal } from "semantic-ui-react"
+// import { useStaticQuery, graphql } from "gatsby"
 
-const ScrollModal = (props) => {
+const ScrollModal = props => {
 
-
-  return(
-    <Modal trigger={<Button>{props.title}</Button>}>
-      {/* <Modal.Header>Water Quality Feature</Modal.Header> */}
+  console.log(props.wqFeatures)
+  return (
+    <Modal trigger={<Button>{props.category}</Button>}>
       <Modal.Content>
         <Modal.Description>
-          <Header>{props.title}</Header>
-          <p>dkjfojoeijf</p>
+          <Header>{props.category}</Header>
+          <p>{props.description}</p>
+          {props.wqFeatures.map((wqFeature) => {
+            return(
+              <Fragment>
+                <h3>{wqFeature.name}</h3>
+                <p>{wqFeature.description}</p>
+              </Fragment>
+            )
+          })}
+          {/* Each WQ Feature within a Category and it's description */}
         </Modal.Description>
       </Modal.Content>
     </Modal>
   )
 }
- 
 
 export default ScrollModal

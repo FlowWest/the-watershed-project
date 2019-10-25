@@ -1,0 +1,18 @@
+[
+  {
+    "category": "Vitals",
+    "description": "These are the “vital signs” of a creek, telling us the baseline health of the creek.",
+    "wqFeatures": [
+      {"name": "Dissolved Oxygen", "description": "blah"},
+      {"name": "Thing 2", "description": "blah, blah, blah, blah"}
+    ]
+  },
+  {
+    "category": "Creek Bugs",
+    "description": "Bugs in a creek",
+    "wqFeatures": [
+      {"name": "Hot Oxygen", "description": "blah"},
+      {"name": "Thing 3", "description": "blah, blah, blah, blah"}
+    ]
+  }
+]
