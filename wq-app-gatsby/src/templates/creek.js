@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 
 export default ({ data }) => {
   const creekData = data.allCreekSiteJson.edges[0].node
-  console.log("Creek Data", creekData)
   return (
     <Layout>
       <div>
