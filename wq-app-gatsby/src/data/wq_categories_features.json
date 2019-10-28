@@ -1,0 +1,162 @@
+[
+  {
+    "category": "Vitals",
+    "description": "These are the “vital signs” of a creek, telling us the baseline health of the creek.",
+    "features": [
+      {
+        "name": "Dissolved Oxygen",
+        "feature_description": "Aquatic organisms depend on oxygen for respiration. Oxygen is dissolved in water through aeration, via moving over rocks or waterfalls, and photosynthesis by plants living in the creek. Cold water can hold more dissolved oxygen than warm water, because the molecules in the water move slower and thereby retain more oxygen."
+      },
+      {
+        "name": "pH",
+        "feature_description": "pH is a measure of how acidic or basic the water is. pH in streams can be affected by many things, including urban runoff, mining activities, and even pine needles. Typically, the presence of organic matter and decomposition lower pH and urban runoff tends to increase pH. A pH range of 6.5 to 8.5 is optimal for the health of freshwater fish and bottom-dwelling macroinvertebrates."
+      },
+      {
+        "name": "Conductivity",
+        "feature_description": "Conductivity measures the concentration of ions (charged particles) present in water. Conductivity is related to salinity, which measures just dissolved salts. Conductivity may be related to the underlying geology of the stream bed, or result from urban runoff containing nutrients like phosphates and nitrates, which are found in fertilizers."
+      },
+      {
+        "name": "Temperature",
+        "feature_description": "Water temperature affects all creatures living in the stream, as well as directly influencing water chemistry (including conductivity and dissolved oxygen. Different animals have different preferred temperature ranges; cold water fish such as rainbow trout like water to be less than 16°C, although they can tolerate higher temperatures. Deep, fast-moving, and shaded streams tend to be colder than shallow, slow-moving, and exposed streams."
+      },
+      {
+        "name": "Turbidity",
+        "feature_description": "Turbidity measures how clear the water is. Sediment or dissolved solids in the water can stick in the gills of fish, settle on top of spawning grounds, and even impair their ability to find food. Filter-feeding invertebrates such as clams and water fleas can become clogged with sediments, leading to starvation. It can even increase the temperature of the water, leading to lower oxygen levels. Rainfall often increases turbidity in creeks, as stormwater runoff contributes to higher flows and can cause creek-bed erosion. Other sources of increased turbidity include algal blooms, waste discharge, and even animals or children playing in the water."
+      },
+      {
+        "name": "Suspended Sediment Concentration",
+        "feature_description": "Suspended sediments are transported throughout the body of water. The more powerful the flow of water and/or the finer the grain of the suspended sediment, the more turbulent the water will be. Fine sediments such as silt stay in suspension more than coarser sediments. Suspended sediments play a role in determining the quality of the water. All streams and rivers contain a certain sediment load, and very turbulent water can have negative effects on aquatic species. High levels of suspended sediments can suffocate organisms and make it hard for fish to find food; additionally, plants that rely on photosynthesis are affected by cloudy water as well."
+      }
+    ]
+  },
+  {
+    "category": "Nutrients",
+    "description": "Nutrients are essential for life in a creek, but in excess, they can lead to overgrowth of algae and ultimately low oxygen conditions and “dead zones.”",
+    "features": [
+      {
+        "name": "Dead Zones",
+        "feature_description": "Eutrophication works like this: algae will grow and grow until the water is visibly green, preventing light from penetrating very far. The increased amount of solids in the water increases the water temperature. When the nitrates have been used up or when the sun goes down, the algae stop growing and become a major source of food for bacteria. Bacteria then grow and grow, eating algae and using up oxygen. This creates such a low-oxygen environment that many invertebrates and fish can’t survive. Bacterial metabolism also releases ions into the water that increase conductivity and reduce pH."
+      },
+      {
+        "name": "Nitrate",
+        "feature_description": "Nitrates are nitrogen in the form N03 - . Sources of nitrates include fertilizer, animal waste, human waste (typically from leaking septic systems), and industrial pollution. Nitrates are a critical nutrient for aquatic plants and algae, which utilize nitrates as a food source. However, high levels of nitrates can lead to overgrowth of algae and eutrophication, which is correlated with decreases in dissolved oxygen levels. The presence of nitrates by itself does not generally greatly affect aquatic species such as insects or fish until excessive nitrates are present, in which case it will create a harsh living environment for these organisms."
+      },
+      {
+        "name": "Nitrite",
+        "feature_description": "Nitrites(NO2-) are converted into nitrates via bacteria in soil. Nitrites are a salt or ester of nitrous acid. High levels of nitrite in water can be detrimental to aquatic life and is referred to as nitrite toxicity."
+      },
+      {
+        "name": "Ammonium",
+        "feature_description": "Ammonium (NH4+) is a weak acid and is formed when a proton is added to ammonia (NH3). When ammonia is dissolved in water, a small amount will convert into ammonium ions."
+      },
+      {
+        "name": "Phosphates",
+        "feature_description": "Phosphates (PO4-3) are formed from the element phosphorus, and exist in the forms orthophosphate, metaphosphate (or polyphosphate) and organically bound phosphate. Phosphates are an important nutrient for aquatic plants and algae, but too many nutrients can lead to unchecked growth and low oxygen conditions (see eutrophication). Sources of phosphates include urban landscape runoff such as fertilizer and detergents, as well as human and animal wastes."
+      },
+      {
+        "name": "Total Phosphorus",
+        "feature_description": "Phosphorus is a very important nutrient that assists aquatic plants and animalsgrow and is present naturally in low levels in streams and rivers. It is also reactive element and can be found in several forms. Higher levels of phosphorus are present in bodies of water due to substances such as fertilizers, industrial cleaners and sewage. While most aquatic organisms need low levels of phosphorus, excess levels in nature can cause algal blooms (eutrophication) which decreases access to sunlight and oxygen levels in the water."
+      },
+      {
+        "name": "Total Organic Carbon",
+        "feature_description": "TOC measures the level of organic molecules in a water source. TOC is a measurement method for carbon content of both dissolved and undissolved organic substances in water sources."
+      },
+      {
+        "name": "Fecal Indicator Bacteria (including E. coli, enterococcus)",
+        "feature_description": "Pathogenic micro-organisms are associated with fecal waste and can cause a variety of diseases either through the ingestion of contaminated water or the consumption of contaminated shellfish. Since these pathogens tend to occur in very low numbers and are very small it is very difficult to measure them directly. Instead monitoring for pathogens uses “indicator” species—so called because their presence indicates that fecal contamination may have occurred. These bacteria are also easy to grow in a lab and all will be present if there is fecal contamination. EPA has established thresholds for fecal contamination in recreational waters, and E. coli is frequently used as an indicator of contamination."
+      }
+    ]
+  },
+  {
+    "category": "Heavy Metals",
+    "description": "While low concentrations of some metals are necessary for creek life, higher levels can be toxic.",
+    "features": [
+      {
+        "name": "Hardness",
+        "feature_description": "Water hardness measures the level of calcium and magnesium salts in the body of water. Generally, the presence of calcium and magnesium originates from rocks eroding. The more calcium and magnesium present in the water, the “harder” the water becomes."
+      },
+      {
+        "name": "Dissolved Copper",
+        "feature_description": "Copper is an essential trace nutrient that is required in small amounts by most life. However, in higher amounts, it can be toxic. The brake pads of cars are a common source of copper in aquatic systems."
+      },
+      {
+        "name": "Total Mercury and Methylmercury",
+        "feature_description": "The presence of mercury and methylmercury in aquatic environments poses a risk for many reasons, most notably due to its high biomagnification factor (accumulation via the food chain)."
+      },
+      {
+        "name": "Total Selenium",
+        "feature_description": "Selenium is a photosensitive element which can occur in two forms; crystalline and amorphous. Selenium is found in glass and semiconductor devices, and is formed as a by-product in copper refiners."
+      }
+    ]
+  },
+  {
+    "category": "Insecticides",
+    "description": "Commonly used insecticides can find their way to the creek if they are overapplied or applied shortly before it rains.",
+    "features": [
+      {
+        "name": "Pyrethroids",
+        "feature_description": "Pyrethroids are organic compounds, and are found in a variety of insecticide products. The use of pyrethroids is becoming more common with the decline of other more harmful pesticides. Nonetheless the presence of pyrethroids is found in creeks and streams through urban runoff and can be harmful to aquatic life forms when found in high levels."
+      },
+      {
+        "name": "Carbaryl",
+        "feature_description": "Carbaryl is a chemical found in a variety of insecticide products, and while its level of toxicity varies, it is at minimum always considered moderately toxic. Carbaryl can found in creeks and streams via urban runoff as well and is harmful to aquatic life."
+      },
+      {
+        "name": "Fipronil",
+        "feature_description": "Fipronil is a part of the phenylpyrazole chemical family and is a common insecticide used to control all sorts of animals including ants, beetles, cockroaches, ticks and fleas. Fipronil is also found in a range of products and is designed to kill pests when they come in contact with it. It is widely used in agriculture and thus can often end up in bodies of water. In high dosages fipronil is extremely toxic to fish and other plant and animal life."
+      },
+      {
+        "name": "Detergents",
+        "feature_description": "Detergents are added to insecticides to increase their effectiveness by making the chemicals more soluble in water, and thus easier to spray and penetrate their intended targets. Detergents are much easier (and cheaper) to test for than insecticides, and can be used as a proxy in some cases. Other sources of detergents include washing cars and faulty greywater systems."
+      }
+    ]
+  },
+  {
+    "category": "Other Toxics",
+    "description": "Other toxic compounds and items that end up in creeks.",
+    "features": [
+      {
+        "name": "PAHs, PCBs, PBDEs",
+        "feature_description": "Polycyclic aromatic hydrocarbons (PAHs), polychlorinated biphenyls (PCBs), and polybrominated diphenyl ethers (PBDEs) are all contaminants that have been found in lakes, streams and creeks. There are multiple mechanisms and pathways in which these contaminants enter our watersheds, including via stormwater runoff, wastewater treatment plant effluent, and even atmospheric processes. All of these contaminants are considered hazardous to aquatic and other forms of life."
+      },
+      {
+        "name": "Diesel, Motor Oil, Grease, Gasoline",
+        "feature_description": "These pollutants are commonly associated with cars and proximity to roads, and are hazardous to creek life."
+      },
+      {
+        "name": "Trash",
+        "feature_description": "The presence of trash in creeks is detrimental to life in the creek, either through pollution (batteries, paint cans, etc.), alteration of habitat, or the breakdown of trash into something that looks like food to creek life."
+      }
+    ]
+  },
+  {
+    "category": "Creek Bugs",
+    "description": "Looking at these bugs gives us an idea of the overall health of the creek.",
+    "features": [
+      {
+        "name": "Benthic Macroinvertebrates",
+        "feature_description": "BMI are bottom-dwelling invertebrates, including many insects that spend part or all of their life in the creek. Each family of BMI are assigned a tolerance value that describes how much pollution they can live with, with a higher number indicates that the organism can put up with a lot of pollution, while organisms with a lower number need very clean water. A healthy stream would have a lot of low-tolerance-value bugs (examples: Mayflies, Stoneflies, and Caddisflies), and not too many high-tolerance-value bugs (snails and worms). By sampling a stream’s bugs, we can get an idea of the stream’s overall health."
+      }
+    ]
+  },
+  {
+    "category": "Observations",
+    "description": "These are easy, visual ways to assess a creek.",
+    "features": [
+      {
+        "name": "Water odor, clarity, color, flow, and the presence of things such as foam, scum, and plants",
+        "feature_description": "These are observations that can be made without the use of instruments, ideally by community members living on the creek or made in addition to collecting measurements of other parameters."
+      }
+    ]
+  },
+  {
+    "category": "Restoration Sites",
+    "description": "These projects restore creeks in an effort to improve water quality and wildlife habitat.",
+    "features": [
+      {
+        "name": "Restoration sites",
+        "feature_description": "Restoration sites aim to improve creek health by restoring some aspects of a healthy creek, such as native vegetation on creek banks to stabilize them, vegetated buffers on either side of the creek to reduce direct stormwater input, and improving creek substrate."
+      }
+    ]
+  }
+]
