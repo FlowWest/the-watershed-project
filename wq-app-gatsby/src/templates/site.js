@@ -4,29 +4,31 @@ import Layout from "../components/layout"
 import { Header, Grid, GridColumn } from "semantic-ui-react"
 
 export default ({ data, pageContext }) => {
-  const siteData = data.allCreekSiteJson.edges[0].node
-  console.log('site data', siteData)
-  console.log('site data', pageContext)
+  const sitesData = data.allCreekSiteJson.edges[0].node
   // need the edge containing current site
   // need list of all other sites, with id and name
+
+  const [ siteData ] = sitesData.sites.filter((site) => site.site_id === pageContext.siteID);
+  console.log("found site data", siteData);
+
   return (
     <Layout>
       <Grid>
         <GridColumn width={6}>
-          <Header as="h2">{pageContext.name}</Header>
+          <Header as="h2">{siteData.name}</Header>
           <p>{siteData.description}</p>
           <ul>
-            {siteData.sites
+            {sitesData.sites
               .filter((site) => (site.site_id !== pageContext.siteID))
               .map((site) => {
                 return (
                 <Fragment key={site.site_id}>
-                  <li>{site.name}</li>
+                  <li><Link>{site.name}</Link></li>
                 </Fragment>
                 )
               })}
           </ul>
-          <p><Link to={`/creek/${siteData.creek_id}`}>Go back to {siteData.creek_name}</Link></p>
+          <p><Link to={`/creek/${sitesData.creek_id}`}>Go back to {sitesData.creek_name}</Link></p>
         </GridColumn>
         <GridColumn width={10}>
           <p>place holder</p>
@@ -47,7 +49,7 @@ export const query = graphql`
           creek_name
           creek_id
           sites {
-            descripiton
+            description
             name
             site_id
           }

@@ -1,12 +1,5 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
-
-// You can delete this file if you're not using it
 exports.createPages = async function({ actions, graphql }) {
-  const creekData= await graphql(`
+  const creekData = await graphql(`
     query {
       allCreekSiteJson {
         edges {
@@ -27,7 +20,7 @@ exports.createPages = async function({ actions, graphql }) {
           creek_name
           creek_id
           name
-          descripiton
+          description
         }
       }
     }
@@ -44,7 +37,6 @@ exports.createPages = async function({ actions, graphql }) {
   })
 
   siteData.data.allSitesJson.edges.forEach(edge => {
-    // console.log('&&&&&&&&&&&', edge)
     const siteID = edge.node.site_id;
     const { name, description } = edge.node
     actions.createPage({

@@ -36,7 +36,7 @@ export const query = graphql`
           creek_name
           creek_id
           sites {
-            descripiton
+            description
             name
             site_id
           }

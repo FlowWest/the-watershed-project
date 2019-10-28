@@ -3,7 +3,7 @@ import { Button, Header, Modal } from "semantic-ui-react"
 // import { useStaticQuery, graphql } from "gatsby"
 
 const ScrollModal = props => {
-
+  
   return (
     <Modal trigger={<Button>{props.category}</Button>}>
       <Modal.Content>
