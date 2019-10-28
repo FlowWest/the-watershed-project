@@ -3,17 +3,17 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import { Header, Grid, GridColumn } from "semantic-ui-react"
 
-export default ({data, pageContext}) => {
-
+export default ({ data, pageContext }) => {
   const siteData = data.allCreekSiteJson.edges[0].node
   console.log('site data', siteData)
+  console.log('site data', pageContext)
   // need the edge containing current site
   // need list of all other sites, with id and name
   return (
     <Layout>
       <Grid>
         <GridColumn width={6}>
-          <Header as="h2">{siteData.name}</Header>
+          <Header as="h2">{pageContext.name}</Header>
           <p>{siteData.description}</p>
           <ul>
             {siteData.sites
