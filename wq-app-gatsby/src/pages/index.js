@@ -1,5 +1,5 @@
 import React, { Fragment } from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import { Grid, GridColumn } from "semantic-ui-react"
 import ScrollModal from "../components/scrollModal"
 import Layout from "../components/layout"
@@ -33,9 +33,9 @@ const IndexPage = () => {
           return (
             <Fragment key={index}>
               <GridColumn width={4}>
-                <ScrollModal 
-                  category={edge.node.category} 
-                  description={edge.node.description} 
+                <ScrollModal
+                  category={edge.node.category}
+                  description={edge.node.description}
                   features={edge.node.features}
                 />
               </GridColumn>

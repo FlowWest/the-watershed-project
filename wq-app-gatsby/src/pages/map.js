@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import { Grid, GridColumn, Header } from "semantic-ui-react"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import Mapbox from "../components/creekMap"
-const TOKEN = process.env.toast
+// const TOKEN = process.env.toast
 
 const Map = () => {
 
