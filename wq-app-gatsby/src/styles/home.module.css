@@ -1,0 +1,19 @@
+.wq-feature {
+  background-color: #dbf1fe;
+  border-radius: 20px;
+  width: 200px;
+  height: 125px;
+  padding: 10px 8px;
+  display: flex;
+  align-items: center;
+}
+.waterDrop {
+  width: 40%;
+}
+
+.header {
+  font-size: 20px;
+  margin-top: 0;
+  font-family: 'Roboto Condensed';
+  font-weight: bold;
+}
