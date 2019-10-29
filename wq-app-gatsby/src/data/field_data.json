@@ -1,0 +1,2149 @@
+[
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 1657 },
+      { "SampleDate": "2018-10-12", "Result": 1677 },
+      { "SampleDate": "2018-11-09", "Result": 1595 },
+      { "SampleDate": "2018-12-14", "Result": 1727 },
+      { "SampleDate": "2019-01-10", "Result": 1040 },
+      { "SampleDate": "2019-02-22", "Result": 1159 },
+      { "SampleDate": "2019-03-15", "Result": 1131 },
+      { "SampleDate": "2019-04-12", "Result": 1320 }
+    ]
+  },
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 3.87 },
+      { "SampleDate": "2018-10-12", "Result": 2.29 },
+      { "SampleDate": "2018-11-09", "Result": 2.86 },
+      { "SampleDate": "2018-12-14", "Result": 6.2 },
+      { "SampleDate": "2019-01-10", "Result": 10.27 },
+      { "SampleDate": "2019-02-22", "Result": 11.82 },
+      { "SampleDate": "2019-03-15", "Result": 11.09 },
+      { "SampleDate": "2019-04-12", "Result": 10.74 }
+    ]
+  },
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 39.6 },
+      { "SampleDate": "2018-10-12", "Result": 22.8 },
+      { "SampleDate": "2018-11-09", "Result": 25.6 },
+      { "SampleDate": "2018-12-14", "Result": 54.7 },
+      { "SampleDate": "2019-01-10", "Result": 92.8 },
+      { "SampleDate": "2019-02-22", "Result": 99.7 },
+      { "SampleDate": "2019-03-15", "Result": 99.2 },
+      { "SampleDate": "2019-04-12", "Result": 101.9 }
+    ]
+  },
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 16.1 },
+      { "SampleDate": "2018-10-12", "Result": 15.6 },
+      { "SampleDate": "2018-11-09", "Result": 10.2 },
+      { "SampleDate": "2018-12-14", "Result": 9.6 },
+      { "SampleDate": "2019-01-10", "Result": 10.7 },
+      { "SampleDate": "2019-02-22", "Result": 7.8 },
+      { "SampleDate": "2019-03-15", "Result": 10.2 },
+      { "SampleDate": "2019-04-12", "Result": 12.8 }
+    ]
+  },
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 7.66 },
+      { "SampleDate": "2018-10-12", "Result": 7.65 },
+      { "SampleDate": "2018-11-09", "Result": 7.54 },
+      { "SampleDate": "2018-12-14", "Result": 7.67 },
+      { "SampleDate": "2019-01-10", "Result": 7.86 },
+      { "SampleDate": "2019-02-22", "Result": 8.28 },
+      { "SampleDate": "2019-03-15", "Result": 8.3 },
+      { "SampleDate": "2019-04-12", "Result": 8.29 }
+    ]
+  },
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "Turbidity",
+    "UnitName": "NTU",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 2.9 },
+      { "SampleDate": "2018-10-12", "Result": 2 },
+      { "SampleDate": "2018-11-09", "Result": 4.5 },
+      { "SampleDate": "2018-12-14", "Result": 1.6 },
+      { "SampleDate": "2019-01-10", "Result": 15.7 },
+      { "SampleDate": "2019-02-22", "Result": -1.4 },
+      { "SampleDate": "2019-03-15", "Result": 9.2 },
+      { "SampleDate": "2019-04-12", "Result": 1.9 }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 1408 },
+      { "SampleDate": "2018-10-12", "Result": 1379 },
+      { "SampleDate": "2018-11-09", "Result": 1310 },
+      { "SampleDate": "2018-12-14", "Result": 1579 },
+      { "SampleDate": "2019-01-10", "Result": 764 },
+      { "SampleDate": "2019-02-22", "Result": 1661 },
+      { "SampleDate": "2019-03-15", "Result": 1560 },
+      { "SampleDate": "2019-04-12", "Result": 1776 }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 10.39 },
+      { "SampleDate": "2018-10-12", "Result": 11.14 },
+      { "SampleDate": "2018-11-09", "Result": 11.18 },
+      { "SampleDate": "2018-12-14", "Result": 9.01 },
+      { "SampleDate": "2019-01-10", "Result": 9.79 },
+      { "SampleDate": "2019-02-22", "Result": 11.14 },
+      { "SampleDate": "2019-03-15", "Result": 10.6 },
+      { "SampleDate": "2019-04-12", "Result": 10.48 }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 115.2 },
+      { "SampleDate": "2018-10-12", "Result": 124.2 },
+      { "SampleDate": "2018-11-09", "Result": 103.7 },
+      { "SampleDate": "2018-12-14", "Result": 79.7 },
+      { "SampleDate": "2019-01-10", "Result": 89.4 },
+      { "SampleDate": "2019-02-22", "Result": 94.7 },
+      { "SampleDate": "2019-03-15", "Result": 95.8 },
+      { "SampleDate": "2019-04-12", "Result": 101.8 }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 20.6 },
+      { "SampleDate": "2018-10-12", "Result": 20.6 },
+      { "SampleDate": "2018-11-09", "Result": 11.8 },
+      { "SampleDate": "2018-12-14", "Result": 9.8 },
+      { "SampleDate": "2019-01-10", "Result": 11.2 },
+      { "SampleDate": "2019-02-22", "Result": 8.1 },
+      { "SampleDate": "2019-03-15", "Result": 10.7 },
+      { "SampleDate": "2019-04-12", "Result": 13.8 }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 8.01 },
+      { "SampleDate": "2018-10-12", "Result": 8.02 },
+      { "SampleDate": "2018-11-09", "Result": 8.1 },
+      { "SampleDate": "2018-12-14", "Result": 7.92 },
+      { "SampleDate": "2019-01-10", "Result": 7.74 },
+      { "SampleDate": "2019-02-22", "Result": 8.13 },
+      { "SampleDate": "2019-03-15", "Result": 8.05 },
+      { "SampleDate": "2019-04-12", "Result": 8.12 }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "Turbidity",
+    "UnitName": "NTU",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 10.3 },
+      { "SampleDate": "2018-10-12", "Result": 6.9 },
+      { "SampleDate": "2018-11-09", "Result": 9.5 },
+      { "SampleDate": "2018-12-14", "Result": 4 },
+      { "SampleDate": "2019-01-10", "Result": 8.4 },
+      { "SampleDate": "2019-02-22", "Result": -1.8 },
+      { "SampleDate": "2019-03-15", "Result": 0.7 },
+      { "SampleDate": "2019-04-12", "Result": 1.5 }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 1384 },
+      { "SampleDate": "2018-10-12", "Result": 1394 },
+      { "SampleDate": "2018-11-09", "Result": 1267 },
+      { "SampleDate": "2018-12-14", "Result": 1571 },
+      { "SampleDate": "2019-01-10", "Result": 849 },
+      { "SampleDate": "2019-02-22", "Result": 1665 },
+      { "SampleDate": "2019-03-15", "Result": 1559 },
+      { "SampleDate": "2019-04-12", "Result": 1785 }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 7.53 },
+      { "SampleDate": "2018-10-12", "Result": 9.44 },
+      { "SampleDate": "2018-11-09", "Result": 9.36 },
+      { "SampleDate": "2018-12-14", "Result": 8.7 },
+      { "SampleDate": "2019-01-10", "Result": 9.68 },
+      { "SampleDate": "2019-02-22", "Result": 11.19 },
+      { "SampleDate": "2019-03-15", "Result": 10.97 },
+      { "SampleDate": "2019-04-12", "Result": 10.09 }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 82.1 },
+      { "SampleDate": "2018-10-12", "Result": 105 },
+      { "SampleDate": "2018-11-09", "Result": 83.3 },
+      { "SampleDate": "2018-12-14", "Result": 77 },
+      { "SampleDate": "2019-01-10", "Result": 87.5 },
+      { "SampleDate": "2019-02-22", "Result": 93.6 },
+      { "SampleDate": "2019-03-15", "Result": 97.1 },
+      { "SampleDate": "2019-04-12", "Result": 95.7 }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 19.5 },
+      { "SampleDate": "2018-10-12", "Result": 20.4 },
+      { "SampleDate": "2018-11-09", "Result": 10 },
+      { "SampleDate": "2018-12-14", "Result": 9.8 },
+      { "SampleDate": "2019-01-10", "Result": 10.6 },
+      { "SampleDate": "2019-02-22", "Result": 7.4 },
+      { "SampleDate": "2019-03-15", "Result": 9.8 },
+      { "SampleDate": "2019-04-12", "Result": 12.8 }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 7.91 },
+      { "SampleDate": "2018-10-12", "Result": 8.14 },
+      { "SampleDate": "2018-11-09", "Result": 7.92 },
+      { "SampleDate": "2018-12-14", "Result": 8.22 },
+      { "SampleDate": "2019-01-10", "Result": 7.75 },
+      { "SampleDate": "2019-02-22", "Result": 8.12 },
+      { "SampleDate": "2019-03-15", "Result": 8.12 },
+      { "SampleDate": "2019-04-12", "Result": 8.13 }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "Turbidity",
+    "UnitName": "NTU",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 4.4 },
+      { "SampleDate": "2018-10-12", "Result": 3.7 },
+      { "SampleDate": "2018-11-09", "Result": 5.9 },
+      { "SampleDate": "2018-12-14", "Result": 3.5 },
+      { "SampleDate": "2019-01-10", "Result": 8.3 },
+      { "SampleDate": "2019-02-22", "Result": -3.2 },
+      { "SampleDate": "2019-03-15", "Result": 0.5 },
+      { "SampleDate": "2019-04-12", "Result": 1.7 }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 931 },
+      { "SampleDate": "2018-10-12", "Result": 999 },
+      { "SampleDate": "2018-11-09", "Result": 536 },
+      { "SampleDate": "2018-12-14", "Result": 1119 },
+      { "SampleDate": "2019-01-10", "Result": 747 },
+      { "SampleDate": "2019-02-22", "Result": 1286 },
+      { "SampleDate": "2019-03-15", "Result": 1335 },
+      { "SampleDate": "2019-04-12", "Result": 1360 }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 8.81 },
+      { "SampleDate": "2018-10-12", "Result": 8.67 },
+      { "SampleDate": "2018-11-09", "Result": 8.37 },
+      { "SampleDate": "2018-12-14", "Result": 8.9 },
+      { "SampleDate": "2019-01-10", "Result": 9.62 },
+      { "SampleDate": "2019-02-22", "Result": 10.87 },
+      { "SampleDate": "2019-03-15", "Result": 11.83 },
+      { "SampleDate": "2019-04-12", "Result": 10.28 }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 98.1 },
+      { "SampleDate": "2018-10-12", "Result": 97.6 },
+      { "SampleDate": "2018-11-09", "Result": 81.6 },
+      { "SampleDate": "2018-12-14", "Result": 85.2 },
+      { "SampleDate": "2019-01-10", "Result": 91.6 },
+      { "SampleDate": "2019-02-22", "Result": 99.2 },
+      { "SampleDate": "2019-03-15", "Result": 112.8 },
+      { "SampleDate": "2019-04-12", "Result": 103.6 }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 20.5 },
+      { "SampleDate": "2018-10-12", "Result": 21 },
+      { "SampleDate": "2018-11-09", "Result": 14.2 },
+      { "SampleDate": "2018-12-14", "Result": 13.2 },
+      { "SampleDate": "2019-01-10", "Result": 13 },
+      { "SampleDate": "2019-02-22", "Result": 11.1 },
+      { "SampleDate": "2019-03-15", "Result": 13 },
+      { "SampleDate": "2019-04-12", "Result": 15.5 }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 8.5 },
+      { "SampleDate": "2018-10-12", "Result": 8.46 },
+      { "SampleDate": "2018-11-09", "Result": 8.16 },
+      { "SampleDate": "2018-12-14", "Result": 8.35 },
+      { "SampleDate": "2019-01-10", "Result": 8.05 },
+      { "SampleDate": "2019-02-22", "Result": 8.31 },
+      { "SampleDate": "2019-03-15", "Result": 8.32 },
+      { "SampleDate": "2019-04-12", "Result": 8.27 }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "Turbidity",
+    "UnitName": "NTU",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 2.2 },
+      { "SampleDate": "2018-10-12", "Result": 1.2 },
+      { "SampleDate": "2018-11-09", "Result": 7.2 },
+      { "SampleDate": "2018-12-14", "Result": 0.6 },
+      { "SampleDate": "2019-01-10", "Result": 0.85 },
+      { "SampleDate": "2019-02-22", "Result": -3.3 },
+      { "SampleDate": "2019-03-15", "Result": 0.1 },
+      { "SampleDate": "2019-04-12", "Result": 0.8 }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 1338 },
+      { "SampleDate": "2018-10-15", "Result": 1289 },
+      { "SampleDate": "2018-11-12", "Result": 1314 },
+      { "SampleDate": "2018-12-14", "Result": 1033 },
+      { "SampleDate": "2019-01-11", "Result": 1005 },
+      { "SampleDate": "2019-02-22", "Result": 257.6 },
+      { "SampleDate": "2019-03-15", "Result": 262.1 },
+      { "SampleDate": "2019-04-12", "Result": 1383 }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 6.16 },
+      { "SampleDate": "2018-10-15", "Result": 7.82 },
+      { "SampleDate": "2018-11-12", "Result": 7.86 },
+      { "SampleDate": "2018-12-14", "Result": 15.21 },
+      { "SampleDate": "2019-01-11", "Result": 11.9 },
+      { "SampleDate": "2019-02-22", "Result": 13.12 },
+      { "SampleDate": "2019-03-15", "Result": 13.2 },
+      { "SampleDate": "2019-04-12", "Result": 10.66 }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 62.2 },
+      { "SampleDate": "2018-10-15", "Result": 77.9 },
+      { "SampleDate": "2018-11-12", "Result": 72.6 },
+      { "SampleDate": "2018-12-14", "Result": 131 },
+      { "SampleDate": "2019-01-11", "Result": 108 },
+      { "SampleDate": "2019-02-22", "Result": 118.3 },
+      { "SampleDate": "2019-03-15", "Result": 123.5 },
+      { "SampleDate": "2019-04-12", "Result": 107.5 }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 16.4 },
+      { "SampleDate": "2018-10-15", "Result": 13.8 },
+      { "SampleDate": "2018-11-12", "Result": 10.8 },
+      { "SampleDate": "2018-12-14", "Result": 10.5 },
+      { "SampleDate": "2019-01-11", "Result": 11.8 },
+      { "SampleDate": "2019-02-22", "Result": 10.3 },
+      { "SampleDate": "2019-03-15", "Result": 11.5 },
+      { "SampleDate": "2019-04-12", "Result": 13.7 }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 7.77 },
+      { "SampleDate": "2018-10-15", "Result": 7.38 },
+      { "SampleDate": "2018-11-12", "Result": 7.31 },
+      { "SampleDate": "2018-12-14", "Result": 7.73 },
+      { "SampleDate": "2019-01-11", "Result": 7.81 },
+      { "SampleDate": "2019-02-22", "Result": 8.18 },
+      { "SampleDate": "2019-03-15", "Result": 8.34 },
+      { "SampleDate": "2019-04-12", "Result": 8 }
+    ]
+  },
+  {
+    "StationCode": "SPA108",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 1054 },
+      { "SampleDate": "2018-10-12", "Result": 1040 },
+      { "SampleDate": "2018-11-09", "Result": 1092 },
+      { "SampleDate": "2018-12-14", "Result": 1153 },
+      { "SampleDate": "2019-01-11", "Result": 1169 },
+      { "SampleDate": "2019-02-22", "Result": 1163 },
+      { "SampleDate": "2019-03-15", "Result": 1228 },
+      { "SampleDate": "2019-04-12", "Result": 1263 }
+    ]
+  },
+  {
+    "StationCode": "SPA108",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 3.66 },
+      { "SampleDate": "2018-10-12", "Result": 4.3 },
+      { "SampleDate": "2018-11-09", "Result": 9.78 },
+      { "SampleDate": "2018-12-14", "Result": 12.54 },
+      { "SampleDate": "2019-01-11", "Result": 13.03 },
+      { "SampleDate": "2019-02-22", "Result": 10.63 },
+      { "SampleDate": "2019-03-15", "Result": 11.76 },
+      { "SampleDate": "2019-04-12", "Result": 9.14 }
+    ]
+  },
+  {
+    "StationCode": "SPA108",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 34.9 },
+      { "SampleDate": "2018-10-12", "Result": 43.2 },
+      { "SampleDate": "2018-11-09", "Result": 93.2 },
+      { "SampleDate": "2018-12-14", "Result": 112.8 },
+      { "SampleDate": "2019-01-11", "Result": 119.6 },
+      { "SampleDate": "2019-02-22", "Result": 95.1 },
+      { "SampleDate": "2019-03-15", "Result": 110.3 },
+      { "SampleDate": "2019-04-12", "Result": 91.3 }
+    ]
+  },
+  {
+    "StationCode": "SPA108",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 16.9 },
+      { "SampleDate": "2018-10-12", "Result": 15.5 },
+      { "SampleDate": "2018-11-09", "Result": 11.8 },
+      { "SampleDate": "2018-12-14", "Result": 11.8 },
+      { "SampleDate": "2019-01-11", "Result": 12.7 },
+      { "SampleDate": "2019-02-22", "Result": 10.5 },
+      { "SampleDate": "2019-03-15", "Result": 11.7 },
+      { "SampleDate": "2019-04-12", "Result": 14.1 }
+    ]
+  },
+  {
+    "StationCode": "SPA108",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 7.82 },
+      { "SampleDate": "2018-10-12", "Result": 7.85 },
+      { "SampleDate": "2018-11-09", "Result": 8.17 },
+      { "SampleDate": "2018-12-14", "Result": 7.98 },
+      { "SampleDate": "2019-01-11", "Result": 8.02 },
+      { "SampleDate": "2019-02-22", "Result": 8.21 },
+      { "SampleDate": "2019-03-15", "Result": 8.39 },
+      { "SampleDate": "2019-04-12", "Result": 8.11 }
+    ]
+  },
+  {
+    "StationCode": "SPA129",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 1624 },
+      { "SampleDate": "2018-10-12", "Result": 1620 },
+      { "SampleDate": "2018-11-09", "Result": 1619 },
+      { "SampleDate": "2018-12-14", "Result": 1577 },
+      { "SampleDate": "2019-01-11", "Result": 1327 },
+      { "SampleDate": "2019-02-22", "Result": 1227 },
+      { "SampleDate": "2019-03-15", "Result": 1291 },
+      { "SampleDate": "2019-04-12", "Result": 1453 }
+    ]
+  },
+  {
+    "StationCode": "SPA129",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 4.17 },
+      { "SampleDate": "2018-10-12", "Result": 8.64 },
+      { "SampleDate": "2018-11-09", "Result": 2.83 },
+      { "SampleDate": "2018-12-14", "Result": 15.7 },
+      { "SampleDate": "2019-01-11", "Result": 15.42 },
+      { "SampleDate": "2019-02-22", "Result": 11.5 },
+      { "SampleDate": "2019-03-15", "Result": 6.57 },
+      { "SampleDate": "2019-04-12", "Result": 7 }
+    ]
+  },
+  {
+    "StationCode": "SPA129",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 41.2 },
+      { "SampleDate": "2018-10-12", "Result": 84.8 },
+      { "SampleDate": "2018-11-09", "Result": 26.3 },
+      { "SampleDate": "2018-12-14", "Result": 133.6 },
+      { "SampleDate": "2019-01-11", "Result": 134.1 },
+      { "SampleDate": "2019-02-22", "Result": 104.3 },
+      { "SampleDate": "2019-03-15", "Result": 57.1 },
+      { "SampleDate": "2019-04-12", "Result": 95.4 }
+    ]
+  },
+  {
+    "StationCode": "SPA129",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 15.5 },
+      { "SampleDate": "2018-10-12", "Result": 14.4 },
+      { "SampleDate": "2018-11-09", "Result": 11 },
+      { "SampleDate": "2018-12-14", "Result": 10 },
+      { "SampleDate": "2019-01-11", "Result": 11.6 },
+      { "SampleDate": "2019-02-22", "Result": 9.2 },
+      { "SampleDate": "2019-03-15", "Result": 11.5 },
+      { "SampleDate": "2019-04-12", "Result": 12.9 }
+    ]
+  },
+  {
+    "StationCode": "SPA129",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 7.56 },
+      { "SampleDate": "2018-10-12", "Result": 7.71 },
+      { "SampleDate": "2018-11-09", "Result": 7.87 },
+      { "SampleDate": "2018-12-14", "Result": 7.78 },
+      { "SampleDate": "2019-01-11", "Result": 7.64 },
+      { "SampleDate": "2019-02-22", "Result": 7.67 },
+      { "SampleDate": "2019-03-15", "Result": 7.52 },
+      { "SampleDate": "2019-04-12", "Result": 7.65 }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 682 },
+      { "SampleDate": "2018-10-12", "Result": 549 },
+      { "SampleDate": "2018-11-09", "Result": 804 },
+      { "SampleDate": "2018-12-14", "Result": 1348 },
+      { "SampleDate": "2019-01-11", "Result": 1579 },
+      { "SampleDate": "2019-02-22", "Result": 610.4 },
+      { "SampleDate": "2019-03-15", "Result": 627.8 },
+      { "SampleDate": "2019-04-12", "Result": 720 }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 8.63 },
+      { "SampleDate": "2018-10-12", "Result": 9.74 },
+      { "SampleDate": "2018-11-09", "Result": 14.37 },
+      { "SampleDate": "2018-12-14", "Result": 18.04 },
+      { "SampleDate": "2019-01-11", "Result": 17.55 },
+      { "SampleDate": "2019-02-22", "Result": 15.48 },
+      { "SampleDate": "2019-03-15", "Result": 15.15 },
+      { "SampleDate": "2019-04-12", "Result": 13.25 }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 86.8 },
+      { "SampleDate": "2018-10-12", "Result": 104.1 },
+      { "SampleDate": "2018-11-09", "Result": 128.1 },
+      { "SampleDate": "2018-12-14", "Result": 167.7 },
+      { "SampleDate": "2019-01-11", "Result": 159.9 },
+      { "SampleDate": "2019-02-22", "Result": 133.1 },
+      { "SampleDate": "2019-03-15", "Result": 136.7 },
+      { "SampleDate": "2019-04-12", "Result": 126 }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 16 },
+      { "SampleDate": "2018-10-12", "Result": 18.2 },
+      { "SampleDate": "2018-11-09", "Result": 9.14 },
+      { "SampleDate": "2018-12-14", "Result": 13.4 },
+      { "SampleDate": "2019-01-11", "Result": 11.8 },
+      { "SampleDate": "2019-02-22", "Result": 8.2 },
+      { "SampleDate": "2019-03-15", "Result": 9.8 },
+      { "SampleDate": "2019-04-12", "Result": 12.6 }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 8.1 },
+      { "SampleDate": "2018-10-12", "Result": 7.93 },
+      { "SampleDate": "2018-11-09", "Result": 8.69 },
+      { "SampleDate": "2018-12-14", "Result": 8.08 },
+      { "SampleDate": "2019-01-11", "Result": 8.12 },
+      { "SampleDate": "2019-02-22", "Result": 8.23 },
+      { "SampleDate": "2019-03-15", "Result": 8.32 },
+      { "SampleDate": "2019-04-12", "Result": 8.44 }
+    ]
+  },
+  {
+    "StationCode": "SPA210",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 2447 },
+      { "SampleDate": "2018-10-12", "Result": 2297 },
+      { "SampleDate": "2018-11-09", "Result": 2023 },
+      { "SampleDate": "2018-12-14", "Result": 2039 },
+      { "SampleDate": "2019-01-11", "Result": 1233 },
+      { "SampleDate": "2019-02-22", "Result": 1062 },
+      { "SampleDate": "2019-03-15", "Result": 1085 },
+      { "SampleDate": "2019-04-12", "Result": 1358 }
+    ]
+  },
+  {
+    "StationCode": "SPA210",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 8.61 },
+      { "SampleDate": "2018-10-12", "Result": 6.6 },
+      { "SampleDate": "2018-11-09", "Result": 12.1 },
+      { "SampleDate": "2018-12-14", "Result": 19.44 },
+      { "SampleDate": "2019-01-11", "Result": 17.67 },
+      { "SampleDate": "2019-02-22", "Result": 16.02 },
+      { "SampleDate": "2019-03-15", "Result": 15.6 },
+      { "SampleDate": "2019-04-12", "Result": 13.01 }
+    ]
+  },
+  {
+    "StationCode": "SPA210",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 86.6 },
+      { "SampleDate": "2018-10-12", "Result": 65.1 },
+      { "SampleDate": "2018-11-09", "Result": 105.2 },
+      { "SampleDate": "2018-12-14", "Result": 168.3 },
+      { "SampleDate": "2019-01-11", "Result": 155.5 },
+      { "SampleDate": "2019-02-22", "Result": 121.7 },
+      { "SampleDate": "2019-03-15", "Result": 141 },
+      { "SampleDate": "2019-04-12", "Result": 124 }
+    ]
+  },
+  {
+    "StationCode": "SPA210",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 15.7 },
+      { "SampleDate": "2018-10-12", "Result": 13.4 },
+      { "SampleDate": "2018-11-09", "Result": 8.2 },
+      { "SampleDate": "2018-12-14", "Result": 7.7 },
+      { "SampleDate": "2019-01-11", "Result": 10.2 },
+      { "SampleDate": "2019-02-22", "Result": 6.2 },
+      { "SampleDate": "2019-03-15", "Result": 8.2 },
+      { "SampleDate": "2019-04-12", "Result": 11.5 }
+    ]
+  },
+  {
+    "StationCode": "SPA210",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 8.05 },
+      { "SampleDate": "2018-10-12", "Result": 7.83 },
+      { "SampleDate": "2018-11-09", "Result": 7.86 },
+      { "SampleDate": "2018-12-14", "Result": 7.81 },
+      { "SampleDate": "2019-01-11", "Result": 8.02 },
+      { "SampleDate": "2019-02-22", "Result": 7.93 },
+      { "SampleDate": "2019-03-15", "Result": 8.19 },
+      { "SampleDate": "2019-04-12", "Result": 8.28 }
+    ]
+  },
+  {
+    "StationCode": "SPA230",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 607.1 },
+      { "SampleDate": "2018-10-12", "Result": 669 },
+      { "SampleDate": "2018-11-09", "Result": 670.6 },
+      { "SampleDate": "2018-12-14", "Result": 850 },
+      { "SampleDate": "2019-01-11", "Result": 515.6 },
+      { "SampleDate": "2019-02-22", "Result": 463 },
+      { "SampleDate": "2019-03-15", "Result": 467.5 },
+      { "SampleDate": "2019-04-12", "Result": 539.4 }
+    ]
+  },
+  {
+    "StationCode": "SPA230",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 10.19 },
+      { "SampleDate": "2018-10-12", "Result": 6.48 },
+      { "SampleDate": "2018-11-09", "Result": 11.65 },
+      { "SampleDate": "2018-12-14", "Result": 19.28 },
+      { "SampleDate": "2019-01-11", "Result": 17.01 },
+      { "SampleDate": "2019-02-22", "Result": 14.08 },
+      { "SampleDate": "2019-03-15", "Result": 13.17 },
+      { "SampleDate": "2019-04-12", "Result": 13.02 }
+    ]
+  },
+  {
+    "StationCode": "SPA230",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 100.8 },
+      { "SampleDate": "2018-10-12", "Result": 62 },
+      { "SampleDate": "2018-11-09", "Result": 100.6 },
+      { "SampleDate": "2018-12-14", "Result": 168.8 },
+      { "SampleDate": "2019-01-11", "Result": 155.4 },
+      { "SampleDate": "2019-02-22", "Result": 120.4 },
+      { "SampleDate": "2019-03-15", "Result": 119.6 },
+      { "SampleDate": "2019-04-12", "Result": 124 }
+    ]
+  },
+  {
+    "StationCode": "SPA230",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 14.9 },
+      { "SampleDate": "2018-10-12", "Result": 13 },
+      { "SampleDate": "2018-11-09", "Result": 8.1 },
+      { "SampleDate": "2018-12-14", "Result": 10.4 },
+      { "SampleDate": "2019-01-11", "Result": 11.9 },
+      { "SampleDate": "2019-02-22", "Result": 9.5 },
+      { "SampleDate": "2019-03-15", "Result": 10.5 },
+      { "SampleDate": "2019-04-12", "Result": 12.5 }
+    ]
+  },
+  {
+    "StationCode": "SPA230",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 8.16 },
+      { "SampleDate": "2018-10-12", "Result": 7.95 },
+      { "SampleDate": "2018-11-09", "Result": 8.21 },
+      { "SampleDate": "2018-12-14", "Result": 7.91 },
+      { "SampleDate": "2019-01-11", "Result": 8.07 },
+      { "SampleDate": "2019-02-22", "Result": 7.8 },
+      { "SampleDate": "2019-03-15", "Result": 8.31 },
+      { "SampleDate": "2019-04-12", "Result": 8.07 }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 609.3 },
+      { "SampleDate": "2018-10-12", "Result": 626.5 },
+      { "SampleDate": "2018-11-09", "Result": 665.1 },
+      { "SampleDate": "2018-12-14", "Result": 718 },
+      { "SampleDate": "2019-01-11", "Result": 570.9 },
+      { "SampleDate": "2019-02-22", "Result": 567.5 },
+      { "SampleDate": "2019-03-15", "Result": 580 },
+      { "SampleDate": "2019-04-12", "Result": 629.1 }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 7.78 },
+      { "SampleDate": "2018-10-12", "Result": 6.73 },
+      { "SampleDate": "2018-11-09", "Result": 10.62 },
+      { "SampleDate": "2018-12-14", "Result": 22.46 },
+      { "SampleDate": "2019-01-11", "Result": 16.47 },
+      { "SampleDate": "2019-02-22", "Result": 18.87 },
+      { "SampleDate": "2019-03-15", "Result": 14.74 },
+      { "SampleDate": "2019-04-12", "Result": 12.6 }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 77 },
+      { "SampleDate": "2018-10-12", "Result": 63 },
+      { "SampleDate": "2018-11-09", "Result": 90.2 },
+      { "SampleDate": "2018-12-14", "Result": 185 },
+      { "SampleDate": "2019-01-11", "Result": 146.3 },
+      { "SampleDate": "2019-02-22", "Result": 177 },
+      { "SampleDate": "2019-03-15", "Result": 132.3 },
+      { "SampleDate": "2019-04-12", "Result": 120.1 }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 14.3 },
+      { "SampleDate": "2018-10-12", "Result": 12.8 },
+      { "SampleDate": "2018-11-09", "Result": 7.8 },
+      { "SampleDate": "2018-12-14", "Result": 8.2 },
+      { "SampleDate": "2019-01-11", "Result": 10.7 },
+      { "SampleDate": "2019-02-22", "Result": 7.1 },
+      { "SampleDate": "2019-03-15", "Result": 8.7 },
+      { "SampleDate": "2019-04-12", "Result": 11.7 }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 8.01 },
+      { "SampleDate": "2018-10-12", "Result": 7.93 },
+      { "SampleDate": "2018-11-09", "Result": 8.04 },
+      { "SampleDate": "2018-12-14", "Result": 7.94 },
+      { "SampleDate": "2019-01-11", "Result": 8.03 },
+      { "SampleDate": "2019-02-22", "Result": 7.8 },
+      { "SampleDate": "2019-03-15", "Result": 8.26 },
+      { "SampleDate": "2019-04-12", "Result": 8.11 }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 568.9 },
+      { "SampleDate": "2018-10-12", "Result": 573.6 },
+      { "SampleDate": "2018-11-09", "Result": 599.6 },
+      { "SampleDate": "2018-12-14", "Result": 623.5 },
+      { "SampleDate": "2019-01-11", "Result": 539.6 },
+      { "SampleDate": "2019-02-22", "Result": 423.8 },
+      { "SampleDate": "2019-03-15", "Result": 421.4 },
+      { "SampleDate": "2019-04-12", "Result": 452.3 }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 9.36 },
+      { "SampleDate": "2018-10-12", "Result": 8.27 },
+      { "SampleDate": "2018-11-09", "Result": 9.55 },
+      { "SampleDate": "2018-12-14", "Result": 17.23 },
+      { "SampleDate": "2019-01-11", "Result": 16.22 },
+      { "SampleDate": "2019-02-22", "Result": 16.04 },
+      { "SampleDate": "2019-03-15", "Result": 14.68 },
+      { "SampleDate": "2019-04-12", "Result": 11.03 }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 90.8 },
+      { "SampleDate": "2018-10-12", "Result": 77.6 },
+      { "SampleDate": "2018-11-09", "Result": 79.8 },
+      { "SampleDate": "2018-12-14", "Result": 148.4 },
+      { "SampleDate": "2019-01-11", "Result": 145.4 },
+      { "SampleDate": "2019-02-22", "Result": 138 },
+      { "SampleDate": "2019-03-15", "Result": 129.9 },
+      { "SampleDate": "2019-04-12", "Result": 101.9 }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 14 },
+      { "SampleDate": "2018-10-12", "Result": 12.2 },
+      { "SampleDate": "2018-11-09", "Result": 7.1 },
+      { "SampleDate": "2018-12-14", "Result": 9 },
+      { "SampleDate": "2019-01-11", "Result": 11.3 },
+      { "SampleDate": "2019-02-22", "Result": 7.4 },
+      { "SampleDate": "2019-03-15", "Result": 9 },
+      { "SampleDate": "2019-04-12", "Result": 11.6 }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 7.9 },
+      { "SampleDate": "2018-10-12", "Result": 7.82 },
+      { "SampleDate": "2018-11-09", "Result": 7.41 },
+      { "SampleDate": "2018-12-14", "Result": 7.55 },
+      { "SampleDate": "2019-01-11", "Result": 7.8 },
+      { "SampleDate": "2019-02-22", "Result": 7.91 },
+      { "SampleDate": "2019-03-15", "Result": 8.23 },
+      { "SampleDate": "2019-04-12", "Result": 8 }
+    ]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 709 },
+      { "SampleDate": "2018-10-12", "Result": 652 },
+      { "SampleDate": "2018-11-09", "Result": 616.3 },
+      { "SampleDate": "2018-12-14", "Result": 610.1 },
+      { "SampleDate": "2019-01-11", "Result": 628.9 },
+      { "SampleDate": "2019-02-22", "Result": 669.2 },
+      { "SampleDate": "2019-03-15", "Result": 684.2 },
+      { "SampleDate": "2019-04-12", "Result": 750 }
+    ]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 0.78 },
+      { "SampleDate": "2018-10-12", "Result": 1.09 },
+      { "SampleDate": "2018-11-09", "Result": 9.16 },
+      { "SampleDate": "2018-12-14", "Result": 18.9 },
+      { "SampleDate": "2019-01-11", "Result": 15.44 },
+      { "SampleDate": "2019-02-22", "Result": 16.46 },
+      { "SampleDate": "2019-03-15", "Result": 13.15 },
+      { "SampleDate": "2019-04-12", "Result": 10.7 }
+    ]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 10.1 },
+      { "SampleDate": "2018-10-12", "Result": 10.8 },
+      { "SampleDate": "2018-11-09", "Result": 79.4 },
+      { "SampleDate": "2018-12-14", "Result": 153.5 },
+      { "SampleDate": "2019-01-11", "Result": 140 },
+      { "SampleDate": "2019-02-22", "Result": 136 },
+      { "SampleDate": "2019-03-15", "Result": 114.2 },
+      { "SampleDate": "2019-04-12", "Result": 101 }
+    ]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 14.5 },
+      { "SampleDate": "2018-10-12", "Result": 12.9 },
+      { "SampleDate": "2018-11-09", "Result": 8.1 },
+      { "SampleDate": "2018-12-14", "Result": 7.4 },
+      { "SampleDate": "2019-01-11", "Result": 10.4 },
+      { "SampleDate": "2019-02-22", "Result": 6.5 },
+      { "SampleDate": "2019-03-15", "Result": 8.3 },
+      { "SampleDate": "2019-04-12", "Result": 11.4 }
+    ]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 7.14 },
+      { "SampleDate": "2018-10-12", "Result": 7.03 },
+      { "SampleDate": "2018-11-09", "Result": 7.53 },
+      { "SampleDate": "2018-12-14", "Result": 7.44 },
+      { "SampleDate": "2019-01-11", "Result": 7.54 },
+      { "SampleDate": "2019-02-22", "Result": 7.96 },
+      { "SampleDate": "2019-03-15", "Result": 8.1 },
+      { "SampleDate": "2019-04-12", "Result": 7.9 }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 991 },
+      { "SampleDate": "2018-10-12", "Result": 1023 },
+      { "SampleDate": "2018-11-09", "Result": 1044 },
+      { "SampleDate": "2018-12-14", "Result": 1218 },
+      { "SampleDate": "2019-01-11", "Result": 1084 },
+      { "SampleDate": "2019-02-22", "Result": 1253 },
+      { "SampleDate": "2019-03-15", "Result": 1279 },
+      { "SampleDate": "2019-04-12", "Result": 1389 }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 6.09 },
+      { "SampleDate": "2018-10-12", "Result": 6.86 },
+      { "SampleDate": "2018-11-09", "Result": 8.38 },
+      { "SampleDate": "2018-12-14", "Result": 17.93 },
+      { "SampleDate": "2019-01-11", "Result": 14.72 },
+      { "SampleDate": "2019-02-22", "Result": 11.35 },
+      { "SampleDate": "2019-03-15", "Result": 12.45 },
+      { "SampleDate": "2019-04-12", "Result": 10.12 }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 63.3 },
+      { "SampleDate": "2018-10-12", "Result": 71.8 },
+      { "SampleDate": "2018-11-09", "Result": 82.7 },
+      { "SampleDate": "2018-12-14", "Result": 155.6 },
+      { "SampleDate": "2019-01-11", "Result": 134.2 },
+      { "SampleDate": "2019-02-22", "Result": 103 },
+      { "SampleDate": "2019-03-15", "Result": 118.3 },
+      { "SampleDate": "2019-04-12", "Result": 102 }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 17.2 },
+      { "SampleDate": "2018-10-12", "Result": 16.8 },
+      { "SampleDate": "2018-11-09", "Result": 13.2 },
+      { "SampleDate": "2018-12-14", "Result": 11.8 },
+      { "SampleDate": "2019-01-11", "Result": 12.3 },
+      { "SampleDate": "2019-02-22", "Result": 10.5 },
+      { "SampleDate": "2019-03-15", "Result": 12.6 },
+      { "SampleDate": "2019-04-12", "Result": 14.9 }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 7.98 },
+      { "SampleDate": "2018-10-12", "Result": 8.2 },
+      { "SampleDate": "2018-11-09", "Result": 8.09 },
+      { "SampleDate": "2018-12-14", "Result": 8.01 },
+      { "SampleDate": "2019-01-11", "Result": 7.96 },
+      { "SampleDate": "2019-02-22", "Result": 8.21 },
+      { "SampleDate": "2019-03-15", "Result": 8.24 },
+      { "SampleDate": "2019-04-12", "Result": 8.23 }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 1086 },
+      { "SampleDate": "2018-10-12", "Result": 1087 },
+      { "SampleDate": "2018-11-09", "Result": 1086 },
+      { "SampleDate": "2018-12-14", "Result": 955 },
+      { "SampleDate": "2019-01-10", "Result": 541 },
+      { "SampleDate": "2019-02-22", "Result": 890 },
+      { "SampleDate": "2019-03-15", "Result": 932 },
+      { "SampleDate": "2019-04-12", "Result": 998 }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 10.22 },
+      { "SampleDate": "2018-10-12", "Result": 10.86 },
+      { "SampleDate": "2018-11-09", "Result": 13.2 },
+      { "SampleDate": "2018-12-14", "Result": 11.74 },
+      { "SampleDate": "2019-01-10", "Result": 11.25 },
+      { "SampleDate": "2019-02-22", "Result": 12.18 },
+      { "SampleDate": "2019-03-15", "Result": 11.72 },
+      { "SampleDate": "2019-04-12", "Result": 10.88 }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 112.9 },
+      { "SampleDate": "2018-10-12", "Result": 116.1 },
+      { "SampleDate": "2018-11-09", "Result": 125 },
+      { "SampleDate": "2018-12-14", "Result": 103.8 },
+      { "SampleDate": "2019-01-10", "Result": 101.7 },
+      { "SampleDate": "2019-02-22", "Result": 101.7 },
+      { "SampleDate": "2019-03-15", "Result": 103.3 },
+      { "SampleDate": "2019-04-12", "Result": 103.7 }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 20 },
+      { "SampleDate": "2018-10-12", "Result": 19.4 },
+      { "SampleDate": "2018-11-09", "Result": 12.7 },
+      { "SampleDate": "2018-12-14", "Result": 9.8 },
+      { "SampleDate": "2019-01-10", "Result": 10.8 },
+      { "SampleDate": "2019-02-22", "Result": 7.4 },
+      { "SampleDate": "2019-03-15", "Result": 9.7 },
+      { "SampleDate": "2019-04-12", "Result": 13 }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 8.22 },
+      { "SampleDate": "2018-10-12", "Result": 8.08 },
+      { "SampleDate": "2018-11-09", "Result": 8.15 },
+      { "SampleDate": "2018-12-14", "Result": 8.16 },
+      { "SampleDate": "2019-01-10", "Result": 7.97 },
+      { "SampleDate": "2019-02-22", "Result": 8.34 },
+      { "SampleDate": "2019-03-15", "Result": 8.28 },
+      { "SampleDate": "2019-04-12", "Result": 8.22 }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "Turbidity",
+    "UnitName": "NTU",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 4.7 },
+      { "SampleDate": "2018-10-12", "Result": 3.2 },
+      { "SampleDate": "2018-11-09", "Result": 4.2 },
+      { "SampleDate": "2018-12-14", "Result": 2.9 },
+      { "SampleDate": "2019-01-10", "Result": 12.6 },
+      { "SampleDate": "2019-02-22", "Result": 0.2 },
+      { "SampleDate": "2019-03-15", "Result": 1.8 },
+      { "SampleDate": "2019-04-12", "Result": 1.4 }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 909 },
+      { "SampleDate": "2018-10-12", "Result": 894 },
+      { "SampleDate": "2018-11-09", "Result": 943 },
+      { "SampleDate": "2018-12-14", "Result": 891 },
+      { "SampleDate": "2019-01-10", "Result": 548 },
+      { "SampleDate": "2019-02-22", "Result": 840 },
+      { "SampleDate": "2019-03-15", "Result": 888 },
+      { "SampleDate": "2019-04-12", "Result": 923 }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 7.96 },
+      { "SampleDate": "2018-10-12", "Result": 8.85 },
+      { "SampleDate": "2018-11-09", "Result": 10.01 },
+      { "SampleDate": "2018-12-14", "Result": 10.49 },
+      { "SampleDate": "2019-01-10", "Result": 11.15 },
+      { "SampleDate": "2019-02-22", "Result": 12.13 },
+      { "SampleDate": "2019-03-15", "Result": 11.55 },
+      { "SampleDate": "2019-04-12", "Result": 11.06 }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 82.1 },
+      { "SampleDate": "2018-10-12", "Result": 91.2 },
+      { "SampleDate": "2018-11-09", "Result": 91.9 },
+      { "SampleDate": "2018-12-14", "Result": 90.8 },
+      { "SampleDate": "2019-01-10", "Result": 100.1 },
+      { "SampleDate": "2019-02-22", "Result": 100.7 },
+      { "SampleDate": "2019-03-15", "Result": 100.5 },
+      { "SampleDate": "2019-04-12", "Result": 103.4 }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 16.8 },
+      { "SampleDate": "2018-10-12", "Result": 16.8 },
+      { "SampleDate": "2018-11-09", "Result": 11.4 },
+      { "SampleDate": "2018-12-14", "Result": 8.9 },
+      { "SampleDate": "2019-01-10", "Result": 10.5 },
+      { "SampleDate": "2019-02-22", "Result": 7.2 },
+      { "SampleDate": "2019-03-15", "Result": 9.2 },
+      { "SampleDate": "2019-04-12", "Result": 12.2 }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 8.21 },
+      { "SampleDate": "2018-10-12", "Result": 8.2 },
+      { "SampleDate": "2018-11-09", "Result": 8.15 },
+      { "SampleDate": "2018-12-14", "Result": 8.14 },
+      { "SampleDate": "2019-01-10", "Result": 7.97 },
+      { "SampleDate": "2019-02-22", "Result": 8.36 },
+      { "SampleDate": "2019-03-15", "Result": 8.21 },
+      { "SampleDate": "2019-04-12", "Result": 8.27 }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "Turbidity",
+    "UnitName": "NTU",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 3 },
+      { "SampleDate": "2018-10-12", "Result": 2.4 },
+      { "SampleDate": "2018-11-09", "Result": 1.1 },
+      { "SampleDate": "2018-12-14", "Result": 1.7 },
+      { "SampleDate": "2019-01-10", "Result": 9.8 },
+      { "SampleDate": "2019-02-22", "Result": 1.3 },
+      { "SampleDate": "2019-03-15", "Result": 3.9 },
+      { "SampleDate": "2019-04-12", "Result": 1.3 }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 1088 },
+      { "SampleDate": "2018-10-12", "Result": 1370 },
+      { "SampleDate": "2018-11-09", "Result": 692.9 },
+      { "SampleDate": "2018-12-14", "Result": 655.5 },
+      { "SampleDate": "2019-01-11", "Result": 525.9 },
+      { "SampleDate": "2019-02-22", "Result": 520 },
+      { "SampleDate": "2019-03-15", "Result": 552.2 },
+      { "SampleDate": "2019-04-12", "Result": 661 }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 16.4 },
+      { "SampleDate": "2018-10-12", "Result": 14.4 },
+      { "SampleDate": "2018-11-09", "Result": 8.8 },
+      { "SampleDate": "2018-12-14", "Result": 9.3 },
+      { "SampleDate": "2019-01-11", "Result": 9.9 },
+      { "SampleDate": "2019-02-22", "Result": 7.3 },
+      { "SampleDate": "2019-03-15", "Result": 8.9 },
+      { "SampleDate": "2019-04-12", "Result": 12.5 }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-14", "Result": 7.63 },
+      { "SampleDate": "2018-10-12", "Result": 7.71 },
+      { "SampleDate": "2018-11-09", "Result": 8.29 },
+      { "SampleDate": "2018-12-14", "Result": 8.12 },
+      { "SampleDate": "2019-01-11", "Result": 8.16 },
+      { "SampleDate": "2019-02-22", "Result": 8.28 },
+      { "SampleDate": "2019-03-15", "Result": 8.56 },
+      { "SampleDate": "2019-04-12", "Result": 8.44 }
+    ]
+  },
+  {
+    "StationCode": "MSH120",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-09-26", "Result": 1433 },
+      { "SampleDate": "2018-10-13", "Result": 1512 },
+      { "SampleDate": "2018-11-10", "Result": 1.564 },
+      { "SampleDate": "2018-12-08", "Result": 1.529 },
+      { "SampleDate": "2019-01-13", "Result": 1.026 },
+      { "SampleDate": "2019-02-16", "Result": 0.344 },
+      { "SampleDate": "2019-03-17", "Result": 0.619 }
+    ]
+  },
+  {
+    "StationCode": "MSH120",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-09-26", "Result": 5.03 },
+      { "SampleDate": "2018-10-13", "Result": 1.091 },
+      { "SampleDate": "2018-11-10", "Result": 3 },
+      { "SampleDate": "2018-12-08", "Result": 1.85 },
+      { "SampleDate": "2019-01-13", "Result": 10.8 },
+      { "SampleDate": "2019-02-16", "Result": 10.89 },
+      { "SampleDate": "2019-03-17", "Result": 10.91 }
+    ]
+  },
+  {
+    "StationCode": "MSH120",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-09-26", "Result": 43.1 },
+      { "SampleDate": "2018-10-13", "Result": 10.5 },
+      { "SampleDate": "2018-11-10", "Result": 23.8 },
+      { "SampleDate": "2018-12-08", "Result": 15.5 },
+      { "SampleDate": "2019-01-13", "Result": 99.6 },
+      { "SampleDate": "2019-02-16", "Result": 92.6 },
+      { "SampleDate": "2019-03-17", "Result": 93.9 }
+    ]
+  },
+  {
+    "StationCode": "MSH120",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-09-26", "Result": 14.91 },
+      { "SampleDate": "2018-10-13", "Result": 12.89 },
+      { "SampleDate": "2018-11-10", "Result": 5.12 },
+      { "SampleDate": "2018-12-08", "Result": 7.55 },
+      { "SampleDate": "2019-01-13", "Result": 11.59 },
+      { "SampleDate": "2019-02-16", "Result": 8.24 },
+      { "SampleDate": "2019-03-17", "Result": 8.69 }
+    ]
+  },
+  {
+    "StationCode": "MSH120",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-09-26", "Result": 7.19 },
+      { "SampleDate": "2018-10-13", "Result": 7.06 },
+      { "SampleDate": "2018-11-10", "Result": 7.8 },
+      { "SampleDate": "2018-12-08", "Result": 7.07 },
+      { "SampleDate": "2019-01-13", "Result": 7.5 },
+      { "SampleDate": "2019-02-16", "Result": 7.37 },
+      { "SampleDate": "2019-03-17", "Result": 7.65 }
+    ]
+  },
+  {
+    "StationCode": "CEO168",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-10-12", "Result": 1524 },
+      { "SampleDate": "2018-11-06", "Result": 1340 },
+      { "SampleDate": "2018-11-08", "Result": 1285 }
+    ]
+  },
+  {
+    "StationCode": "CEO168",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-10-12", "Result": 2.14 },
+      { "SampleDate": "2018-11-06", "Result": 6.67 },
+      { "SampleDate": "2018-11-08", "Result": 7.32 }
+    ]
+  },
+  {
+    "StationCode": "CEO168",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-10-12", "Result": 26 },
+      { "SampleDate": "2018-11-06", "Result": 14.1 },
+      { "SampleDate": "2018-11-08", "Result": 11.8 }
+    ]
+  },
+  {
+    "StationCode": "CEO168",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-10-12", "Result": 7.75 },
+      { "SampleDate": "2018-11-06", "Result": 8.03 },
+      { "SampleDate": "2018-11-08", "Result": 8.06 }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "OrthoPhosphate as P",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-10-12", "Result": 0 },
+      { "SampleDate": "2018-11-09", "Result": 0 }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "OrthoPhosphate as P",
+    "UnitName": "mg/L",
+    "data": [{ "SampleDate": "2018-10-12", "Result": 0 }]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "OrthoPhosphate as P",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-10-12", "Result": 0.4 },
+      { "SampleDate": "2018-11-09", "Result": 0.2 },
+      { "SampleDate": "2018-12-14", "Result": 0.4 },
+      { "SampleDate": "2019-01-11", "Result": 0.3 },
+      { "SampleDate": "2019-02-22", "Result": 0.1 },
+      { "SampleDate": "2019-03-15", "Result": 0 },
+      { "SampleDate": "2019-04-12", "Result": 1.2 }
+    ]
+  },
+  {
+    "StationCode": "CEO168",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-11-06", "Result": 65.3 },
+      { "SampleDate": "2018-11-08", "Result": 69.31 }
+    ]
+  },
+  {
+    "StationCode": "CEO168",
+    "AnalyteName": "Turbidity",
+    "UnitName": "NTU",
+    "data": [{ "SampleDate": "2018-11-06", "Result": 5.8 }]
+  },
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 4.3 },
+      { "SampleDate": "2018-12-14", "Result": 0.61 },
+      { "SampleDate": "2019-01-10", "Result": 0.9 },
+      { "SampleDate": "2019-02-22", "Result": 3.31 },
+      { "SampleDate": "2019-03-15", "Result": 2.02 },
+      { "SampleDate": "2019-04-12", "Result": 1.39 }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 8.8 },
+      { "SampleDate": "2018-12-14", "Result": 9.01 },
+      { "SampleDate": "2019-01-10", "Result": 1.05 },
+      { "SampleDate": "2019-02-22", "Result": 3.7 },
+      { "SampleDate": "2019-03-15", "Result": 1.44 },
+      { "SampleDate": "2019-04-12", "Result": 1.54 }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 8.8 },
+      { "SampleDate": "2018-12-14", "Result": 1.1 },
+      { "SampleDate": "2019-01-10", "Result": 1.56 },
+      { "SampleDate": "2019-02-22", "Result": 4.34 },
+      { "SampleDate": "2019-03-15", "Result": 1.52 },
+      { "SampleDate": "2019-04-12", "Result": 0.96 }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 4.16 },
+      { "SampleDate": "2018-12-14", "Result": 1.18 },
+      { "SampleDate": "2019-01-10", "Result": 5.4 },
+      { "SampleDate": "2019-02-22", "Result": 3.7 },
+      { "SampleDate": "2019-03-15", "Result": 1.85 },
+      { "SampleDate": "2019-04-12", "Result": 1.22 }
+    ]
+  },
+  {
+    "StationCode": "SPA108",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 9.25 },
+      { "SampleDate": "2018-12-14", "Result": 10.59 },
+      { "SampleDate": "2019-01-11", "Result": 5.7 },
+      { "SampleDate": "2019-02-22", "Result": 6.9 },
+      { "SampleDate": "2019-03-15", "Result": 12.22 },
+      { "SampleDate": "2019-04-12", "Result": 2 }
+    ]
+  },
+  {
+    "StationCode": "SPA129",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 2.59 },
+      { "SampleDate": "2018-12-14", "Result": 8.99 },
+      { "SampleDate": "2019-01-11", "Result": 3.2 },
+      { "SampleDate": "2019-02-22", "Result": 3.92 },
+      { "SampleDate": "2019-03-15", "Result": 3.99 },
+      { "SampleDate": "2019-04-12", "Result": 0.98 }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 6.29 },
+      { "SampleDate": "2018-12-14", "Result": 28.22 },
+      { "SampleDate": "2019-01-11", "Result": 4.64 },
+      { "SampleDate": "2019-02-22", "Result": 5.84 },
+      { "SampleDate": "2019-03-15", "Result": 14.43 },
+      { "SampleDate": "2019-04-12", "Result": 0.63 }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "OrthoPhosphate as P",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 0.5 },
+      { "SampleDate": "2018-12-14", "Result": 0.2 },
+      { "SampleDate": "2019-01-11", "Result": 0.2 },
+      { "SampleDate": "2019-02-22", "Result": 0 },
+      { "SampleDate": "2019-03-15", "Result": 0.2 },
+      { "SampleDate": "2019-04-12", "Result": 1 }
+    ]
+  },
+  {
+    "StationCode": "SPA210",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 16.2 },
+      { "SampleDate": "2018-12-14", "Result": 15.41 },
+      { "SampleDate": "2019-01-11", "Result": 7.13 },
+      { "SampleDate": "2019-02-22", "Result": 4.9 },
+      { "SampleDate": "2019-03-15", "Result": 7.23 },
+      { "SampleDate": "2019-04-12", "Result": 1.33 }
+    ]
+  },
+  {
+    "StationCode": "SPA230",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 25.18 },
+      { "SampleDate": "2018-12-14", "Result": 18.78 },
+      { "SampleDate": "2019-01-11", "Result": 7.28 },
+      { "SampleDate": "2019-02-22", "Result": 4.88 },
+      { "SampleDate": "2019-03-15", "Result": 4.32 },
+      { "SampleDate": "2019-04-12", "Result": 1.24 }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 8.56 },
+      { "SampleDate": "2018-12-14", "Result": 7.02 },
+      { "SampleDate": "2019-01-11", "Result": 5.59 },
+      { "SampleDate": "2019-02-22", "Result": 3.6 },
+      { "SampleDate": "2019-03-15", "Result": 4.78 },
+      { "SampleDate": "2019-04-12", "Result": 0.56 }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 3.13 },
+      { "SampleDate": "2018-12-14", "Result": 2.89 },
+      { "SampleDate": "2019-01-11", "Result": 8.62 },
+      { "SampleDate": "2019-02-22", "Result": 3.97 },
+      { "SampleDate": "2019-03-15", "Result": 4.41 },
+      { "SampleDate": "2019-04-12", "Result": 0.44 }
+    ]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 1.33 },
+      { "SampleDate": "2018-12-14", "Result": 1.89 },
+      { "SampleDate": "2019-01-11", "Result": 3.18 },
+      { "SampleDate": "2019-02-22", "Result": 1.19 },
+      { "SampleDate": "2019-03-15", "Result": 4.95 },
+      { "SampleDate": "2019-04-12", "Result": 0.73 }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 7.87 },
+      { "SampleDate": "2018-12-14", "Result": 11.75 },
+      { "SampleDate": "2019-01-11", "Result": 7.75 },
+      { "SampleDate": "2019-02-22", "Result": 15.53 },
+      { "SampleDate": "2019-03-15", "Result": 7.78 },
+      { "SampleDate": "2019-04-12", "Result": 1.62 }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 3.94 },
+      { "SampleDate": "2018-12-14", "Result": 0.97 },
+      { "SampleDate": "2019-01-10", "Result": 2.29 },
+      { "SampleDate": "2019-02-22", "Result": 3.3 },
+      { "SampleDate": "2019-03-15", "Result": 1.82 },
+      { "SampleDate": "2019-04-12", "Result": 0.73 }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 12.33 },
+      { "SampleDate": "2018-12-14", "Result": 4.15 },
+      { "SampleDate": "2019-01-10", "Result": 10.21 },
+      { "SampleDate": "2019-02-22", "Result": 2.15 },
+      { "SampleDate": "2019-03-15", "Result": 1.93 },
+      { "SampleDate": "2019-04-12", "Result": 0.65 }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 13.93 },
+      { "SampleDate": "2018-12-14", "Result": 20.75 },
+      { "SampleDate": "2019-01-11", "Result": 19.15 },
+      { "SampleDate": "2019-02-22", "Result": 15.37 },
+      { "SampleDate": "2019-03-15", "Result": 15.47 },
+      { "SampleDate": "2019-04-12", "Result": 11.84 }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 127.8 },
+      { "SampleDate": "2018-12-14", "Result": 170.2 },
+      { "SampleDate": "2019-01-11", "Result": 165.9 },
+      { "SampleDate": "2019-02-22", "Result": 128.4 },
+      { "SampleDate": "2019-03-15", "Result": 137.6 },
+      { "SampleDate": "2019-04-12", "Result": 112 }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 5.93 },
+      { "SampleDate": "2018-12-14", "Result": 7.26 },
+      { "SampleDate": "2019-01-11", "Result": 9.66 },
+      { "SampleDate": "2019-02-22", "Result": 18.83 },
+      { "SampleDate": "2019-03-15", "Result": 7.62 },
+      { "SampleDate": "2019-04-12", "Result": 0.72 }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "OrthoPhosphate as P",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-09", "Result": 0 },
+      { "SampleDate": "2018-12-14", "Result": 0 },
+      { "SampleDate": "2019-01-11", "Result": 0 },
+      { "SampleDate": "2019-02-22", "Result": 0 },
+      { "SampleDate": "2019-03-15", "Result": 0.5 },
+      { "SampleDate": "2019-04-12", "Result": 0 }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-12", "Result": 2.96 },
+      { "SampleDate": "2018-12-14", "Result": 7.25 },
+      { "SampleDate": "2019-01-11", "Result": 4.36 },
+      { "SampleDate": "2019-02-22", "Result": 7.22 },
+      { "SampleDate": "2019-03-15", "Result": 6.88 },
+      { "SampleDate": "2019-04-12", "Result": 2.45 }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "OrthoPhosphate as P",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-11-12", "Result": 1.2 },
+      { "SampleDate": "2018-12-14", "Result": 1.2 },
+      { "SampleDate": "2019-01-11", "Result": 0.2 },
+      { "SampleDate": "2019-02-22", "Result": 1.4 },
+      { "SampleDate": "2019-03-15", "Result": 0.2 },
+      { "SampleDate": "2019-04-12", "Result": 2.7 }
+    ]
+  },
+  {
+    "StationCode": "MSH100",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2018-12-08", "Result": 7.7 },
+      { "SampleDate": "2019-01-13", "Result": 9.79 },
+      { "SampleDate": "2019-02-16", "Result": 8.13 },
+      { "SampleDate": "2019-03-17", "Result": 8.65 }
+    ]
+  },
+  {
+    "StationCode": "MSH100",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-12-08", "Result": 8.91 },
+      { "SampleDate": "2019-01-13", "Result": 11.48 },
+      { "SampleDate": "2019-02-16", "Result": 11.28 },
+      { "SampleDate": "2019-03-17", "Result": 11.31 }
+    ]
+  },
+  {
+    "StationCode": "MSH100",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2018-12-08", "Result": 74.7 },
+      { "SampleDate": "2019-01-13", "Result": 101.8 },
+      { "SampleDate": "2019-02-16", "Result": 95.8 },
+      { "SampleDate": "2019-03-17", "Result": 97.1 }
+    ]
+  },
+  {
+    "StationCode": "MSH100",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2018-12-08", "Result": 1.345 },
+      { "SampleDate": "2019-01-13", "Result": 1.065 },
+      { "SampleDate": "2019-02-16", "Result": 0.358 },
+      { "SampleDate": "2019-03-17", "Result": 0.631 }
+    ]
+  },
+  {
+    "StationCode": "MSH100",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2018-12-08", "Result": 7.46 },
+      { "SampleDate": "2019-01-13", "Result": 8.02 },
+      { "SampleDate": "2019-02-16", "Result": 7.59 },
+      { "SampleDate": "2019-03-17", "Result": 7.89 }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "OrthoPhosphate as P",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2018-12-14", "Result": 0.7 },
+      { "SampleDate": "2019-02-22", "Result": 0.2 },
+      { "SampleDate": "2019-03-15", "Result": 1 },
+      { "SampleDate": "2019-04-12", "Result": 2.5 }
+    ]
+  },
+  {
+    "StationCode": "SPA110",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2019-01-11", "Result": 1616 },
+      { "SampleDate": "2019-02-22", "Result": 1482 },
+      { "SampleDate": "2019-03-15", "Result": 1426 },
+      { "SampleDate": "2019-04-12", "Result": 1616 }
+    ]
+  },
+  {
+    "StationCode": "SPA110",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2019-01-11", "Result": 14.13 },
+      { "SampleDate": "2019-02-22", "Result": 11.56 },
+      { "SampleDate": "2019-03-15", "Result": 11.74 },
+      { "SampleDate": "2019-04-12", "Result": 9.53 }
+    ]
+  },
+  {
+    "StationCode": "SPA110",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2019-01-11", "Result": 132.8 },
+      { "SampleDate": "2019-02-22", "Result": 109.4 },
+      { "SampleDate": "2019-03-15", "Result": 113.2 },
+      { "SampleDate": "2019-04-12", "Result": 96 }
+    ]
+  },
+  {
+    "StationCode": "SPA110",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2019-01-11", "Result": 13.8 },
+      { "SampleDate": "2019-02-22", "Result": 12.2 },
+      { "SampleDate": "2019-03-15", "Result": 13 },
+      { "SampleDate": "2019-04-12", "Result": 14.7 }
+    ]
+  },
+  {
+    "StationCode": "SPA110",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2019-01-11", "Result": 7.59 },
+      { "SampleDate": "2019-02-22", "Result": 7.74 },
+      { "SampleDate": "2019-03-15", "Result": 8.11 },
+      { "SampleDate": "2019-04-12", "Result": 7.8 }
+    ]
+  },
+  {
+    "StationCode": "SPA110",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2019-01-11", "Result": 3.89 },
+      { "SampleDate": "2019-02-22", "Result": 5.84 },
+      { "SampleDate": "2019-03-15", "Result": 4.46 },
+      { "SampleDate": "2019-04-12", "Result": 2.16 }
+    ]
+  },
+  {
+    "StationCode": "WIL060",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2019-01-11", "Result": 524.9 },
+      { "SampleDate": "2019-02-22", "Result": 532.4 },
+      { "SampleDate": "2019-03-15", "Result": 565.5 },
+      { "SampleDate": "2019-04-12", "Result": 668 }
+    ]
+  },
+  {
+    "StationCode": "WIL060",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2019-01-11", "Result": 17.94 },
+      { "SampleDate": "2019-02-22", "Result": 14.87 },
+      { "SampleDate": "2019-03-15", "Result": 15.15 },
+      { "SampleDate": "2019-04-12", "Result": 13.12 }
+    ]
+  },
+  {
+    "StationCode": "WIL060",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2019-01-11", "Result": 156.5 },
+      { "SampleDate": "2019-02-22", "Result": 125.1 },
+      { "SampleDate": "2019-03-15", "Result": 136.6 },
+      { "SampleDate": "2019-04-12", "Result": 127.5 }
+    ]
+  },
+  {
+    "StationCode": "WIL060",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2019-01-11", "Result": 10.2 },
+      { "SampleDate": "2019-02-22", "Result": 7.3 },
+      { "SampleDate": "2019-03-15", "Result": 9.4 },
+      { "SampleDate": "2019-04-12", "Result": 13 }
+    ]
+  },
+  {
+    "StationCode": "WIL060",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2019-01-11", "Result": 8.31 },
+      { "SampleDate": "2019-02-22", "Result": 8.22 },
+      { "SampleDate": "2019-03-15", "Result": 8.52 },
+      { "SampleDate": "2019-04-12", "Result": 8.57 }
+    ]
+  },
+  {
+    "StationCode": "WIL060",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2019-01-11", "Result": 8.43 },
+      { "SampleDate": "2019-02-22", "Result": 7.8 },
+      { "SampleDate": "2019-03-15", "Result": 11.73 },
+      { "SampleDate": "2019-04-12", "Result": 0.74 }
+    ]
+  },
+  {
+    "StationCode": "MSH090",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2019-01-13", "Result": 10.08 },
+      { "SampleDate": "2019-02-16", "Result": 8.21 },
+      { "SampleDate": "2019-03-17", "Result": 9.01 }
+    ]
+  },
+  {
+    "StationCode": "MSH090",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2019-01-13", "Result": 11.07 },
+      { "SampleDate": "2019-02-16", "Result": 11.57 },
+      { "SampleDate": "2019-03-17", "Result": 11.69 }
+    ]
+  },
+  {
+    "StationCode": "MSH090",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2019-01-13", "Result": 99 },
+      { "SampleDate": "2019-02-16", "Result": 99.3 },
+      { "SampleDate": "2019-03-17", "Result": 101.1 }
+    ]
+  },
+  {
+    "StationCode": "MSH090",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2019-01-13", "Result": 1.107 },
+      { "SampleDate": "2019-02-16", "Result": 0.375 },
+      { "SampleDate": "2019-03-17", "Result": 0.673 }
+    ]
+  },
+  {
+    "StationCode": "MSH090",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2019-01-13", "Result": 7.94 },
+      { "SampleDate": "2019-02-16", "Result": 7.74 },
+      { "SampleDate": "2019-03-17", "Result": 8.04 }
+    ]
+  },
+  {
+    "StationCode": "WIL050",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2019-02-22", "Result": 538.8 },
+      { "SampleDate": "2019-03-15", "Result": 569.3 },
+      { "SampleDate": "2019-04-12", "Result": 669 }
+    ]
+  },
+  {
+    "StationCode": "WIL050",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2019-02-22", "Result": 16.88 },
+      { "SampleDate": "2019-03-15", "Result": 14.09 },
+      { "SampleDate": "2019-04-12", "Result": 13.37 }
+    ]
+  },
+  {
+    "StationCode": "WIL050",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2019-02-22", "Result": 145.2 },
+      { "SampleDate": "2019-03-15", "Result": 127.7 },
+      { "SampleDate": "2019-04-12", "Result": 126.4 }
+    ]
+  },
+  {
+    "StationCode": "WIL050",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2019-02-22", "Result": 7.9 },
+      { "SampleDate": "2019-03-15", "Result": 10.3 },
+      { "SampleDate": "2019-04-12", "Result": 14.1 }
+    ]
+  },
+  {
+    "StationCode": "WIL050",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2019-02-22", "Result": 8.33 },
+      { "SampleDate": "2019-03-15", "Result": 8.7 },
+      { "SampleDate": "2019-04-12", "Result": 8.54 }
+    ]
+  },
+  {
+    "StationCode": "WIL050",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2019-02-22", "Result": 10.16 },
+      { "SampleDate": "2019-03-15", "Result": 2.31 },
+      { "SampleDate": "2019-04-12", "Result": 0.64 }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "OrthoPhosphate as P",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2019-02-25", "Result": 0.2 },
+      { "SampleDate": "2019-03-15", "Result": 0 },
+      { "SampleDate": "2019-04-12", "Result": 0.1 }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "Specific Conductivity",
+    "UnitName": "uS/cm",
+    "data": [
+      { "SampleDate": "2019-03-15", "Result": 578 },
+      { "SampleDate": "2019-04-12", "Result": 648 }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "Oxygen, Dissolved",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2019-03-15", "Result": 13.46 },
+      { "SampleDate": "2019-04-12", "Result": 17.67 }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "Oxygen, Saturation",
+    "UnitName": "%",
+    "data": [
+      { "SampleDate": "2019-03-15", "Result": 133.4 },
+      { "SampleDate": "2019-04-12", "Result": 187 }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "Temperature",
+    "UnitName": "Deg C",
+    "data": [
+      { "SampleDate": "2019-03-15", "Result": 12.9 },
+      { "SampleDate": "2019-04-12", "Result": 17.8 }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "pH",
+    "UnitName": "none",
+    "data": [
+      { "SampleDate": "2019-03-15", "Result": 8.55 },
+      { "SampleDate": "2019-04-12", "Result": 8.7 }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "Nitrate as NO3",
+    "UnitName": "mg/L",
+    "data": [
+      { "SampleDate": "2019-03-15", "Result": 19.2 },
+      { "SampleDate": "2019-04-12", "Result": 1.06 }
+    ]
+  }
+]

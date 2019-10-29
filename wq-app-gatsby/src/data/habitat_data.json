@@ -1,0 +1,2543 @@
+[
+  {
+    "StationCode": "MSH120",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-26", "VariableResult": "Brown" },
+      { "SampleDate": "2018-10-13", "VariableResult": "Brown" },
+      { "SampleDate": "2018-11-10", "VariableResult": "Brown" },
+      { "SampleDate": "2018-12-08", "VariableResult": "Brown" },
+      { "SampleDate": "2019-02-16", "VariableResult": "Brown" },
+      { "SampleDate": "2019-01-13", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-17", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "CEO168",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Brown" },
+      { "SampleDate": "2018-11-08", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-06", "VariableResult": "Green" }
+    ]
+  },
+  {
+    "StationCode": "MSH090",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2019-02-16", "VariableResult": "Brown" },
+      { "SampleDate": "2019-01-13", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "MSH100",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2019-02-16", "VariableResult": "Brown" },
+      { "SampleDate": "2018-12-08", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-13", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-17", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2019-02-22", "VariableResult": "Brown" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Brown" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Yellow" }
+    ]
+  },
+  {
+    "StationCode": "SPA108",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "SPA110",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "SPA129",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "SPA210",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "SPA230",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Colorless" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "WIL050",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "WIL060",
+    "AnalyteName": "Color",
+    "data": [
+      { "SampleDate": "2019-01-11", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Colorless" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Colorless" }
+    ]
+  },
+  {
+    "StationCode": "SPA210",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-12-14", "VariableResult": "Bedrock" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Bedrock" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Bedrock" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Bedrock" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Concrete" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Mud" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Boulder" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Gravel" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Gravel" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Gravel" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Mud" }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Boulder" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Boulder" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Boulder" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Boulder" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Boulder" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Boulder" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Boulder" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Boulder" }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Boulder" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Boulder" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Boulder" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Gravel" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Gravel" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Gravel" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Sand" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Sand" }
+    ]
+  },
+  {
+    "StationCode": "SPA230",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Boulder" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Boulder" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Boulder" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Cobble" }
+    ]
+  },
+  {
+    "StationCode": "WIL060",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2019-03-15", "VariableResult": "Boulder" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Concrete" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Gravel" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Gravel" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Mud" }
+    ]
+  },
+  {
+    "StationCode": "SPA108",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Mud" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Mud" }
+    ]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Gravel" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Mud" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Mud" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Mud" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Sand" }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Gravel" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Gravel" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Mud" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Mud" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Sand" }
+    ]
+  },
+  {
+    "StationCode": "MSH090",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-26", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-11-10", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-12-08", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-01-13", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-03-17", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-02-16", "VariableResult": "Unknown" }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Gravel" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" }
+    ]
+  },
+  {
+    "StationCode": "WIL050",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-11-09", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Gravel" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Gravel" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Gravel" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Gravel" }
+    ]
+  },
+  {
+    "StationCode": "SPA110",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2019-02-22", "VariableResult": "Cobble" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Cobble" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Mud" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Mud" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Mud" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Mud" }
+    ]
+  },
+  {
+    "StationCode": "MSH100",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-26", "VariableResult": "Gravel" },
+      { "SampleDate": "2018-11-10", "VariableResult": "Gravel" },
+      { "SampleDate": "2018-12-08", "VariableResult": "Gravel" },
+      { "SampleDate": "2019-01-13", "VariableResult": "Gravel" },
+      { "SampleDate": "2019-03-17", "VariableResult": "Sand" },
+      { "SampleDate": "2019-02-16", "VariableResult": "Unknown" }
+    ]
+  },
+  {
+    "StationCode": "SPA129",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2019-01-11", "VariableResult": "Gravel" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Gravel" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Gravel" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Mud" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Mud" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Mud" }
+    ]
+  },
+  {
+    "StationCode": "MSH120",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2019-03-17", "VariableResult": "Gravel" },
+      { "SampleDate": "2018-09-26", "VariableResult": "Mud" },
+      { "SampleDate": "2018-10-13", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-10", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-08", "VariableResult": "Mud" },
+      { "SampleDate": "2019-01-13", "VariableResult": "Mud" },
+      { "SampleDate": "2019-02-16", "VariableResult": "Unknown" }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2019-04-12", "VariableResult": "Gravel" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Mud" },
+      { "SampleDate": "2018-10-15", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-12", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Mud" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Mud" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Mud" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Mud" }
+    ]
+  },
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Mud" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Mud" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Mud" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Mud" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Mud" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Mud" }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Mud" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Mud" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Mud" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Mud" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Mud" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Sand" }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Mud" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Mud" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Mud" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Sand" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Sand" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Sand" }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Mud" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Mud" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Mud" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Mud" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Mud" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Mud" }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Mud" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Mud" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Mud" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Mud" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Mud" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Mud" }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Mud" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Mud" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Mud" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Mud" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Mud" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Mud" }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Mud" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Mud" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Mud" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Mud" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Mud" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Mud" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Sand" }
+    ]
+  },
+  {
+    "StationCode": "CEO168",
+    "AnalyteName": "DominantSubstrate",
+    "data": [
+      { "SampleDate": "2018-11-06", "VariableResult": "Mud" },
+      { "SampleDate": "2018-11-08", "VariableResult": "Mud" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Unknown" }
+    ]
+  },
+  {
+    "StationCode": "MSH090",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2019-02-16", "VariableResult": ">200 cfs" },
+      { "SampleDate": "2019-01-13", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-09-26", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2018-11-10", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2018-12-08", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2019-03-17", "VariableResult": "Dry Waterbody Bed" }
+    ]
+  },
+  {
+    "StationCode": "MSH100",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2019-02-16", "VariableResult": ">200 cfs" },
+      { "SampleDate": "2019-01-13", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-03-17", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2018-09-26", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2018-11-10", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2018-12-08", "VariableResult": "No Observed Flow" }
+    ]
+  },
+  {
+    "StationCode": "MSH120",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2019-02-16", "VariableResult": ">200 cfs" },
+      { "SampleDate": "2019-01-13", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-03-17", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2018-09-26", "VariableResult": "Isolated Pool" },
+      { "SampleDate": "2018-10-13", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-11-10", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-12-08", "VariableResult": "No Observed Flow" }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2018-10-15", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "20-50 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "20-50 cfs" },
+      { "SampleDate": "2018-12-14", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-01-11", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2018-11-12", "VariableResult": "No Observed Flow" }
+    ]
+  },
+  {
+    "StationCode": "SPA110",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2018-12-14", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-01-11", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Trickle (<0.1 cfs)" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "SPA210",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2018-10-12", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2018-11-09", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-12-14", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "20-50 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "20-50 cfs" },
+      { "SampleDate": "2019-01-11", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "5-20 cfs" }
+    ]
+  },
+  {
+    "StationCode": "SPA129",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-01-11", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2018-11-09", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-12-14", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2018-09-14", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-11-09", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-12-14", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-01-10", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "5-20 cfs" }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-11-09", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2018-12-14", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-01-10", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2018-09-14", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2019-04-12", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-11-09", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2018-12-14", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-01-11", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Trickle (<0.1 cfs)" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-12-14", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-01-10", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2018-11-09", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2019-04-12", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Trickle (<0.1 cfs)" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2019-01-10", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-09-14", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-10-12", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-11-09", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-12-14", "VariableResult": "No Observed Flow" }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2019-01-10", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-09-14", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-11-09", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-12-14", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "SPA108",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2019-02-22", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "0.1 -1 cfs" },
+      { "SampleDate": "2018-11-09", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-01-11", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Trickle (<0.1 cfs)" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Trickle (<0.1 cfs)" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-11-09", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-12-14", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-10-12", "VariableResult": "20-50 cfs" },
+      { "SampleDate": "2019-01-11", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "5-20 cfs" }
+    ]
+  },
+  {
+    "StationCode": "SPA230",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-10-12", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-11-09", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-12-14", "VariableResult": "20-50 cfs" },
+      { "SampleDate": "2019-01-11", "VariableResult": "20-50 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "20-50 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "20-50 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "5-20 cfs" }
+    ]
+  },
+  {
+    "StationCode": "CEO168",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2018-11-08", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-11-06", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-12-14", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "20-50 cfs" },
+      { "SampleDate": "2019-01-11", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2018-11-09", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Trickle (<0.1 cfs)" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "WIL060",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-12-14", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "20-50 cfs" },
+      { "SampleDate": "2019-01-11", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Dry Waterbody Bed" }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2019-01-11", "VariableResult": "1-5 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-03-15", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Isolated Pool" },
+      { "SampleDate": "2018-09-14", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-11-09", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "WIL050",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2019-03-15", "VariableResult": "20-50 cfs" },
+      { "SampleDate": "2019-01-11", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-02-22", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2019-04-12", "VariableResult": "5-20 cfs" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Dry Waterbody Bed" }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Dry Waterbody Bed" },
+      { "SampleDate": "2019-02-22", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Trickle (<0.1 cfs)" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Trickle (<0.1 cfs)" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-10-12", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-11-09", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-12-14", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2019-01-10", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2019-03-15", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2019-04-12", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-10-12", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-11-09", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-12-14", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2019-01-11", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2019-04-12", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Trickle (<0.1 cfs)" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "ObservedFlow",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-11-09", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-12-14", "VariableResult": "No Observed Flow" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Trickle (<0.1 cfs)" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Trickle (<0.1 cfs)" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Trickle (<0.1 cfs)" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Trickle (<0.1 cfs)" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Trickle (<0.1 cfs)" }
+    ]
+  },
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Mixed" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-10", "VariableResult": "None" },
+      { "SampleDate": "2019-01-10", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Sewage" }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2019-04-12", "VariableResult": "Mixed" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-15", "VariableResult": "None" },
+      { "SampleDate": "2018-10-15", "VariableResult": "None" },
+      { "SampleDate": "2018-11-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-12", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-10", "VariableResult": "None" },
+      { "SampleDate": "2019-01-10", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoke" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Sulfides" }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-10", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoke" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Sulfides" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Sulfides" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Sulfides" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Sulfides" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Sulfides" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Sulfides" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Sulfides" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Sulfides" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Sulfides" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Sulfides" }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-10", "VariableResult": "None" },
+      { "SampleDate": "2019-01-10", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoke" }
+    ]
+  },
+  {
+    "StationCode": "SPA108",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Other" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Sulfides" }
+    ]
+  },
+  {
+    "StationCode": "SPA110",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "SPA129",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "SPA210",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "SPA230",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Sewage" }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-10", "VariableResult": "None" },
+      { "SampleDate": "2019-01-10", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoke" }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-10", "VariableResult": "None" },
+      { "SampleDate": "2019-01-10", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Smoke" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoke" }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "WIL050",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "WIL060",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-11-09", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-01-11", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-02-22", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-04-12", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "MSH090",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-26", "VariableResult": "None" },
+      { "SampleDate": "2018-11-10", "VariableResult": "None" },
+      { "SampleDate": "2018-12-08", "VariableResult": "None" },
+      { "SampleDate": "2019-01-13", "VariableResult": "None" },
+      { "SampleDate": "2019-01-13", "VariableResult": "None" },
+      { "SampleDate": "2019-02-16", "VariableResult": "None" },
+      { "SampleDate": "2019-02-16", "VariableResult": "None" },
+      { "SampleDate": "2019-03-17", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "MSH100",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-26", "VariableResult": "None" },
+      { "SampleDate": "2018-11-10", "VariableResult": "None" },
+      { "SampleDate": "2018-12-08", "VariableResult": "None" },
+      { "SampleDate": "2018-12-08", "VariableResult": "None" },
+      { "SampleDate": "2019-01-13", "VariableResult": "None" },
+      { "SampleDate": "2019-01-13", "VariableResult": "None" },
+      { "SampleDate": "2019-02-16", "VariableResult": "None" },
+      { "SampleDate": "2019-02-16", "VariableResult": "None" },
+      { "SampleDate": "2019-03-17", "VariableResult": "None" },
+      { "SampleDate": "2019-03-17", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "MSH120",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-09-26", "VariableResult": "None" },
+      { "SampleDate": "2018-09-26", "VariableResult": "None" },
+      { "SampleDate": "2018-10-13", "VariableResult": "None" },
+      { "SampleDate": "2018-10-13", "VariableResult": "None" },
+      { "SampleDate": "2018-11-10", "VariableResult": "None" },
+      { "SampleDate": "2018-12-08", "VariableResult": "None" },
+      { "SampleDate": "2018-12-08", "VariableResult": "None" },
+      { "SampleDate": "2019-01-13", "VariableResult": "None" },
+      { "SampleDate": "2019-01-13", "VariableResult": "None" },
+      { "SampleDate": "2019-02-16", "VariableResult": "None" },
+      { "SampleDate": "2019-02-16", "VariableResult": "None" },
+      { "SampleDate": "2019-03-17", "VariableResult": "None" },
+      { "SampleDate": "2019-03-17", "VariableResult": "None" },
+      { "SampleDate": "2018-11-10", "VariableResult": "Smoke" }
+    ]
+  },
+  {
+    "StationCode": "CEO168",
+    "AnalyteName": "Odor",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2018-11-06", "VariableResult": "None" },
+      { "SampleDate": "2018-11-06", "VariableResult": "None" },
+      { "SampleDate": "2018-11-08", "VariableResult": "None" },
+      { "SampleDate": "2018-11-08", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "SPA110",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2019-04-12", "VariableResult": "Algae" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Vascular" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Vascular" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Vascular" }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2019-04-12", "VariableResult": "Algae" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular" }
+    ]
+  },
+  {
+    "StationCode": "CEO168",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Algae, Foam, Trash" },
+      {
+        "SampleDate": "2018-11-08",
+        "VariableResult": "Algae, Trash, Vascular"
+      },
+      { "SampleDate": "2018-11-06", "VariableResult": "Trash, Vascular" }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Algae, Trash" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Trash" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Trash" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Trash" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Trash, Vascular" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Trash, Vascular" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Vascular" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Vascular" }
+    ]
+  },
+  {
+    "StationCode": "SPA129",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      {
+        "SampleDate": "2018-10-12",
+        "VariableResult": "Foam, Non-Vascular, Oily Sheen"
+      },
+      { "SampleDate": "2018-12-14", "VariableResult": "Foam, Trash" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Non-Vascular" },
+      {
+        "SampleDate": "2018-11-09",
+        "VariableResult": "Non-Vascular, Oily Sheen"
+      },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Oily Sheen" }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Foam, Trash" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Trash" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Trash" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Trash" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Trash" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Trash, Vascular" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Trash, Vascular" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Vascular" }
+    ]
+  },
+  {
+    "StationCode": "WIL060",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2019-02-22", "VariableResult": "Foam, Trash" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Trash" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Trash" },
+      {
+        "SampleDate": "2018-11-09",
+        "VariableResult": "Trash, Vascular/Non-Vascular"
+      },
+      { "SampleDate": "2018-09-14", "VariableResult": "Vascular" }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2019-04-12", "VariableResult": "Foam, Trash" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular, Trash" },
+      {
+        "SampleDate": "2018-10-12",
+        "VariableResult": "Oily Sheen, Trash, Vascular"
+      },
+      {
+        "SampleDate": "2018-11-09",
+        "VariableResult": "Trash, Vascular/Non-Vascular"
+      }
+    ]
+  },
+  {
+    "StationCode": "WIL050",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "None" },
+      { "SampleDate": "2018-10-12", "VariableResult": "None" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Trash" }
+    ]
+  },
+  {
+    "StationCode": "MSH090",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-09-26", "VariableResult": "None" },
+      { "SampleDate": "2018-11-10", "VariableResult": "None" },
+      { "SampleDate": "2018-12-08", "VariableResult": "None" },
+      { "SampleDate": "2019-01-13", "VariableResult": "None" },
+      { "SampleDate": "2019-03-17", "VariableResult": "None" },
+      { "SampleDate": "2019-02-16", "VariableResult": "Other" }
+    ]
+  },
+  {
+    "StationCode": "MSH100",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-09-26", "VariableResult": "None" },
+      { "SampleDate": "2018-11-10", "VariableResult": "None" },
+      { "SampleDate": "2018-12-08", "VariableResult": "None" },
+      { "SampleDate": "2019-01-13", "VariableResult": "None" },
+      { "SampleDate": "2019-02-16", "VariableResult": "None" },
+      { "SampleDate": "2019-03-17", "VariableResult": "None" }
+    ]
+  },
+  {
+    "StationCode": "MSH120",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-09-26", "VariableResult": "None" },
+      { "SampleDate": "2019-03-17", "VariableResult": "None" },
+      { "SampleDate": "2019-01-13", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-11-10", "VariableResult": "Oily Sheen" },
+      { "SampleDate": "2018-12-08", "VariableResult": "Oily Sheen" },
+      { "SampleDate": "2019-02-16", "VariableResult": "Oily Sheen" },
+      { "SampleDate": "2018-10-13", "VariableResult": "Other" }
+    ]
+  },
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-12-14", "VariableResult": "None" },
+      {
+        "SampleDate": "2018-11-09",
+        "VariableResult": "Oily Sheen, Scum, Trash"
+      },
+      { "SampleDate": "2018-09-14", "VariableResult": "Trash" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Trash" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Trash" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Trash" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Trash" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Trash" }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2019-04-12", "VariableResult": "None" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Oily Sheen" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Scum" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Trash" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Trash" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Vascular" }
+    ]
+  },
+  {
+    "StationCode": "SPA210",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Non-Vascular, Trash" }
+    ]
+  },
+  {
+    "StationCode": "SPA230",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Trash" },
+      {
+        "SampleDate": "2018-11-09",
+        "VariableResult": "Trash, Vascular/Non-Vascular"
+      }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Trash, Vascular" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Trash, Vascular" },
+      {
+        "SampleDate": "2018-10-12",
+        "VariableResult": "Trash, Vascular/Non-Vascular"
+      },
+      {
+        "SampleDate": "2018-11-09",
+        "VariableResult": "Trash, Vascular/Non-Vascular"
+      }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Non-Vascular" }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-11-09", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Vascular" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Vascular/Non-Vascular" }
+    ]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-11-09", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Vascular" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Vascular" }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-11-12", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Vascular" },
+      { "SampleDate": "2018-10-15", "VariableResult": "Vascular" }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Trash" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Trash" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Trash" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Trash" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Trash" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Trash, Vascular" }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Non-Vascular" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Scum, Trash" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Trash" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Trash" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Trash" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Trash, Vascular" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Vascular" }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2018-12-14", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Trash" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Trash" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Trash" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Trash" }
+    ]
+  },
+  {
+    "StationCode": "SPA108",
+    "AnalyteName": "OtherPresence",
+    "data": [
+      { "SampleDate": "2019-02-22", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Non-Vascular, Trash" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Trash" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Trash, Vascular" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Trash, Vascular" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Trash, Vascular" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Vascular" }
+    ]
+  },
+  {
+    "StationCode": "MSH090",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-09-26", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-16", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-12-08", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2019-01-13", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2019-03-17", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-10", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "MSH100",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-09-26", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-16", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-12-08", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2019-01-13", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2019-03-17", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-10", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "MSH120",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-09-26", "VariableResult": "Clear" },
+      { "SampleDate": "2018-10-13", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-08", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2019-01-13", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2019-02-16", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2019-03-17", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-10", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "SPA108",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "SPA110",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "SPA129",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "SPA210",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "SPA230",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "WIL050",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "WIL060",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Overcast" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-10-15", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-11-12", "VariableResult": "Hazy" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Overcast" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Partly Cloudy" }
+    ]
+  },
+  {
+    "StationCode": "CEO168",
+    "AnalyteName": "SkyCode",
+    "data": [
+      { "SampleDate": "2018-11-06", "VariableResult": "Clear" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Partly Cloudy" },
+      { "SampleDate": "2018-11-08", "VariableResult": "Smoky" }
+    ]
+  },
+  {
+    "StationCode": "CEO170",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Clear" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "SPA103",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Clear" },
+      { "SampleDate": "2018-10-15", "VariableResult": "Clear" },
+      { "SampleDate": "2018-11-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Murky (< 4\" vis.)" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "SPA108",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Clear" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Cloudy (> 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "SPA110",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Clear" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Cloudy (> 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "SPA180",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Clear" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Cloudy (> 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "SPA230",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Clear" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "SPA250",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Clear" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Cloudy (> 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "SPA260",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Clear" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" }
+    ]
+  },
+  {
+    "StationCode": "MSH120",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-09-26", "VariableResult": "Clear" },
+      { "SampleDate": "2018-10-13", "VariableResult": "Clear" },
+      { "SampleDate": "2018-11-10", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-13", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-17", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-08", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-02-16", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "ALH110",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Cloudy (> 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "SUP030",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Cloudy (> 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "WAL045",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "WIL070",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "SPA210",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-11-09", "VariableResult": "Clear" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "MSH100",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-12-08", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-13", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-17", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-16", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "SPA129",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Murky (< 4\" vis.)" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Murky (< 4\" vis.)" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "WIL060",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-12-14", "VariableResult": "Clear" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Cloudy (> 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "CEO160",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2019-01-10", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "WIL050",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2019-01-11", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "MSH090",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2019-01-13", "VariableResult": "Clear" },
+      { "SampleDate": "2019-02-16", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "CEO166",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2019-02-22", "VariableResult": "Clear" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Clear" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Clear" },
+      { "SampleDate": "2018-09-14", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Cloudy (> 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "SPA231",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-01-11", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Murky (< 4\" vis.)" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Murky (< 4\" vis.)" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "WAL080",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-09-14", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-10-12", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-11-09", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-12-14", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-01-10", "VariableResult": "Murky (< 4\" vis.)" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "CEO168",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2018-10-12", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2018-11-06", "VariableResult": "Murky (< 4\" vis.)" },
+      { "SampleDate": "2018-11-08", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  },
+  {
+    "StationCode": "WIL040",
+    "AnalyteName": "WaterClarity",
+    "data": [
+      { "SampleDate": "2019-01-11", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-04-12", "VariableResult": "Cloudy (> 4\" vis.)" },
+      { "SampleDate": "2019-02-22", "VariableResult": "Murky (< 4\" vis.)" },
+      { "SampleDate": "2019-03-15", "VariableResult": "Murky (< 4\" vis.)" }
+    ]
+  }
+]
