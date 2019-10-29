@@ -6,7 +6,8 @@ import WQFeature from "./wqFeature"
 const ScrollModal = props => {
 
   return (
-    <Modal trigger={<WQFeature category={props.category}/>}>
+    // <Modal trigger={<WQFeature category={props.category}/>}>
+    <Modal trigger={<Button>{props.category}</Button>}>
       <Modal.Content>
         <Modal.Description>
           <h2>{props.category}</h2>
