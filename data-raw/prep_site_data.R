@@ -21,9 +21,13 @@ glimpse(field_results_raw)
 
 field_results_raw %>% 
   select(StationCode, SampleDate, AnalyteName, UnitName, Result) %>% 
-  mutate(AnalyteName = replace(AnalyteName, AnalyteName == 'Oxygen, saturation', 'Oxygen, Saturation')) %>% 
+  mutate(AnalyteName = case_when(
+    AnalyteName == 'Oxygen, saturation' ~ 'Oxygen, Saturation',
+    AnalyteName == "SpecificConductivity" ~ "Specific Conductivity", 
+    TRUE ~ AnalyteName
+  )) %>% 
   group_by(StationCode, AnalyteName, UnitName) %>% 
   nest() %>% 
-  toJSON()
+  toJSON() #%>% 
+# write_json('wq-app-gatsby/src/data/field_data.json')
 
-field_results_raw$AnalyteName %>% unique
