@@ -1,6 +1,5 @@
 import React, { Fragment } from "react"
-import { Button, Header, Modal } from "semantic-ui-react"
-import WQFeature from "./wqFeature"
+import { Modal } from "semantic-ui-react"
 
 const ScrollModal = props => (
   <Modal closeIcon open={props.isVisible} onClose={props.setVisibility}>
