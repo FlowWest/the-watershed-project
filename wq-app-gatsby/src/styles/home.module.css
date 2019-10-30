@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500|Roboto+Condensed:400,700&display=swap');
+
+.wq-feature {
+  background-color: #dbf1fe;
+  border-radius: 20px;
+  width: 200px;
+  height: 110px;
+  padding: 10px 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.waterDrop {
+  width: 40%;
+}
+
+.header {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.site-header {
+  font-size: 55px;
+}
+
+.welcome-header, .header, .site-header {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.welcome-header {
+  font-size: 30px;
+}
+
+
+.welcome-text {
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+}
+
