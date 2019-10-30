@@ -23,7 +23,7 @@ export default ({ data, pageContext }) => {
               .map((site) => {
                 return (
                 <Fragment key={site.site_id}>
-                  <li><Link>{site.name}</Link></li>
+                  <li><Link to={`site/${site.site_id}`}>{site.name}</Link></li>
                 </Fragment>
                 )
               })}
