@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
 import homeStyles from '../styles/home.module.css';
+import WQFeature from '../components/wqFeature'
 
 const IndexPage = () => {
 
@@ -35,7 +36,7 @@ const IndexPage = () => {
             return (
               <Fragment key={index}>
                 <GridColumn width={4}>
-                  <ScrollModal
+                  <WQFeature
                     category={edge.node.category}
                     description={edge.node.description}
                     features={edge.node.features}
