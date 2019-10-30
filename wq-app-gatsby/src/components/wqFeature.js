@@ -11,7 +11,7 @@ const WQFeature = (props) => {
   return (
     <Fragment>
       <div className={homeStyles.wqFeature} onClick={toggleModal}>
-        <img className={homeStyles.waterDrop} src={waterDrop} />
+        <img className={homeStyles.waterDrop} src={waterDrop} alt="water drop"/>
         <h3 className={homeStyles.header}>{props.category}</h3>
       </div>
       <ScrollModal
