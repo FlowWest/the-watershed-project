@@ -1,4 +1,4 @@
-import React, { Fragment } from "react"
+import React, { Fragment, useState } from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import { Header, Grid, GridColumn, Tab, Dropdown } from "semantic-ui-react"
@@ -7,31 +7,56 @@ import HighchartsReact from "highcharts-react-official"
 import moment from "moment"
 
 export default ({ data, pageContext }) => {
-  const sitesData = data.allCreekSiteJson.edges[0].node
-  // need the edge containing current site
-  // need list of all other sites, with id and name
 
-  const [siteData] = sitesData.sites.filter(
-    site => site.site_id === pageContext.siteID
-  )
-  const wqOptions = [
-    {
-      key: "dog",
-      text: "dog",
-      value: "dog",
+  const defaultAnalyte = 'Temperature'
+  const [ analyte, setAnalyte ] = useState(defaultAnalyte);
+  const sitesData = data.allCreekSiteJson.edges[0].node
+  const sitesWQData = data.allFieldDataJson.edges
+  const plotData = sitesWQData.filter(edge => (edge.node.AnalyteName === analyte))[0].node
+  const [ siteData ] = sitesData.sites.filter(site => site.site_id === pageContext.siteID)
+
+  const analyteOptions = sitesWQData.map(edge => ({
+    key: edge.node.AnalyteName,
+    text: edge.node.AnalyteName,
+    value: edge.node.AnalyteName,
+  }))
+
+  const plotOptions = {
+    title: {
+      text: "My chart",
     },
-    {
-      key: "cat",
-      text: "cat",
-      value: "cat",
+    xAxis: {
+      type: "datetime",
+      title: {
+        text: "Date",
+      },
     },
-  ]
+    yAxis: {
+      title: {
+        text: `${plotData.AnalyteName} (${plotData.UnitName})`,
+      },
+      min: 0,
+    },
+    series: [
+      {
+        name: "",
+        data: plotData.data.map(pt => [
+          moment.utc(pt.SampleDate).valueOf(),
+          pt.Result,
+        ]),
+      },
+    ],
+  }
+
+  const handleAnalyteChange = (e) => {
+    e.preventDefault();
+    return setAnalyte(e.target.textContent);
+  }
 
   const panes = [
     {
       menuItem: "Within",
-      render: () => {
-        return (
+      render: () => (
           <Tab.Pane attached={false}>
             <div>
               <h3>Select Water Quality Feature</h3>
@@ -39,18 +64,18 @@ export default ({ data, pageContext }) => {
                 placeholder="Water Quality Feature"
                 search
                 selection
-                options={wqOptions}
+                options={analyteOptions}
+                onChange={handleAnalyteChange}
+                defaultValue={defaultAnalyte}
               />
             </div>
+            <HighchartsReact highcharts={Highcharts} options={plotOptions} />
           </Tab.Pane>
-        )
-      },
+        ),
     },
     {
       menuItem: "Between",
-      render: () => {
-        return <Tab.Pane attached={false}>Tab 2 Content</Tab.Pane>
-      },
+      render: () => (<Tab.Pane attached={false}>Tab 2 Content</Tab.Pane>),
     },
   ]
 
@@ -101,6 +126,20 @@ export const query = graphql`
             description
             name
             site_id
+          }
+        }
+      }
+    }
+    allFieldDataJson(filter: { StationCode: { eq: $siteID } }) {
+      edges {
+        node {
+          StationCode
+          AnalyteName
+          UnitDescription
+          UnitName
+          data {
+            Result
+            SampleDate(formatString: "")
           }
         }
       }
