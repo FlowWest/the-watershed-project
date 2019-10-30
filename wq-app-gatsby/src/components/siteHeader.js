@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import logo from '../images/TWP_logo.png'
+import logo from '../images/TWP_logo_3.png'
 import { Grid, Menu, MenuItem, Image } from "semantic-ui-react"
 import homeStyles from '../styles/home.module.css';
 
