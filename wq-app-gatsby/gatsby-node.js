@@ -12,20 +12,20 @@ exports.createPages = async function({ actions, graphql }) {
   `)
 
   const siteData = await graphql(`
-  query {
-    allSitesJson {
-      edges {
-        node {
-          site_id
-          creek_name
-          creek_id
-          name
-          description
+    query {
+      allSitesJson {
+        edges {
+          node {
+            site_id
+            creek_name
+            creek_id
+            name
+            description
+          }
         }
       }
     }
-  }
-  `);
+  `)
 
   creekData.data.allCreekSiteJson.edges.forEach(edge => {
     const creekID = edge.node.creek_id
@@ -37,12 +37,12 @@ exports.createPages = async function({ actions, graphql }) {
   })
 
   siteData.data.allSitesJson.edges.forEach(edge => {
-    const siteID = edge.node.site_id;
+    const siteID = edge.node.site_id
     const { name, description } = edge.node
     actions.createPage({
       path: `site/${siteID}`,
       component: require.resolve(`./src/templates/site.js`),
-      context: { siteID, name, description }
+      context: { siteID, name, description },
     })
   })
 }
