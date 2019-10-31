@@ -9,17 +9,19 @@ class Mapbox extends Component {
 
   state = {
     viewport: {
-      width: 400,
-      height: 400,
-      latitude: 37.7577,
-      longitude: -122.4376,
-      zoom: 8
+      width: '100%',
+      height: 600,
+      latitude: 37.929787,
+      longitude: -122.076019,
+      zoom: 10
     }
   };
 
+  // mapStyle="mapbox://styles/mapbox/outdoors-v10?optimize=true"
   render() {
     return (
       <ReactMapGL mapboxApiAccessToken={TOKEN}
+      mapStyle="mapbox://styles/mapbox/light-v9?optimize=true"
         {...this.state.viewport}
         onViewportChange={(viewport) => this.setState({viewport})}
       />
