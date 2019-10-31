@@ -1,7 +1,8 @@
 import { Link } from "gatsby"
 import React from "react"
-import logo from '../images/TWP_logo.png'
-import { Grid, Menu, MenuItem, Image, Header } from "semantic-ui-react"
+import logo from '../images/TWP_logo_3.png'
+import { Grid, Menu, MenuItem, Image } from "semantic-ui-react"
+import homeStyles from '../styles/home.module.css';
 
 const SiteHeader = () => (
   <Grid>
@@ -22,7 +23,7 @@ const SiteHeader = () => (
       <Image src={logo} />
     </Grid.Column>
     <Grid.Column width={14}>
-      <Header as="h1">Water Quality in Contra Costa County</Header>
+      <h1 className={homeStyles.siteHeader}> Water Quality in Contra Costa County</h1>
     </Grid.Column>
   </Grid>
 )

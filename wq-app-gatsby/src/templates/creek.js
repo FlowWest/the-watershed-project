@@ -3,7 +3,8 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 
 export default ({ data }) => {
-  const creekData = data.allCreekSiteJson.edges[0].node
+  const creekData = data.allCreekSiteJson.edges[0].node;
+
   return (
     <Layout>
       <div>
@@ -34,7 +35,7 @@ export const query = graphql`
           sites {
             site_id
             name
-            descripiton
+            description
           }
         }
       }
