@@ -1,7 +1,5 @@
 import React, { Fragment } from "react"
-// import { Link } from "gatsby"
 import { Grid, GridColumn, Container } from "semantic-ui-react"
-import ScrollModal from "../components/scrollModal"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
