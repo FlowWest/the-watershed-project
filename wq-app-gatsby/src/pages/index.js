@@ -1,5 +1,4 @@
 import React, { Fragment } from "react"
-// import { Link } from "gatsby"
 import { Grid, GridColumn, Container } from "semantic-ui-react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"

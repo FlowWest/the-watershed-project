@@ -2,6 +2,7 @@
 
 .wq-feature {
   background-color: #dbf1fe;
+  transition: background-color .2s;
   border-radius: 20px;
   width: 200px;
   height: 110px;
@@ -10,6 +11,23 @@
   align-items: center;
   cursor: pointer;
 }
+
+.wq-feature-dark {
+  background-color: #91b8f3;
+  transition: background-color .2s;
+  border-radius: 20px;
+  width: 200px;
+  height: 110px;
+  padding: 10px 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.wq-feature :hover {
+  background-color: cadetblue !important
+}
+
 .waterDrop {
   width: 40%;
 }
@@ -23,7 +41,9 @@
   font-size: 55px;
 }
 
-.welcome-header, .header, .site-header {
+.welcome-header,
+.header,
+.site-header {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
 }
@@ -37,4 +57,3 @@
   font-family: 'Cabin', sans-serif;
   font-size: 18px;
 }
-
