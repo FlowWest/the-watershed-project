@@ -36,6 +36,8 @@ export const query = graphql`
             site_id
             name
             description
+            lat
+            long
           }
         }
       }

@@ -17,8 +17,6 @@ exports.createPages = async function({ actions, graphql }) {
         edges {
           node {
             site_id
-            creek_name
-            creek_id
             name
             description
           }

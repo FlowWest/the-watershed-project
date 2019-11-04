@@ -4,24 +4,29 @@ import SEO from "../components/seo"
 import { Grid, GridColumn, Header } from "semantic-ui-react"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import Mapbox from "../components/creekMap"
-// const TOKEN = process.env.toast
 
 const Map = () => {
-
   const data = useStaticQuery(graphql`
     query {
       allCreekSiteJson {
         edges {
           node {
-            id
             creek_name
             creek_id
+            sites {
+              description
+              name
+              site_id
+              lat
+              long
+            }
           }
         }
       }
     }
   `)
 
+  const pts = data.allCreekSiteJson.edges.map(edge => edge.node.sites).flat()
 
   return (
     <Layout>
@@ -48,14 +53,16 @@ const Map = () => {
             {data.allCreekSiteJson.edges.map(edge => {
               return (
                 <li key={edge.node.id}>
-                  <Link to={`creek/${edge.node.creek_id}`}>{edge.node.creek_name}</Link>
+                  <Link to={`creek/${edge.node.creek_id}`}>
+                    {edge.node.creek_name}
+                  </Link>
                 </li>
               )
             })}
           </ul>
         </GridColumn>
         <GridColumn width={10}>
-          <Mapbox />
+          <Mapbox pts={pts}/>
         </GridColumn>
       </Grid>
     </Layout>
