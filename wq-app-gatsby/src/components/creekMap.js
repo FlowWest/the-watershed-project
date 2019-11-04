@@ -24,6 +24,12 @@ class Mapbox extends Component {
   setSelectedSite = site => {
     this.setState({
       selectedSite: site,
+      viewport: {
+        ...this.state.viewport,
+        latitude: site.lat,
+        longitude: site.long,
+        zoom: 13
+      }
     })
   }
 
