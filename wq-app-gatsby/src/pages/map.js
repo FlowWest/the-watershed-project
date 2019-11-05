@@ -62,7 +62,7 @@ const Map = () => {
           </ul>
         </GridColumn>
         <GridColumn width={10}>
-          <Mapbox pts={pts}/>
+          <Mapbox pts={pts} lat={37.929787} long={-122.076019} zoom={10} height={600}/>
         </GridColumn>
       </Grid>
     </Layout>

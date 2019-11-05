@@ -12,10 +12,10 @@ class Mapbox extends Component {
     this.state = {
       viewport: {
         width: "100%",
-        height: 600,
-        latitude: 37.929787,
-        longitude: -122.076019,
-        zoom: 10,
+        height: props.height,
+        latitude: props.lat,
+        longitude: props.long,
+        zoom: props.zoom,
       },
       selectedSite: null,
     }
