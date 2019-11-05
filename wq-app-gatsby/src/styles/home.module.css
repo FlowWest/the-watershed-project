@@ -28,6 +28,30 @@
   background-color: cadetblue !important
 }
 
+.links {
+  list-style: none;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.links :hover {
+  color: #375ab9;
+}
+
+li :hover {
+  color: #375ab9;
+}
+
+
+ul {
+  padding-left: 0px;
+}
+
 .waterDrop {
   width: 40%;
 }

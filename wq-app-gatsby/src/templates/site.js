@@ -19,6 +19,7 @@ import {
 import Highcharts from "highcharts"
 import HighchartsReact from "highcharts-react-official"
 import moment from "moment"
+import homeStyles from '../styles/home.module.css';
 
 export default ({ data, pageContext }) => {
   const defaultAnalyte = "Temperature"
@@ -30,7 +31,7 @@ export default ({ data, pageContext }) => {
     site => site.site_id === pageContext.siteID
   )
 
-  
+
   const sitesWQData = data.allFieldDataJson.edges
   const siteWQDataExists = sitesWQData.length !== 0
   // console.log('HERE IS SITE DATA', sitesWQData);
@@ -38,12 +39,12 @@ export default ({ data, pageContext }) => {
   // const siteWQDataExists = false
 
   let panes
-  
+
   if (siteWQDataExists) {
     const plotData = sitesWQData.filter(
       edge => edge.node.AnalyteName === analyte
     )[0].node
-    
+
     const analyteOptions = sitesWQData.map(edge => ({
       key: edge.node.AnalyteName,
       text: edge.node.AnalyteName,
@@ -82,7 +83,7 @@ export default ({ data, pageContext }) => {
       return setAnalyte(e.target.textContent)
     }
 
-     panes = [
+    panes = [
       {
         menuItem: "Within",
         render: () => (
@@ -128,7 +129,7 @@ export default ({ data, pageContext }) => {
             </Image.Group>
             <Divider hidden />
             <p>{siteData.description}</p>
-            <Link to={`/creek/${sitesData.creek_id}`}>
+            <Link className={homeStyles.links} to={`/creek/${sitesData.creek_id}`}>
               Go back to {sitesData.creek_name}
             </Link>
             <h3>Other Sites on {sitesData.creek_name}</h3>
@@ -138,7 +139,7 @@ export default ({ data, pageContext }) => {
                 .map(site => {
                   return (
                     <Fragment key={site.site_id}>
-                      <li>
+                      <li className={homeStyles.li}>
                         <Link to={`site/${site.site_id}`}>{site.name}</Link>
                       </li>
                     </Fragment>
@@ -147,7 +148,7 @@ export default ({ data, pageContext }) => {
             </ul>
           </GridColumn>
           <GridColumn width={10}>
-            {siteWQDataExists ? 
+            {siteWQDataExists ?
               <Tab
                 menu={{ secondary: true, pointing: true }}
                 panes={panes}

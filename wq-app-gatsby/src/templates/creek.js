@@ -11,6 +11,7 @@ import {
   GridRow,
 } from "semantic-ui-react"
 import Mapbox from "../components/creekMap"
+import homeStyles from '../styles/home.module.css';
 
 export default ({ data }) => {
   const creekData = data.allCreekSiteJson.edges[0].node

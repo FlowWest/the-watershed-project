@@ -20,7 +20,9 @@ const SiteHeader = () => (
       </Menu>
     </Grid.Column>
     <Grid.Column width={2}>
-      <Image src={logo} />
+      <Link to='/'>
+        < Image src={logo}/>
+      </Link>
     </Grid.Column>
     <Grid.Column width={14}>
       <h1 className={homeStyles.siteHeader}> Water Quality in Contra Costa County</h1>
