@@ -1,10 +1,10 @@
 import React, { Fragment, useState } from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
-import img1 from '../images/Monitoring-Walnut-Creek-crop-1012x1024.jpg'
-import img2 from '../images/20180502_105406.jpg'
-import img3 from '../images/20180816_111841.jpg'
-import img4 from '../images/20180824_121105.jpg'
+import img1 from "../images/Monitoring-Walnut-Creek-crop-1012x1024.jpg"
+import img2 from "../images/20180502_105406.jpg"
+import img3 from "../images/20180816_111841.jpg"
+import img4 from "../images/20180824_121105.jpg"
 
 import {
   Grid,
@@ -30,78 +30,88 @@ export default ({ data, pageContext }) => {
     site => site.site_id === pageContext.siteID
   )
 
+  
   const sitesWQData = data.allFieldDataJson.edges
-  const plotData = sitesWQData.filter(
-    edge => edge.node.AnalyteName === analyte
-  )[0].node
+  const siteWQDataExists = sitesWQData.length !== 0
+  // console.log('HERE IS SITE DATA', sitesWQData);
+  // console.log('what is WQData', siteWQDataExists);
+  // const siteWQDataExists = false
 
-  const analyteOptions = sitesWQData.map(edge => ({
-    key: edge.node.AnalyteName,
-    text: edge.node.AnalyteName,
-    value: edge.node.AnalyteName,
-  }))
+  let panes
+  
+  if (siteWQDataExists) {
+    const plotData = sitesWQData.filter(
+      edge => edge.node.AnalyteName === analyte
+    )[0].node
+    
+    const analyteOptions = sitesWQData.map(edge => ({
+      key: edge.node.AnalyteName,
+      text: edge.node.AnalyteName,
+      value: edge.node.AnalyteName,
+    }))
 
-  const plotOptions = {
-    title: {
-      text: "My chart",
-    },
-    xAxis: {
-      type: "datetime",
+    const plotOptions = {
       title: {
-        text: "Date",
+        text: "My chart",
       },
-    },
-    yAxis: {
-      title: {
-        text: `${plotData.AnalyteName} (${plotData.UnitName})`,
+      xAxis: {
+        type: "datetime",
+        title: {
+          text: "Date",
+        },
       },
-      min: 0,
-    },
-    series: [
+      yAxis: {
+        title: {
+          text: `${plotData.AnalyteName} (${plotData.UnitName})`,
+        },
+        min: 0,
+      },
+      series: [
+        {
+          name: "",
+          data: plotData.data.map(pt => [
+            moment.utc(pt.SampleDate).valueOf(),
+            pt.Result,
+          ]),
+        },
+      ],
+    }
+
+    const handleAnalyteChange = e => {
+      e.preventDefault()
+      return setAnalyte(e.target.textContent)
+    }
+
+     panes = [
       {
-        name: "",
-        data: plotData.data.map(pt => [
-          moment.utc(pt.SampleDate).valueOf(),
-          pt.Result,
-        ]),
+        menuItem: "Within",
+        render: () => (
+          <Tab.Pane attached={false}>
+            <div>
+              <h3>Select Water Quality Feature</h3>
+              <Dropdown
+                placeholder="Water Quality Feature"
+                search
+                selection
+                options={analyteOptions}
+                onChange={handleAnalyteChange}
+                defaultValue={defaultAnalyte}
+              />
+            </div>
+            <HighchartsReact highcharts={Highcharts} options={plotOptions} />
+          </Tab.Pane>
+        ),
       },
-    ],
+      {
+        menuItem: "Between",
+        render: () => <Tab.Pane attached={false}>Tab 2 Content</Tab.Pane>,
+      },
+    ]
+  } else {
+    panes = null
   }
 
-  const handleAnalyteChange = e => {
-    e.preventDefault()
-    return setAnalyte(e.target.textContent)
-  }
 
-  const panes = [
-    {
-      menuItem: "Within",
-      render: () => (
-        <Tab.Pane attached={false}>
-          <div>
-            <h3>Select Water Quality Feature</h3>
-            <Dropdown
-              placeholder="Water Quality Feature"
-              search
-              selection
-              options={analyteOptions}
-              onChange={handleAnalyteChange}
-              defaultValue={defaultAnalyte}
-            />
-          </div>
-          <HighchartsReact highcharts={Highcharts} options={plotOptions} />
-        </Tab.Pane>
-      ),
-    },
-    {
-      menuItem: "Between",
-      render: () => <Tab.Pane attached={false}>Tab 2 Content</Tab.Pane>,
-    },
-  ]
-
-  // siteData.images ['1.jpg', '2.jpg', '3.jpg']
-  // state defautls to siteData.images[0]
-  // group 1, 2, 3 and on click update state
   return (
     <Layout>
       <Container>
@@ -111,10 +121,10 @@ export default ({ data, pageContext }) => {
             <Image src={selectedImage} alt="image"></Image>
             <Divider hidden />
             <Image.Group size="tiny">
-              <Image src={img1} onClick={()=>(setImage(img1))}/>
-              <Image src={img2} onClick={()=>(setImage(img2))}/>
-              <Image src={img3} onClick={()=>(setImage(img3))}/>
-              <Image src={img4} onClick={()=>(setImage(img4))}/>
+              <Image src={img1} onClick={() => setImage(img1)} />
+              <Image src={img2} onClick={() => setImage(img2)} />
+              <Image src={img3} onClick={() => setImage(img3)} />
+              <Image src={img4} onClick={() => setImage(img4)} />
             </Image.Group>
             <Divider hidden />
             <p>{siteData.description}</p>
@@ -137,7 +147,14 @@ export default ({ data, pageContext }) => {
             </ul>
           </GridColumn>
           <GridColumn width={10}>
-            <Tab menu={{ secondary: true, pointing: true }} panes={panes}></Tab>
+            {siteWQDataExists ? 
+              <Tab
+                menu={{ secondary: true, pointing: true }}
+                panes={panes}
+              ></Tab>
+              :
+              <p>hi</p>
+            }
           </GridColumn>
         </Grid>
       </Container>
@@ -153,12 +170,14 @@ export const query = graphql`
     ) {
       edges {
         node {
-          creek_name
           creek_id
+          creek_name
           sites {
-            description
+            lat
+            long
             name
             site_id
+            description
           }
         }
       }
