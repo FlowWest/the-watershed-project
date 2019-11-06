@@ -129,9 +129,11 @@ export default ({ data, pageContext }) => {
             </Image.Group>
             <Divider hidden />
             <p>{siteData.description}</p>
-            <Link className={homeStyles.links} to={`/creek/${sitesData.creek_id}`}>
-              Go back to {sitesData.creek_name}
-            </Link>
+            <div className={homeStyles.links}>
+              <Link to={`/creek/${sitesData.creek_id}`}>
+                Go back to {sitesData.creek_name}
+              </Link>
+            </div>
             <h3>Other Sites on {sitesData.creek_name}</h3>
             <ul>
               {sitesData.sites

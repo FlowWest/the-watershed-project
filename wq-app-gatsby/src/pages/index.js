@@ -38,7 +38,7 @@ const IndexPage = () => {
                     category={edge.node.category}
                     description={edge.node.description}
                     features={edge.node.features}
-                    />
+                  />
                 </GridColumn>
               </Fragment>
             )
