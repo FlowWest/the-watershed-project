@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500|Roboto+Condensed:400,700&display=swap');
 
-.wq-feature {
-  background-color: #dbf1fe;
+.wq-feature, .wq-feature-dark {
   transition: background-color .2s;
   border-radius: 20px;
   width: 200px;
@@ -12,16 +11,13 @@
   cursor: pointer;
 }
 
+.wq-feature {
+  background-color: #dbf1fe;
+}
+
 .wq-feature-dark {
   background-color: #91b8f3;
-  transition: background-color .2s;
-  border-radius: 20px;
-  width: 200px;
-  height: 110px;
-  padding: 10px 8px;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
+  text-align: bottom;
 }
 
 .wq-feature :hover {
@@ -37,6 +33,24 @@ li {
   list-style: none;
   font-size: 16px;
   padding-bottom: 5px;
+}
+
+.learn-more {
+  font-size: 16px;
+  margin-top: 90px;
+  margin-left: 52px;
+  z-index: 3;
+  color: #fffffff6;
+  animation: raise .4s ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes raise {
+  0% {
+    transform: translate(0,0);
+  }
+  100% {
+    transform: translate(0, 30px)
+  }
 }
 
 .links :hover {

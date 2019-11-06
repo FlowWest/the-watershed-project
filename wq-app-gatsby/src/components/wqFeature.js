@@ -16,8 +16,13 @@ const WQFeature = (props) => {
         onClick={toggleModal}
         onMouseEnter={mouseEnter}
         onMouseLeave={mouseLeave}>
-        <img className={homeStyles.waterDrop} src={waterDrop} />
-        <h3 className={homeStyles.header}>{props.category}</h3>
+        {(blobBackground)
+          ? <h4 className={homeStyles.learnMore}>Learn More</h4>
+          : <Fragment>
+              <img className={homeStyles.waterDrop} src={waterDrop} />
+              <h3 className={homeStyles.header}>{props.category}</h3>
+            </Fragment>
+        }
       </div>
       <ScrollModal
         isVisible={isVisible}

@@ -43,6 +43,7 @@ export default ({ data }) => {
               lat={37.929787}
               long={-122.076019}
             />
+            <Divider hidden />
             <p>{creekData.creek_description}</p>
             <div>
               <h4>Creek Report Card</h4>
