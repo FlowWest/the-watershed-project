@@ -1,32 +1,63 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500|Roboto+Condensed:400,700&display=swap');
 
+.logo {
+  width: 200px;
+  margin: auto;
+}
+
 .active {
   border-bottom: 2px solid;
   border-bottom-color: rgba(187, 183, 183, 0.89);
 }
 
-.wq-feature, .wq-feature-dark {
-  transition: background-color .2s;
+.wqFeature {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  background-color: #dbf1fe;
   border-radius: 20px;
   width: 200px;
   height: 110px;
+  padding: 10px 8px;
   padding: 10px 8px;
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 
-.wq-feature {
-  background-color: #dbf1fe;
+.container:hover .overlay {
+  opacity: 1;
 }
 
-.wq-feature-dark {
-  background-color: #91b8f3;
-  text-align: bottom;
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333333;
+  border-radius: 20px;
 }
 
-.wq-feature :hover {
-  background-color: cadetblue !important
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .links {
@@ -38,15 +69,6 @@ li {
   list-style: none;
   font-size: 16px;
   padding-bottom: 5px;
-}
-
-.learn-more {
-  font-size: 20px;
-  margin: auto;
-  z-index: 3;
-  color: #fffffff6;
-  /* animation: raise .4s ease-in-out;
-  animation-fill-mode: forwards; */
 }
 
 /* @keyframes raise {
@@ -86,7 +108,8 @@ ul {
 
 .welcome-header,
 .header,
-.site-header {
+.site-header,
+.text {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
 }

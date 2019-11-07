@@ -1,28 +1,20 @@
-import React, { Fragment, useState } from "react";
-import homeStyles from '../styles/home.module.css';
-import waterDrop from '../images/drop.png';
-import ScrollModal from './scrollModal';
+import React, { Fragment, useState } from "react"
+import homeStyles from "../styles/home.module.css"
+import waterDrop from "../images/drop.png"
+import ScrollModal from "./scrollModal"
 
-const WQFeature = (props) => {
-  const [isVisible, setVisibility] = useState(false);
-  const [ blobBackground, toggleBlobBackground] = useState(false)
-  const toggleModal = () => setVisibility(!isVisible);
-  const mouseEnter = () => toggleBlobBackground(true);
-  const mouseLeave = () => toggleBlobBackground(false);
-
+const WQFeature = props => {
+  const [isVisible, setVisibility] = useState(false)
+  const toggleModal = () => setVisibility(!isVisible)
+  
   return (
     <Fragment>
-      < div className = { blobBackground ? homeStyles.wqFeatureDark : homeStyles.wqFeature }
-        onClick={toggleModal}
-        onMouseEnter={mouseEnter}
-        onMouseLeave={mouseLeave}>
-        {(blobBackground)
-          ? <h4 className={homeStyles.learnMore}>Learn More</h4>
-          : <Fragment>
-              <img className={homeStyles.waterDrop} src={waterDrop} />
-              <h3 className={homeStyles.header}>{props.category}</h3>
-            </Fragment>
-        }
+      <div className={homeStyles.container} onClick={toggleModal}>
+        <img className={homeStyles.waterDrop} src={waterDrop} />
+        <h3 className={homeStyles.header}>{props.category}</h3>
+        <div className={homeStyles.overlay}>
+          <div className={homeStyles.text}>Learn More</div>
+        </div>
       </div>
       <ScrollModal
         isVisible={isVisible}
@@ -33,7 +25,6 @@ const WQFeature = (props) => {
       />
     </Fragment>
   )
-
 }
 
-export default WQFeature;
+export default WQFeature
