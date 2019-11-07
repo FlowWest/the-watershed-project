@@ -36,22 +36,22 @@ li {
 }
 
 .learn-more {
-  font-size: 16px;
-  margin-top: 90px;
-  margin-left: 52px;
+  font-size: 20px;
+  margin: auto;
   z-index: 3;
   color: #fffffff6;
-  animation: raise .4s ease-in-out;
-  animation-fill-mode: forwards;
+  /* animation: raise .4s ease-in-out;
+  animation-fill-mode: forwards; */
 }
-@keyframes raise {
+
+/* @keyframes raise {
   0% {
     transform: translate(0,0);
   }
   100% {
     transform: translate(0, 30px)
   }
-}
+} */
 
 .links :hover {
   color: #375ab9;

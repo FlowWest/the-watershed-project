@@ -1,33 +1,43 @@
 import { Link } from "gatsby"
-import React from "react"
+import React, { useState } from "react"
 import logo from '../images/TWP_logo_3.png'
-import { Grid, Menu, MenuItem, Image } from "semantic-ui-react"
+import { Grid, GridColumn, Button, Image, Icon } from "semantic-ui-react"
 import homeStyles from '../styles/home.module.css';
+import SideMenu from './sideMenu'
 
-const SiteHeader = () => (
-  <Grid>
-    <Grid.Column width={16}>
-      <Menu>
-        <MenuItem>
-          <Link to="/">Home</Link>
-        </MenuItem>
-        <MenuItem>
-          <Link to='/map'>Map</Link>
-        </MenuItem>
-        <MenuItem>
-          <Link to='/about'>About</Link>
-        </MenuItem>
-      </Menu>
-    </Grid.Column>
-    <Grid.Column width={2}>
+const SiteHeader = () => {
+
+  const [activeItem, setActiveItem] = useState('home');
+  const [menuVisibility, setMenuVisibility] = useState('')
+
+  return(
+
+    <Grid>
+    <GridColumn width={16}>
+     <SideMenu />
+    </GridColumn>
+    <GridColumn width={2}>
       <Link to='/'>
         < Image src={logo}/>
       </Link>
-    </Grid.Column>
-    <Grid.Column width={14}>
+    </GridColumn>
+    <GridColumn width={12}>
       <h1 className={homeStyles.siteHeader}> Water Quality in Contra Costa County</h1>
-    </Grid.Column>
+    </GridColumn>
+    <GridColumn width={2}>
+      <div  onClick={null} onMouseEnter={null} onMouseLeave={null}>
+          <Icon color="blue"
+            name="bars"
+            size="big"
+            circular
+            link
+            onClick={null}
+          />
+      </div>
+    </GridColumn>
+
   </Grid>
-)
+  )
+}
 
 export default SiteHeader
