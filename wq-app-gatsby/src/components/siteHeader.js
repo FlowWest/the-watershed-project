@@ -14,7 +14,7 @@ const SiteHeader = () => {
 
     <Grid>
     <GridColumn width={16}>
-     <SideMenu />
+    <SideMenu />
     </GridColumn>
     <GridColumn width={2}>
       <Link to='/'>
@@ -29,7 +29,6 @@ const SiteHeader = () => {
           <Icon color="blue"
             name="bars"
             size="big"
-            circular
             link
             onClick={null}
           />

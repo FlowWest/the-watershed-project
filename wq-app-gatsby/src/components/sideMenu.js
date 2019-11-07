@@ -1,5 +1,5 @@
-import React, { Fragment, useState } from 'react'
-import { Menu } from 'semantic-ui-react'
+import React, { useState } from 'react'
+import { Menu, MenuItem } from 'semantic-ui-react'
 import { Link } from 'gatsby'
 
 const SideMenu = () => {
@@ -7,20 +7,29 @@ const SideMenu = () => {
   const [activeItem, setActiveItem] = useState('home');
 
   return (
-    <Fragment>
-   <Menu pointing secondary vertical>
-     <Menu.Item name="home" active={activeItem === 'home'} onClick={() => setActiveItem('home')}>
-       <Link to="/">Home</Link>
-     </Menu.Item>
-     <Menu.Item name="map" active={activeItem === 'map'} onClick={() => setActiveItem('map')}>
-       <Link to='/map'>Map</Link>
-     </Menu.Item>
-     <Menu.Item name="about" active={activeItem === 'about'} onClick={() => setActiveItem('about')}>
+    <Menu pointing secondary vertical>
+      <Link to="/">
+        <MenuItem name="home" active={activeItem === 'home'} onClick={() => setActiveItem('home')} />
+      </Link>
+      <Link to="/map">
+        <MenuItem name="map" active={activeItem === 'map'} onClick={() => setActiveItem('map')}/>
+      </Link>
+      <Link to="/about">
+        <MenuItem name="about" active={activeItem === 'about'} onClick={() => setActiveItem('about')}/>
+      </Link>
+
+        {/* <Link to="/">Home</Link> */}
+      {/* </Menu.Item>
+      <Menu.Item name="map" active={activeItem === 'map'} onClick={() => setActiveItem('map')}>
+        <Link to='/map'>Map</Link>
+      </Menu.Item>
+      <Menu.Item name="about" active={activeItem === 'about'} onClick={() => setActiveItem('about')}>
        <Link to='/about'>About</Link>
-     </Menu.Item>
-   </Menu>
-    </Fragment>
+     </Menu.Item> */}
+    </Menu>
     )
 }
 
 export default SideMenu
+
+// <Link> <MenuItem /></Link>
