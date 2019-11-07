@@ -128,7 +128,7 @@ export default ({ data, pageContext }) => {
               <Image src={img4} onClick={() => setImage(img4)} />
             </Image.Group>
             <Divider hidden />
-            <p>{siteData.description}</p>
+            <p>{siteData.description} Please contact <a href="mailto:helen@thewatershedproject.org">Helen Fitanides</a> if you’d like to join us!</p>
             <div className={homeStyles.links}>
               <Link to={`/creek/${sitesData.creek_id}`}>
                 Go back to {sitesData.creek_name}
