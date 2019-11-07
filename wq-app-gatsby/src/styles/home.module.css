@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500|Roboto+Condensed:400,700&display=swap');
 
+.active {
+  background-color: red;
+}
+
 .wq-feature, .wq-feature-dark {
   transition: background-color .2s;
   border-radius: 20px;
