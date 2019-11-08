@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,400i&dis,500|Roboto+Condensed:400,700&display=swap');
 
+.header-container {
+  padding: 10px;
+}
+
+.menu-item {
+  font-family: 'Cabin';
+  font-size: 18px;
+}
+
+.menu{
+  transform: translate(-50%, 50%);
+}
+
 .logo {
   width: 200px;
   margin: auto;
 }
 
 .active {
-  border-bottom: 2px solid;
-  border-bottom-color: rgba(187, 183, 183, 0.89);
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(0,0,0,.5);
 }
 
 .wqFeature {

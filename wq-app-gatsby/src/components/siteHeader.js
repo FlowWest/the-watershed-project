@@ -7,7 +7,7 @@ import homeStyles from '../styles/home.module.css';
 const SiteHeader = () => {
 
   return(
-  <Container fluid>
+  <Container fluid className={homeStyles.headerContainer}>
       <Grid>
       <GridColumn width={3}>
         <Link to='/'>
@@ -20,13 +20,13 @@ const SiteHeader = () => {
       <GridColumn width={3}>
       <Menu secondary className={homeStyles.menu}>
           <Link to="/" activeClassName={homeStyles.active}>
-            <MenuItem name="home"/>
+            <MenuItem name="home"className={homeStyles.menuItem} />
           </Link>
           <Link to="/map" activeClassName={homeStyles.active}>
-            <MenuItem name="map"/>
+            <MenuItem name="map" className={homeStyles.menuItem} />
           </Link>
           <Link to="/about" activeClassName={homeStyles.active}>
-            <MenuItem name="about" />
+            <MenuItem name="about" className={homeStyles.menuItem} />
           </Link>
         </Menu>
       </GridColumn>
