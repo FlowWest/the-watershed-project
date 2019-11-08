@@ -78,7 +78,7 @@ const IndexPage = () => {
             <ul>
               {data.allCreekSiteJson.edges.map((edge, index) => {
                 return (
-                  <li>
+                  <li key={index}>
                     <Link to={`/creek/${edge.node.creek_id}`}>
                       {edge.node.creek_name}
                     </Link>

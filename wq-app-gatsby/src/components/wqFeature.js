@@ -10,7 +10,7 @@ const WQFeature = props => {
   return (
     <Fragment>
       <div className={homeStyles.container} onClick={toggleModal}>
-        <img className={homeStyles.waterDrop} src={waterDrop} />
+        <img className={homeStyles.waterDrop} src={waterDrop} alt="water drop illustration"/>
         <h3 className={homeStyles.header}>{props.category}</h3>
         <div className={homeStyles.overlay}>
           <div className={homeStyles.text}>Learn More</div>

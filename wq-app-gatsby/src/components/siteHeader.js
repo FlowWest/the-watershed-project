@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import logo from '../images/TWP_logo_3.png'
-import { Container, Grid, GridColumn, Image, Icon, Menu, MenuItem } from "semantic-ui-react"
+import { Container, Grid, GridColumn, Image, Menu, MenuItem } from "semantic-ui-react"
 import homeStyles from '../styles/home.module.css';
 
 const SiteHeader = () => {
