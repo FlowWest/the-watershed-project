@@ -28,6 +28,9 @@ const SiteHeader = () => {
           <Link to="/about" activeClassName={homeStyles.active}>
             <MenuItem name="about" className={homeStyles.menuItem} />
           </Link>
+          <Link to="/download" activeClassName={homeStyles.active}>
+          <MenuItem name="download" className={homeStyles.menuItem} />
+          </Link>
         </Menu>
       </GridColumn>
     </Grid>

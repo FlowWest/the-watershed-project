@@ -1,10 +1,12 @@
 .category-description {
   font-size: 26px;
   font-style: italic;
+  color: #444444
 }
 
 .description{
   font-size: 20px;
+  color: #444444
 }
 
 .category {
