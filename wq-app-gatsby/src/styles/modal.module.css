@@ -1,0 +1,26 @@
+.category-description {
+  font-size: 26px;
+  font-style: italic;
+}
+
+.description{
+  font-size: 20px;
+}
+
+.category {
+  font-size: 30px;
+}
+
+.feature {
+  font-size: 26px;
+}
+
+.feature,
+.category {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.category-description,
+.description {
+  font-family: 'Cabin', sans-serif;
+}
