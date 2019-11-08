@@ -22,9 +22,6 @@ const SiteHeader = () => {
           <Link to="/" activeClassName={homeStyles.active}>
             <MenuItem name="home"className={homeStyles.menuItem} />
           </Link>
-          <Link to="/map" activeClassName={homeStyles.active}>
-            <MenuItem name="map" className={homeStyles.menuItem} />
-          </Link>
           <Link to="/about" activeClassName={homeStyles.active}>
             <MenuItem name="about" className={homeStyles.menuItem} />
           </Link>
