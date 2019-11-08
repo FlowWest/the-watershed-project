@@ -23,7 +23,8 @@ import homeStyles from "../styles/home.module.css"
 
 export default ({ data, pageContext }) => {
 
-  const [analyte, setAnalyte] = useState('Temperature')
+  const firstAnalyte = pageContext.siteID === 'BAX030' ? 'Lead' : 'Temperature';
+  const [analyte, setAnalyte] = useState(firstAnalyte)
   const [selectedImage, setImage] = useState(img1)
 
   const sitesData = data.allCreekSiteJson.edges[0].node
@@ -45,7 +46,7 @@ export default ({ data, pageContext }) => {
   //     const firstAnalyte = sitesWQData[0].node.AnalyteName
   //     setAnalyte(firstAnalyte)
   //   } 
-  // }, [])
+  // }, [analyte])
 
   if (siteWQDataExists) {
     const plotData = sitesWQData.filter(
