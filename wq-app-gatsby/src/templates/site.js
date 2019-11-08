@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react"
+import React, { Fragment, useState, useEffect } from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import img1 from "../images/Monitoring-Walnut-Creek-crop-1012x1024.jpg"
@@ -19,11 +19,11 @@ import {
 import Highcharts from "highcharts"
 import HighchartsReact from "highcharts-react-official"
 import moment from "moment"
-import homeStyles from '../styles/home.module.css';
+import homeStyles from "../styles/home.module.css"
 
 export default ({ data, pageContext }) => {
-  const defaultAnalyte = "Temperature"
-  const [analyte, setAnalyte] = useState(defaultAnalyte)
+
+  const [analyte, setAnalyte] = useState('Temperature')
   const [selectedImage, setImage] = useState(img1)
 
   const sitesData = data.allCreekSiteJson.edges[0].node
@@ -31,14 +31,21 @@ export default ({ data, pageContext }) => {
     site => site.site_id === pageContext.siteID
   )
 
-
   const sitesWQData = data.allFieldDataJson.edges
   const siteWQDataExists = sitesWQData.length !== 0
-  // console.log('HERE IS SITE DATA', sitesWQData);
-  // console.log('what is WQData', siteWQDataExists);
-  // const siteWQDataExists = false
 
   let panes
+
+  // TODO - figure out how to have a componentDidMount like function that will grab a analyte that exists at the site
+  // useEffect(() => {
+  //   const sitesWQData = data.allFieldDataJson.edges
+  //   const siteWQDataExists = sitesWQData.length !== 0
+
+  //   if (siteWQDataExists) {
+  //     const firstAnalyte = sitesWQData[0].node.AnalyteName
+  //     setAnalyte(firstAnalyte)
+  //   } 
+  // }, [])
 
   if (siteWQDataExists) {
     const plotData = sitesWQData.filter(
@@ -96,7 +103,7 @@ export default ({ data, pageContext }) => {
                 selection
                 options={analyteOptions}
                 onChange={handleAnalyteChange}
-                defaultValue={defaultAnalyte}
+                defaultValue={analyte}
               />
             </div>
             <HighchartsReact highcharts={Highcharts} options={plotOptions} />
@@ -111,7 +118,6 @@ export default ({ data, pageContext }) => {
   } else {
     panes = null
   }
-
 
   return (
     <Layout>
@@ -128,7 +134,11 @@ export default ({ data, pageContext }) => {
               <Image src={img4} onClick={() => setImage(img4)} />
             </Image.Group>
             <Divider hidden />
-            <p>{siteData.description} Please contact <a href="mailto:helen@thewatershedproject.org">Helen Fitanides</a> if you’d like to join us!</p>
+            <p>
+              {siteData.description} Please contact{" "}
+              <a href="mailto:helen@thewatershedproject.org">Helen Fitanides</a>{" "}
+              if you’d like to join us!
+            </p>
             <div className={homeStyles.links}>
               <Link to={`/creek/${sitesData.creek_id}`}>
                 Go back to {sitesData.creek_name}
@@ -150,14 +160,14 @@ export default ({ data, pageContext }) => {
             </ul>
           </GridColumn>
           <GridColumn width={10}>
-            {siteWQDataExists ?
+            {siteWQDataExists ? (
               <Tab
                 menu={{ secondary: true, pointing: true }}
                 panes={panes}
               ></Tab>
-              :
+            ) : (
               <p>hi</p>
-            }
+            )}
           </GridColumn>
         </Grid>
       </Container>
