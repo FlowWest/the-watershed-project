@@ -18,6 +18,11 @@
   margin: auto;
 }
 
+.logo2 {
+  width: 100px;
+  margin: auto;
+}
+
 .active {
   border-bottom: 1px solid;
   border-bottom-color: rgba(0,0,0,.5);
@@ -153,5 +158,11 @@ ul {
 }
 
 .creek-header{
-font-size: 26px;
+  font-size: 26px;
+}
+
+@media screen and (max-width: 736px) {
+  .site-header {
+    font-size: 20px;
+  }
 }
