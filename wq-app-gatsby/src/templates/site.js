@@ -22,8 +22,7 @@ import moment from "moment"
 import homeStyles from "../styles/home.module.css"
 
 export default ({ data, pageContext }) => {
-
-  const firstAnalyte = pageContext.siteID === 'BAX030' ? 'Lead' : 'Temperature';
+  const firstAnalyte = pageContext.siteID === "BAX030" ? "Lead" : "Temperature"
   const [analyte, setAnalyte] = useState(firstAnalyte)
   const [selectedImage, setImage] = useState(img1)
 
@@ -32,28 +31,41 @@ export default ({ data, pageContext }) => {
     site => site.site_id === pageContext.siteID
   )
 
-  const sitesWQData = data.allFieldDataJson.edges
-  const siteWQDataExists = sitesWQData.length !== 0
+  const siteWQData = data.allFieldDataJson.edges.filter(
+    edge => edge.node.StationCode === pageContext.siteID
+  )
+  const siteWQDataExists = siteWQData.length !== 0
 
   let panes
 
   // TODO - figure out how to have a componentDidMount like function that will grab a analyte that exists at the site
   // useEffect(() => {
-  //   const sitesWQData = data.allFieldDataJson.edges
-  //   const siteWQDataExists = sitesWQData.length !== 0
+  //   const siteWQData = data.allFieldDataJson.edges
+  //   const siteWQDataExists = siteWQData.length !== 0
 
   //   if (siteWQDataExists) {
-  //     const firstAnalyte = sitesWQData[0].node.AnalyteName
+  //     const firstAnalyte = siteWQData[0].node.AnalyteName
   //     setAnalyte(firstAnalyte)
-  //   } 
+  //   }
   // }, [analyte])
 
+  const seriesAllSites = data.allFieldDataJson.edges
+    .filter(edge => edge.node.AnalyteName === analyte)
+    .map(station => ({
+      name: station.node.StationCode,
+      data: station.node.data.map(pt => [
+        moment.utc(pt.SampleDate).valueOf(),
+        pt.Result,
+      ]),
+      visible: station.node.StationCode === pageContext.siteID ? true : false,
+    }))
+
   if (siteWQDataExists) {
-    const plotData = sitesWQData.filter(
+    const plotData = siteWQData.filter(
       edge => edge.node.AnalyteName === analyte
     )[0].node
 
-    const analyteOptions = sitesWQData.map(edge => ({
+    const analyteOptions = siteWQData.map(edge => ({
       key: edge.node.AnalyteName,
       text: edge.node.AnalyteName,
       value: edge.node.AnalyteName,
@@ -61,7 +73,7 @@ export default ({ data, pageContext }) => {
 
     const plotOptions = {
       title: {
-        text: "My chart",
+        text: "",
       },
       xAxis: {
         type: "datetime",
@@ -75,15 +87,28 @@ export default ({ data, pageContext }) => {
         },
         min: 0,
       },
-      series: [
-        {
-          name: "",
-          data: plotData.data.map(pt => [
-            moment.utc(pt.SampleDate).valueOf(),
-            pt.Result,
-          ]),
-        },
-      ],
+      series: seriesAllSites,
+      // [
+      //   {
+      //     name: plotData.AnalyteName,
+      //     data: plotData.data.map(pt => [
+      //       moment.utc(pt.SampleDate).valueOf(),
+      //       pt.Result,
+      //     ]),
+      //   },
+      //   {
+      //     name: "Threshold",
+      //     data: [
+      //       [moment.utc(plotData.data[0].SampleDate).valueOf(), 16],
+      //       [
+      //         moment
+      //           .utc(plotData.data[plotData.data.length - 1].SampleDate)
+      //           .valueOf(),
+      //         16,
+      //       ],
+      //     ],
+      //   },
+      // ],
     }
 
     const handleAnalyteChange = e => {
@@ -178,7 +203,7 @@ export default ({ data, pageContext }) => {
 
 // Possibly need to refactor this query to contain more Creek data
 export const query = graphql`
-  query($siteID: String!) {
+  query($siteID: String!, $creekID: String!) {
     allCreekSiteJson(
       filter: { sites: { elemMatch: { site_id: { eq: $siteID } } } }
     ) {
@@ -196,7 +221,7 @@ export const query = graphql`
         }
       }
     }
-    allFieldDataJson(filter: { StationCode: { eq: $siteID } }) {
+    allFieldDataJson(filter: { creek_id: { eq: $creekID } }) {
       edges {
         node {
           StationCode
@@ -212,3 +237,18 @@ export const query = graphql`
     }
   }
 `
+
+// allFieldDataJson(filter: { StationCode: { eq: $siteID } }) {
+//   edges {
+//     node {
+//       StationCode
+//       AnalyteName
+//       UnitDescription
+//       UnitName
+//       data {
+//         Result
+//         SampleDate(formatString: "")
+//       }
+//     }
+//   }
+// }
