@@ -183,7 +183,7 @@ export default ({ data, pageContext }) => {
                 Go back to {sitesData.creek_name} overview
               </Link>
             </div>
-            <h3>Other Sites on {sitesData.creek_name}</h3>
+            <h3 className={siteStyles.sitesHeader}>Sites on {sitesData.creek_name}</h3>
             <Dropdown
               placeholder="Select Site"
               fluid
