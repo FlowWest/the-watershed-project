@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React, { useState } from "react"
-import logo from "../images/TWP_logo_3.png"
+// import logo from "../images/TWP_logo_3.png"
+import logo from "../images/Transparentlogo.png"
 import logo2 from "../images/TWP_favicon_2.png"
 import {
   Responsive,
