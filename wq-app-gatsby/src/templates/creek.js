@@ -8,10 +8,8 @@ import {
   Image,
   Container,
   Divider,
-  GridRow,
 } from "semantic-ui-react"
 import Mapbox from "../components/creekMap"
-import homeStyles from '../styles/home.module.css';
 
 export default ({ data }) => {
   const creekData = data.allCreekSiteJson.edges[0].node
@@ -39,9 +37,9 @@ export default ({ data }) => {
             <Mapbox
               pts={pts}
               height={300}
-              zoom={12}
-              lat={37.929787}
-              long={-122.076019}
+              zoom={11}
+              lat={creekData.creek_lat}
+              long={creekData.creek_long}
             />
             <Divider hidden />
             <p>{creekData.creek_description}</p>
@@ -64,6 +62,8 @@ export const query = graphql`
           creek_name
           creek_description
           creek_id
+          creek_lat
+          creek_long
           sites {
             site_id
             name
