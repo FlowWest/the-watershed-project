@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useEffect } from "react"
-import { graphql, Link } from "gatsby"
+import { graphql, Link, navigate } from "gatsby"
 import Layout from "../components/layout"
 import img1 from "../images/Monitoring-Walnut-Creek-crop-1012x1024.jpg"
 import img2 from "../images/20180502_105406.jpg"
@@ -19,7 +19,7 @@ import {
 import Highcharts from "highcharts"
 import HighchartsReact from "highcharts-react-official"
 import moment from "moment"
-import homeStyles from "../styles/home.module.css"
+import siteStyles from "../styles/site.module.css"
 
 export default ({ data, pageContext }) => {
   const firstAnalyte = pageContext.siteID === "BAX030" ? "Lead" : "Temperature"
@@ -118,7 +118,7 @@ export default ({ data, pageContext }) => {
 
     panes = [
       {
-        menuItem: "Within",
+        menuItem: "Plots",
         render: () => (
           <Tab.Pane attached={false}>
             <div>
@@ -137,20 +137,9 @@ export default ({ data, pageContext }) => {
         ),
       },
       {
-        menuItem: "Between",
-        render: () => <Tab.Pane attached={false}>Tab 2 Content</Tab.Pane>,
-      },
-    ]
-  } else {
-    panes = null
-  }
-
-  return (
-    <Layout>
-      <Container>
-        <Grid>
-          <GridColumn width={6}>
-            <h2>{siteData.name}</h2>
+        menuItem: "Images",
+        render: () => (
+          <Tab.Pane attached={false}>
             <Image src={selectedImage} alt="image"></Image>
             <Divider hidden />
             <Image.Group size="tiny">
@@ -160,30 +149,49 @@ export default ({ data, pageContext }) => {
               <Image src={img4} onClick={() => setImage(img4)} />
             </Image.Group>
             <Divider hidden />
-            <p>
+          </Tab.Pane>
+        ),
+      },
+    ]
+  } else {
+    panes = null
+  }
+
+  const siteOptions = sitesData.sites
+  .map(site => ({
+    key: site.site_id,
+    text: `${site.name} (${site.site_id})`,
+    value: site.site_id
+  }))
+
+  return (
+    <Layout>
+      <Container>
+        <Grid>
+          <GridColumn width={6}>
+            <h2
+              className={siteStyles.siteHeader}
+            >{`${siteData.name} (${siteData.site_id})`}</h2>
+
+            <p className={siteStyles.siteDescription}>
               {siteData.description} Please contact{" "}
               <a href="mailto:helen@thewatershedproject.org">Helen Fitanides</a>{" "}
               if you’d like to join us!
             </p>
-            <div className={homeStyles.links}>
+            <div className={siteStyles.links}>
               <Link to={`/creek/${sitesData.creek_id}`}>
-                Go back to {sitesData.creek_name}
+                Go back to {sitesData.creek_name} overview
               </Link>
             </div>
             <h3>Other Sites on {sitesData.creek_name}</h3>
-            <ul>
-              {sitesData.sites
-                .filter(site => site.site_id !== pageContext.siteID)
-                .map(site => {
-                  return (
-                    <Fragment key={site.site_id}>
-                      <li className={homeStyles.li}>
-                        <Link to={`site/${site.site_id}`}>{site.name}</Link>
-                      </li>
-                    </Fragment>
-                  )
-                })}
-            </ul>
+            <Dropdown
+              placeholder="Select Site"
+              fluid
+              selection
+              defaultValue={siteData.site_id}
+              options={siteOptions}
+              onChange={(e, data) => navigate(`site/${data.value}`)}
+            />
           </GridColumn>
           <GridColumn width={10}>
             {siteWQDataExists ? (
@@ -237,18 +245,3 @@ export const query = graphql`
     }
   }
 `
-
-// allFieldDataJson(filter: { StationCode: { eq: $siteID } }) {
-//   edges {
-//     node {
-//       StationCode
-//       AnalyteName
-//       UnitDescription
-//       UnitName
-//       data {
-//         Result
-//         SampleDate(formatString: "")
-//       }
-//     }
-//   }
-// }
