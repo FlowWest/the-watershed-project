@@ -28,12 +28,26 @@ glimpse(field_results_raw)
 field_results_raw %>% 
   select(StationCode, SampleDate, AnalyteName, UnitName, Result) %>% 
   left_join(analytes) %>% 
-  left_join(units) %>% 
-  left_join(groups) %>% 
-  mutate(AnalyteName = Name) %>%
+  mutate(AnalyteName = Name) %>% 
   select(-Name) %>% 
+  left_join(units) %>% View
+  left_join(groups) %>% View
   group_by(StationCode, AnalyteName, UnitName, UnitDescription, category) %>% 
   nest() %>% 
   toJSON() #%>% 
 # write_json('wq-app-gatsby/src/data/field_data.json')
 
+d <- field_results_raw %>% 
+  select(StationCode, SampleDate, AnalyteName, UnitName, Result) %>% 
+  left_join(analytes) %>% 
+  left_join(units) %>% 
+  left_join(groups) %>% 
+  mutate(AnalyteName = Name) %>%
+  select(-Name) 
+
+d %>% 
+  filter(!is.na(AnalyteName), !is.na(Result)) %>% View
+
+d %>% glimpse()
+d %>% 
+  filter(is.na(Result))

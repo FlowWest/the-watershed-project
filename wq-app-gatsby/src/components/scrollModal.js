@@ -1,16 +1,18 @@
 import React, { Fragment } from "react"
-import { Modal } from "semantic-ui-react"
+import { Modal, Divider } from "semantic-ui-react"
+import modalStyles from "../styles/modal.module.css"
 
 const ScrollModal = props => (
   <Modal closeIcon open={props.isVisible} onClose={props.setVisibility}>
     <Modal.Content>
       <Modal.Description>
-        <h2>{props.category}</h2>
-        <p>{props.description}</p>
+        <h2 className={modalStyles.category}>{props.category}</h2>
+        <p className={modalStyles.categoryDescription}>{props.description}</p>
+        <Divider />
         {props.features.map((feature) => (
             <Fragment>
-              <h3>{feature.name}</h3>
-              <p>{feature.feature_description}</p>
+              <h3 className={modalStyles.feature}>{feature.name}</h3>
+              <p className={modalStyles.description}>{feature.feature_description}</p>
             </Fragment>
           )
         )}
