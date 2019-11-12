@@ -1,0 +1,15 @@
+.Bad {
+  color: red
+}
+
+.Good {
+  color: green
+}
+
+.Marginal {
+  color: yellow
+}
+
+.NA {
+  color: black
+}
