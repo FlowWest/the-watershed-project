@@ -8,13 +8,27 @@ import {
   Image,
   Container,
   Divider,
+  Table,
+  TableHeader,
+  TableRow,
+  TableCell,
+  TableHeaderCell,
+  TableBody,
+  Icon
 } from "semantic-ui-react"
 import Mapbox from "../components/creekMap"
+import creekStyles from "../styles/creek.module.css"
 
 export default ({ data }) => {
   const creekData = data.allCreekSiteJson.edges[0].node
   const ptsNotFlat = data.allCreekSiteJson.edges.map(edge => edge.node.sites)
   const pts = [].concat(...ptsNotFlat)
+  
+  const colorLookUp = {Good: 'green', Marginal: 'yellow', Bad: 'red', NA: 'grey'}
+  const analyteScores = data.allCreekScoresCsv.edges.map(edge => [
+    edge.node.AnalyteName,
+    edge.node.score,
+  ])
 
   return (
     <Layout>
@@ -46,7 +60,25 @@ export default ({ data }) => {
             <p>{creekData.creek_description}</p>
             <div>
               <h4>Creek Report Card</h4>
-              <p>B+</p>
+              <Table celled padded>
+                <TableHeader>
+                  <TableRow>
+                    <TableHeaderCell>Vital Sign</TableHeaderCell>
+                    <TableHeaderCell>Score</TableHeaderCell>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
+                  {analyteScores.map(analyte => (
+                    <TableRow>
+                      <TableCell>{analyte[0]}</TableCell>
+                      <TableCell>
+                        <Icon name="circle" color={colorLookUp[analyte[1]]}></Icon>
+                        {`  ${analyte[1]}`}
+                      </TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
             </div>
           </GridColumn>
         </Grid>
@@ -72,6 +104,15 @@ export const query = graphql`
             lat
             long
           }
+        }
+      }
+    }
+    allCreekScoresCsv(filter: { creek_id: { eq: $creekID } }) {
+      edges {
+        node {
+          creek_id
+          AnalyteName
+          score
         }
       }
     }
