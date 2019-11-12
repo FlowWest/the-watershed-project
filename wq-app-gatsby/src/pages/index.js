@@ -54,7 +54,8 @@ const IndexPage = () => {
     }
   `)
 
-  const pts = data.allCreekSiteJson.edges.map(edge => edge.node.sites).flat()
+  const ptsNotFlat = data.allCreekSiteJson.edges.map(edge => edge.node.sites)
+  const pts = [].concat(...ptsNotFlat)
 
   return (
     <Layout>
