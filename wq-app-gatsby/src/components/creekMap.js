@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import ReactMapGL, { Marker, Popup } from "react-map-gl"
 import mapStyles from "../styles/map.module.css"
 import pin from "../images/marker-stroked-15.svg"
+import { navigate } from "gatsby"
 
 const TOKEN = process.env.MapboxAccessToken
 
@@ -23,13 +24,7 @@ class Mapbox extends Component {
 
   setSelectedSite = site => {
     this.setState({
-      selectedSite: site,
-      viewport: {
-        ...this.state.viewport,
-        latitude: site.lat,
-        longitude: site.long,
-        zoom: 13
-      }
+      selectedSite: site
     })
   }
 
@@ -53,7 +48,8 @@ class Mapbox extends Component {
             <img
               className={mapStyles.locationIcon}
               src={pin}
-              onClick={() => this.setSelectedSite(pt)}
+              onMouseEnter={() => this.setSelectedSite(pt)}
+              onClick={() => navigate(`/site/${pt.site_id}`)}
             ></img>
           </Marker>
         ))}
@@ -65,7 +61,7 @@ class Mapbox extends Component {
             closeOnClick={false}
           >
             <div>
-              <a href={`/site/${this.state.selectedSite.site_id}`}>{this.state.selectedSite.name}</a>
+              <p>{`${this.state.selectedSite.name} (${this.state.selectedSite.site_id})`}</p>
             </div>
           </Popup>
         ) : null}

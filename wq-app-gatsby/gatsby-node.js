@@ -17,6 +17,7 @@ exports.createPages = async function({ actions, graphql }) {
         edges {
           node {
             site_id
+            creek_id
             name
             description
           }
@@ -36,11 +37,12 @@ exports.createPages = async function({ actions, graphql }) {
 
   siteData.data.allSitesJson.edges.forEach(edge => {
     const siteID = edge.node.site_id
+    const creekID = edge.node.creek_id
     const { name, description } = edge.node
     actions.createPage({
       path: `site/${siteID}`,
       component: require.resolve(`./src/templates/site.js`),
-      context: { siteID, name, description },
+      context: { siteID, creekID, name, description },
     })
   })
 }
