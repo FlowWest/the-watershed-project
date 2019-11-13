@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react"
+import React, { useState } from "react"
 import { graphql, Link, navigate } from "gatsby"
 import Layout from "../components/layout"
 import img1 from "../images/Monitoring-Walnut-Creek-crop-1012x1024.jpg"
@@ -34,20 +34,10 @@ export default ({ data, pageContext }) => {
   const siteWQData = data.allFieldDataJson.edges.filter(
     edge => edge.node.StationCode === pageContext.siteID
   )
+
   const siteWQDataExists = siteWQData.length !== 0
 
   let panes
-
-  // TODO - figure out how to have a componentDidMount like function that will grab a analyte that exists at the site
-  // useEffect(() => {
-  //   const siteWQData = data.allFieldDataJson.edges
-  //   const siteWQDataExists = siteWQData.length !== 0
-
-  //   if (siteWQDataExists) {
-  //     const firstAnalyte = siteWQData[0].node.AnalyteName
-  //     setAnalyte(firstAnalyte)
-  //   }
-  // }, [analyte])
 
   const seriesAllSites = data.allFieldDataJson.edges
     .filter(edge => edge.node.AnalyteName === analyte)
