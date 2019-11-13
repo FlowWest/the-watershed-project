@@ -1,15 +1,19 @@
-.Bad {
-  color: red
+.creek-description {
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
 }
 
-.Good {
-  color: green
+.creek-header{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 26px;
 }
 
-.Marginal {
-  color: yellow
+.header2{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
 }
 
-.NA {
-  color: black
+.creek-score {
+  font-family: 'Cabin', sans-serif;
+  font-size: 14px;
 }
