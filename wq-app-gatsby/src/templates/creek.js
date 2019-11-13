@@ -123,6 +123,7 @@ export default ({ data, pageContext }) => {
                     selection
                     options={creekOptions}
                     onChange={(e, data) => navigate(`creek/${data.value}`)}
+                    defaultValue={pageContext.creekID}
                   />
                 </GridColumn>
               </GridRow>
