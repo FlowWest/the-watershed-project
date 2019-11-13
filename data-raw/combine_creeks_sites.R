@@ -13,7 +13,8 @@ creeks_to_sites %>%
   left_join(creeks) %>%
   left_join(creek_lat_longs) %>% 
   left_join(sites) %>%
-  left_join(site_locations) %>%
+  left_join(site_locations) %>% 
+  unique() %>% 
   group_by(creek_name, creek_description, creek_id, creek_lat, creek_long) %>%
   nest(.key = 'sites') %>%
   toJSON()
