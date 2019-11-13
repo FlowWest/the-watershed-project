@@ -48,6 +48,8 @@ export default ({ data, pageContext }) => {
     value: site.site_id,
   }))
 
+  const grade = data.allCreekGradesCsv.edges[0].node.letter_grade
+
   return (
     <Layout>
       <Container>
@@ -69,33 +71,40 @@ export default ({ data, pageContext }) => {
                   <Mapbox
                     pts={pts}
                     height={300}
-                    zoom={11}
+                    zoom={10}
                     lat={creekData.creek_lat}
                     long={creekData.creek_long}
                   />
                 </GridColumn>
               </GridRow>
               <GridRow>
-                <GridColumn width={8}>
+                <GridColumn width={9}>
                   <h3 className={creekStyles.header2}>Creek Report Card</h3>
-                  <Table basic="very" celled collapsing>
-                    <TableBody className={creekStyles.creekScore}>
-                      {analyteScores.map(analyte => (
-                        <TableRow>
-                          <TableCell>{analyte[0]}</TableCell>
-                          <TableCell>
-                            <Icon
-                              name="circle"
-                              color={colorLookUp[analyte[1]]}
-                            ></Icon>
-                            {`  ${analyte[1]}`}
-                          </TableCell>
-                        </TableRow>
-                      ))}
-                    </TableBody>
-                  </Table>
+                  <Grid>
+                    <GridColumn width={10}>
+                      <Table basic="very" celled collapsing>
+                        <TableBody className={creekStyles.creekScore}>
+                          {analyteScores.map(analyte => (
+                            <TableRow>
+                              <TableCell>{analyte[0]}</TableCell>
+                              <TableCell>
+                                <Icon
+                                  name="circle"
+                                  color={colorLookUp[analyte[1]]}
+                                ></Icon>
+                                {`  ${analyte[1]}`}
+                              </TableCell>
+                            </TableRow>
+                          ))}
+                        </TableBody>
+                      </Table>
+                    </GridColumn>
+                    <GridColumn width={6}>
+                      <h2 className={creekStyles.header2}>{`Grade: ${grade}`}</h2>
+                    </GridColumn>
+                  </Grid>
                 </GridColumn>
-                <GridColumn width={8}>
+                <GridColumn width={7}>
                   <h3 className={creekStyles.header2}>
                     Explore Sampling Sites
                   </h3>
@@ -107,9 +116,7 @@ export default ({ data, pageContext }) => {
                     onChange={(e, data) => navigate(`site/${data.value}`)}
                   />
 
-                  <h3 className={creekStyles.header2}>
-                    Explore Other Creeks
-                  </h3>
+                  <h3 className={creekStyles.header2}>Explore Other Creeks</h3>
                   <Dropdown
                     placeholder="Select Creek"
                     fluid
@@ -153,6 +160,14 @@ export const query = graphql`
           creek_id
           AnalyteName
           score
+        }
+      }
+    }
+    allCreekGradesCsv(filter: { creek_id: { eq: $creekID } }) {
+      edges {
+        node {
+          letter_grade
+          grade
         }
       }
     }

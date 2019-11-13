@@ -1,8 +1,8 @@
-creek_id,total,max,grade
-ALH,7,10,0.7
-CEO,7,10,0.7
-MSH,5,8,0.625
-SPA,6,10,0.6
-SUP,6,8,0.75
-WAL,8,10,0.8
-WIL,6,10,0.6
+creek_id,total,max,grade,letter_grade
+ALH,7,10,70,C-
+CEO,7,10,70,C-
+MSH,5,8,62.5,D-
+SPA,6,8,75,C
+SUP,6,8,75,C
+WAL,8,10,80,B-
+WIL,6,8,75,C
