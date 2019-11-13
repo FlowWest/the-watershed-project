@@ -5,7 +5,6 @@
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Heavy Metals",
-    "creek_id": "BAX",
     "data": [
       { "SampleDate": "2018-03-21", "Result": 54 },
       { "SampleDate": "2019-02-08", "Result": 24 },
@@ -18,7 +17,6 @@
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Heavy Metals",
-    "creek_id": "BAX",
     "data": [
       { "SampleDate": "2018-03-21", "Result": 150 },
       { "SampleDate": "2019-02-08", "Result": 11 },
@@ -31,7 +29,6 @@
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Heavy Metals",
-    "creek_id": "BAX",
     "data": [{ "SampleDate": "2018-03-21", "Result": 0.43 }]
   },
   {
@@ -40,7 +37,6 @@
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Heavy Metals",
-    "creek_id": "BAX",
     "data": [
       { "SampleDate": "2018-03-21", "Result": 74 },
       { "SampleDate": "2019-02-08", "Result": 24 },
@@ -53,7 +49,6 @@
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Heavy Metals",
-    "creek_id": "BAX",
     "data": [{ "SampleDate": "2018-03-21", "Result": 230 }]
   },
   {
@@ -62,7 +57,6 @@
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Other Toxics",
-    "creek_id": "BAX",
     "data": [
       { "SampleDate": "2018-03-21", "Result": 250 },
       { "SampleDate": "2019-02-08", "Result": 710 },
@@ -75,7 +69,6 @@
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Other Toxics",
-    "creek_id": "BAX",
     "data": [
       { "SampleDate": "2018-03-21", "Result": 1000 },
       { "SampleDate": "2019-02-08", "Result": 1300 },
@@ -88,7 +81,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 1332 },
       { "SampleDate": "2018-09-14", "Result": 1338 },
@@ -113,7 +105,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 4.53 },
       { "SampleDate": "2018-09-14", "Result": 6.16 },
@@ -138,7 +129,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 16.9 },
       { "SampleDate": "2018-09-14", "Result": 16.4 },
@@ -163,7 +153,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 7.88 },
       { "SampleDate": "2018-09-14", "Result": 7.77 },
@@ -188,7 +177,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 1052 },
       { "SampleDate": "2018-09-14", "Result": 1054 },
@@ -212,7 +200,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 2.65 },
       { "SampleDate": "2018-09-14", "Result": 3.66 },
@@ -236,7 +223,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 17.5 },
       { "SampleDate": "2018-09-14", "Result": 16.9 },
@@ -260,7 +246,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 7.97 },
       { "SampleDate": "2018-09-14", "Result": 7.82 },
@@ -284,7 +269,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 1914 },
       { "SampleDate": "2019-01-11", "Result": 1616 },
@@ -305,7 +289,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 5.55 },
       { "SampleDate": "2019-01-11", "Result": 14.13 },
@@ -326,7 +309,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 17.3 },
       { "SampleDate": "2019-01-11", "Result": 13.8 },
@@ -347,7 +329,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 7.68 },
       { "SampleDate": "2019-01-11", "Result": 7.59 },
@@ -368,7 +349,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 1617 },
       { "SampleDate": "2018-09-14", "Result": 1624 },
@@ -391,7 +371,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 4.77 },
       { "SampleDate": "2018-09-14", "Result": 4.17 },
@@ -413,7 +392,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 16 },
       { "SampleDate": "2018-09-14", "Result": 15.5 },
@@ -436,7 +414,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 7.65 },
       { "SampleDate": "2018-09-14", "Result": 7.56 },
@@ -459,7 +436,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 927 },
       { "SampleDate": "2018-09-14", "Result": 1088 },
@@ -484,7 +460,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 17.7 },
       { "SampleDate": "2018-09-14", "Result": 16.4 },
@@ -509,7 +484,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 7.81 },
       { "SampleDate": "2018-09-14", "Result": 7.63 },
@@ -534,7 +508,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 798 },
       { "SampleDate": "2018-09-14", "Result": 682 },
@@ -559,7 +532,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 7.3 },
       { "SampleDate": "2018-09-14", "Result": 8.63 },
@@ -584,7 +556,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 18.3 },
       { "SampleDate": "2018-09-14", "Result": 16 },
@@ -609,7 +580,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 8.15 },
       { "SampleDate": "2018-09-14", "Result": 8.1 },
@@ -634,7 +604,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 2391 },
       { "SampleDate": "2018-09-14", "Result": 2447 },
@@ -659,7 +628,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 6.93 },
       { "SampleDate": "2018-09-14", "Result": 8.61 },
@@ -684,7 +652,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 16.4 },
       { "SampleDate": "2018-09-14", "Result": 15.7 },
@@ -709,7 +676,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 7.91 },
       { "SampleDate": "2018-09-14", "Result": 8.05 },
@@ -734,7 +700,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 662 },
       { "SampleDate": "2018-09-14", "Result": 607.1 },
@@ -759,7 +724,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 7.78 },
       { "SampleDate": "2018-09-14", "Result": 10.19 },
@@ -784,7 +748,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 16.2 },
       { "SampleDate": "2018-09-14", "Result": 14.9 },
@@ -809,7 +772,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 8.13 },
       { "SampleDate": "2018-09-14", "Result": 8.16 },
@@ -834,7 +796,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 596 },
       { "SampleDate": "2018-09-14", "Result": 609.3 },
@@ -859,7 +820,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 6.63 },
       { "SampleDate": "2018-09-14", "Result": 7.78 },
@@ -884,7 +844,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 15.9 },
       { "SampleDate": "2018-09-14", "Result": 14.3 },
@@ -909,7 +868,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 8.05 },
       { "SampleDate": "2018-09-14", "Result": 8.01 },
@@ -934,7 +892,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 575 },
       { "SampleDate": "2018-09-14", "Result": 568.9 },
@@ -958,7 +915,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 7.46 },
       { "SampleDate": "2018-09-14", "Result": 9.36 },
@@ -982,7 +938,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 15.7 },
       { "SampleDate": "2018-09-14", "Result": 14 },
@@ -1006,7 +961,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 8.04 },
       { "SampleDate": "2018-09-14", "Result": 7.9 },
@@ -1030,7 +984,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 803 },
       { "SampleDate": "2018-09-14", "Result": 709 },
@@ -1055,7 +1008,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 0.13 },
       { "SampleDate": "2018-09-14", "Result": 0.78 },
@@ -1080,7 +1032,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 15.7 },
       { "SampleDate": "2018-09-14", "Result": 14.5 },
@@ -1105,7 +1056,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 7.75 },
       { "SampleDate": "2018-09-14", "Result": 7.14 },
@@ -1130,7 +1080,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SUP",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 958 },
       { "SampleDate": "2018-09-14", "Result": 991 },
@@ -1152,7 +1101,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SUP",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 5.58 },
       { "SampleDate": "2018-09-14", "Result": 6.09 },
@@ -1174,7 +1122,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SUP",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 17.6 },
       { "SampleDate": "2018-09-14", "Result": 17.2 },
@@ -1196,7 +1143,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SUP",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 8.1 },
       { "SampleDate": "2018-09-14", "Result": 7.98 },
@@ -1218,7 +1164,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "ALH",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 1650 },
       { "SampleDate": "2018-09-14", "Result": 1657 },
@@ -1240,7 +1185,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "ALH",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 2.09 },
       { "SampleDate": "2018-09-14", "Result": 3.87 },
@@ -1262,7 +1206,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "ALH",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 16.1 },
       { "SampleDate": "2018-09-14", "Result": 16.1 },
@@ -1284,7 +1227,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "ALH",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 7.81 },
       { "SampleDate": "2018-09-14", "Result": 7.66 },
@@ -1306,7 +1248,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 1363 },
       { "SampleDate": "2018-09-14", "Result": 1408 },
@@ -1331,7 +1272,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 4.99 },
       { "SampleDate": "2018-09-14", "Result": 10.39 },
@@ -1356,7 +1296,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 20 },
       { "SampleDate": "2018-09-14", "Result": 20.6 },
@@ -1381,7 +1320,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 7.9 },
       { "SampleDate": "2018-09-14", "Result": 8.01 },
@@ -1406,7 +1344,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 1307 },
       { "SampleDate": "2018-09-14", "Result": 1384 },
@@ -1431,7 +1368,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 8.71 },
       { "SampleDate": "2018-09-14", "Result": 7.53 },
@@ -1456,7 +1392,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 19.7 },
       { "SampleDate": "2018-09-14", "Result": 19.5 },
@@ -1481,7 +1416,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 8.17 },
       { "SampleDate": "2018-09-14", "Result": 7.91 },
@@ -1506,7 +1440,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 936 },
       { "SampleDate": "2018-09-14", "Result": 931 },
@@ -1531,7 +1464,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 8.83 },
       { "SampleDate": "2018-09-14", "Result": 8.81 },
@@ -1556,7 +1488,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 21 },
       { "SampleDate": "2018-09-14", "Result": 20.5 },
@@ -1581,7 +1512,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 8.38 },
       { "SampleDate": "2018-09-14", "Result": 8.5 },
@@ -1606,7 +1536,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 1067 },
       { "SampleDate": "2018-09-14", "Result": 1086 },
@@ -1631,7 +1560,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 9.3 },
       { "SampleDate": "2018-09-14", "Result": 10.22 },
@@ -1656,7 +1584,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 21.6 },
       { "SampleDate": "2018-09-14", "Result": 20 },
@@ -1681,7 +1608,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 8.32 },
       { "SampleDate": "2018-09-14", "Result": 8.22 },
@@ -1706,7 +1632,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 859 },
       { "SampleDate": "2018-09-14", "Result": 909 },
@@ -1731,7 +1656,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 10.44 },
       { "SampleDate": "2018-09-14", "Result": 7.96 },
@@ -1756,7 +1680,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 19.1 },
       { "SampleDate": "2018-09-14", "Result": 16.8 },
@@ -1781,7 +1704,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 8.15 },
       { "SampleDate": "2018-09-14", "Result": 8.21 },
@@ -1805,7 +1727,6 @@
     "AnalyteName": "Specific Conductivity",
     "UnitName": "mS/cm",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [{ "SampleDate": "2018-08-25", "Result": 1296 }]
   },
   {
@@ -1814,7 +1735,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-08-25", "Result": 1.42 },
       { "SampleDate": "2018-09-26", "Result": 5.03 },
@@ -1835,7 +1755,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-08-25", "Result": 16.12 },
       { "SampleDate": "2018-09-26", "Result": 14.91 },
@@ -1856,7 +1775,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-08-25", "Result": 6.82 },
       { "SampleDate": "2018-09-26", "Result": 7.19 },
@@ -1877,7 +1795,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "ALH",
     "data": [
       { "SampleDate": "2018-09-14", "Result": 2.9 },
       { "SampleDate": "2018-10-12", "Result": 2 },
@@ -1898,7 +1815,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-09-14", "Result": 10.3 },
       { "SampleDate": "2018-10-12", "Result": 6.9 },
@@ -1922,7 +1838,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-09-14", "Result": 4.4 },
       { "SampleDate": "2018-10-12", "Result": 3.7 },
@@ -1946,7 +1861,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-09-14", "Result": 2.2 },
       { "SampleDate": "2018-10-12", "Result": 1.2 },
@@ -1970,7 +1884,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-09-14", "Result": 4.7 },
       { "SampleDate": "2018-10-12", "Result": 3.2 },
@@ -1994,7 +1907,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-09-14", "Result": 3 },
       { "SampleDate": "2018-10-12", "Result": 2.4 },
@@ -2018,7 +1930,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-09-26", "Result": 1433 },
       { "SampleDate": "2018-10-13", "Result": 1512 },
@@ -2094,7 +2005,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "ALH",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 4.3 },
       { "SampleDate": "2018-12-14", "Result": 0.61 },
@@ -2112,7 +2022,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 8.8 },
       { "SampleDate": "2018-12-14", "Result": 9.01 },
@@ -2133,7 +2042,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 8.8 },
       { "SampleDate": "2018-12-14", "Result": 1.1 },
@@ -2154,7 +2062,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 4.16 },
       { "SampleDate": "2018-12-14", "Result": 1.18 },
@@ -2175,7 +2082,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 9.25 },
       { "SampleDate": "2018-12-14", "Result": 10.59 },
@@ -2196,7 +2102,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 2.59 },
       { "SampleDate": "2018-12-14", "Result": 8.99 },
@@ -2216,7 +2121,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 6.29 },
       { "SampleDate": "2018-12-14", "Result": 28.22 },
@@ -2238,7 +2142,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 16.2 },
       { "SampleDate": "2018-12-14", "Result": 15.41 },
@@ -2260,7 +2163,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 25.18 },
       { "SampleDate": "2018-12-14", "Result": 18.78 },
@@ -2282,7 +2184,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 8.56 },
       { "SampleDate": "2018-12-14", "Result": 7.02 },
@@ -2304,7 +2205,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 3.13 },
       { "SampleDate": "2018-12-14", "Result": 2.89 },
@@ -2326,7 +2226,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 1.33 },
       { "SampleDate": "2018-12-14", "Result": 1.89 },
@@ -2348,7 +2247,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SUP",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 7.87 },
       { "SampleDate": "2018-12-14", "Result": 11.75 },
@@ -2367,7 +2265,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 3.94 },
       { "SampleDate": "2018-12-14", "Result": 0.97 },
@@ -2389,7 +2286,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 12.33 },
       { "SampleDate": "2018-12-14", "Result": 4.15 },
@@ -2411,7 +2307,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 13.93 },
       { "SampleDate": "2018-12-14", "Result": 20.75 },
@@ -2433,7 +2328,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 5.93 },
       { "SampleDate": "2018-12-14", "Result": 7.26 },
@@ -2455,7 +2349,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-12", "Result": 2.96 },
       { "SampleDate": "2018-12-14", "Result": 7.25 },
@@ -2477,7 +2370,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-12-08", "Result": 7.7 },
       { "SampleDate": "2019-01-13", "Result": 9.79 },
@@ -2494,7 +2386,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-12-08", "Result": 8.91 },
       { "SampleDate": "2019-01-13", "Result": 11.48 },
@@ -2511,7 +2402,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-12-08", "Result": 1345 },
       { "SampleDate": "2019-01-13", "Result": 1065 },
@@ -2528,7 +2418,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-12-08", "Result": 7.46 },
       { "SampleDate": "2019-01-13", "Result": 8.02 },
@@ -2545,7 +2434,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-01-11", "Result": 3.89 },
       { "SampleDate": "2019-02-22", "Result": 5.84 },
@@ -2565,7 +2453,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-01-11", "Result": 524.9 },
       { "SampleDate": "2019-02-22", "Result": 532.4 },
@@ -2582,7 +2469,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-01-11", "Result": 17.94 },
       { "SampleDate": "2019-02-22", "Result": 14.87 },
@@ -2599,7 +2485,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-01-11", "Result": 10.2 },
       { "SampleDate": "2019-02-22", "Result": 7.3 },
@@ -2616,7 +2501,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-01-11", "Result": 8.31 },
       { "SampleDate": "2019-02-22", "Result": 8.22 },
@@ -2633,7 +2517,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-01-11", "Result": 8.43 },
       { "SampleDate": "2019-02-22", "Result": 7.8 },
@@ -2650,7 +2533,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-01-13", "Result": 10.08 },
       { "SampleDate": "2019-02-16", "Result": 8.21 },
@@ -2666,7 +2548,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-01-13", "Result": 11.07 },
       { "SampleDate": "2019-02-16", "Result": 11.57 },
@@ -2682,7 +2563,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-01-13", "Result": 1107 },
       { "SampleDate": "2019-02-16", "Result": 375 },
@@ -2698,7 +2578,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-01-13", "Result": 7.94 },
       { "SampleDate": "2019-02-16", "Result": 7.74 },
@@ -2714,7 +2593,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-02-22", "Result": 538.8 },
       { "SampleDate": "2019-03-15", "Result": 569.3 },
@@ -2729,7 +2607,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-02-22", "Result": 16.88 },
       { "SampleDate": "2019-03-15", "Result": 14.09 },
@@ -2744,7 +2621,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-02-22", "Result": 7.9 },
       { "SampleDate": "2019-03-15", "Result": 10.3 },
@@ -2759,7 +2635,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-02-22", "Result": 8.33 },
       { "SampleDate": "2019-03-15", "Result": 8.7 },
@@ -2774,7 +2649,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-02-22", "Result": 10.16 },
       { "SampleDate": "2019-03-15", "Result": 2.31 },
@@ -2789,7 +2663,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-03-15", "Result": 578 },
       { "SampleDate": "2019-04-12", "Result": 648 }
@@ -2801,7 +2674,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-03-15", "Result": 13.46 },
       { "SampleDate": "2019-04-12", "Result": 17.67 }
@@ -2813,7 +2685,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-03-15", "Result": 12.9 },
       { "SampleDate": "2019-04-12", "Result": 17.8 }
@@ -2825,7 +2696,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-03-15", "Result": 8.55 },
       { "SampleDate": "2019-04-12", "Result": 8.7 }
@@ -2837,7 +2707,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-03-15", "Result": 19.2 },
       { "SampleDate": "2019-04-12", "Result": 1.06 }
@@ -2849,7 +2718,6 @@
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-04-13", "Result": 10.99 },
       { "SampleDate": "2019-05-11", "Result": 13.87 },
@@ -2862,7 +2730,6 @@
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-04-13", "Result": 11.2 },
       { "SampleDate": "2019-05-11", "Result": 8.96 },
@@ -2875,7 +2742,6 @@
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-04-13", "Result": 745 },
       { "SampleDate": "2019-05-11", "Result": 872 },
@@ -2888,7 +2754,6 @@
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-04-13", "Result": 7.79 },
       { "SampleDate": "2019-05-11", "Result": 7.62 },
@@ -2901,7 +2766,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 3.4 },
       { "SampleDate": "2019-09-17", "Result": 2.5 },
@@ -2914,7 +2778,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 2.1 },
       { "SampleDate": "2019-09-17", "Result": 8 }
@@ -2926,7 +2789,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 1 },
       { "SampleDate": "2019-09-17", "Result": 1.4 },
@@ -2939,7 +2801,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [{ "SampleDate": "2019-08-20", "Result": 8.7 }]
   },
   {
@@ -2948,7 +2809,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 0.4 },
       { "SampleDate": "2019-09-17", "Result": 4.1 },
@@ -2961,7 +2821,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 11.4 },
       { "SampleDate": "2019-09-17", "Result": 18.4 },
@@ -2974,7 +2833,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 3.1 },
       { "SampleDate": "2019-09-17", "Result": 2.6 },
@@ -2987,7 +2845,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 3.3 },
       { "SampleDate": "2019-09-17", "Result": 2 },
@@ -3000,7 +2857,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 5.9 },
       { "SampleDate": "2019-09-17", "Result": 7.1 }
@@ -3012,7 +2868,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 11.3 },
       { "SampleDate": "2019-09-17", "Result": 4.2 },
@@ -3025,7 +2880,6 @@
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 0.3 },
       { "SampleDate": "2019-09-17", "Result": 1.6 },

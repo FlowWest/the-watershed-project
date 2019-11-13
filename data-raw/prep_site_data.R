@@ -151,7 +151,8 @@ scores %>%
 #   flatten_df()
 # 
 # write_rds(grade_scale, 'data-raw/grade_scale.rds')
-grade_scale <- read_rds('data-raw/grade_scale.rds')
+# grade_scale <- read_rds('data-raw/grade_scale.rds')
+# grade_scale
 
 scores %>% 
   group_by(creek_id) %>% 

@@ -45,21 +45,21 @@
     "sites": [
       {
         "site_id": "SPA129",
-        "name": "San Pablo Creek – Castro Creek Tributary",
+        "name": "San Pablo Creek at Castro Creek Tributary",
         "description": "Castro Creek comes out of the east side of a large, concrete culvert nestled between some houses. This site is monitored once a month for temperature, dissolved oxygen, conductivity, pH, and turbidity. The creek flows between two concrete walls before flowing onward into a more natural area. Newts can be spotted here during certain times of the year. We always take volunteers on our monitoring expeditions, where you’ll learn about the equipment we use and do observational assessments. ",
         "lat": 37.9556,
         "long": -122.2702
       },
       {
         "site_id": "SPA110",
-        "name": "San Pablo Creek – Wilkie Creek Tributary",
+        "name": "San Pablo Creek at Wilkie Creek Tributary",
         "description": "Willkie Creek runs through a small park right outside De Anza High School before flowing into two pipes underneath Santa Rita Road. This site is monitored once a month for temperature, dissolved oxygen, conductivity, pH, and turbidity. We also occasionally monitor the site for benthic macroinvertebrates. The creek in this area is dominated by a few large rocks as well as concrete cast to look like sandbags. Grass grows all around this area. We always take volunteers on our monitoring expeditions, where you’ll learn about the equipment we use and do observational assessments. ",
         "lat": 37.9689,
         "long": -122.2905
       },
       {
         "site_id": "SPA108",
-        "name": "San Pablo Creek – Appian Creek Tributary",
+        "name": "San Pablo Creek at Appian Creek Tributary",
         "description": "Appian Creek runs alongside a parking lot and basketball court behind The Boy’s and Girl’s Club on Appian Way. This site is monitored once a month for temperature, dissolved oxygen, conductivity, pH, and turbidity. We also occasionally monitor the site for benthic macroinvertebrates. The south eastern bank of the creek is dominated by dense foliage and tall trees as well as trash. We always take volunteers on our monitoring expeditions, where you’ll learn about the equipment we use and do observational assessments. ",
         "lat": 37.9725,
         "long": -122.3021
@@ -87,7 +87,7 @@
       },
       {
         "site_id": "SPA230",
-        "name": "San Pablo Creek – Caldecott Creek Tributary",
+        "name": "San Pablo Creek at Caldecott Creek Tributary",
         "description": "Caldecott Creek runs directly into San Pablo Creek at this junction located behind the Atma Yoga studio parking area. The creek is lined by medium rocks and large roots belonging to trees. It flows into a large pool which is part of San Pablo Creek.  This site is monitored once a month for temperature, dissolved oxygen, conductivity, pH, and turbidity. We always take volunteers on our monitoring expeditions, where you’ll learn about the equipment we use and do observational assessments. ",
         "lat": 37.8772,
         "long": -122.1821
@@ -101,7 +101,7 @@
       },
       {
         "site_id": "SPA210",
-        "name": "San Pablo Creek – Lauterwasser Creek Tributary",
+        "name": "San Pablo Creek at Lauterwasser Creek Tributary",
         "description": "Lauterwasser Creek runs out from underneath Lombardy Lane and into a small pool carved out from large rocks. The area is populated by lots of foliage including poison oak. This site is monitored once a month for temperature, dissolved oxygen, conductivity, pH, and turbidity. We always take volunteers on our monitoring expeditions, where you’ll learn about the equipment we use and do observational assessments. ",
         "lat": 37.9042,
         "long": -122.1894
@@ -172,6 +172,13 @@
         "description": "Grayson Creek flows north continuing along a wide, open channel before flowing under Chilpancingo Parkway. The areas has some tall grass right next to the creek and animals such as fish, waterfowl and even turtles can be found here. This site is monitored once a month for temperature, dissolved oxygen, conductivity, pH, and turbidity. We always take volunteers on our monitoring expeditions, where you’ll learn about the equipment we use and do observational assessments. ",
         "lat": 37.9751,
         "long": -122.0658
+      },
+      {
+        "site_id": "CEO168",
+        "name": "Grayson Creek at Diablo Valley College",
+        "description": "Grayson Creek flows through the eastern part of Diablo Valley College before going under Golf Club Road. The banks are somewhat steep and covered in grass, and the dominant substrate is mainly mud. This site is monitored once or twice a year for temperature, dissolved oxygen, conductivity, pH, and turbidity, in collaboration with environmental science classes at the college. We always take volunteers on our monitoring expeditions, where you�ll learn about the equipment we use and do observational assessments. ",
+        "lat": 37.9709,
+        "long": -122.067
       }
     ]
   },
