@@ -9,7 +9,14 @@ const Download = () => {
       <Container>
         <SEO title="Download" />
         <h1>Download</h1>
-        <a href="https://the-watershed-project.s3-us-west-2.amazonaws.com/the-watershed-project-water-quality-data.xlsx">Download Water Quality Data</a>
+        <p>
+          If you’d like to take a look at our data in its raw form, you can
+          download it{" "}
+          <a href="https://the-watershed-project.s3-us-west-2.amazonaws.com/the-watershed-project-water-quality-data.xlsx">
+            here
+          </a>
+          .
+        </p>
       </Container>
     </Layout>
   )
