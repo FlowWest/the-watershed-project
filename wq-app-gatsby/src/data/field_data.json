@@ -1,5 +1,6 @@
 [
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Copper",
     "UnitName": "ug/L",
@@ -12,6 +13,7 @@
     ]
   },
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Lead",
     "UnitName": "ug/L",
@@ -24,6 +26,7 @@
     ]
   },
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Mercury",
     "UnitName": "ug/L",
@@ -32,6 +35,7 @@
     "data": [{ "SampleDate": "2018-03-21", "Result": 0.43 }]
   },
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Nickel",
     "UnitName": "ug/L",
@@ -44,6 +48,7 @@
     ]
   },
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Zinc",
     "UnitName": "ug/L",
@@ -52,6 +57,7 @@
     "data": [{ "SampleDate": "2018-03-21", "Result": 230 }]
   },
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Diesel Fuel",
     "UnitName": "ug/L",
@@ -64,6 +70,7 @@
     ]
   },
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Motor Oil",
     "UnitName": "ug/L",
@@ -76,6 +83,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA103",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -100,6 +108,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA103",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -124,6 +133,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA103",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -148,6 +158,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA103",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -172,6 +183,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA108",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -195,6 +207,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA108",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -218,6 +231,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA108",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -241,6 +255,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA108",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -264,6 +279,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA110",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -284,6 +300,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA110",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -304,6 +321,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA110",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -324,6 +342,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA110",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -344,6 +363,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA129",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -366,6 +386,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA129",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -387,6 +408,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA129",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -409,6 +431,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA129",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -431,6 +454,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL070",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -455,6 +479,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL070",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -479,6 +504,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL070",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -503,6 +529,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA180",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -527,6 +554,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA180",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -551,6 +579,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA180",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -575,6 +604,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA180",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -599,6 +629,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA210",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -623,6 +654,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA210",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -647,6 +679,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA210",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -671,6 +704,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA210",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -695,6 +729,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA230",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -719,6 +754,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA230",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -743,6 +779,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA230",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -767,6 +804,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA230",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -791,6 +829,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA231",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -815,6 +854,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA231",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -839,6 +879,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA231",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -863,6 +904,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA231",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -887,6 +929,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA250",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -910,6 +953,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA250",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -933,6 +977,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA250",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -956,6 +1001,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA250",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -979,6 +1025,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA260",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -1003,6 +1050,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA260",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -1027,6 +1075,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA260",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -1051,6 +1100,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA260",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -1075,6 +1125,7 @@
     ]
   },
   {
+    "creek_id": "SUP",
     "StationCode": "SUP030",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -1096,6 +1147,7 @@
     ]
   },
   {
+    "creek_id": "SUP",
     "StationCode": "SUP030",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -1117,6 +1169,7 @@
     ]
   },
   {
+    "creek_id": "SUP",
     "StationCode": "SUP030",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -1138,6 +1191,7 @@
     ]
   },
   {
+    "creek_id": "SUP",
     "StationCode": "SUP030",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -1159,6 +1213,7 @@
     ]
   },
   {
+    "creek_id": "ALH",
     "StationCode": "ALH110",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -1180,6 +1235,7 @@
     ]
   },
   {
+    "creek_id": "ALH",
     "StationCode": "ALH110",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -1201,6 +1257,7 @@
     ]
   },
   {
+    "creek_id": "ALH",
     "StationCode": "ALH110",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -1222,6 +1279,7 @@
     ]
   },
   {
+    "creek_id": "ALH",
     "StationCode": "ALH110",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -1243,6 +1301,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO160",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -1267,6 +1326,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO160",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -1291,6 +1351,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO160",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -1315,6 +1376,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO160",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -1339,6 +1401,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO166",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -1363,6 +1426,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO166",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -1387,6 +1451,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO166",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -1411,6 +1476,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO166",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -1435,6 +1501,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO170",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -1459,6 +1526,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO170",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -1483,6 +1551,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO170",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -1507,6 +1576,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO170",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -1531,6 +1601,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL045",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -1555,6 +1626,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL045",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -1579,6 +1651,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL045",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -1603,6 +1676,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL045",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -1627,6 +1701,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL080",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -1651,6 +1726,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL080",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -1675,6 +1751,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL080",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -1699,6 +1776,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL080",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -1723,6 +1801,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH120",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "mS/cm",
@@ -1730,6 +1809,7 @@
     "data": [{ "SampleDate": "2018-08-25", "Result": 1296 }]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH120",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -1750,6 +1830,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH120",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -1770,6 +1851,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH120",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -1790,6 +1872,7 @@
     ]
   },
   {
+    "creek_id": "ALH",
     "StationCode": "ALH110",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -1810,6 +1893,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO160",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -1833,6 +1917,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO166",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -1856,6 +1941,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO170",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -1879,6 +1965,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL045",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -1902,6 +1989,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL080",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -1925,6 +2013,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH120",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -1944,6 +2033,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO168",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -1956,6 +2046,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO168",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -1968,6 +2059,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO168",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -1980,6 +2072,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO168",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -1992,6 +2085,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO168",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -2000,6 +2094,7 @@
     "data": [{ "SampleDate": "2018-11-06", "Result": 5.8 }]
   },
   {
+    "creek_id": "ALH",
     "StationCode": "ALH110",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2017,6 +2112,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO160",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2037,6 +2133,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO166",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2057,6 +2154,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO170",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2077,6 +2175,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA108",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2097,6 +2196,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA129",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2116,6 +2216,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA180",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2137,6 +2238,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA210",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2158,6 +2260,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA230",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2179,6 +2282,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA231",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2200,6 +2304,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA250",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2221,6 +2326,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA260",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2242,6 +2348,7 @@
     ]
   },
   {
+    "creek_id": "SUP",
     "StationCode": "SUP030",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2260,6 +2367,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL045",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2281,6 +2389,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL080",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2302,6 +2411,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL070",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -2323,6 +2433,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL070",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2344,6 +2455,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA103",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2365,6 +2477,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH100",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -2381,6 +2494,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH100",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -2397,6 +2511,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH100",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -2413,6 +2528,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH100",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -2429,6 +2545,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA110",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2448,6 +2565,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL060",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -2464,6 +2582,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL060",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -2480,6 +2599,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL060",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -2496,6 +2616,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL060",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -2512,6 +2633,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL060",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2528,6 +2650,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH090",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -2543,6 +2666,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH090",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -2558,6 +2682,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH090",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -2573,6 +2698,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH090",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -2588,6 +2714,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL050",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -2602,6 +2729,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL050",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -2616,6 +2744,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL050",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -2630,6 +2759,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL050",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -2644,6 +2774,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL050",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2658,6 +2789,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL040",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -2669,6 +2801,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL040",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -2680,6 +2813,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL040",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -2691,6 +2825,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL040",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -2702,6 +2837,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL040",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
@@ -2713,6 +2849,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH110",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -2725,6 +2862,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH110",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -2737,6 +2875,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH110",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -2749,6 +2888,7 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH110",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -2761,6 +2901,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA103",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -2773,6 +2914,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA108",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -2784,6 +2926,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA110",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -2796,6 +2939,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA129",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -2804,6 +2948,7 @@
     "data": [{ "SampleDate": "2019-08-20", "Result": 8.7 }]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA180",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -2816,6 +2961,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA210",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -2828,6 +2974,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA230",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -2840,6 +2987,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA231",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -2852,6 +3000,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA250",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -2863,6 +3012,7 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA260",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -2875,6 +3025,7 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL070",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",

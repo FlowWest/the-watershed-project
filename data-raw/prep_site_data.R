@@ -33,11 +33,12 @@ field_results_raw %>%
   select(StationCode, SampleDate, AnalyteName, UnitName, Result) %>% 
   left_join(analytes) %>% 
   mutate(AnalyteName = Name) %>% 
+  left_join(creeks_to_stations) %>% 
   select(-Name) %>% 
   left_join(units) %>% 
   left_join(groups) %>% 
   filter(!is.na(AnalyteName), !is.na(Result)) %>% 
-  group_by(StationCode, AnalyteName, UnitName, UnitDescription, category) %>% 
+  group_by(creek_id, StationCode, AnalyteName, UnitName, UnitDescription, category) %>% 
   nest() %>% 
   toJSON() #%>% 
 # write_json('wq-app-gatsby/src/data/field_data.json')
