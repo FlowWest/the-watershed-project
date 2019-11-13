@@ -19,10 +19,17 @@ import {
 import Mapbox from "../components/creekMap"
 import creekStyles from "../styles/creek.module.css"
 
-export default ({ data }) => {
-  const creekData = data.allCreekSiteJson.edges[0].node
-  const ptsNotFlat = data.allCreekSiteJson.edges.map(edge => edge.node.sites)
-  const pts = [].concat(...ptsNotFlat)
+export default ({ data, pageContext }) => {
+  const creekData = data.allCreekSiteJson.edges.filter(
+    edge => edge.node.creek_id === pageContext.creekID
+  )[0].node
+  const creekOptions = data.allCreekSiteJson.edges.map(edge => ({
+    key: edge.node.creek_id,
+    text: edge.node.creek_name,
+    value: edge.node.creek_id,
+  }))
+
+  const pts = [].concat(...creekData.sites)
 
   const colorLookUp = {
     Good: "green",
@@ -99,6 +106,17 @@ export default ({ data }) => {
                     options={siteOptions}
                     onChange={(e, data) => navigate(`site/${data.value}`)}
                   />
+
+                  <h3 className={creekStyles.header2}>
+                    Explore Other Creeks
+                  </h3>
+                  <Dropdown
+                    placeholder="Select Creek"
+                    fluid
+                    selection
+                    options={creekOptions}
+                    onChange={(e, data) => navigate(`creek/${data.value}`)}
+                  />
                 </GridColumn>
               </GridRow>
             </Grid>
@@ -111,7 +129,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query($creekID: String!) {
-    allCreekSiteJson(filter: { creek_id: { eq: $creekID } }) {
+    allCreekSiteJson {
       edges {
         node {
           creek_name
