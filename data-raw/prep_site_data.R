@@ -42,7 +42,7 @@ field_results_raw %>%
   toJSON() #%>% 
 # write_json('wq-app-gatsby/src/data/field_data.json')
 
-d <- field_results_raw %>% 
+field_results <- field_results_raw %>% 
   select(StationCode, SampleDate, AnalyteName, UnitName, Result) %>% 
   left_join(analytes) %>% 
   left_join(creeks_to_stations) %>% 
@@ -52,57 +52,58 @@ d <- field_results_raw %>%
   left_join(groups) %>% 
   filter(!is.na(AnalyteName), !is.na(Result))
 
-d %>% 
+field_results %>% 
   group_by(StationCode, AnalyteName) %>% 
   summarise(count= n()) %>% 
   spread(AnalyteName, count) %>% View
 
-unique(d$AnalyteName)
+unique(field_results$AnalyteName)
 
-d %>%
+# thresholds
+field_results %>% 
   filter(AnalyteName == 'Specific Conductivity') %>% 
   mutate(yup = between(Result, 150, 500)) %>% 
   summarise(mean(yup))
 
-d %>%
+field_results %>% 
   filter(AnalyteName == 'pH') %>% 
   mutate(yup = between(Result, 6.5, 9)) %>% 
   summarise(mean(yup))
 
-d %>%
+field_results %>% 
   filter(AnalyteName == 'Dissolved Oxygen') %>% 
   mutate(yup = Result > 5) %>% 
   summarise(mean(yup))
 
-d %>%
+field_results %>% 
   filter(AnalyteName == 'Turbidity') %>% 
   mutate(yup = Result < 10) %>%
   summarise(mean(yup))
 
-d %>%
+field_results %>% 
   filter(AnalyteName == 'Nitrate') %>% 
   mutate(yup = Result < .5) %>% 
   summarise(mean(yup))
 
-d %>%
+field_results %>% 
   filter(AnalyteName == 'Copper') %>% 
   mutate(yup = Result < 13) %>% 
   summarise(mean(yup))
 
-d %>%
+field_results %>% 
   filter(AnalyteName == 'Lead') %>% 
   mutate(yup = Result < 65) %>% 
   summarise(mean(yup))
 
-d %>%
+field_results %>% 
   filter(AnalyteName == 'Mercury') %>% 
   mutate(yup = between(Result, .77, 1.4)) %>% 
   summarise(mean(yup))
 
-d %>% 
+field_results %>% 
   filter(AnalyteName == 'Diesel Fuel') 
 
-d %>% 
+field_results %>% 
   group_by(creek_id, StationCode, AnalyteName) %>% 
   summarise(count = n()) %>% 
   spread(AnalyteName, count) %>% View
@@ -111,12 +112,65 @@ filter(AnalyteName == 'pH') %>%
   summarise(mean(yup))
 
 
-d %>% 
+# score-----
+score_lu <- 0:2
+names(score_lu) <- c('Bad', 'Marginal', 'Good')
+
+scores <- field_results %>% 
+  filter(AnalyteName %in% c('Specific Conductivity', 'pH', 'Dissolved Oxygen', 'Temperature', 'Turbidity')) %>% 
   mutate(acceptable = case_when(
     AnalyteName == 'Specific Conductivity' & between(Result, 150, 500) ~ TRUE,
-    AnalyteName == 'pH' & (Result < 6.5 | Result < 9) ~ TRUE,
-    AnalyteName == 'Dissolved Oxygen' & Result < 5 ~ TRUE,
+    AnalyteName == 'pH' & between(Result, 6.5, 9) ~ TRUE,
+    AnalyteName == 'Dissolved Oxygen' & Result > 5 ~ TRUE,
     AnalyteName == 'Temperature' & Result < 24 ~ TRUE,
-    AnalyteName == 'Turbidity' & Result < 10 ~ TRUE
-  ))
+    AnalyteName == 'Turbidity' & Result < 10 ~ TRUE,
+    TRUE ~ as.logical(FALSE)
+  )) %>% 
+  group_by(creek_id, AnalyteName) %>% 
+  summarise(
+    observations = n(), 
+    num_stations = n_distinct(StationCode),
+    obv_ratio = observations / num_stations,
+    prop_acceptable = mean(acceptable), 
+    score = case_when(
+      obv_ratio > 5 & prop_acceptable >= .9 ~ 'Good',
+      obv_ratio > 5 & prop_acceptable < .9 & prop_acceptable >= .5 ~ 'Marginal',
+      obv_ratio > 5 & prop_acceptable < .5 ~ 'Bad',
+      TRUE ~ as.character(NA)
+    ),
+    score_2 = score_lu[score],
+    min_date = min(SampleDate), max_datae = max(SampleDate)) 
+
+scores %>% 
+  write_csv('wq-app-gatsby/src/data/creek_scores.csv')
+
+
+# library(rvest)
+# grade_scale <- read_html("http://ixd.ucsd.edu/home/f16/grading-scale.html") %>% 
+#   html_table(header = TRUE) %>% 
+#   flatten_df()
+# 
+# write_rds(grade_scale, 'data-raw/grade_scale.rds')
+grade_scale <- read_rds('data-raw/grade_scale.rds')
+
+scores %>% 
+  group_by(creek_id) %>% 
+  filter(!is.na(score)) %>% 
+  summarise(total = sum(score_2, na.rm = TRUE), max = n()*2, grade = total/max * 100) %>% 
+  mutate(letter_grade = case_when(
+    between(grade, 97, 100) ~ 'A+',
+    between(grade, 93, 97) ~ 'A',
+    between(grade, 90, 93) ~ 'A-',
+    between(grade, 87, 90) ~ 'B+',
+    between(grade, 83, 87) ~ 'B',
+    between(grade, 80, 83) ~ 'B-',
+    between(grade, 77, 80) ~ 'C+',
+    between(grade, 73, 77) ~ 'C',
+    between(grade, 70, 73) ~ 'C-',
+    between(grade, 67, 70) ~ 'D+',
+    between(grade, 63, 67) ~ 'D',
+    between(grade, 60, 63) ~ 'D-',
+    grade < 60 ~ 'F'
+  )) %>% 
+  write_csv('wq-app-gatsby/src/data/creek_grades.csv')
 
