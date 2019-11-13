@@ -1,11 +1,11 @@
 [
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Copper",
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Heavy Metals",
-    "creek_id": "BAX",
     "data": [
       { "SampleDate": "2018-03-21", "Result": 54 },
       { "SampleDate": "2019-02-08", "Result": 24 },
@@ -13,12 +13,12 @@
     ]
   },
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Lead",
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Heavy Metals",
-    "creek_id": "BAX",
     "data": [
       { "SampleDate": "2018-03-21", "Result": 150 },
       { "SampleDate": "2019-02-08", "Result": 11 },
@@ -26,21 +26,21 @@
     ]
   },
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Mercury",
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Heavy Metals",
-    "creek_id": "BAX",
     "data": [{ "SampleDate": "2018-03-21", "Result": 0.43 }]
   },
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Nickel",
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Heavy Metals",
-    "creek_id": "BAX",
     "data": [
       { "SampleDate": "2018-03-21", "Result": 74 },
       { "SampleDate": "2019-02-08", "Result": 24 },
@@ -48,21 +48,21 @@
     ]
   },
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Zinc",
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Heavy Metals",
-    "creek_id": "BAX",
     "data": [{ "SampleDate": "2018-03-21", "Result": 230 }]
   },
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Diesel Fuel",
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Other Toxics",
-    "creek_id": "BAX",
     "data": [
       { "SampleDate": "2018-03-21", "Result": 250 },
       { "SampleDate": "2019-02-08", "Result": 710 },
@@ -70,12 +70,12 @@
     ]
   },
   {
+    "creek_id": "BAX",
     "StationCode": "BAX030",
     "AnalyteName": "Motor Oil",
     "UnitName": "ug/L",
     "UnitDescription": "micrograms per liter",
     "category": "Other Toxics",
-    "creek_id": "BAX",
     "data": [
       { "SampleDate": "2018-03-21", "Result": 1000 },
       { "SampleDate": "2019-02-08", "Result": 1300 },
@@ -83,12 +83,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA103",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 1332 },
       { "SampleDate": "2018-09-14", "Result": 1338 },
@@ -108,12 +108,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA103",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 4.53 },
       { "SampleDate": "2018-09-14", "Result": 6.16 },
@@ -133,12 +133,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA103",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 16.9 },
       { "SampleDate": "2018-09-14", "Result": 16.4 },
@@ -158,12 +158,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA103",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 7.88 },
       { "SampleDate": "2018-09-14", "Result": 7.77 },
@@ -183,12 +183,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA108",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 1052 },
       { "SampleDate": "2018-09-14", "Result": 1054 },
@@ -207,12 +207,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA108",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 2.65 },
       { "SampleDate": "2018-09-14", "Result": 3.66 },
@@ -231,12 +231,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA108",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 17.5 },
       { "SampleDate": "2018-09-14", "Result": 16.9 },
@@ -255,12 +255,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA108",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 7.97 },
       { "SampleDate": "2018-09-14", "Result": 7.82 },
@@ -279,12 +279,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA110",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 1914 },
       { "SampleDate": "2019-01-11", "Result": 1616 },
@@ -300,12 +300,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA110",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 5.55 },
       { "SampleDate": "2019-01-11", "Result": 14.13 },
@@ -321,12 +321,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA110",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 17.3 },
       { "SampleDate": "2019-01-11", "Result": 13.8 },
@@ -342,12 +342,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA110",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 7.68 },
       { "SampleDate": "2019-01-11", "Result": 7.59 },
@@ -363,12 +363,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA129",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 1617 },
       { "SampleDate": "2018-09-14", "Result": 1624 },
@@ -386,12 +386,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA129",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 4.77 },
       { "SampleDate": "2018-09-14", "Result": 4.17 },
@@ -408,12 +408,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA129",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 16 },
       { "SampleDate": "2018-09-14", "Result": 15.5 },
@@ -431,12 +431,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA129",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 7.65 },
       { "SampleDate": "2018-09-14", "Result": 7.56 },
@@ -454,12 +454,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL070",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 927 },
       { "SampleDate": "2018-09-14", "Result": 1088 },
@@ -479,12 +479,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL070",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 17.7 },
       { "SampleDate": "2018-09-14", "Result": 16.4 },
@@ -504,12 +504,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL070",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2018-08-16", "Result": 7.81 },
       { "SampleDate": "2018-09-14", "Result": 7.63 },
@@ -529,12 +529,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA180",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 798 },
       { "SampleDate": "2018-09-14", "Result": 682 },
@@ -554,12 +554,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA180",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 7.3 },
       { "SampleDate": "2018-09-14", "Result": 8.63 },
@@ -579,12 +579,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA180",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 18.3 },
       { "SampleDate": "2018-09-14", "Result": 16 },
@@ -604,12 +604,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA180",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 8.15 },
       { "SampleDate": "2018-09-14", "Result": 8.1 },
@@ -629,12 +629,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA210",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 2391 },
       { "SampleDate": "2018-09-14", "Result": 2447 },
@@ -654,12 +654,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA210",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 6.93 },
       { "SampleDate": "2018-09-14", "Result": 8.61 },
@@ -679,12 +679,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA210",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 16.4 },
       { "SampleDate": "2018-09-14", "Result": 15.7 },
@@ -704,12 +704,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA210",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 7.91 },
       { "SampleDate": "2018-09-14", "Result": 8.05 },
@@ -729,12 +729,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA230",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 662 },
       { "SampleDate": "2018-09-14", "Result": 607.1 },
@@ -754,12 +754,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA230",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 7.78 },
       { "SampleDate": "2018-09-14", "Result": 10.19 },
@@ -779,12 +779,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA230",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 16.2 },
       { "SampleDate": "2018-09-14", "Result": 14.9 },
@@ -804,12 +804,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA230",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 8.13 },
       { "SampleDate": "2018-09-14", "Result": 8.16 },
@@ -829,12 +829,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA231",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 596 },
       { "SampleDate": "2018-09-14", "Result": 609.3 },
@@ -854,12 +854,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA231",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 6.63 },
       { "SampleDate": "2018-09-14", "Result": 7.78 },
@@ -879,12 +879,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA231",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 15.9 },
       { "SampleDate": "2018-09-14", "Result": 14.3 },
@@ -904,12 +904,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA231",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 8.05 },
       { "SampleDate": "2018-09-14", "Result": 8.01 },
@@ -929,12 +929,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA250",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 575 },
       { "SampleDate": "2018-09-14", "Result": 568.9 },
@@ -953,12 +953,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA250",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 7.46 },
       { "SampleDate": "2018-09-14", "Result": 9.36 },
@@ -977,12 +977,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA250",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 15.7 },
       { "SampleDate": "2018-09-14", "Result": 14 },
@@ -1001,12 +1001,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA250",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 8.04 },
       { "SampleDate": "2018-09-14", "Result": 7.9 },
@@ -1025,12 +1025,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA260",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 803 },
       { "SampleDate": "2018-09-14", "Result": 709 },
@@ -1050,12 +1050,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA260",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 0.13 },
       { "SampleDate": "2018-09-14", "Result": 0.78 },
@@ -1075,12 +1075,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA260",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 15.7 },
       { "SampleDate": "2018-09-14", "Result": 14.5 },
@@ -1100,12 +1100,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA260",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 7.75 },
       { "SampleDate": "2018-09-14", "Result": 7.14 },
@@ -1125,12 +1125,12 @@
     ]
   },
   {
+    "creek_id": "SUP",
     "StationCode": "SUP030",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "SUP",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 958 },
       { "SampleDate": "2018-09-14", "Result": 991 },
@@ -1147,12 +1147,12 @@
     ]
   },
   {
+    "creek_id": "SUP",
     "StationCode": "SUP030",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "SUP",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 5.58 },
       { "SampleDate": "2018-09-14", "Result": 6.09 },
@@ -1169,12 +1169,12 @@
     ]
   },
   {
+    "creek_id": "SUP",
     "StationCode": "SUP030",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "SUP",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 17.6 },
       { "SampleDate": "2018-09-14", "Result": 17.2 },
@@ -1191,12 +1191,12 @@
     ]
   },
   {
+    "creek_id": "SUP",
     "StationCode": "SUP030",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "SUP",
     "data": [
       { "SampleDate": "2018-08-17", "Result": 8.1 },
       { "SampleDate": "2018-09-14", "Result": 7.98 },
@@ -1213,12 +1213,12 @@
     ]
   },
   {
+    "creek_id": "ALH",
     "StationCode": "ALH110",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "ALH",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 1650 },
       { "SampleDate": "2018-09-14", "Result": 1657 },
@@ -1235,12 +1235,12 @@
     ]
   },
   {
+    "creek_id": "ALH",
     "StationCode": "ALH110",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "ALH",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 2.09 },
       { "SampleDate": "2018-09-14", "Result": 3.87 },
@@ -1257,12 +1257,12 @@
     ]
   },
   {
+    "creek_id": "ALH",
     "StationCode": "ALH110",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "ALH",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 16.1 },
       { "SampleDate": "2018-09-14", "Result": 16.1 },
@@ -1279,12 +1279,12 @@
     ]
   },
   {
+    "creek_id": "ALH",
     "StationCode": "ALH110",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "ALH",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 7.81 },
       { "SampleDate": "2018-09-14", "Result": 7.66 },
@@ -1301,12 +1301,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO160",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 1363 },
       { "SampleDate": "2018-09-14", "Result": 1408 },
@@ -1326,12 +1326,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO160",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 4.99 },
       { "SampleDate": "2018-09-14", "Result": 10.39 },
@@ -1351,12 +1351,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO160",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 20 },
       { "SampleDate": "2018-09-14", "Result": 20.6 },
@@ -1376,12 +1376,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO160",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 7.9 },
       { "SampleDate": "2018-09-14", "Result": 8.01 },
@@ -1401,12 +1401,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO166",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 1307 },
       { "SampleDate": "2018-09-14", "Result": 1384 },
@@ -1426,12 +1426,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO166",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 8.71 },
       { "SampleDate": "2018-09-14", "Result": 7.53 },
@@ -1451,12 +1451,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO166",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 19.7 },
       { "SampleDate": "2018-09-14", "Result": 19.5 },
@@ -1476,12 +1476,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO166",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 8.17 },
       { "SampleDate": "2018-09-14", "Result": 7.91 },
@@ -1501,12 +1501,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO170",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 936 },
       { "SampleDate": "2018-09-14", "Result": 931 },
@@ -1526,12 +1526,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO170",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 8.83 },
       { "SampleDate": "2018-09-14", "Result": 8.81 },
@@ -1551,12 +1551,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO170",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 21 },
       { "SampleDate": "2018-09-14", "Result": 20.5 },
@@ -1576,12 +1576,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO170",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 8.38 },
       { "SampleDate": "2018-09-14", "Result": 8.5 },
@@ -1601,12 +1601,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL045",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 1067 },
       { "SampleDate": "2018-09-14", "Result": 1086 },
@@ -1626,12 +1626,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL045",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 9.3 },
       { "SampleDate": "2018-09-14", "Result": 10.22 },
@@ -1651,12 +1651,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL045",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 21.6 },
       { "SampleDate": "2018-09-14", "Result": 20 },
@@ -1676,12 +1676,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL045",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 8.32 },
       { "SampleDate": "2018-09-14", "Result": 8.22 },
@@ -1701,12 +1701,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL080",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 859 },
       { "SampleDate": "2018-09-14", "Result": 909 },
@@ -1726,12 +1726,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL080",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 10.44 },
       { "SampleDate": "2018-09-14", "Result": 7.96 },
@@ -1751,12 +1751,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL080",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 19.1 },
       { "SampleDate": "2018-09-14", "Result": 16.8 },
@@ -1776,12 +1776,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL080",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-08-24", "Result": 8.15 },
       { "SampleDate": "2018-09-14", "Result": 8.21 },
@@ -1801,20 +1801,20 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH120",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "mS/cm",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [{ "SampleDate": "2018-08-25", "Result": 1296 }]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH120",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-08-25", "Result": 1.42 },
       { "SampleDate": "2018-09-26", "Result": 5.03 },
@@ -1830,12 +1830,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH120",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-08-25", "Result": 16.12 },
       { "SampleDate": "2018-09-26", "Result": 14.91 },
@@ -1851,12 +1851,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH120",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-08-25", "Result": 6.82 },
       { "SampleDate": "2018-09-26", "Result": 7.19 },
@@ -1872,12 +1872,12 @@
     ]
   },
   {
+    "creek_id": "ALH",
     "StationCode": "ALH110",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "ALH",
     "data": [
       { "SampleDate": "2018-09-14", "Result": 2.9 },
       { "SampleDate": "2018-10-12", "Result": 2 },
@@ -1893,12 +1893,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO160",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-09-14", "Result": 10.3 },
       { "SampleDate": "2018-10-12", "Result": 6.9 },
@@ -1917,12 +1917,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO166",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-09-14", "Result": 4.4 },
       { "SampleDate": "2018-10-12", "Result": 3.7 },
@@ -1941,12 +1941,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO170",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-09-14", "Result": 2.2 },
       { "SampleDate": "2018-10-12", "Result": 1.2 },
@@ -1965,12 +1965,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL045",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-09-14", "Result": 4.7 },
       { "SampleDate": "2018-10-12", "Result": 3.2 },
@@ -1989,12 +1989,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL080",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-09-14", "Result": 3 },
       { "SampleDate": "2018-10-12", "Result": 2.4 },
@@ -2013,12 +2013,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH120",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-09-26", "Result": 1433 },
       { "SampleDate": "2018-10-13", "Result": 1512 },
@@ -2033,6 +2033,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO168",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
@@ -2045,6 +2046,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO168",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
@@ -2057,6 +2059,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO168",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
@@ -2069,6 +2072,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO168",
     "AnalyteName": "pH",
     "UnitName": "none",
@@ -2081,6 +2085,7 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO168",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
@@ -2089,12 +2094,12 @@
     "data": [{ "SampleDate": "2018-11-06", "Result": 5.8 }]
   },
   {
+    "creek_id": "ALH",
     "StationCode": "ALH110",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "ALH",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 4.3 },
       { "SampleDate": "2018-12-14", "Result": 0.61 },
@@ -2107,12 +2112,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO160",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 8.8 },
       { "SampleDate": "2018-12-14", "Result": 9.01 },
@@ -2128,12 +2133,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO166",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 8.8 },
       { "SampleDate": "2018-12-14", "Result": 1.1 },
@@ -2149,12 +2154,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "CEO170",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 4.16 },
       { "SampleDate": "2018-12-14", "Result": 1.18 },
@@ -2170,12 +2175,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA108",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 9.25 },
       { "SampleDate": "2018-12-14", "Result": 10.59 },
@@ -2191,12 +2196,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA129",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 2.59 },
       { "SampleDate": "2018-12-14", "Result": 8.99 },
@@ -2211,12 +2216,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA180",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 6.29 },
       { "SampleDate": "2018-12-14", "Result": 28.22 },
@@ -2233,12 +2238,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA210",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 16.2 },
       { "SampleDate": "2018-12-14", "Result": 15.41 },
@@ -2255,12 +2260,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA230",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 25.18 },
       { "SampleDate": "2018-12-14", "Result": 18.78 },
@@ -2277,12 +2282,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA231",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 8.56 },
       { "SampleDate": "2018-12-14", "Result": 7.02 },
@@ -2299,12 +2304,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA250",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 3.13 },
       { "SampleDate": "2018-12-14", "Result": 2.89 },
@@ -2321,12 +2326,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA260",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 1.33 },
       { "SampleDate": "2018-12-14", "Result": 1.89 },
@@ -2343,12 +2348,12 @@
     ]
   },
   {
+    "creek_id": "SUP",
     "StationCode": "SUP030",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SUP",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 7.87 },
       { "SampleDate": "2018-12-14", "Result": 11.75 },
@@ -2362,12 +2367,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL045",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 3.94 },
       { "SampleDate": "2018-12-14", "Result": 0.97 },
@@ -2384,12 +2389,12 @@
     ]
   },
   {
+    "creek_id": "WAL",
     "StationCode": "WAL080",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WAL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 12.33 },
       { "SampleDate": "2018-12-14", "Result": 4.15 },
@@ -2406,12 +2411,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL070",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 13.93 },
       { "SampleDate": "2018-12-14", "Result": 20.75 },
@@ -2428,12 +2433,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL070",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2018-11-09", "Result": 5.93 },
       { "SampleDate": "2018-12-14", "Result": 7.26 },
@@ -2450,12 +2455,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA103",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2018-11-12", "Result": 2.96 },
       { "SampleDate": "2018-12-14", "Result": 7.25 },
@@ -2472,12 +2477,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH100",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-12-08", "Result": 7.7 },
       { "SampleDate": "2019-01-13", "Result": 9.79 },
@@ -2489,12 +2494,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH100",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-12-08", "Result": 8.91 },
       { "SampleDate": "2019-01-13", "Result": 11.48 },
@@ -2506,12 +2511,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH100",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-12-08", "Result": 1345 },
       { "SampleDate": "2019-01-13", "Result": 1065 },
@@ -2523,12 +2528,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH100",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2018-12-08", "Result": 7.46 },
       { "SampleDate": "2019-01-13", "Result": 8.02 },
@@ -2540,12 +2545,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA110",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-01-11", "Result": 3.89 },
       { "SampleDate": "2019-02-22", "Result": 5.84 },
@@ -2560,12 +2565,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL060",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-01-11", "Result": 524.9 },
       { "SampleDate": "2019-02-22", "Result": 532.4 },
@@ -2577,12 +2582,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL060",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-01-11", "Result": 17.94 },
       { "SampleDate": "2019-02-22", "Result": 14.87 },
@@ -2594,12 +2599,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL060",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-01-11", "Result": 10.2 },
       { "SampleDate": "2019-02-22", "Result": 7.3 },
@@ -2611,12 +2616,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL060",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-01-11", "Result": 8.31 },
       { "SampleDate": "2019-02-22", "Result": 8.22 },
@@ -2628,12 +2633,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL060",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-01-11", "Result": 8.43 },
       { "SampleDate": "2019-02-22", "Result": 7.8 },
@@ -2645,12 +2650,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH090",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-01-13", "Result": 10.08 },
       { "SampleDate": "2019-02-16", "Result": 8.21 },
@@ -2661,12 +2666,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH090",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-01-13", "Result": 11.07 },
       { "SampleDate": "2019-02-16", "Result": 11.57 },
@@ -2677,12 +2682,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH090",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-01-13", "Result": 1107 },
       { "SampleDate": "2019-02-16", "Result": 375 },
@@ -2693,12 +2698,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH090",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-01-13", "Result": 7.94 },
       { "SampleDate": "2019-02-16", "Result": 7.74 },
@@ -2709,12 +2714,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL050",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-02-22", "Result": 538.8 },
       { "SampleDate": "2019-03-15", "Result": 569.3 },
@@ -2724,12 +2729,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL050",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-02-22", "Result": 16.88 },
       { "SampleDate": "2019-03-15", "Result": 14.09 },
@@ -2739,12 +2744,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL050",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-02-22", "Result": 7.9 },
       { "SampleDate": "2019-03-15", "Result": 10.3 },
@@ -2754,12 +2759,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL050",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-02-22", "Result": 8.33 },
       { "SampleDate": "2019-03-15", "Result": 8.7 },
@@ -2769,12 +2774,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL050",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-02-22", "Result": 10.16 },
       { "SampleDate": "2019-03-15", "Result": 2.31 },
@@ -2784,72 +2789,72 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL040",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-03-15", "Result": 578 },
       { "SampleDate": "2019-04-12", "Result": 648 }
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL040",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-03-15", "Result": 13.46 },
       { "SampleDate": "2019-04-12", "Result": 17.67 }
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL040",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-03-15", "Result": 12.9 },
       { "SampleDate": "2019-04-12", "Result": 17.8 }
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL040",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-03-15", "Result": 8.55 },
       { "SampleDate": "2019-04-12", "Result": 8.7 }
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL040",
     "AnalyteName": "Nitrate",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Nutrients",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-03-15", "Result": 19.2 },
       { "SampleDate": "2019-04-12", "Result": 1.06 }
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH110",
     "AnalyteName": "Temperature",
     "UnitName": "Deg C",
     "UnitDescription": "degrees Celsius",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-04-13", "Result": 10.99 },
       { "SampleDate": "2019-05-11", "Result": 13.87 },
@@ -2857,12 +2862,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH110",
     "AnalyteName": "Dissolved Oxygen",
     "UnitName": "mg/L",
     "UnitDescription": "milligrams per liter",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-04-13", "Result": 11.2 },
       { "SampleDate": "2019-05-11", "Result": 8.96 },
@@ -2870,12 +2875,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH110",
     "AnalyteName": "Specific Conductivity",
     "UnitName": "uS/cm",
     "UnitDescription": "microSiemens",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-04-13", "Result": 745 },
       { "SampleDate": "2019-05-11", "Result": 872 },
@@ -2883,12 +2888,12 @@
     ]
   },
   {
+    "creek_id": "MSH",
     "StationCode": "MSH110",
     "AnalyteName": "pH",
     "UnitName": "none",
     "UnitDescription": "pH",
     "category": "Vitals",
-    "creek_id": "MSH",
     "data": [
       { "SampleDate": "2019-04-13", "Result": 7.79 },
       { "SampleDate": "2019-05-11", "Result": 7.62 },
@@ -2896,12 +2901,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA103",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 3.4 },
       { "SampleDate": "2019-09-17", "Result": 2.5 },
@@ -2909,24 +2914,24 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA108",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 2.1 },
       { "SampleDate": "2019-09-17", "Result": 8 }
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA110",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 1 },
       { "SampleDate": "2019-09-17", "Result": 1.4 },
@@ -2934,21 +2939,21 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA129",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [{ "SampleDate": "2019-08-20", "Result": 8.7 }]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA180",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 0.4 },
       { "SampleDate": "2019-09-17", "Result": 4.1 },
@@ -2956,12 +2961,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA210",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 11.4 },
       { "SampleDate": "2019-09-17", "Result": 18.4 },
@@ -2969,12 +2974,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA230",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 3.1 },
       { "SampleDate": "2019-09-17", "Result": 2.6 },
@@ -2982,12 +2987,12 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA231",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 3.3 },
       { "SampleDate": "2019-09-17", "Result": 2 },
@@ -2995,24 +3000,24 @@
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA250",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 5.9 },
       { "SampleDate": "2019-09-17", "Result": 7.1 }
     ]
   },
   {
+    "creek_id": "SPA",
     "StationCode": "SPA260",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "SPA",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 11.3 },
       { "SampleDate": "2019-09-17", "Result": 4.2 },
@@ -3020,12 +3025,12 @@
     ]
   },
   {
+    "creek_id": "WIL",
     "StationCode": "WIL070",
     "AnalyteName": "Turbidity",
     "UnitName": "NTU",
     "UnitDescription": "Nephelometric Turbidity Unit",
     "category": "Vitals",
-    "creek_id": "WIL",
     "data": [
       { "SampleDate": "2019-08-20", "Result": 0.3 },
       { "SampleDate": "2019-09-17", "Result": 1.6 },
