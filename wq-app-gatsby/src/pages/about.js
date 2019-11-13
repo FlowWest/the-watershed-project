@@ -10,7 +10,7 @@ const About = () => {
     <Layout>
       <SEO title="About" />
       <Container>
-        <h1>About</h1>
+        <h2 className={aboutStyles.header}>About</h2>
         <p className={aboutStyles.paragraph}>
           The Watershed Project is a nonprofit based in Richmond, CA, whose
           mission is to inspire Bay Area communities to
@@ -36,7 +36,7 @@ const About = () => {
           </a>{" "}
           for more information.
         </p>
-        <h2>Methods</h2>
+        <h2 className={aboutStyles.header}>Methods</h2>
         <p className={aboutStyles.paragraph}>
           We follow protocols found in the California Waterboards Surface Water
           Ambient Monitoring Program’s{" "}
