@@ -142,7 +142,7 @@ scores <- field_results %>%
     score_2 = score_lu[score],
     min_date = min(SampleDate), max_datae = max(SampleDate)) 
 
-scores %>% 
+scores %>% View
   write_csv('wq-app-gatsby/src/data/creek_scores.csv')
 
 
@@ -174,5 +174,6 @@ scores %>%
     between(grade, 60, 63) ~ 'D-',
     grade < 60 ~ 'F'
   )) %>% 
+  add_row(creek_id = 'BAX', total = NA, max = NA, grade = NA, letter_grade = NA) %>% 
   write_csv('wq-app-gatsby/src/data/creek_grades.csv')
 
