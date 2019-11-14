@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, Fragment } from "react"
 import { graphql, Link, navigate } from "gatsby"
 import Layout from "../components/layout"
 import img1 from "../images/Monitoring-Walnut-Creek-crop-1012x1024.jpg"
@@ -245,7 +245,10 @@ export default ({ data, pageContext }) => {
                 panes={panes}
               ></Tab>
             ) : (
-              <p>hi</p>
+              <Fragment>
+                <h2 className={siteStyles.sitesHeader}>No Data</h2>
+                <p className={siteStyles.siteDescription}>This site is inactive</p>
+              </Fragment>
             )}
           </GridColumn>
         </Grid>
