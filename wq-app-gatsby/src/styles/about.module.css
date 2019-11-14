@@ -1,0 +1,14 @@
+.paragraph {
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+}
+
+.header{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 26px;
+}
+
+.text-wrap {
+  float: left;
+  margin: 10px;
+}
