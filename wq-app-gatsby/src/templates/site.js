@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, Fragment } from "react"
 import { graphql, Link, navigate } from "gatsby"
 import Layout from "../components/layout"
 import img1 from "../images/Monitoring-Walnut-Creek-crop-1012x1024.jpg"
@@ -39,6 +39,40 @@ export default ({ data, pageContext }) => {
 
   let panes
 
+  const thresholdLookUp = {
+    Temperature: { threshold: 24, start: 0, end: 24, direction: "below" },
+    "Specific Conductivity": {
+      threshold: 150,
+      threshold2: 500,
+      start: 150,
+      end: 500,
+      direction: "between",
+    },
+    pH: {
+      threshold: 6.5,
+      threshold2: 9,
+      start: 6.5,
+      end: 9,
+      direction: "between",
+    },
+    "Dissolved Oxygen": { threshold: 5, start: 5, end: 25, direction: "above" },
+    Turbidity: { threshold: 10, start: -10, end: 10, direction: "below" },
+    Nitrate: { threshold: 0.5, start: 0, end: 0.5, direction: "below" },
+    Copper: { threshold: 13, start: 0, end: 13, direction: "below" },
+    Lead: { threshold: 65, start: 0, end: 65, direction: "below" },
+    Mercury: {
+      threshold: 0.77,
+      threshold2: 1.4,
+      start: 0.77,
+      end: 1.4,
+      direction: "between",
+    },
+    Nickel: { threshold: null, start: null, end: null, direction: null },
+    Zinc: { threshold: null, start: null, end: null, direction: null },
+    "Diesel Fuel": { threshold: 0, start: null, end: null, direction: "below" },
+    "Motor Oil": { threshold: 0, start: null, end: null, direction: "below" },
+  }
+
   const seriesAllSites = data.allFieldDataJson.edges
     .filter(edge => edge.node.AnalyteName === analyte)
     .map(station => ({
@@ -61,6 +95,13 @@ export default ({ data, pageContext }) => {
       value: edge.node.AnalyteName,
     }))
 
+    let unit = analyte !== 'pH' ? plotData.UnitName : ''
+
+    const label =
+      thresholdLookUp[analyte].direction === "between"
+        ? `${analyte} should be ${thresholdLookUp[analyte].direction} ${thresholdLookUp[analyte].threshold} and ${thresholdLookUp[analyte].threshold2} ${unit}`
+        : `${analyte} should be ${thresholdLookUp[analyte].direction} ${thresholdLookUp[analyte].threshold} ${plotData.UnitName}`
+
     const plotOptions = {
       title: {
         text: "",
@@ -75,30 +116,40 @@ export default ({ data, pageContext }) => {
         title: {
           text: `${plotData.AnalyteName} (${plotData.UnitName})`,
         },
-        min: 0,
+        // min: 0,
+        plotLines: [
+          {
+            color: "rgba(204, 0, 0, 1)", // Color value
+            dashStyle: "dash",
+            value: thresholdLookUp[analyte].threshold,
+            width: 2,
+          },
+          {
+            color: "rgba(204, 0, 0, 1)", // Color value
+            dashStyle: "dash",
+            value: thresholdLookUp[analyte].threshold2 || null,
+            width: 2,
+          },
+        ],
+        plotBands: [
+          {
+            color: "rgba(30, 130, 76, .1)",
+            from: thresholdLookUp[analyte].start,
+            to: thresholdLookUp[analyte].end,
+          },
+          {
+            color: "rgba(204, 0, 0, .1)",
+            from: 0,
+            to: thresholdLookUp[analyte].start,
+          },
+          {
+            color: "rgba(204, 0, 0, .1)",
+            from: thresholdLookUp[analyte].end,
+            to: thresholdLookUp[analyte].end + 1000,
+          },
+        ],
       },
       series: seriesAllSites,
-      // [
-      //   {
-      //     name: plotData.AnalyteName,
-      //     data: plotData.data.map(pt => [
-      //       moment.utc(pt.SampleDate).valueOf(),
-      //       pt.Result,
-      //     ]),
-      //   },
-      //   {
-      //     name: "Threshold",
-      //     data: [
-      //       [moment.utc(plotData.data[0].SampleDate).valueOf(), 16],
-      //       [
-      //         moment
-      //           .utc(plotData.data[plotData.data.length - 1].SampleDate)
-      //           .valueOf(),
-      //         16,
-      //       ],
-      //     ],
-      //   },
-      // ],
     }
 
     const handleAnalyteChange = e => {
@@ -123,6 +174,9 @@ export default ({ data, pageContext }) => {
               />
             </div>
             <HighchartsReact highcharts={Highcharts} options={plotOptions} />
+            {thresholdLookUp[analyte].threshold !== null ? (
+              <p>{label}</p>
+            ) : null}
           </Tab.Pane>
         ),
       },
@@ -147,11 +201,10 @@ export default ({ data, pageContext }) => {
     panes = null
   }
 
-  const siteOptions = sitesData.sites
-  .map(site => ({
+  const siteOptions = sitesData.sites.map(site => ({
     key: site.site_id,
     text: `${site.name} (${site.site_id})`,
-    value: site.site_id
+    value: site.site_id,
   }))
 
   return (
@@ -173,7 +226,9 @@ export default ({ data, pageContext }) => {
                 Go back to {sitesData.creek_name} overview
               </Link>
             </div>
-            <h3 className={siteStyles.sitesHeader}>Sites on {sitesData.creek_name}</h3>
+            <h3 className={siteStyles.sitesHeader}>
+              Sites on {sitesData.creek_name}
+            </h3>
             <Dropdown
               placeholder="Select Site"
               fluid
@@ -190,7 +245,10 @@ export default ({ data, pageContext }) => {
                 panes={panes}
               ></Tab>
             ) : (
-              <p>hi</p>
+              <Fragment>
+                <h2 className={siteStyles.sitesHeader}>No Data</h2>
+                <p className={siteStyles.siteDescription}>This site is inactive</p>
+              </Fragment>
             )}
           </GridColumn>
         </Grid>
