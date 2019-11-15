@@ -4,7 +4,7 @@ import mapStyles from "../styles/map.module.css"
 import pin from "../images/marker-stroked-15.svg"
 import { navigate } from "gatsby"
 
-const TOKEN = process.env.MapboxAccessToken
+const TOKEN = process.env.GATSBY_MapboxAccessToken
 
 class Mapbox extends Component {
   constructor(props) {
