@@ -116,7 +116,7 @@ export default ({ data, pageContext }) => {
         title: {
           text: `${plotData.AnalyteName} (${plotData.UnitName})`,
         },
-        // min: 0,
+        min: 0,
         plotLines: [
           {
             color: "rgba(204, 0, 0, 1)", // Color value
@@ -150,6 +150,9 @@ export default ({ data, pageContext }) => {
         ],
       },
       series: seriesAllSites,
+      credits: {
+        enabled: false
+      }
     }
 
     const handleAnalyteChange = e => {
