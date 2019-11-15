@@ -37,7 +37,7 @@ field_results_raw %>%
   select(-Name) %>% 
   left_join(units) %>% 
   left_join(groups) %>% 
-  filter(!is.na(AnalyteName), !is.na(Result)) %>% 
+  filter(!is.na(AnalyteName), !is.na(Result), Result >= 0) %>% 
   group_by(creek_id, StationCode, AnalyteName, UnitName, UnitDescription, category) %>% 
   nest() %>% 
   toJSON() #%>% 
@@ -176,4 +176,3 @@ scores %>%
   )) %>% 
   add_row(creek_id = 'BAX', total = NA, max = NA, grade = NA, letter_grade = NA) %>% 
   write_csv('wq-app-gatsby/src/data/creek_grades.csv')
-
