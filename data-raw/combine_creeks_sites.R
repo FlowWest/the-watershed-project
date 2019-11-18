@@ -6,7 +6,9 @@ creek_lat_longs <- read_csv('data-raw/twp_creek_geodata_20191111/twp_creek_zoom_
   rename(creek_lat = lat, creek_long = long)
 creeks_to_sites <- read_csv('data-raw/creeks_to_sites.csv')
 sites <- read_csv('data-raw/sites.csv') %>%
-  mutate(description = str_remove(description, 'Please.+'))
+  mutate(description = str_remove(description, 'Please.+')) %>% 
+  separate(name, into = c('creek', 'label'), ' at ', remove = FALSE) %>% 
+  select(-creek)
 site_locations <- read_csv('data-raw/site_locations.csv')
 
 creeks_to_sites %>%
@@ -25,3 +27,9 @@ sites %>%
   left_join(creeks) %>%
   select(-creek_description) %>% 
   toJSON() #sites.json
+
+# sites %>% 
+#   select(StationCode = site_id, label) %>% 
+#   write_csv('data-raw/site_id_to_label.csv')
+
+  

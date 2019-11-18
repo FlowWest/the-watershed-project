@@ -2,6 +2,8 @@ library(readxl)
 library(tidyverse)
 library(jsonlite)
 
+
+stationcode_to_label <- read_csv('data-raw/site_id_to_label.csv')
 excel_sheets('data-raw/WQ data.xlsx')
 
 analytes <- read_excel('data-raw/WQ data.xlsx', 'analytes')
@@ -34,11 +36,12 @@ field_results_raw %>%
   left_join(analytes) %>% 
   mutate(AnalyteName = Name) %>% 
   left_join(creeks_to_stations) %>% 
+  left_join(stationcode_to_label) %>% 
   select(-Name) %>% 
   left_join(units) %>% 
   left_join(groups) %>% 
   filter(!is.na(AnalyteName), !is.na(Result), Result >= 0) %>% 
-  group_by(creek_id, StationCode, AnalyteName, UnitName, UnitDescription, category) %>% 
+  group_by(creek_id, StationCode, AnalyteName, UnitName, UnitDescription, category, label) %>% 
   nest() %>% 
   toJSON() #%>% 
 # write_json('wq-app-gatsby/src/data/field_data.json')

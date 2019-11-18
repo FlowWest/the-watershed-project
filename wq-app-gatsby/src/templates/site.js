@@ -76,7 +76,7 @@ export default ({ data, pageContext }) => {
   const seriesAllSites = data.allFieldDataJson.edges
     .filter(edge => edge.node.AnalyteName === analyte)
     .map(station => ({
-      name: station.node.StationCode,
+      name: station.node.label,
       data: station.node.data.map(pt => [
         moment.utc(pt.SampleDate).valueOf(),
         pt.Result,
@@ -206,7 +206,7 @@ export default ({ data, pageContext }) => {
 
   const siteOptions = sitesData.sites.map(site => ({
     key: site.site_id,
-    text: `${site.name} (${site.site_id})`,
+    text: site.name,
     value: site.site_id,
   }))
 
@@ -276,6 +276,7 @@ export const query = graphql`
             name
             site_id
             description
+            label
           }
         }
       }
@@ -287,6 +288,7 @@ export const query = graphql`
           AnalyteName
           UnitDescription
           UnitName
+          label
           data {
             Result
             SampleDate(formatString: "")

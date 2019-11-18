@@ -44,7 +44,7 @@ export default ({ data, pageContext }) => {
 
   const siteOptions = creekData.sites.map(site => ({
     key: site.site_id,
-    text: `${site.name} (${site.site_id})`,
+    text: site.name,
     value: site.site_id,
   }))
 
