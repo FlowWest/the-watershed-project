@@ -18,7 +18,7 @@ const About = () => {
           that this website will help people learn about water quality and be
           interested in investigating their local creeks. Find out more about
           The Watershed Project at
-          <a href="http://thewatershedproject.org/">
+          <a href="http://thewatershedproject.org/" target="_blank">
             www.thewatershedproject.org
           </a>
           .
@@ -40,7 +40,7 @@ const About = () => {
         <p className={aboutStyles.paragraph}>
           We follow protocols found in the California Waterboards Surface Water
           Ambient Monitoring Program’s{" "}
-          <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/cwt_guidance.html">
+          <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/cwt_guidance.html"  target="_blank">
             Clean Water Team Guidance Compendium for Watershed Monitoring and
             Assessment
           </a>
