@@ -179,3 +179,8 @@ scores %>%
   )) %>% 
   add_row(creek_id = 'BAX', total = NA, max = NA, grade = NA, letter_grade = NA) %>% 
   write_csv('wq-app-gatsby/src/data/creek_grades.csv')
+
+### thresholds ----
+thresholds_raw <- read_csv('data-raw/water_quality_thresholds.csv')
+View(thresholds_raw)
+write_csv(thresholds_raw, 'wq-app-gatsby/src/data/water_quality_thresholds.csv')
