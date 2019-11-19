@@ -14,6 +14,7 @@ import {
   Divider,
   Image,
   Container,
+  Accordion,
 } from "semantic-ui-react"
 
 import Highcharts from "highcharts"
@@ -22,23 +23,6 @@ import moment from "moment"
 import siteStyles from "../styles/site.module.css"
 
 export default ({ data, pageContext }) => {
-  const firstAnalyte = pageContext.siteID === "BAX030" ? "Lead" : "Temperature"
-  const [analyte, setAnalyte] = useState(firstAnalyte)
-  const [selectedImage, setImage] = useState(img1)
-
-  const sitesData = data.allCreekSiteJson.edges[0].node
-  const [siteData] = sitesData.sites.filter(
-    site => site.site_id === pageContext.siteID
-  )
-
-  const siteWQData = data.allFieldDataJson.edges.filter(
-    edge => edge.node.StationCode === pageContext.siteID
-  )
-
-  const siteWQDataExists = siteWQData.length !== 0
-
-  let panes
-
   const thresholdLookUp = {
     Temperature: { threshold: 24, start: 0, end: 24, direction: "below" },
     "Specific Conductivity": {
@@ -73,6 +57,41 @@ export default ({ data, pageContext }) => {
     "Motor Oil": { threshold: 0, start: null, end: null, direction: "below" },
   }
 
+  const firstAnalyte = pageContext.siteID === "BAX030" ? "Lead" : "Temperature"
+  const [analyte, setAnalyte] = useState(firstAnalyte)
+  const [selectedImage, setImage] = useState(img1)
+
+  const sitesData = data.allCreekSiteJson.edges[0].node
+  const [siteData] = sitesData.sites.filter(
+    site => site.site_id === pageContext.siteID
+  )
+
+  const siteWQData = data.allFieldDataJson.edges.filter(
+    edge => edge.node.StationCode === pageContext.siteID
+  )
+
+  const siteWQDataExists = siteWQData.length !== 0
+
+  let panes
+  const thresholdData = data.allWaterQualityThresholdsCsv.edges.filter(
+    edge => edge.node.analyteName === analyte
+  )
+
+  const {
+    thresholdDirection,
+    aquaticThreshold,
+    aquaticThreshold2,
+    sourceLinkText,
+    sourceURL,
+    notes,
+    category,
+  } = thresholdData[0].node
+
+  const wqFeatureDetails = data.allWqCategoriesFeaturesJson.edges
+    .filter(edge => edge.node.category === category)[0]
+    .node.features.filter(feature => feature.name === analyte)[0]
+    .feature_description
+
   const seriesAllSites = data.allFieldDataJson.edges
     .filter(edge => edge.node.AnalyteName === analyte)
     .map(station => ({
@@ -95,12 +114,37 @@ export default ({ data, pageContext }) => {
       value: edge.node.AnalyteName,
     }))
 
-    let unit = analyte !== 'pH' ? plotData.UnitName : ''
+    let unit = analyte !== "pH" ? plotData.UnitName : ""
 
     const label =
-      thresholdLookUp[analyte].direction === "between"
-        ? `${analyte} should be ${thresholdLookUp[analyte].direction} ${thresholdLookUp[analyte].threshold} and ${thresholdLookUp[analyte].threshold2} ${unit}`
-        : `${analyte} should be ${thresholdLookUp[analyte].direction} ${thresholdLookUp[analyte].threshold} ${plotData.UnitName}`
+      thresholdDirection === "between"
+        ? `${analyte} should be ${thresholdDirection} ${aquaticThreshold} and ${aquaticThreshold2} ${unit}`
+        : `${analyte} should be ${thresholdDirection} ${aquaticThreshold} ${plotData.UnitName}`
+
+    const detailsPanel = [
+      {
+        key: "details",
+        title: "more details",
+        content: {
+          content: (
+            <div>
+              <h4>
+                {category}: {analyte}
+              </h4>
+              <p>{wqFeatureDetails}</p>
+              <p>{label}</p>
+              <p>
+                {notes === "NA" ? "" : notes} (Source:{" "}
+                <a href={sourceURL} target="_blank">
+                  {sourceLinkText}
+                </a>
+                )
+              </p>
+            </div>
+          ),
+        },
+      },
+    ]
 
     const plotOptions = {
       title: {
@@ -121,13 +165,13 @@ export default ({ data, pageContext }) => {
           {
             color: "rgba(204, 0, 0, 1)", // Color value
             dashStyle: "dash",
-            value: thresholdLookUp[analyte].threshold,
+            value: aquaticThreshold,
             width: 2,
           },
           {
             color: "rgba(204, 0, 0, 1)", // Color value
             dashStyle: "dash",
-            value: thresholdLookUp[analyte].threshold2 || null,
+            value: aquaticThreshold2 || null,
             width: 2,
           },
         ],
@@ -151,8 +195,8 @@ export default ({ data, pageContext }) => {
       },
       series: seriesAllSites,
       credits: {
-        enabled: false
-      }
+        enabled: false,
+      },
     }
 
     const handleAnalyteChange = e => {
@@ -177,8 +221,8 @@ export default ({ data, pageContext }) => {
               />
             </div>
             <HighchartsReact highcharts={Highcharts} options={plotOptions} />
-            {thresholdLookUp[analyte].threshold !== null ? (
-              <p>{label}</p>
+            {aquaticThreshold !== null ? (
+              <Accordion panels={detailsPanel} />
             ) : null}
           </Tab.Pane>
         ),
@@ -250,7 +294,9 @@ export default ({ data, pageContext }) => {
             ) : (
               <Fragment>
                 <h2 className={siteStyles.sitesHeader}>No Data</h2>
-                <p className={siteStyles.siteDescription}>This site is inactive</p>
+                <p className={siteStyles.siteDescription}>
+                  This site is inactive
+                </p>
               </Fragment>
             )}
           </GridColumn>
@@ -292,6 +338,33 @@ export const query = graphql`
           data {
             Result
             SampleDate(formatString: "")
+          }
+        }
+      }
+    }
+    allWaterQualityThresholdsCsv {
+      edges {
+        node {
+          analyteName
+          aquaticThreshold
+          aquaticThreshold2
+          sourceLinkText
+          sourceURL
+          notes
+          thresholdDirection
+          units
+          category
+        }
+      }
+    }
+    allWqCategoriesFeaturesJson {
+      edges {
+        node {
+          category
+          description
+          features {
+            name
+            feature_description
           }
         }
       }
