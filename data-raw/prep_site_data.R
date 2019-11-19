@@ -183,4 +183,5 @@ scores %>%
 ### thresholds ----
 thresholds_raw <- read_csv('data-raw/water_quality_thresholds.csv')
 View(thresholds_raw)
+glimpse(thresholds_raw)
 write_csv(thresholds_raw, 'wq-app-gatsby/src/data/water_quality_thresholds.csv')
