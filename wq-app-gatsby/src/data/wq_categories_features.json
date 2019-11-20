@@ -12,7 +12,7 @@
         "feature_description": "pH is a measure of how acidic or basic the water is. pH in streams can be affected by many things, including urban runoff, mining activities, and even pine needles. Typically, the presence of organic matter and decomposition lower pH and urban runoff tends to increase pH. A pH range of 6.5 to 8.5 is optimal for the health of freshwater fish and bottom-dwelling macroinvertebrates."
       },
       {
-        "name": "Conductivity",
+        "name": "Specific Conductivity",
         "feature_description": "Conductivity measures the concentration of ions (charged particles) present in water. Conductivity is related to salinity, which measures just dissolved salts. Conductivity may be related to the underlying geology of the stream bed, or result from urban runoff containing nutrients like phosphates and nitrates, which are found in fertilizers."
       },
       {
