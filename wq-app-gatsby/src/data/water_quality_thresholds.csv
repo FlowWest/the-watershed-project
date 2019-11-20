@@ -26,8 +26,8 @@ Detergents,Insecticides,below,NA,NA,NA,NA,NA,NA
 PAHs,Other Toxics,below,15,NA,ug/L,https://www.waterboards.ca.gov/sanfranciscobay/water_issues/programs/planningtmdls/basinplan/web/bp_ch3.html#3.3,NA,NA
 PCBs,Other Toxics,below,0.014,NA,ug/L,https://www.epa.gov/wqc/national-recommended-water-quality-criteria-aquatic-life-criteria-table,NA,NA
 PBDEs,Other Toxics,below,NA,NA,NA,NA,NA,NA
-Diesel,Other Toxics,below,NA,NA,NA,NA,NA,NA
-Motol Oil,Other Toxics,equal to,0,NA,NA,https://www.epa.gov/sites/production/files/2014-12/documents/ca2-sanfrancisco-basin.pdf,NA,NA
+Diesel Fuel,Other Toxics,below,0,NA,NA,NA,NA,NA
+Motor Oil,Other Toxics,equal to,0,NA,NA,https://www.epa.gov/sites/production/files/2014-12/documents/ca2-sanfrancisco-basin.pdf,NA,NA
 Grease,Other Toxics,equal to,0,NA,NA,https://www.epa.gov/sites/production/files/2014-12/documents/ca2-sanfrancisco-basin.pdf,NA,NA
-Gasoline,Other Toxics,below,NA,NA,NA,NA,NA,NA
+Gasoline,Other Toxics,below,0,NA,NA,NA,NA,NA
 BMIs,Creek Bugs,NA,NA,NA,NA,NA,NA,NA

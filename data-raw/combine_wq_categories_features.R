@@ -15,3 +15,4 @@ data %>%
   toJSON() #%>% 
   write_json('wq-app-gatsby/src/data/wq_categories_features.json')
 
+  
