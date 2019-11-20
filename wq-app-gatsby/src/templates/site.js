@@ -23,40 +23,6 @@ import moment from "moment"
 import siteStyles from "../styles/site.module.css"
 
 export default ({ data, pageContext }) => {
-  // const thresholdLookUp = {
-  //   Temperature: { threshold: 24, start: 0, end: 24, direction: "below" },
-  //   "Specific Conductivity": {
-  //     threshold: 150,
-  //     threshold2: 500,
-  //     start: 150,
-  //     end: 500,
-  //     direction: "between",
-  //   },
-  //   pH: {
-  //     threshold: 6.5,
-  //     threshold2: 9,
-  //     start: 6.5,
-  //     end: 9,
-  //     direction: "between",
-  //   },
-  //   "Dissolved Oxygen": { threshold: 5, start: 5, end: 25, direction: "above" },
-  //   Turbidity: { threshold: 10, start: -10, end: 10, direction: "below" },
-  //   Nitrate: { threshold: 0.5, start: 0, end: 0.5, direction: "below" },
-  //   Copper: { threshold: 13, start: 0, end: 13, direction: "below" },
-  //   Lead: { threshold: 65, start: 0, end: 65, direction: "below" },
-  //   Mercury: {
-  //     threshold: 0.77,
-  //     threshold2: 1.4,
-  //     start: 0.77,
-  //     end: 1.4,
-  //     direction: "between",
-  //   },
-  //   Nickel: { threshold: null, start: null, end: null, direction: null },
-  //   Zinc: { threshold: null, start: null, end: null, direction: null },
-  //   "Diesel Fuel": { threshold: 0, start: null, end: null, direction: "below" },
-  //   "Motor Oil": { threshold: 0, start: null, end: null, direction: "below" },
-  // }
-
   const firstAnalyte = pageContext.siteID === "BAX030" ? "Lead" : "Temperature"
   const [analyte, setAnalyte] = useState(firstAnalyte)
   const [selectedImage, setImage] = useState(img1)
@@ -87,10 +53,13 @@ export default ({ data, pageContext }) => {
     category,
   } = thresholdData[0].node
 
-  const wqFeatureDetails = data.allWqCategoriesFeaturesJson.edges
-    .filter(edge => edge.node.category === category)[0]
-    .node.features.filter(feature => feature.name === analyte)[0]
-    .feature_description
+  const wqFeatureDetails =
+    pageContext.siteID === "BAX030"
+      ? ""
+      : data.allWqCategoriesFeaturesJson.edges
+          .filter(edge => edge.node.category === category)[0]
+          .node.features.filter(feature => feature.name === analyte)[0]
+          .feature_description
 
   const seriesAllSites = data.allFieldDataJson.edges
     .filter(edge => edge.node.AnalyteName === analyte)
@@ -199,7 +168,10 @@ export default ({ data, pageContext }) => {
       },
       yAxis: {
         title: {
-          text: analyte === "pH" ? `${plotData.AnalyteName} ${unit}` : `${plotData.AnalyteName} (${unit})`
+          text:
+            analyte === "pH"
+              ? `${plotData.AnalyteName} ${unit}`
+              : `${plotData.AnalyteName} (${unit})`,
         },
         min: 0,
         plotLines: [
