@@ -23,39 +23,39 @@ import moment from "moment"
 import siteStyles from "../styles/site.module.css"
 
 export default ({ data, pageContext }) => {
-  const thresholdLookUp = {
-    Temperature: { threshold: 24, start: 0, end: 24, direction: "below" },
-    "Specific Conductivity": {
-      threshold: 150,
-      threshold2: 500,
-      start: 150,
-      end: 500,
-      direction: "between",
-    },
-    pH: {
-      threshold: 6.5,
-      threshold2: 9,
-      start: 6.5,
-      end: 9,
-      direction: "between",
-    },
-    "Dissolved Oxygen": { threshold: 5, start: 5, end: 25, direction: "above" },
-    Turbidity: { threshold: 10, start: -10, end: 10, direction: "below" },
-    Nitrate: { threshold: 0.5, start: 0, end: 0.5, direction: "below" },
-    Copper: { threshold: 13, start: 0, end: 13, direction: "below" },
-    Lead: { threshold: 65, start: 0, end: 65, direction: "below" },
-    Mercury: {
-      threshold: 0.77,
-      threshold2: 1.4,
-      start: 0.77,
-      end: 1.4,
-      direction: "between",
-    },
-    Nickel: { threshold: null, start: null, end: null, direction: null },
-    Zinc: { threshold: null, start: null, end: null, direction: null },
-    "Diesel Fuel": { threshold: 0, start: null, end: null, direction: "below" },
-    "Motor Oil": { threshold: 0, start: null, end: null, direction: "below" },
-  }
+  // const thresholdLookUp = {
+  //   Temperature: { threshold: 24, start: 0, end: 24, direction: "below" },
+  //   "Specific Conductivity": {
+  //     threshold: 150,
+  //     threshold2: 500,
+  //     start: 150,
+  //     end: 500,
+  //     direction: "between",
+  //   },
+  //   pH: {
+  //     threshold: 6.5,
+  //     threshold2: 9,
+  //     start: 6.5,
+  //     end: 9,
+  //     direction: "between",
+  //   },
+  //   "Dissolved Oxygen": { threshold: 5, start: 5, end: 25, direction: "above" },
+  //   Turbidity: { threshold: 10, start: -10, end: 10, direction: "below" },
+  //   Nitrate: { threshold: 0.5, start: 0, end: 0.5, direction: "below" },
+  //   Copper: { threshold: 13, start: 0, end: 13, direction: "below" },
+  //   Lead: { threshold: 65, start: 0, end: 65, direction: "below" },
+  //   Mercury: {
+  //     threshold: 0.77,
+  //     threshold2: 1.4,
+  //     start: 0.77,
+  //     end: 1.4,
+  //     direction: "between",
+  //   },
+  //   Nickel: { threshold: null, start: null, end: null, direction: null },
+  //   Zinc: { threshold: null, start: null, end: null, direction: null },
+  //   "Diesel Fuel": { threshold: 0, start: null, end: null, direction: "below" },
+  //   "Motor Oil": { threshold: 0, start: null, end: null, direction: "below" },
+  // }
 
   const firstAnalyte = pageContext.siteID === "BAX030" ? "Lead" : "Temperature"
   const [analyte, setAnalyte] = useState(firstAnalyte)
@@ -114,12 +114,53 @@ export default ({ data, pageContext }) => {
       value: edge.node.AnalyteName,
     }))
 
-    let unit = analyte !== "pH" ? plotData.UnitName : ""
+    const unit = analyte !== "pH" ? plotData.UnitName : ""
 
     const label =
       thresholdDirection === "between"
         ? `${analyte} should be ${thresholdDirection} ${aquaticThreshold} and ${aquaticThreshold2} ${unit}`
-        : `${analyte} should be ${thresholdDirection} ${aquaticThreshold} ${plotData.UnitName}`
+        : `${analyte} should be ${thresholdDirection} ${aquaticThreshold} ${unit}`
+
+    const green = "rgba(30, 130, 76, .1)"
+    const red = "rgba(204, 0, 0, .1)"
+
+    let color1 =
+      thresholdDirection === "above" || thresholdDirection === "between"
+        ? red
+        : green
+    let color2 = thresholdDirection === "above" ? green : red
+
+    const plotBands =
+      thresholdDirection === "between"
+        ? [
+            {
+              color: red,
+              from: 0,
+              to: parseFloat(aquaticThreshold),
+            },
+            {
+              color: red,
+              from: parseFloat(aquaticThreshold2),
+              to: parseFloat(aquaticThreshold2) + 5000,
+            },
+            {
+              color: green,
+              from: parseFloat(aquaticThreshold),
+              to: parseFloat(aquaticThreshold2),
+            },
+          ]
+        : [
+            {
+              color: color1,
+              from: 0,
+              to: parseFloat(aquaticThreshold),
+            },
+            {
+              color: color2,
+              from: parseFloat(aquaticThreshold),
+              to: parseFloat(aquaticThreshold) + 5000,
+            },
+          ]
 
     const detailsPanel = [
       {
@@ -158,40 +199,24 @@ export default ({ data, pageContext }) => {
       },
       yAxis: {
         title: {
-          text: `${plotData.AnalyteName} (${plotData.UnitName})`,
+          text: analyte === "pH" ? `${plotData.AnalyteName} ${unit}` : `${plotData.AnalyteName} (${unit})`
         },
         min: 0,
         plotLines: [
           {
-            color: "rgba(204, 0, 0, 1)", // Color value
+            color: "rgba(204, 0, 0, 1)",
             dashStyle: "dash",
             value: aquaticThreshold,
             width: 2,
           },
           {
-            color: "rgba(204, 0, 0, 1)", // Color value
+            color: "rgba(204, 0, 0, 1)",
             dashStyle: "dash",
             value: aquaticThreshold2 || null,
             width: 2,
           },
         ],
-        plotBands: [
-          {
-            color: "rgba(30, 130, 76, .1)",
-            from: thresholdLookUp[analyte].start,
-            to: thresholdLookUp[analyte].end,
-          },
-          {
-            color: "rgba(204, 0, 0, .1)",
-            from: 0,
-            to: thresholdLookUp[analyte].start,
-          },
-          {
-            color: "rgba(204, 0, 0, .1)",
-            from: thresholdLookUp[analyte].end,
-            to: thresholdLookUp[analyte].end + 1000,
-          },
-        ],
+        plotBands: plotBands,
       },
       series: seriesAllSites,
       credits: {
