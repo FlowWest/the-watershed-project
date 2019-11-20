@@ -115,8 +115,11 @@ filter(AnalyteName == 'pH') %>%
   mutate(yup = between(Result, 6.5, 9)) %>% 
   summarise(mean(yup))
 
+field_results %>% 
+  filter(StationCode == 'BAX030') %>% 
+  pull(AnalyteName) %>% unique()
 
-# score-----
+  # score-----
 score_lu <- 0:2
 names(score_lu) <- c('Bad', 'Marginal', 'Good')
 
