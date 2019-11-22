@@ -124,14 +124,6 @@ ceden %>%
   group_by(StationCode, Analyte) %>% 
   summarise(n())
 
-ceden %>% 
-  filter(StationCode == 'RICH', Analyte == 'Mercury, Total', SampleDate == ymd(paste(2011, 3, 24))) %>% 
-  group_by(Program, StationName, StationCode, SampleDate, Analyte, Unit,
-         lat = TargetLatitude, long = TargetLongitude, ProtocolCode) %>%
-  summarise(Result = mean(Result)) %>% 
-  left_join(protocol) %>% 
-  left_join(filtered_analytes) %>%
-  
 # ceden_filtered %>% 
 #   group_by(StationCode, Analyte) %>%
 #   summarise(count = n()) %>% 
