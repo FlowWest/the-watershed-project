@@ -7,34 +7,34 @@ import MapboxCeden from "../components/cedenMap"
 
 const CEDEN = () => {
 
-  const data = useStaticQuery(graphql`
-  query{
-    allExternalCedenJson {
-      edges {
-        node {
-          Program
-          StationCode
-          StationName
-          lat
-          long
-          ProtocolCode
-          ProtocolDescr
-          ProtocolName
-          data {
-            SampleDate(formatString: "")
-            Analyte
-            Result
-            Unit
-            analyte_desc_name
-          }
-        }
-      }
-    }
-  }
-  `)
+  // const data = useStaticQuery(graphql`
+  // query{
+  //   allExternalCedenJson {
+  //     edges {
+  //       node {
+  //         Program
+  //         StationCode
+  //         StationName
+  //         lat
+  //         long
+  //         ProtocolCode
+  //         ProtocolDescr
+  //         ProtocolName
+  //         data {
+  //           SampleDate(formatString: "")
+  //           Analyte
+  //           Result
+  //           Unit
+  //           analyte_desc_name
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // `)
 
-  const pts  = data.allExternalCedenJson.edges.map(edge => edge.node)
-  console.log(pts)
+  // const pts  = data.allExternalCedenJson.edges.map(edge => edge.node)
+  // console.log(pts)
 
   return (
     <Layout>
@@ -43,13 +43,13 @@ const CEDEN = () => {
         <Grid>
           <GridColumn width={12}>
             <p>hi</p>
-            <MapboxCeden
+            {/* <MapboxCeden
               pts={pts}
               lat={37.929787}
               long={-122.076019}
               zoom={8}
               height={"500px"}
-            />
+            /> */}
           </GridColumn>
           <GridColumn width={4}>
             <p>bye</p>

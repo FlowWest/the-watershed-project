@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import ReactMapGL, { Marker, Popup } from "react-map-gl"
 import mapStyles from "../styles/map.module.css"
-import pin from "../images/marker-stroked-15.svg"
+import pin from "../images/marker-stroked-15-ceden.svg"
 import { navigate } from "gatsby"
 
 const TOKEN = process.env.GATSBY_MapboxAccessToken
