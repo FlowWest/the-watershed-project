@@ -88,10 +88,27 @@ ceden %>%
          lat = TargetLatitude, long = TargetLongitude, ProtocolCode) %>% 
   left_join(protocol) %>% 
   left_join(filtered_analytes) %>% 
-  group_by(Program, StationName, StationCode, lat, long, ProtocolCode, ProtocolName, ProtocolDescr) %>% 
+  group_by(Program, StationName, StationCode, lat, long, ProtocolCode, ProtocolName, 
+           ProtocolDescr, Analyte, Unit, analyte_desc_name, analyte_desc_name_2) %>% 
   nest() %>% 
-  toJSON()
+  toJSON() %>% 
+  write_file('wq-app-gatsby/src/data/external_ceden.json')
 
+
+d <- ceden %>% 
+  filter(StationCode %in% stations, !is.na(Result),
+         Program != 'The Watershed Project Water Quality Monitoring', 
+         Analyte %in% filtered_analytes$Analyte) %>% 
+  left_join(filtered_analytes)
+
+
+
+
+unique(d$StationName) %>% length
+unique(d$analyte_desc_name)
+
+
+write_json(iris, 'test.json')
 # ceden_filtered %>% 
 #   group_by(StationCode, Analyte) %>%
 #   summarise(count = n()) %>% 
