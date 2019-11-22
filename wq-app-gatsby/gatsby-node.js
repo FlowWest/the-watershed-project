@@ -26,6 +26,19 @@ exports.createPages = async function({ actions, graphql }) {
     }
   `)
 
+  const cedenSiteData = await graphql(`
+    query {
+      allExternalCedenJson {
+        edges {
+          node {
+            StationCode
+            StationName
+          }
+        }
+      }
+    }
+  `)
+
   creekData.data.allCreekSiteJson.edges.forEach(edge => {
     const creekID = edge.node.creek_id
     actions.createPage({
@@ -43,6 +56,16 @@ exports.createPages = async function({ actions, graphql }) {
       path: `site/${siteID}`,
       component: require.resolve(`./src/templates/site.js`),
       context: { siteID, creekID, name, description },
+    })
+  })
+
+  cedenSiteData.data.allExternalCedenJson.edges.forEach(edge => {
+    const stationCode = edge.node.StationCode
+    const stationName = edge.node.StationName
+    actions.createPage({
+      path: `ceden-site/${stationCode}`,
+      component: require.resolve(`./src/templates/ceden-site.js`),
+      context: { stationCode, stationName }
     })
   })
 }
