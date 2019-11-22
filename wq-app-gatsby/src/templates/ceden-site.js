@@ -11,6 +11,7 @@ import {
 import Highcharts from "highcharts"
 import HighchartsReact from "highcharts-react-official"
 import moment from "moment"
+import cedenStyles from "../styles/ceden.modules.css"
 
 export default ({ data, pageContext }) => {
   const analytes = data.allExternalCedenJson.edges.map(edge => [
@@ -65,19 +66,19 @@ export default ({ data, pageContext }) => {
 
   const wqFeatureDescrContent =
     analyteUnit === "" ? (
-      <p>Select a Water Quality Feature</p>
+      <p className={cedenStyles.text}>Select a Water Quality Feature</p>
     ) : (
       <Fragment>
-        <h3>{wqFeature}</h3>
-        <p>{featureDescription}</p>
+        <h3 className={cedenStyles.header}>{wqFeature}</h3>
+        <p className={cedenStyles.text}>{featureDescription}</p>
       </Fragment>
     )
 
   const protocolInfoContent =
     analyteUnit === "" ? (
-      <p>Select a Water Quality Feature</p>
+      <p className={cedenStyles.text}>Select a Water Quality Feature</p>
     ) : (
-      <p>{`${plotData[0].node.ProtocolName} (${plotData[0].node.ProtocolCode}) - ${plotData[0].node.ProtocolDescr}`}</p>
+      <p className={cedenStyles.text}>{`${plotData[0].node.ProtocolName} (${plotData[0].node.ProtocolCode}) - ${plotData[0].node.ProtocolDescr}`}</p>
     )
 
   const moreInfoPanels = [
@@ -135,9 +136,9 @@ export default ({ data, pageContext }) => {
       <Container>
         <Grid>
           <GridColumn width={12}>
-            <h1>Station Name: {pageContext.stationName}</h1>
+            <h1 className={cedenStyles.header}>Station Name: {pageContext.stationName}</h1>
             <div>
-              <h3>Select Water Quality Feature</h3>
+              <h3 className={cedenStyles.header}>Select Water Quality Feature</h3>
               <Dropdown
                 placeholder="Water Quality Feature"
                 search
@@ -153,20 +154,20 @@ export default ({ data, pageContext }) => {
                   highcharts={Highcharts}
                   options={plotOptions}
                 />
-                <p>Click and drag on the chart to zoom in</p>
+                <p className={cedenStyles.text}>Click and drag on the chart to zoom in</p>
               </Fragment>
             )}
           </GridColumn>
           <GridColumn width={4}>
-            <h2>More Information</h2>
-            <p>
+            <h2 className={cedenStyles.header}>More Information</h2>
+            <p className={cedenStyles.text}>
               <b>Program:</b> {siteData.Program}
             </p>
-            <p>
-              <a href="https://ceden.waterboards.ca.gov/AdvancedQueryTool"></a>
+            <p className={cedenStyles.text}>
+              <a href="https://ceden.waterboards.ca.gov/AdvancedQueryTool" target="_blank">CEDEN Data</a>
             </p>
             <Accordion panels={moreInfoPanels} />
-            <h3>Explorye Other CEDEN Sites</h3>
+            <h3 className={cedenStyles.header}>Explore Other CEDEN Sites</h3>
             <Dropdown
               placeholder="Select Site"
               fluid
