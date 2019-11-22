@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from "react"
 import { graphql, Link, navigate } from "gatsby"
 import Layout from "../components/layout"
-import { Grid, GridColumn, Dropdown, Container } from "semantic-ui-react"
+import { Grid, GridColumn, Dropdown, Container, Accordion } from "semantic-ui-react"
 import Highcharts from "highcharts"
 import HighchartsReact from "highcharts-react-official"
 import moment from "moment"
@@ -11,6 +11,9 @@ export default ({ data, pageContext }) => {
     edge.node.Analyte,
     edge.node.Unit,
   ])
+
+  const siteData = data.allExternalCedenJson.edges[0].node
+  console.log(siteData)
 
   const [analyteUnit, setAnalyteUnit] = useState("")
 
@@ -29,12 +32,12 @@ export default ({ data, pageContext }) => {
   const unit = selectedAnalyteUnit[1]
   const analyte = selectedAnalyteUnit[0].slice(0, -1)
 
-  const siteData = data.allExternalCedenJson.edges.filter(
+  const plotData = data.allExternalCedenJson.edges.filter(
     edge => (edge.node.Analyte === analyte) & (edge.node.Unit === unit)
   )
 
   const wqFeature =
-    siteData.length > 0 ? siteData[0].node.analyte_desc_name : null
+    plotData.length > 0 ? plotData[0].node.analyte_desc_name : null
 
   const featureDescription =
     analyteUnit !== ""
@@ -47,7 +50,31 @@ export default ({ data, pageContext }) => {
           .filter(feature => feature.name === wqFeature)[0].feature_description
       : null
 
-  console.log(featureDescription)
+  const wqFeatureDescrContent =
+    analyteUnit === "" ? <p>Select a Water Quality Feature</p> : (
+      <Fragment>
+        <h3>{wqFeature}</h3>
+        <p>{featureDescription}</p>
+      </Fragment>
+    )
+
+  const protocolInfoContent =
+    analyteUnit === "" ? <p>Select a Water Quality Feature</p> : (
+      <p>{`${plotData[0].node.ProtocolName} (${plotData[0].node.ProtocolCode}) - ${plotData[0].node.ProtocolDescr}`}</p>
+    )
+
+  const moreInfoPanels = [
+    {
+      key: "wq-feature-descr",
+      title: "Water Quality Feature Description",
+      content: { content: wqFeatureDescrContent, }
+    },
+    {
+      key: "protocol-info",
+      title: "Protocol Information",
+      content: { content: protocolInfoContent }
+    }
+  ]
 
   const plotOptions = {
     chart: {
@@ -73,8 +100,8 @@ export default ({ data, pageContext }) => {
       {
         name: analyteUnit,
         data:
-          siteData.length > 0
-            ? siteData[0].node.data.map(pt => [
+          plotData.length > 0
+            ? plotData[0].node.data.map(pt => [
                 moment.utc(pt.SampleDate).valueOf(),
                 pt.Result,
               ])
@@ -91,7 +118,7 @@ export default ({ data, pageContext }) => {
       <Container>
         <Grid>
           <GridColumn width={12}>
-            <h1>{pageContext.stationName}</h1>
+            <h1>Station Name: {pageContext.stationName}</h1>
             <div>
               <h3>Select Water Quality Feature</h3>
               <Dropdown
@@ -104,21 +131,19 @@ export default ({ data, pageContext }) => {
               />
             </div>
             {analyteUnit === "" ? null : (
-              <HighchartsReact highcharts={Highcharts} options={plotOptions} />
+              <Fragment>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  options={plotOptions}
+                />
+                <p>Click and drag on the chart to zoom in</p>
+              </Fragment>
             )}
           </GridColumn>
           <GridColumn width={4}>
-            <h2>Water Quatilty Feature Description</h2>
-            {analyteUnit === "" ? null : (
-              <Fragment>
-                <h3>{wqFeature}</h3>
-                <p>{featureDescription}</p>
-              </Fragment>
-            )}
-            <h4>Protocol Info</h4>
-            {analyteUnit === "" ? null : (
-              <p>{`${siteData[0].node.ProtocolName} (${siteData[0].node.ProtocolCode}) - ${siteData[0].node.ProtocolDescr}`}</p>
-            )}
+            <h2>More Information</h2>
+            <p><b>Program:</b> {siteData.Program}</p>
+            <Accordion panels={moreInfoPanels}/>
           </GridColumn>
         </Grid>
       </Container>
