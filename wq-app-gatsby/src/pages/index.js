@@ -11,7 +11,7 @@ import SEO from "../components/seo"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import homeStyles from "../styles/home.module.css"
 import WQFeature from "../components/wqFeature"
-import Mapbox from "../components/creekMap"
+import Mapbox from "../components/homeMap"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -51,11 +51,23 @@ const IndexPage = () => {
           }
         }
       }
+      allTwpCedenSitesCsv {
+        edges {
+          node {
+            lat
+            long
+            name
+            site_id
+            source
+          }
+        }
+      }
     }
   `)
 
-  const ptsNotFlat = data.allCreekSiteJson.edges.map(edge => edge.node.sites)
-  const pts = [].concat(...ptsNotFlat)
+  const pts = [].concat(
+    ...data.allTwpCedenSitesCsv.edges.map(edge => edge.node)
+  )
 
   return (
     <Layout>
@@ -100,7 +112,10 @@ const IndexPage = () => {
             </h2>
             <p className={homeStyles.welcomeText}>
               Contra Costa County has over 20 major creeks, as identified by the
-              <a href="http://cocowaterweb.org/wp-content/uploads/Watershed-Atlas.pdf"  target="_blank">
+              <a
+                href="http://cocowaterweb.org/wp-content/uploads/Watershed-Atlas.pdf"
+                target="_blank"
+              >
                 {" "}
                 Contra Costa County Watershed Atlas
               </a>
@@ -114,7 +129,9 @@ const IndexPage = () => {
           </GridColumn>
           <GridColumn width={4}>
             <Message>
-              <h3 className={homeStyles.creekHeader}>Explore Creeks We Monitor</h3>
+              <h3 className={homeStyles.creekHeader}>
+                Explore Creeks We Monitor
+              </h3>
               <ul>
                 {data.allCreekSiteJson.edges.map((edge, index) => {
                   return (
@@ -137,7 +154,7 @@ const IndexPage = () => {
               lat={37.929787}
               long={-122.076019}
               zoom={9}
-              height={'100%'}
+              height={"100%"}
             />
           </GridColumn>
         </Grid>

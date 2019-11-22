@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import ReactMapGL, { Marker, Popup } from "react-map-gl"
+import ReactMapGL, { Marker, Popup, NavigationControl } from "react-map-gl"
 import mapStyles from "../styles/map.module.css"
 import pin from "../images/marker-stroked-15.svg"
 import { navigate } from "gatsby"
@@ -43,6 +43,9 @@ class Mapbox extends Component {
         {...this.state.viewport}
         onViewportChange={viewport => this.setState({ viewport })}
       >
+        <div style={{position: 'absolute', left: 0}}>
+          <NavigationControl />
+        </div>
         {this.props.pts.map((pt, key) => (
           <Marker latitude={pt.lat} longitude={pt.long} key={key}>
             <img
