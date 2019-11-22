@@ -84,8 +84,9 @@ ceden %>%
   filter(StationCode %in% stations, !is.na(Result),
          Program != 'The Watershed Project Water Quality Monitoring', 
          Analyte %in% filtered_analytes$Analyte) %>% 
-  select(Program, StationName, StationCode, SampleDate, Analyte, Unit, Result, 
+  group_by(Program, StationName, StationCode, SampleDate, Analyte, Unit, 
          lat = TargetLatitude, long = TargetLongitude, ProtocolCode) %>% 
+  summarise(Result = mean(Result)) %>% 
   left_join(protocol) %>% 
   left_join(filtered_analytes) %>% 
   group_by(Program, StationName, StationCode, lat, long, ProtocolCode, ProtocolName, 
@@ -95,20 +96,42 @@ ceden %>%
   write_file('wq-app-gatsby/src/data/external_ceden.json')
 
 
-d <- ceden %>% 
+ceden %>% 
   filter(StationCode %in% stations, !is.na(Result),
          Program != 'The Watershed Project Water Quality Monitoring', 
          Analyte %in% filtered_analytes$Analyte) %>% 
-  left_join(filtered_analytes)
+  select(Program, StationName, StationCode, SampleDate, Analyte, Unit, Result, 
+         lat = TargetLatitude, long = TargetLongitude, ProtocolCode) %>% 
+  left_join(protocol) %>% 
+  left_join(filtered_analytes) %>% 
+  group_by(Program, StationName, StationCode, lat, long, ProtocolCode, ProtocolName, 
+           ProtocolDescr, Analyte, Unit, analyte_desc_name, analyte_desc_name_2) %>% 
+  summarise(n()) %>% 
+  group_by(StationName, Analyte) %>% 
+  summarise(n()) %>% View
 
+ceden %>% 
+  filter(StationName == 'Kirker Creek at Floodway', Analyte == 'Total Organic Carbon, Total') %>% 
+  select(Program, StationName, StationCode, SampleDate, Analyte, Unit, Result, 
+         lat = TargetLatitude, long = TargetLongitude, ProtocolCode) %>% View
 
+ceden %>% 
+  filter(StationCode %in% stations, !is.na(Result),
+         Program != 'The Watershed Project Water Quality Monitoring', 
+         Analyte %in% filtered_analytes$Analyte) %>% 
+  select(Program, StationName, StationCode, SampleDate, Analyte, Unit, Result, 
+         lat = TargetLatitude, long = TargetLongitude, ProtocolCode) %>% 
+  group_by(StationCode, Analyte) %>% 
+  summarise(n())
 
-
-unique(d$StationName) %>% length
-unique(d$analyte_desc_name)
-
-
-write_json(iris, 'test.json')
+ceden %>% 
+  filter(StationCode == 'RICH', Analyte == 'Mercury, Total', SampleDate == ymd(paste(2011, 3, 24))) %>% 
+  group_by(Program, StationName, StationCode, SampleDate, Analyte, Unit,
+         lat = TargetLatitude, long = TargetLongitude, ProtocolCode) %>%
+  summarise(Result = mean(Result)) %>% 
+  left_join(protocol) %>% 
+  left_join(filtered_analytes) %>%
+  
 # ceden_filtered %>% 
 #   group_by(StationCode, Analyte) %>%
 #   summarise(count = n()) %>% 
