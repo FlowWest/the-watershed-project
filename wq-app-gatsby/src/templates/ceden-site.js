@@ -36,11 +36,16 @@ export default ({ data, pageContext }) => {
   const wqFeature =
     siteData.length > 0 ? siteData[0].node.analyte_desc_name : null
 
-  const featureDescription = []
-    .concat(
-      ...data.allWqCategoriesFeaturesJson.edges.map(edge => edge.node.features)
-    )
-    .filter(feature => feature.name === wqFeature)[0].feature_description
+  const featureDescription =
+    analyteUnit !== ""
+      ? []
+          .concat(
+            ...data.allWqCategoriesFeaturesJson.edges.map(
+              edge => edge.node.features
+            )
+          )
+          .filter(feature => feature.name === wqFeature)[0].feature_description
+      : null
 
   console.log(featureDescription)
 
