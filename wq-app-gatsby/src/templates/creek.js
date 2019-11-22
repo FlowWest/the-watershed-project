@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, navigate } from "gatsby"
 import Layout from "../components/layout"
-import creekImage from "../images/20180816_111841.jpg"
+import defaultImage from "../images/mountains.png"
 import {
   Grid,
   GridColumn,
@@ -29,6 +29,14 @@ export default ({ data, pageContext }) => {
     value: edge.node.creek_id,
   }))
 
+  const creekImage =
+    data.allImagesCsv.edges.filter(edge => edge.node.ID === pageContext.creekID)
+      .length === 0
+      ? defaultImage
+      : data.allImagesCsv.edges.filter(
+          edge => edge.node.ID === pageContext.creekID
+        )[0].node.imageURL
+
   const pts = [].concat(...creekData.sites)
 
   const colorLookUp = {
@@ -47,8 +55,6 @@ export default ({ data, pageContext }) => {
     text: site.name,
     value: site.site_id,
   }))
-
-  const grade = data.allCreekGradesCsv.edges[0].node.letter_grade
 
   return (
     <Layout>
@@ -70,7 +76,7 @@ export default ({ data, pageContext }) => {
                 <GridColumn width={16}>
                   <Mapbox
                     pts={pts}
-                    height={300}
+                    height={'100%'}
                     zoom={10}
                     lat={creekData.creek_lat}
                     long={creekData.creek_long}
@@ -81,26 +87,33 @@ export default ({ data, pageContext }) => {
                 <GridColumn width={9}>
                   <h3 className={creekStyles.header2}>Creek Report Card</h3>
                   <Grid>
-                    <GridColumn width={10}>
+                    <GridColumn width={16}>
                       <Table basic="very" celled collapsing>
                         <TableBody className={creekStyles.creekScore}>
                           {analyteScores.map(analyte => (
                             <TableRow>
                               <TableCell>{analyte[0]}</TableCell>
-                              <TableCell>
+                              {anayte[1] === "Bad" ? (
+                                <TableCell title="bad bad bad">
                                 <Icon
                                   name="circle"
                                   color={colorLookUp[analyte[1]]}
                                 ></Icon>
-                                {`  ${analyte[1]}`}
+                                {analyte[1]}
                               </TableCell>
+                              ) : (
+                                <TableCell>
+                                <Icon
+                                  name="circle"
+                                  color={colorLookUp[analyte[1]]}
+                                ></Icon>
+                                {analyte[1]}
+                              </TableCell>
+                              )}
                             </TableRow>
                           ))}
                         </TableBody>
                       </Table>
-                    </GridColumn>
-                    <GridColumn width={6}>
-                      <h2 className={creekStyles.header2}>{`Grade: ${grade}`}</h2>
                     </GridColumn>
                   </Grid>
                 </GridColumn>
@@ -164,11 +177,12 @@ export const query = graphql`
         }
       }
     }
-    allCreekGradesCsv(filter: { creek_id: { eq: $creekID } }) {
+    allImagesCsv {
       edges {
         node {
-          letter_grade
-          grade
+          imageOrder
+          imageURL
+          ID
         }
       }
     }
