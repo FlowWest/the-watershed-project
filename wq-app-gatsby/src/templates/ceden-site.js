@@ -1,7 +1,13 @@
 import React, { useState, Fragment } from "react"
 import { graphql, Link, navigate } from "gatsby"
 import Layout from "../components/layout"
-import { Grid, GridColumn, Dropdown, Container, Accordion } from "semantic-ui-react"
+import {
+  Grid,
+  GridColumn,
+  Dropdown,
+  Container,
+  Accordion
+} from "semantic-ui-react"
 import Highcharts from "highcharts"
 import HighchartsReact from "highcharts-react-official"
 import moment from "moment"
@@ -13,7 +19,14 @@ export default ({ data, pageContext }) => {
   ])
 
   const siteData = data.allExternalCedenJson.edges[0].node
-  console.log(siteData)
+
+  const otherSites = data.allTwpCedenSitesCsv.edges.filter(edge => edge.node.source === 'CEDEN')
+  
+  const siteOptions = otherSites.map(site => ({
+    key: site.node.site_id,
+    text: site.node.name,
+    value: site.node.site_id,
+  }))
 
   const [analyteUnit, setAnalyteUnit] = useState("")
 
@@ -51,7 +64,9 @@ export default ({ data, pageContext }) => {
       : null
 
   const wqFeatureDescrContent =
-    analyteUnit === "" ? <p>Select a Water Quality Feature</p> : (
+    analyteUnit === "" ? (
+      <p>Select a Water Quality Feature</p>
+    ) : (
       <Fragment>
         <h3>{wqFeature}</h3>
         <p>{featureDescription}</p>
@@ -59,7 +74,9 @@ export default ({ data, pageContext }) => {
     )
 
   const protocolInfoContent =
-    analyteUnit === "" ? <p>Select a Water Quality Feature</p> : (
+    analyteUnit === "" ? (
+      <p>Select a Water Quality Feature</p>
+    ) : (
       <p>{`${plotData[0].node.ProtocolName} (${plotData[0].node.ProtocolCode}) - ${plotData[0].node.ProtocolDescr}`}</p>
     )
 
@@ -67,13 +84,13 @@ export default ({ data, pageContext }) => {
     {
       key: "wq-feature-descr",
       title: "Water Quality Feature Description",
-      content: { content: wqFeatureDescrContent, }
+      content: { content: wqFeatureDescrContent },
     },
     {
       key: "protocol-info",
       title: "Protocol Information",
-      content: { content: protocolInfoContent }
-    }
+      content: { content: protocolInfoContent },
+    },
   ]
 
   const plotOptions = {
@@ -142,8 +159,22 @@ export default ({ data, pageContext }) => {
           </GridColumn>
           <GridColumn width={4}>
             <h2>More Information</h2>
-            <p><b>Program:</b> {siteData.Program}</p>
-            <Accordion panels={moreInfoPanels}/>
+            <p>
+              <b>Program:</b> {siteData.Program}
+            </p>
+            <p>
+              <a href="https://ceden.waterboards.ca.gov/AdvancedQueryTool"></a>
+            </p>
+            <Accordion panels={moreInfoPanels} />
+            <h3>Explorye Other CEDEN Sites</h3>
+            <Dropdown
+              placeholder="Select Site"
+              fluid
+              selection
+              defaultValue={siteData.StationCode}
+              options={siteOptions}
+              onChange={(e, data) => navigate(`ceden-site/${data.value}`)}
+            />
           </GridColumn>
         </Grid>
       </Container>
@@ -179,6 +210,15 @@ export const query = graphql`
             name
             feature_description
           }
+        }
+      }
+    }
+    allTwpCedenSitesCsv {
+      edges {
+        node {
+          name
+          site_id
+          source
         }
       }
     }
