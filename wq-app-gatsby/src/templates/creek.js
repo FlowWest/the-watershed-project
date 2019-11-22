@@ -56,6 +56,10 @@ export default ({ data, pageContext }) => {
     value: site.site_id,
   }))
 
+  const wqFeatureDescriptions = [].concat(
+    ...data.allWqCategoriesFeaturesJson.edges.map(edge => edge.node.features)
+  )
+
   return (
     <Layout>
       <Container>
@@ -76,7 +80,7 @@ export default ({ data, pageContext }) => {
                 <GridColumn width={16}>
                   <Mapbox
                     pts={pts}
-                    height={'100%'}
+                    height={400}
                     zoom={10}
                     lat={creekData.creek_lat}
                     long={creekData.creek_long}
@@ -93,22 +97,28 @@ export default ({ data, pageContext }) => {
                           {analyteScores.map(analyte => (
                             <TableRow>
                               <TableCell>{analyte[0]}</TableCell>
-                              {anayte[1] === "Bad" ? (
-                                <TableCell title="bad bad bad">
-                                <Icon
-                                  name="circle"
-                                  color={colorLookUp[analyte[1]]}
-                                ></Icon>
-                                {analyte[1]}
-                              </TableCell>
+                              {analyte[1] === "Bad" ? (
+                                <TableCell className={creekStyles.bad}
+                                  title={
+                                    wqFeatureDescriptions.filter(
+                                      feature => feature.name === analyte[0]
+                                    )[0].feature_description
+                                  }
+                                >
+                                  <Icon
+                                    name="circle"
+                                    color={colorLookUp[analyte[1]]}
+                                  ></Icon>
+                                  {analyte[1]}
+                                </TableCell>
                               ) : (
                                 <TableCell>
-                                <Icon
-                                  name="circle"
-                                  color={colorLookUp[analyte[1]]}
-                                ></Icon>
-                                {analyte[1]}
-                              </TableCell>
+                                  <Icon
+                                    name="circle"
+                                    color={colorLookUp[analyte[1]]}
+                                  ></Icon>
+                                  {analyte[1]}
+                                </TableCell>
                               )}
                             </TableRow>
                           ))}
@@ -174,6 +184,16 @@ export const query = graphql`
           creek_id
           AnalyteName
           score
+        }
+      }
+    }
+    allWqCategoriesFeaturesJson {
+      edges {
+        node {
+          features {
+            name
+            feature_description
+          }
         }
       }
     }
