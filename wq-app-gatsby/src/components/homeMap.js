@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import ReactMapGL, { Marker, Popup } from "react-map-gl"
+import ReactMapGL, { Marker, Popup, NavigationControl } from "react-map-gl"
 import mapStyles from "../styles/map.module.css"
 import pinTWP from "../images/marker-stroked-15.svg"
 import pinCEDEN from "../images/marker-stroked-15-ceden.svg"
@@ -44,6 +44,9 @@ class Mapbox extends Component {
         {...this.state.viewport}
         onViewportChange={viewport => this.setState({ viewport })}
       >
+        <div style={{position: 'absolute', left: 0}}>
+          <NavigationControl />
+        </div>
         {this.props.pts.map((pt, key) => (
           pt.source === 'The Watershed Project' ? (
           <Marker latitude={parseFloat(pt.lat)} longitude={parseFloat(pt.long)} key={key}>
