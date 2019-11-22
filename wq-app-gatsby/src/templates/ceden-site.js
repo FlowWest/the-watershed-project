@@ -11,7 +11,7 @@ import {
 import Highcharts from "highcharts"
 import HighchartsReact from "highcharts-react-official"
 import moment from "moment"
-import cedenStyles from "../styles/ceden.modules.css"
+import cedenStyles from "../styles/ceden.module.css"
 
 export default ({ data, pageContext }) => {
   const analytes = data.allExternalCedenJson.edges.map(edge => [
