@@ -209,7 +209,6 @@ export const query = graphql`
     allImagesCsv {
       edges {
         node {
-          imageOrder
           imageURL
           ID
         }
