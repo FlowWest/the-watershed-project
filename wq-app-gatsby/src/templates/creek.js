@@ -68,8 +68,16 @@ export default ({ data, pageContext }) => {
             <h1 className={creekStyles.creekHeader}>{creekData.creek_name}</h1>
           </GridColumn>
           <GridColumn width={6}>
-            <Image src={creekImage} size="large"></Image>
+            {creekImage == defaultImage ? (
+              <Image src={creekImage} size="large"></Image>
+            ) : (
+              <a href={creekImage} target="_blank">
+                <Image src={creekImage} size="large"></Image>
+              </a>
+            )}
+
             <Divider hidden />
+            <h1 className={creekStyles.creekHeader}>Creek Description</h1>
             <p className={creekStyles.creekDescription}>
               {creekData.creek_description}
             </p>
@@ -98,7 +106,8 @@ export default ({ data, pageContext }) => {
                             <TableRow>
                               <TableCell>{analyte[0]}</TableCell>
                               {analyte[1] === "Bad" ? (
-                                <TableCell className={creekStyles.bad}
+                                <TableCell
+                                  className={creekStyles.bad}
                                   title={
                                     wqFeatureDescriptions.filter(
                                       feature => feature.name === analyte[0]
