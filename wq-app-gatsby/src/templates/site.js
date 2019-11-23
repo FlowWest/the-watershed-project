@@ -1,5 +1,6 @@
 import React, { useState, Fragment } from "react"
 import { graphql, Link, navigate } from "gatsby"
+import _ from "underscore"
 import Layout from "../components/layout"
 import img1 from "../images/Monitoring-Walnut-Creek-crop-1012x1024.jpg"
 import img2 from "../images/20180502_105406.jpg"
@@ -23,9 +24,15 @@ import moment from "moment"
 import siteStyles from "../styles/site.module.css"
 
 export default ({ data, pageContext }) => {
+  const images = data.allImagesCsv.edges
+    .filter(edge => edge.node.ID === pageContext.siteID)
+    .map(image => image.node)
+
+  _.sortBy(images, "imageOrder")
+
   const firstAnalyte = pageContext.siteID === "BAX030" ? "Lead" : "Temperature"
   const [analyte, setAnalyte] = useState(firstAnalyte)
-  const [selectedImage, setImage] = useState(img1)
+  const [selectedImage, setImage] = useState(images[0])
 
   const sitesData = data.allCreekSiteJson.edges[0].node
   const [siteData] = sitesData.sites.filter(
@@ -228,13 +235,16 @@ export default ({ data, pageContext }) => {
         menuItem: "Images",
         render: () => (
           <Tab.Pane attached={false}>
-            <Image src={selectedImage} alt="image"></Image>
+            <Image src={selectedImage.imageURL} alt="image"></Image>
             <Divider hidden />
             <Image.Group size="tiny">
-              <Image src={img1} onClick={() => setImage(img1)} />
+              {images.map(image => (
+                <Image src={image.imageURL} onClick={() => setImage(image)} />
+              ))}
+              {/* <Image src={img1} onClick={() => setImage(img1)} />
               <Image src={img2} onClick={() => setImage(img2)} />
               <Image src={img3} onClick={() => setImage(img3)} />
-              <Image src={img4} onClick={() => setImage(img4)} />
+              <Image src={img4} onClick={() => setImage(img4)} /> */}
             </Image.Group>
             <Divider hidden />
           </Tab.Pane>
@@ -363,6 +373,15 @@ export const query = graphql`
             name
             feature_description
           }
+        }
+      }
+    }
+    allImagesCsv {
+      edges {
+        node {
+          imageOrder
+          imageURL
+          ID
         }
       }
     }

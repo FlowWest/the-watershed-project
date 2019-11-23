@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, navigate } from "gatsby"
 import Layout from "../components/layout"
-import creekImage from "../images/20180816_111841.jpg"
+import defaultImage from "../images/mountains.png"
 import {
   Grid,
   GridColumn,
@@ -29,6 +29,14 @@ export default ({ data, pageContext }) => {
     value: edge.node.creek_id,
   }))
 
+  const creekImage =
+    data.allImagesCsv.edges.filter(edge => edge.node.ID === pageContext.creekID)
+      .length === 0
+      ? defaultImage
+      : data.allImagesCsv.edges.filter(
+          edge => edge.node.ID === pageContext.creekID
+        )[0].node.imageURL
+
   const pts = [].concat(...creekData.sites)
 
   const colorLookUp = {
@@ -48,7 +56,9 @@ export default ({ data, pageContext }) => {
     value: site.site_id,
   }))
 
-  const grade = data.allCreekGradesCsv.edges[0].node.letter_grade
+  const wqFeatureDescriptions = [].concat(
+    ...data.allWqCategoriesFeaturesJson.edges.map(edge => edge.node.features)
+  )
 
   return (
     <Layout>
@@ -58,8 +68,16 @@ export default ({ data, pageContext }) => {
             <h1 className={creekStyles.creekHeader}>{creekData.creek_name}</h1>
           </GridColumn>
           <GridColumn width={6}>
-            <Image src={creekImage} size="large"></Image>
+            {creekImage == defaultImage ? (
+              <Image src={creekImage} size="large"></Image>
+            ) : (
+              <a href={creekImage} target="_blank">
+                <Image src={creekImage} size="large"></Image>
+              </a>
+            )}
+
             <Divider hidden />
+            <h1 className={creekStyles.creekHeader}>Creek Description</h1>
             <p className={creekStyles.creekDescription}>
               {creekData.creek_description}
             </p>
@@ -70,7 +88,7 @@ export default ({ data, pageContext }) => {
                 <GridColumn width={16}>
                   <Mapbox
                     pts={pts}
-                    height={300}
+                    height={400}
                     zoom={10}
                     lat={creekData.creek_lat}
                     long={creekData.creek_long}
@@ -81,26 +99,40 @@ export default ({ data, pageContext }) => {
                 <GridColumn width={9}>
                   <h3 className={creekStyles.header2}>Creek Report Card</h3>
                   <Grid>
-                    <GridColumn width={10}>
+                    <GridColumn width={16}>
                       <Table basic="very" celled collapsing>
                         <TableBody className={creekStyles.creekScore}>
                           {analyteScores.map(analyte => (
                             <TableRow>
                               <TableCell>{analyte[0]}</TableCell>
-                              <TableCell>
-                                <Icon
-                                  name="circle"
-                                  color={colorLookUp[analyte[1]]}
-                                ></Icon>
-                                {`  ${analyte[1]}`}
-                              </TableCell>
+                              {analyte[1] === "Bad" ? (
+                                <TableCell
+                                  className={creekStyles.bad}
+                                  title={
+                                    wqFeatureDescriptions.filter(
+                                      feature => feature.name === analyte[0]
+                                    )[0].feature_description
+                                  }
+                                >
+                                  <Icon
+                                    name="circle"
+                                    color={colorLookUp[analyte[1]]}
+                                  ></Icon>
+                                  {analyte[1]}
+                                </TableCell>
+                              ) : (
+                                <TableCell>
+                                  <Icon
+                                    name="circle"
+                                    color={colorLookUp[analyte[1]]}
+                                  ></Icon>
+                                  {analyte[1]}
+                                </TableCell>
+                              )}
                             </TableRow>
                           ))}
                         </TableBody>
                       </Table>
-                    </GridColumn>
-                    <GridColumn width={6}>
-                      <h2 className={creekStyles.header2}>{`Grade: ${grade}`}</h2>
                     </GridColumn>
                   </Grid>
                 </GridColumn>
@@ -164,11 +196,21 @@ export const query = graphql`
         }
       }
     }
-    allCreekGradesCsv(filter: { creek_id: { eq: $creekID } }) {
+    allWqCategoriesFeaturesJson {
       edges {
         node {
-          letter_grade
-          grade
+          features {
+            name
+            feature_description
+          }
+        }
+      }
+    }
+    allImagesCsv {
+      edges {
+        node {
+          imageURL
+          ID
         }
       }
     }
