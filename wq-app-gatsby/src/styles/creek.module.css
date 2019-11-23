@@ -17,3 +17,7 @@
   font-family: 'Cabin', sans-serif;
   font-size: 14px;
 }
+
+.bad:hover {
+  cursor: help;
+}
