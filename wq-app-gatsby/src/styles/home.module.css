@@ -6,7 +6,7 @@
 
 .menu-item {
   font-family: 'Cabin';
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .menu{
@@ -14,12 +14,7 @@
 }
 
 .logo {
-  width: 200px;
-  margin: auto;
-}
-
-.logo2 {
-  width: 100px;
+  width: 175px;
   margin: auto;
 }
 
@@ -68,7 +63,7 @@
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -85,21 +80,9 @@
 
 li {
   list-style: none;
-  font-size: 22px;
+  font-size: 18px;
   padding-bottom: 15px;
 }
-
-/* @keyframes raise {
-  0% {
-    transform: translate(0,0);
-  }
-  100% {
-    transform: translate(0, 30px)
-  }
-} */
-/* a {
-  color: black;
-} */
 
 .links :hover {
   color: #375ab9;
@@ -115,16 +98,16 @@ ul {
 }
 
 .waterDrop {
-  width: 40%;
+  width: 30%;
 }
 
 .header {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 0;
 }
 
 .site-header {
-  font-size: 40px;
+  font-size: 36px;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -141,16 +124,16 @@ ul {
 }
 
 .welcome-header {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .learn-header {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .welcome-text {
   font-family: 'Cabin', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .creek-name {
@@ -158,11 +141,5 @@ ul {
 }
 
 .creek-header{
-  font-size: 26px;
-}
-
-@media screen and (max-width: 736px) {
-  .site-header {
-    font-size: 20px;
-  }
+  font-size: 20px;
 }
