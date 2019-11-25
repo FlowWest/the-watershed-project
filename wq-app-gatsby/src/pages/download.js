@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container } from "semantic-ui-react"
+import { Container, Divider } from "semantic-ui-react"
 import downloadStyles from '../styles/download.module.css'
 
 const Download = () => {
