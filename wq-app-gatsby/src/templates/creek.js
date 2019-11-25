@@ -18,6 +18,7 @@ import {
 } from "semantic-ui-react"
 import Mapbox from "../components/creekMap"
 import creekStyles from "../styles/creek.module.css"
+import SEO from "../components/seo"
 
 export default ({ data, pageContext }) => {
   const creekData = data.allCreekSiteJson.edges.filter(
@@ -63,6 +64,7 @@ export default ({ data, pageContext }) => {
   return (
     <Layout>
       <Container>
+        <SEO title={pageContext.creekName}/>
         <Grid>
           <GridColumn width={16}>
             <h1 className={creekStyles.creekHeader}>{creekData.creek_name}</h1>

@@ -12,6 +12,7 @@ import Highcharts from "highcharts"
 import HighchartsReact from "highcharts-react-official"
 import moment from "moment"
 import cedenStyles from "../styles/ceden.module.css"
+import SEO from "../components/seo"
 
 export default ({ data, pageContext }) => {
   const analytes = data.allExternalCedenJson.edges.map(edge => [
@@ -138,6 +139,7 @@ export default ({ data, pageContext }) => {
   return (
     <Layout>
       <Container>
+        <SEO title={pageContext.stationName} />
         <Grid>
           <GridColumn width={12}>
             <h1 className={cedenStyles.header}>
