@@ -232,16 +232,18 @@ export default ({ data, pageContext }) => {
         menuItem: "Images",
         render: () => (
           <Tab.Pane attached={false}>
-            <Image src={selectedImage.imageURL} alt="image"></Image>
+            <a
+              href={selectedImage.imageURL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src={selectedImage.imageURL} alt="image"></Image>
+            </a>
             <Divider hidden />
             <Image.Group size="tiny">
               {images.map(image => (
                 <Image src={image.imageURL} onClick={() => setImage(image)} />
               ))}
-              {/* <Image src={img1} onClick={() => setImage(img1)} />
-              <Image src={img2} onClick={() => setImage(img2)} />
-              <Image src={img3} onClick={() => setImage(img3)} />
-              <Image src={img4} onClick={() => setImage(img4)} /> */}
             </Image.Group>
             <Divider hidden />
           </Tab.Pane>
@@ -261,7 +263,7 @@ export default ({ data, pageContext }) => {
   return (
     <Layout>
       <Container>
-        <SEO title={pageContext.name}/>
+        <SEO title={pageContext.name} />
         <Grid>
           <GridColumn width={6}>
             <h2
