@@ -12,6 +12,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 
 import SiteHeader from "./siteHeader"
 import Footer from "./footer"
+import layoutStyles from "../styles/layout.module.css"
 // import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -28,7 +29,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <SiteHeader />
-      <div>
+      <div className={layoutStyles.children}>
         {children}
       </div>
       <Footer />
