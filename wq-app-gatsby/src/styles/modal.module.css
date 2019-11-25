@@ -1,20 +1,20 @@
 .category-description {
-  font-size: 26px;
+  font-size: 22px;
   font-style: italic;
   color: #444444
 }
 
 .description{
-  font-size: 20px;
+  font-size: 16px;
   color: #444444
 }
 
 .category {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .feature {
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .feature,

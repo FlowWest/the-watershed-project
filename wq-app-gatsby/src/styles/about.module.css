@@ -1,6 +1,6 @@
 .paragraph {
   font-family: 'Cabin', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   padding-bottom: 8px
   /* I added a little padding so that the text wasn't at the very bottom of the screen
   we can change this into just the ending paragraph of each page if you would like.
@@ -20,7 +20,7 @@
 
 .list-Style > li {
   list-style: disc;
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 5px;
   padding-bottom: 15px;
   margin-left: 29%;

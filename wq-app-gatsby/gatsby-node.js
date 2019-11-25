@@ -5,6 +5,7 @@ exports.createPages = async function({ actions, graphql }) {
         edges {
           node {
             creek_id
+            creek_name
           }
         }
       }
@@ -41,10 +42,11 @@ exports.createPages = async function({ actions, graphql }) {
 
   creekData.data.allCreekSiteJson.edges.forEach(edge => {
     const creekID = edge.node.creek_id
+    const creekName = edge.node.creek_name
     actions.createPage({
       path: `creek/${creekID}`,
       component: require.resolve(`./src/templates/creek.js`),
-      context: { creekID: creekID },
+      context: { creekID,creekName },
     })
   })
 
