@@ -22,11 +22,10 @@ sites %>%
 # TWP site data ------
 stationcode_to_label <- sites %>%
   select(creek_id, StationCode = site_id, label)
-
+  
 analytes <- read_excel('data-raw/WQ data.xlsx', 'analytes')
 
-units <- read_excel('data-raw/WQ data.xlsx', 'units') %>% 
-  rename(UnitName = Unit, UnitDescription = `Unit description`)
+units <- read_excel('data-raw/WQ data.xlsx', 'units')
 
 groups <- read_excel('data-raw/WQ data.xlsx', 'groups')
 
