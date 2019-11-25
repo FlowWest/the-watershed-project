@@ -68,10 +68,10 @@ export default ({ data, pageContext }) => {
             <h1 className={creekStyles.creekHeader}>{creekData.creek_name}</h1>
           </GridColumn>
           <GridColumn width={6}>
-            {creekImage == defaultImage ? (
+            {creekImage === defaultImage ? (
               <Image src={creekImage} size="large"></Image>
             ) : (
-              <a href={creekImage} target="_blank">
+              <a href={creekImage} target="_blank" rel="noopener noreferrer">
                 <Image src={creekImage} size="large"></Image>
               </a>
             )}

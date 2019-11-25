@@ -53,6 +53,7 @@ class Mapbox extends Component {
               src={pin}
               onMouseEnter={() => this.setSelectedSite(pt)}
               onClick={() => navigate(`/site/${pt.site_id}`)}
+              alt=""
             ></img>
           </Marker>
         ))}

@@ -1,12 +1,12 @@
 import React, { useState, Fragment } from "react"
-import { graphql, Link, navigate } from "gatsby"
+import { graphql, navigate } from "gatsby"
 import Layout from "../components/layout"
 import {
   Grid,
   GridColumn,
   Dropdown,
   Container,
-  Accordion
+  Accordion,
 } from "semantic-ui-react"
 import Highcharts from "highcharts"
 import HighchartsReact from "highcharts-react-official"
@@ -21,8 +21,10 @@ export default ({ data, pageContext }) => {
 
   const siteData = data.allExternalCedenJson.edges[0].node
 
-  const otherSites = data.allTwpCedenSitesCsv.edges.filter(edge => edge.node.source === 'CEDEN')
-  
+  const otherSites = data.allTwpCedenSitesCsv.edges.filter(
+    edge => edge.node.source === "CEDEN"
+  )
+
   const siteOptions = otherSites.map(site => ({
     key: site.node.site_id,
     text: site.node.name,
@@ -78,7 +80,9 @@ export default ({ data, pageContext }) => {
     analyteUnit === "" ? (
       <p className={cedenStyles.text}>Select a Water Quality Feature</p>
     ) : (
-      <p className={cedenStyles.text}>{`${plotData[0].node.ProtocolName} (${plotData[0].node.ProtocolCode}) - ${plotData[0].node.ProtocolDescr}`}</p>
+      <p
+        className={cedenStyles.text}
+      >{`${plotData[0].node.ProtocolName} (${plotData[0].node.ProtocolCode}) - ${plotData[0].node.ProtocolDescr}`}</p>
     )
 
   const moreInfoPanels = [
@@ -136,9 +140,13 @@ export default ({ data, pageContext }) => {
       <Container>
         <Grid>
           <GridColumn width={12}>
-            <h1 className={cedenStyles.header}>Station Name: {pageContext.stationName}</h1>
+            <h1 className={cedenStyles.header}>
+              Station Name: {pageContext.stationName}
+            </h1>
             <div>
-              <h3 className={cedenStyles.header}>Select Water Quality Feature</h3>
+              <h3 className={cedenStyles.header}>
+                Select Water Quality Feature
+              </h3>
               <Dropdown
                 placeholder="Water Quality Feature"
                 search
@@ -154,7 +162,9 @@ export default ({ data, pageContext }) => {
                   highcharts={Highcharts}
                   options={plotOptions}
                 />
-                <p className={cedenStyles.text}>Click and drag on the chart to zoom in</p>
+                <p className={cedenStyles.text}>
+                  Click and drag on the chart to zoom in
+                </p>
               </Fragment>
             )}
           </GridColumn>
@@ -164,7 +174,13 @@ export default ({ data, pageContext }) => {
               <b>Program:</b> {siteData.Program}
             </p>
             <p className={cedenStyles.text}>
-              <a href="https://ceden.waterboards.ca.gov/AdvancedQueryTool" target="_blank">CEDEN Data</a>
+              <a
+                href="https://ceden.waterboards.ca.gov/AdvancedQueryTool"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CEDEN Data
+              </a>
             </p>
             <Accordion panels={moreInfoPanels} />
             <h3 className={cedenStyles.header}>Explore Other CEDEN Sites</h3>

@@ -114,7 +114,7 @@ const IndexPage = () => {
               Contra Costa County has over 20 major creeks, as identified by the
               <a
                 href="http://cocowaterweb.org/wp-content/uploads/Watershed-Atlas.pdf"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 Contra Costa County Watershed Atlas
