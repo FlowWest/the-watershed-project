@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Water Quality in Contra Costa County`,
-    description: `Explore water quality data with Contra Costa County collected by The Watershed Project`,
+    description: `Explore water quality data within Contra Costa County collected by The Watershed Project`,
     author: `The Watershed Project`,
   },
   plugins: [
