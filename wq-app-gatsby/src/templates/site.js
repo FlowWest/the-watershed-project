@@ -2,6 +2,7 @@ import React, { useState, Fragment } from "react"
 import { graphql, Link, navigate } from "gatsby"
 import _ from "underscore"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 import {
   Grid,
@@ -260,6 +261,7 @@ export default ({ data, pageContext }) => {
   return (
     <Layout>
       <Container>
+        <SEO title={pageContext.name}/>
         <Grid>
           <GridColumn width={6}>
             <h2
