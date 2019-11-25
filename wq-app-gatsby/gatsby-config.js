@@ -1,12 +1,13 @@
-// require("dotenv").config({
-//   path: `.env.${process.env.NODE_ENV}`
-// })
-
 module.exports = {
   siteMetadata: {
     title: `Water Quality in Contra Costa County`,
+<<<<<<< HEAD
     description: `Explore water quality data within Contra Costa County collected by The Watershed Project`,
     author: `@gatsbyjs`,
+=======
+    description: `Explore water quality data with Contra Costa County collected by The Watershed Project`,
+    author: `The Watershed Project`,
+>>>>>>> 41f2ce16598477480d11e03861ba9185ce89d48b
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
