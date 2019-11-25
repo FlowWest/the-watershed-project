@@ -2,10 +2,6 @@ import React, { useState, Fragment } from "react"
 import { graphql, Link, navigate } from "gatsby"
 import _ from "underscore"
 import Layout from "../components/layout"
-import img1 from "../images/Monitoring-Walnut-Creek-crop-1012x1024.jpg"
-import img2 from "../images/20180502_105406.jpg"
-import img3 from "../images/20180816_111841.jpg"
-import img4 from "../images/20180824_121105.jpg"
 
 import {
   Grid,
@@ -152,7 +148,7 @@ export default ({ data, pageContext }) => {
               <p>{label}</p>
               <p>
                 {notes === "NA" ? "" : notes} (Source:{" "}
-                <a href={sourceURL} target="_blank">
+                <a href={sourceURL} target="_blank" rel="noopener noreferrer">
                   {sourceLinkText}
                 </a>
                 )

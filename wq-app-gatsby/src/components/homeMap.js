@@ -55,6 +55,7 @@ class Mapbox extends Component {
               src={pinTWP}
               onMouseEnter={() => this.setSelectedSite(pt)}
               onClick={() => navigate(`/site/${pt.site_id}`)}
+              alt=""
             ></img>
           </Marker>
           ) : (
@@ -64,6 +65,7 @@ class Mapbox extends Component {
               src={pinCEDEN}
               onMouseEnter={() => this.setSelectedSite(pt)}
               onClick={() => navigate(`/ceden-site/${pt.site_id}`)}
+              alt=""
             ></img>
           </Marker>
           )
