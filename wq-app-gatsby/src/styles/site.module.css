@@ -2,34 +2,23 @@
   color: #375ab9;
 }
 
-li :hover {
-  color: #375ab9;
-}
-
 .links {
   list-style: none;
   font-size: 18px;
 }
 
-li {
-  list-style: none;
-  font-size: 18px;
-  padding-bottom: 15px;
-}
-
-
 .site-description {
   font-family: 'Cabin', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .site-header{
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .sites-header{
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
 
 }
