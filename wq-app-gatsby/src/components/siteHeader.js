@@ -38,13 +38,13 @@ const SiteHeader = () => {
             <Image src={logo} className={homeStyles.logo}></Image>
           </Link>
         </GridColumn>
-        <GridColumn width={10}>
+        <GridColumn width={9}>
           <h1 className={homeStyles.siteHeader}>
             {" "}
             Water Quality in Contra Costa County
           </h1>
         </GridColumn>
-        <GridColumn width={3}>
+        <GridColumn width={1}>
           <Menu secondary className={homeStyles.menu}>
             <Link to="/" activeClassName={homeStyles.active}>
               <MenuItem name="home" className={homeStyles.menuItem} />

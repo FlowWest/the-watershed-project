@@ -17,13 +17,13 @@ const About = () => {
           understand,largeppreciate, and protect our local watersheds. We hope
           that this website will help people learn about water quality and be
           interested in investigating their local creeks. Find out more about
-          The Watershed Project at
+          The Watershed Project at{" "}
           <a href="http://thewatershedproject.org/" target="_blank">
             www.thewatershedproject.org
           </a>
           .
         </p>
-        <Image src={img} size="medium" className={aboutStyles.textWarp} />
+        <Image src={img} size="medium" floated="left" />
         <p className={aboutStyles.paragraph}>
           We could use your help! Our monitoring technicians need volunteers to
           help them collect their monthly data. Volunteers learn how to record
@@ -79,7 +79,7 @@ const About = () => {
           For Vital Water Quality Features, for which data is collected monthly,
           <b> Feature Scores</b> are calculated based on the proportion of time
           a water quality feature was within the acceptable range.
-          <ul>
+          <ul className={aboutStyles.listStyle}>
             <li>Good = if proportion is .9 or greater</li>
             <li>Marginal = if proportion is between .9 and .5</li>
             <li>Bad = if proportion is less than .5</li>

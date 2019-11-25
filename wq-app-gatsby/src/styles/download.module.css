@@ -1,0 +1,11 @@
+.paragraph {
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+  padding-bottom: 8px
+  /* I added a little padding so that the text wasn't at the very bottom of the screen */
+}
+
+.header {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 26px;
+}
