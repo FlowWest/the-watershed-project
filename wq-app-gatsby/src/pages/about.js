@@ -18,7 +18,11 @@ const About = () => {
           that this website will help people learn about water quality and be
           interested in investigating their local creeks. Find out more about
           The Watershed Project at{" "}
-          <a href="http://thewatershedproject.org/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="http://thewatershedproject.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             www.thewatershedproject.org
           </a>
           .
@@ -40,11 +44,15 @@ const About = () => {
         <p className={aboutStyles.paragraph}>
           We follow protocols found in the California Waterboards Surface Water
           Ambient Monitoring Program’s{" "}
-          <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/cwt_guidance.html"  target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.waterboards.ca.gov/water_issues/programs/swamp/cwt_guidance.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Clean Water Team Guidance Compendium for Watershed Monitoring and
             Assessment
           </a>
-          for all of our monitoring activities. We calibrate meters before each
+          {" "}for all of our monitoring activities. We calibrate meters before each
           monitoring day, check their accuracy after monitoring, and collect
           multiple data points per feature so that we can calculate field
           precision, ensuring our data is accurate and replicable. For more
