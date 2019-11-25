@@ -11,7 +11,7 @@ import 'semantic-ui-css/semantic.min.css'
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 import SiteHeader from "./siteHeader"
-// import Footer from "./footer"
+import Footer from "./footer"
 // import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
       <div>
         {children}
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
 
   )
