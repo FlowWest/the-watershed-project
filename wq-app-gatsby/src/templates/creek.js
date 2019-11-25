@@ -71,7 +71,7 @@ export default ({ data, pageContext }) => {
             {creekImage == defaultImage ? (
               <Image src={creekImage} size="large"></Image>
             ) : (
-              <a href={creekImage} target="_blank">
+              <a href={creekImage} target="_blank" rel="noopener noreferrer">
                 <Image src={creekImage} size="large"></Image>
               </a>
             )}

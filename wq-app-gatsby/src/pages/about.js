@@ -18,7 +18,7 @@ const About = () => {
           that this website will help people learn about water quality and be
           interested in investigating their local creeks. Find out more about
           The Watershed Project at{" "}
-          <a href="http://thewatershedproject.org/" target="_blank">
+          <a href="http://thewatershedproject.org/" target="_blank" rel="noopener noreferrer">
             www.thewatershedproject.org
           </a>
           .
@@ -40,7 +40,7 @@ const About = () => {
         <p className={aboutStyles.paragraph}>
           We follow protocols found in the California Waterboards Surface Water
           Ambient Monitoring Program’s{" "}
-          <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/cwt_guidance.html"  target="_blank">
+          <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/cwt_guidance.html"  target="_blank" rel="noopener noreferrer">
             Clean Water Team Guidance Compendium for Watershed Monitoring and
             Assessment
           </a>
@@ -84,14 +84,6 @@ const About = () => {
             <li>Marginal = if proportion is between .9 and .5</li>
             <li>Bad = if proportion is less than .5</li>
           </ul>
-        </p>
-        <p className={aboutStyles.paragraph}>
-          <b>Creek Grades</b> combines the Feature Scores to get an overall
-          grade for the creek as a whole, based on the sites monitored. 0 points
-          are given to Bad scores, 1 point is given to Marginal scores, and 2
-          points are given to Good scores. Finally, the points are summed for
-          each creek and divided by the total possible points to get an overall
-          grade of Good, Marginal, or Bad.
         </p>
       </Container>
     </Layout>
