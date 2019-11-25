@@ -169,8 +169,7 @@ read_csv('data-raw/images.csv') %>%
 # prep water quality feature information ------
 wq_categories <- read_csv('data-raw/wq_categories.csv') 
 
-wq_features <- read_csv('data-raw/wq_features.csv') %>% 
-  rename(feature_description = description)
+wq_features <- read_csv('data-raw/wq_features.csv')
 
 wq_features %>% 
   left_join(wq_categories) %>% 
