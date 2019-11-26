@@ -13,7 +13,7 @@ const Download = () => {
         <p className={downloadStyles.paragraph}>
           If you’d like to take a look at our data in its raw form, you can
           download it{" "}
-          <a href="https://the-watershed-project.s3-us-west-2.amazonaws.com/the-watershed-project-water-quality-data.xlsx">
+          <a href="https://the-watershed-project-app.s3-us-west-2.amazonaws.com/the-watershed-project-water-quality-data.xlsx">
             here
           </a>
           .
