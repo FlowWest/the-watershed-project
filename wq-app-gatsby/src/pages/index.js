@@ -94,19 +94,27 @@ const IndexPage = () => {
               Learn About Water Quality Features
             </h2>
           </GridColumn>
-          {data.allWqCategoriesFeaturesJson.edges.map((edge, index) => {
-            return (
-              <Fragment key={index}>
-                <GridColumn width={4}>
-                  <WQFeature
-                    category={edge.node.category}
-                    description={edge.node.description}
-                    features={edge.node.features}
-                  />
-                </GridColumn>
-              </Fragment>
-            )
-          })}
+          <Grid centered>
+            {data.allWqCategoriesFeaturesJson.edges
+              .filter(
+                edge =>
+                  (edge.node.category !== "Restoration Sites") &
+                  (edge.node.category !== "Observations")
+              )
+              .map((edge, index) => {
+                return (
+                  <Fragment key={index}>
+                    <GridColumn width={5}>
+                      <WQFeature
+                        category={edge.node.category}
+                        description={edge.node.description}
+                        features={edge.node.features}
+                      />
+                    </GridColumn>
+                  </Fragment>
+                )
+              })}
+          </Grid>
           <GridColumn width={16}>
             <Divider />
             <h2 className={homeStyles.learnHeader}>
@@ -159,27 +167,13 @@ const IndexPage = () => {
               zoom={9}
               height={"100%"}
             />
-            <div>
-              <div>
-                <span>
-                  <img className={homeStyles.legend} src={pinTWP}></img>
-                </span>
-                <span>
-                  <p className={homeStyles.legend}>The Watershed Project Site</p>
-                </span>
-              </div>
-              <div>
-                <span>
-                  <img className={homeStyles.legend} src={pinCEDEN}></img>
-                </span>
-                <span>
-                <p className={homeStyles.legend}>CEDEN Site</p>
-                </span>
-              </div>
-            </div>
             <p className={homeStyles.note}>
-              Note: Shaded regions are watersheds that The Watershed Project
+              Note: Shaded regions are watersheds that The Watershed Project (TWP)
               currently monitors, click to navigate to a creek overview page.
+              <br></br>
+              CEDEN (California Environmental Data Exchange Network) is a state
+              database housing water quality data from multiple agencies and
+              groups.
             </p>
           </GridColumn>
         </Grid>

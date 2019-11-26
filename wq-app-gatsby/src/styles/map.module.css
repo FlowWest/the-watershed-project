@@ -14,3 +14,10 @@
   z-index: 9;
   pointer-events: none;
 }
+
+
+
+.legend{
+  padding: 2px;
+  display: inline-block;
+}

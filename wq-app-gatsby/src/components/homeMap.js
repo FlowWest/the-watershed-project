@@ -75,16 +75,43 @@ class Mapbox extends Component {
         {...this.state.viewport}
         onViewportChange={viewport => this.setState({ viewport })}
         onHover={this.onHover}
-        onClick={e => {
-          const watershed =
-            e.features && e.features.find(f => f.layer.id === "data")
-          return watershed.properties.twp_monito === 1
-            ? navigate(`/creek/${watershed.properties.creek_id}`)
-            : null
-        }}
+        // onClick={e => {
+        //   const watershed =
+        //     e.features && e.features.find(f => f.layer.id === "data")
+        //   return watershed.properties.twp_monito === 1
+        //     ? navigate(`/creek/${watershed.properties.creek_id}`)
+        //     : null
+        // }}
       >
         <div style={{ position: "absolute", left: 0 }}>
           <NavigationControl />
+        </div>
+        <div
+          style={{
+            backgroundColor: "rgba(252, 252, 252, .7)",
+            padding: "8px",
+            width: "120px",
+            position: "absolute",
+            top: 0,
+            right: 0,
+          }}
+        >
+          <div>
+            <span>
+              <img className={mapStyles.legend} src={pinTWP}></img>
+            </span>
+            <span>
+              <p className={mapStyles.legend}>TWP Site</p>
+            </span>
+          </div>
+          <div>
+            <span>
+              <img className={mapStyles.legend} src={pinCEDEN}></img>
+            </span>
+            <span>
+              <p className={mapStyles.legend}>CEDEN Site</p>
+            </span>
+          </div>
         </div>
         {this.props.pts.map((pt, key) =>
           pt.source === "The Watershed Project" ? (
