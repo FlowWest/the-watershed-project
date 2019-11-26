@@ -1,9 +1,16 @@
 import React, { Component } from "react"
-import ReactMapGL, { Marker, Popup, NavigationControl } from "react-map-gl"
+import ReactMapGL, {
+  Marker,
+  Popup,
+  NavigationControl,
+  Source,
+  Layer,
+} from "react-map-gl"
 import mapStyles from "../styles/map.module.css"
 import pinTWP from "../images/marker-stroked-15.svg"
 import pinCEDEN from "../images/marker-stroked-15-ceden.svg"
 import { navigate } from "gatsby"
+import watershedPolygons  from "../data/watershedPolygons.js"
 
 const TOKEN = process.env.GATSBY_MapboxAccessToken
 
@@ -25,7 +32,7 @@ class Mapbox extends Component {
 
   setSelectedSite = site => {
     this.setState({
-      selectedSite: site
+      selectedSite: site,
     })
   }
 
@@ -44,32 +51,40 @@ class Mapbox extends Component {
         {...this.state.viewport}
         onViewportChange={viewport => this.setState({ viewport })}
       >
-        <div style={{position: 'absolute', left: 0}}>
+        <div style={{ position: "absolute", left: 0 }}>
           <NavigationControl />
         </div>
-        {this.props.pts.map((pt, key) => (
-          pt.source === 'The Watershed Project' ? (
-          <Marker latitude={parseFloat(pt.lat)} longitude={parseFloat(pt.long)} key={key}>
-            <img
-              className={mapStyles.locationIcon}
-              src={pinTWP}
-              onMouseEnter={() => this.setSelectedSite(pt)}
-              onClick={() => navigate(`/site/${pt.site_id}`)}
-              alt=""
-            ></img>
-          </Marker>
+        {this.props.pts.map((pt, key) =>
+          pt.source === "The Watershed Project" ? (
+            <Marker
+              latitude={parseFloat(pt.lat)}
+              longitude={parseFloat(pt.long)}
+              key={key}
+            >
+              <img
+                className={mapStyles.locationIcon}
+                src={pinTWP}
+                onMouseEnter={() => this.setSelectedSite(pt)}
+                onClick={() => navigate(`/site/${pt.site_id}`)}
+                alt=""
+              ></img>
+            </Marker>
           ) : (
-            <Marker latitude={parseFloat(pt.lat)} longitude={parseFloat(pt.long)} key={key}>
-            <img
-              className={mapStyles.locationIcon}
-              src={pinCEDEN}
-              onMouseEnter={() => this.setSelectedSite(pt)}
-              onClick={() => navigate(`/ceden-site/${pt.site_id}`)}
-              alt=""
-            ></img>
-          </Marker>
+            <Marker
+              latitude={parseFloat(pt.lat)}
+              longitude={parseFloat(pt.long)}
+              key={key}
+            >
+              <img
+                className={mapStyles.locationIcon}
+                src={pinCEDEN}
+                onMouseEnter={() => this.setSelectedSite(pt)}
+                onClick={() => navigate(`/ceden-site/${pt.site_id}`)}
+                alt=""
+              ></img>
+            </Marker>
           )
-        ))}
+        )}
         {this.state.selectedSite !== null ? (
           <Popup
             latitude={parseFloat(this.state.selectedSite.lat)}
@@ -78,7 +93,7 @@ class Mapbox extends Component {
             closeOnClick={false}
           >
             <div>
-              {this.state.selectedSite.source === 'CEDEN' ? (
+              {this.state.selectedSite.source === "CEDEN" ? (
                 <p>{`CEDEN - ${this.state.selectedSite.name}`}</p>
               ) : (
                 <p>{`TWP - ${this.state.selectedSite.name}`}</p>
@@ -86,6 +101,9 @@ class Mapbox extends Component {
             </div>
           </Popup>
         ) : null}
+        <Source type="geojson" data={watershedPolygons}>
+          <Layer type="line"/>
+        </Source>
       </ReactMapGL>
     )
   }
