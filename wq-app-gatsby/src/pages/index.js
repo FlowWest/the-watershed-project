@@ -12,6 +12,8 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import homeStyles from "../styles/home.module.css"
 import WQFeature from "../components/wqFeature"
 import Mapbox from "../components/homeMap"
+import pinTWP from "../images/marker-stroked-15.svg"
+import pinCEDEN from "../images/marker-stroked-15-ceden.svg"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -114,7 +116,8 @@ const IndexPage = () => {
               Contra Costa County has over 20 major creeks, as identified by the
               <a
                 href="http://cocowaterweb.org/wp-content/uploads/Watershed-Atlas.pdf"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {" "}
                 Contra Costa County Watershed Atlas
@@ -156,7 +159,28 @@ const IndexPage = () => {
               zoom={9}
               height={"100%"}
             />
-            <p className={homeStyles.note}>Note: Shaded regions are watersheds that The Watershed Project currently monitors, click to navigate to a creek overview page.</p>
+            <div>
+              <div>
+                <span>
+                  <img className={homeStyles.legend} src={pinTWP}></img>
+                </span>
+                <span>
+                  <p className={homeStyles.legend}>The Watershed Project Site</p>
+                </span>
+              </div>
+              <div>
+                <span>
+                  <img className={homeStyles.legend} src={pinCEDEN}></img>
+                </span>
+                <span>
+                <p className={homeStyles.legend}>CEDEN Site</p>
+                </span>
+              </div>
+            </div>
+            <p className={homeStyles.note}>
+              Note: Shaded regions are watersheds that The Watershed Project
+              currently monitors, click to navigate to a creek overview page.
+            </p>
           </GridColumn>
         </Grid>
       </Container>
