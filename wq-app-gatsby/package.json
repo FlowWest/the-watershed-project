@@ -28,6 +28,17 @@
     "underscore": "^1.9.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "@testing-library/dom": "^6.10.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.9.0",
+    "babel-preset-gatsby": "^0.2.22",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.9.0",
     "prettier": "^1.18.2"
   },
   "keywords": [
@@ -40,7 +51,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
