@@ -156,6 +156,7 @@ const IndexPage = () => {
               zoom={9}
               height={"100%"}
             />
+            <p className={homeStyles.note}>Note: Shaded regions are watersheds that The Watershed Project currently monitors, click to navigate to a creek overview page.</p>
           </GridColumn>
         </Grid>
       </Container>

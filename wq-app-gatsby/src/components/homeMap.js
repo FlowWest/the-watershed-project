@@ -75,14 +75,12 @@ class Mapbox extends Component {
         {...this.state.viewport}
         onViewportChange={viewport => this.setState({ viewport })}
         onHover={this.onHover}
-        onClick={(e) => {
+        onClick={e => {
           const watershed =
             e.features && e.features.find(f => f.layer.id === "data")
-          return(
-            watershed.properties.twp_monito === 1
+          return watershed.properties.twp_monito === 1
             ? navigate(`/creek/${watershed.properties.creek_id}`)
             : null
-          )
         }}
       >
         <div style={{ position: "absolute", left: 0 }}>
