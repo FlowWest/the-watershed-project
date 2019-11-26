@@ -10,7 +10,7 @@ import mapStyles from "../styles/map.module.css"
 import pinTWP from "../images/marker-stroked-15.svg"
 import pinCEDEN from "../images/marker-stroked-15-ceden.svg"
 import { navigate } from "gatsby"
-import testPolygons  from "../data/watersheds.js"
+import watershedPolygons  from "../data/watershedPolygons.js"
 
 const TOKEN = process.env.GATSBY_MapboxAccessToken
 
@@ -101,7 +101,7 @@ class Mapbox extends Component {
             </div>
           </Popup>
         ) : null}
-        <Source type="geojson" data={testPolygons}>
+        <Source type="geojson" data={watershedPolygons}>
           <Layer type="line"/>
         </Source>
       </ReactMapGL>
