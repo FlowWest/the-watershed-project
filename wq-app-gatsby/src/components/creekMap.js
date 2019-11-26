@@ -1,5 +1,11 @@
 import React, { Component } from "react"
-import ReactMapGL, { Marker, Popup, NavigationControl } from "react-map-gl"
+import ReactMapGL, {
+  Marker,
+  Popup,
+  NavigationControl,
+  Source,
+  Layer,
+} from "react-map-gl"
 import mapStyles from "../styles/map.module.css"
 import pin from "../images/marker-stroked-15.svg"
 import { navigate } from "gatsby"
@@ -24,7 +30,7 @@ class Mapbox extends Component {
 
   setSelectedSite = site => {
     this.setState({
-      selectedSite: site
+      selectedSite: site,
     })
   }
 
@@ -43,7 +49,7 @@ class Mapbox extends Component {
         {...this.state.viewport}
         onViewportChange={viewport => this.setState({ viewport })}
       >
-        <div style={{position: 'absolute', left: 0}}>
+        <div style={{ position: "absolute", left: 0 }}>
           <NavigationControl />
         </div>
         {this.props.pts.map((pt, key) => (
@@ -69,6 +75,20 @@ class Mapbox extends Component {
             </div>
           </Popup>
         ) : null}
+        <Source type="geojson" data={this.props.watershedPolygon}>
+          <Layer
+            type="line"
+            id="data"
+            // paint={{
+            //   "fill-color": {
+            //     property: "twp_monito",
+            //     stops: [[0, "#fff"], [1, "#999"]],
+            //   },
+            //   "fill-opacity": 0.2,
+            //   "fill-outline-color": "#000",
+            // }}
+          />
+        </Source>
       </ReactMapGL>
     )
   }
