@@ -65,16 +65,40 @@ export default ({ data, pageContext }) => {
           .node.features.filter(feature => feature.name === analyte)[0]
           .feature_description
 
-  const seriesAllSites = data.allFieldDataJson.edges
-    .filter(edge => edge.node.AnalyteName === analyte)
-    .map(station => ({
-      name: station.node.label,
-      data: station.node.data.map(pt => [
-        moment.utc(pt.SampleDate).valueOf(),
-        pt.Result,
-      ]),
-      visible: station.node.StationCode === pageContext.siteID ? true : false,
-    }))
+  const barColors = {inflow: 'rgb(124, 181, 236)', outflow: 'rgb(247, 163, 92)'}
+
+  const seriesAllSites =
+    pageContext.siteID === "BAX030"
+      ? _.chain(
+          data.allFieldDataJson.edges.filter(
+            edge =>
+              (edge.node.AnalyteName === analyte) &
+              (edge.node.StationCode === "BAX030")
+          )[0].node.data
+        )
+          .groupBy("FlowDirection")
+          .mapObject((val, key) => ({
+            name: key,
+            data: val.map(pt => [
+              moment.utc(pt.SampleDate).valueOf(),
+              pt.Result,
+            ]),
+            color: barColors[key]
+          }))
+          .values()
+          .value()
+      : data.allFieldDataJson.edges
+          .filter(edge => edge.node.AnalyteName === analyte)
+          .map(station => ({
+            name: station.node.label,
+            data: station.node.data.map(pt => [
+              moment.utc(pt.SampleDate).valueOf(),
+              pt.Result,
+            ]),
+            visible:
+              station.node.StationCode === pageContext.siteID ? true : false,
+          }))
+
 
   if (siteWQDataExists) {
     const plotData = siteWQData.filter(
@@ -164,6 +188,10 @@ export default ({ data, pageContext }) => {
       title: {
         text: "",
       },
+      chart: {
+        type: pageContext.siteID === "BAX030" ? "column" : "line",
+        zoomType: "xy",
+      },
       xAxis: {
         type: "datetime",
         title: {
@@ -222,6 +250,7 @@ export default ({ data, pageContext }) => {
               />
             </div>
             <HighchartsReact highcharts={Highcharts} options={plotOptions} />
+            <p>Click and drag on the chart to zoom in</p>
             {aquaticThreshold !== null ? (
               <Accordion panels={detailsPanel} />
             ) : null}
@@ -345,6 +374,7 @@ export const query = graphql`
           data {
             Result
             SampleDate(formatString: "")
+            FlowDirection
           }
         }
       }
