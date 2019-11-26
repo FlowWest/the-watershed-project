@@ -107,7 +107,7 @@ export default ({ data, pageContext }) => {
                           {analyteScores.map(analyte => (
                             <TableRow>
                               <TableCell>{analyte[0]}</TableCell>
-                              {analyte[1] === "Bad" ? (
+                              {analyte[1] === "Bad" || analyte[1] === "Marginal" ? (
                                 <TableCell
                                   className={creekStyles.bad}
                                   title={
