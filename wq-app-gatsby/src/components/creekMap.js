@@ -75,20 +75,12 @@ class Mapbox extends Component {
             </div>
           </Popup>
         ) : null}
-        <Source type="geojson" data={this.props.watershedPolygon}>
+        {/* <Source type="geojson" data={this.props.watershedPolygon}>
           <Layer
             type="line"
             id="data"
-            // paint={{
-            //   "fill-color": {
-            //     property: "twp_monito",
-            //     stops: [[0, "#fff"], [1, "#999"]],
-            //   },
-            //   "fill-opacity": 0.2,
-            //   "fill-outline-color": "#000",
-            // }}
           />
-        </Source>
+        </Source> */}
       </ReactMapGL>
     )
   }
