@@ -19,8 +19,13 @@ import {
 import Mapbox from "../components/creekMap"
 import creekStyles from "../styles/creek.module.css"
 import SEO from "../components/seo"
+import watershedPolygons from "../data/watershedPolygons.js"
 
 export default ({ data, pageContext }) => {
+  const watershedPolygon = watershedPolygons.features.filter(
+    feature => feature.properties.ws_name === pageContext.creekName
+  )[0]
+
   const creekData = data.allCreekSiteJson.edges.filter(
     edge => edge.node.creek_id === pageContext.creekID
   )[0].node
@@ -64,7 +69,7 @@ export default ({ data, pageContext }) => {
   return (
     <Layout>
       <Container>
-        <SEO title={pageContext.creekName}/>
+        <SEO title={pageContext.creekName} />
         <Grid>
           <GridColumn width={16}>
             <h1 className={creekStyles.creekHeader}>{creekData.creek_name}</h1>
@@ -89,6 +94,7 @@ export default ({ data, pageContext }) => {
               <GridRow>
                 <GridColumn width={16}>
                   <Mapbox
+                    watershedPolygon={watershedPolygon}
                     pts={pts}
                     height={400}
                     zoom={10}
@@ -104,10 +110,11 @@ export default ({ data, pageContext }) => {
                     <GridColumn width={16}>
                       <Table basic="very" celled collapsing>
                         <TableBody className={creekStyles.creekScore}>
-                          {analyteScores.map(analyte => (
-                            <TableRow>
+                          {analyteScores.map((analyte, key) => (
+                            <TableRow key={key}>
                               <TableCell>{analyte[0]}</TableCell>
-                              {analyte[1] === "Bad" ? (
+                              {analyte[1] === "Bad" ||
+                              analyte[1] === "Marginal" ? (
                                 <TableCell
                                   className={creekStyles.bad}
                                   title={

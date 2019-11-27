@@ -29,15 +29,28 @@ units <- read_excel('data-raw/WQ data.xlsx', 'units')
 
 groups <- read_excel('data-raw/WQ data.xlsx', 'groups')
 
-observations_raw <- read_excel('data-raw/WQ data.xlsx', 'Observations')
+# observations_raw <- read_excel('data-raw/WQ data.xlsx', 'Observations')
+# 
+# observations_raw %>% 
+#   select(StationCode, SampleDate, AnalyteName, UnitName, Result = VariableResult) %>% 
+#   filter(Result != "Not Recorded") %>% 
+#   group_by(StationCode, AnalyteName) %>% 
+#   nest() %>% 
+#   toJSON() %>% 
+#   write_file('wq-app-gatsby/src/data/habitat_data.json')
 
-observations_raw %>% 
-  select(StationCode, SampleDate, AnalyteName, UnitName, Result = VariableResult) %>% 
-  filter(Result != "Not Recorded") %>% 
-  group_by(StationCode, AnalyteName) %>% 
-  nest() %>% 
-  toJSON() %>% 
-  write_file('wq-app-gatsby/src/data/habitat_data.json')
+bax_raw <- read_excel('data-raw/baxter_bioswale_data.xlsx', range = "F7:S25", col_names = FALSE)
+
+bax <- raw %>% 
+  select(StationCode = ...1, SampleDate = ...4, FlowDirection = ...6, 
+         AnalyteName = ...12, UnitName = ...13, Result = ...14) %>% 
+  filter(!is.na(StationCode)) %>% 
+  left_join(analytes) %>% 
+  left_join(units) %>% 
+  left_join(groups) %>% 
+  mutate(creek_id = 'BAX', label = 'Booker T. Anderson Community Center') %>% 
+  select(creek_id, StationCode, AnalyteName = Name, UnitName, UnitDescription, 
+         category, label, SampleDate, Result, FlowDirection)
 
 field_results_raw <- read_excel('data-raw/WQ data.xlsx', 'Measurements')
 
@@ -49,7 +62,8 @@ field_results_raw %>%
   select(-Name) %>% 
   left_join(units) %>% 
   left_join(groups) %>% 
-  filter(!is.na(AnalyteName), !is.na(Result), Result >= 0) %>% 
+  filter(!is.na(AnalyteName), !is.na(Result), Result >= 0, StationCode != 'BAX030') %>% 
+  bind_rows(bax) %>% 
   group_by(creek_id, StationCode, AnalyteName, UnitName, UnitDescription, category, label) %>% 
   nest() %>% 
   toJSON() %>% 
