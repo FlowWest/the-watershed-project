@@ -69,6 +69,13 @@ field_results_raw %>%
   toJSON() %>% 
   write_file('wq-app-gatsby/src/data/field_data.json')
 
+# prepBMI data ---------------
+read_excel('data-raw/BMI data.xlsx', sheet = 'BenthicResults') %>% 
+  select(StationCode, SampleDate, tolerance_value = `Tolerance Value`, Count) %>% 
+  group_by(SampleDate, StationCode) %>% 
+  summarise(tolerance = sum((Count/sum(Count)) * tolerance_value)) %>% 
+  write_csv('wq-app-gatsby/src/data/bmi_tolerance.csv')
+
 # TWP creek scores-----
 score_lu <- 0:2
 names(score_lu) <- c('Bad', 'Marginal', 'Good')
