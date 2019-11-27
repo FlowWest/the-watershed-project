@@ -42,31 +42,33 @@ export default ({ data, pageContext }) => {
 
   const siteWQDataExists = siteWQData.length !== 0
 
+  
   let panes
+  
   const thresholdData = data.allWaterQualityThresholdsCsv.edges.filter(
     edge => edge.node.analyteName === analyte
-  )
-
-  const {
-    thresholdDirection,
-    aquaticThreshold,
-    aquaticThreshold2,
-    sourceLinkText,
-    sourceURL,
-    notes,
-    category,
-  } = thresholdData[0].node
-
-  const wqFeatureDetails =
-    pageContext.siteID === "BAX030"
-      ? ""
-      : data.allWqCategoriesFeaturesJson.edges
-          .filter(edge => edge.node.category === category)[0]
-          .node.features.filter(feature => feature.name === analyte)[0]
-          .feature_description
+    )
+    
+    const {
+        thresholdDirection,
+        aquaticThreshold,
+        aquaticThreshold2,
+        sourceLinkText,
+        sourceURL,
+        notes,
+        category,
+      } = thresholdData[0].node
+      
+      const wqFeatureDetails =
+        pageContext.siteID === "BAX030"
+          ? ""
+          : data.allWqCategoriesFeaturesJson.edges
+              .filter(edge => edge.node.category === category)[0]
+              .node.features.filter(feature => feature.name === analyte)[0]
+              .feature_description
 
   const barColors = {inflow: 'rgb(124, 181, 236)', outflow: 'rgb(247, 163, 92)'}
-
+// 
   const seriesAllSites =
     pageContext.siteID === "BAX030"
       ? _.chain(
@@ -417,3 +419,4 @@ export const query = graphql`
     }
   }
 `
+
