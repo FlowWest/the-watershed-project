@@ -11,7 +11,7 @@ import SEO from "../components/seo"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import homeStyles from "../styles/home.module.css"
 import WQFeature from "../components/wqFeature"
-import Mapbox from "../components/homeMap"
+// import Mapbox from "../components/homeMap"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -158,13 +158,13 @@ const IndexPage = () => {
             </Message>
           </GridColumn>
           <GridColumn width={12}>
-            <Mapbox
+            {/* <Mapbox
               pts={pts}
               lat={37.929787}
               long={-122.076019}
               zoom={9}
               height={"100%"}
-            />
+            /> */}
             <p className={homeStyles.note}>
               Note: Shaded regions are watersheds that The Watershed Project (TWP)
               currently monitors, click to navigate to a creek overview page.
