@@ -203,9 +203,7 @@ export default ({ data, pageContext }) => {
                 {analyte === "Benthic Macroinvertebrates" ? (
                   <Fragment>
                     <p>
-                      <b>Ranking</b>
-                    </p>
-                    <p>
+                      <b>Ranking</b> <br />
                       Good: if average is 7 or greater
                       <br />
                       Marginal: if proportion is between 3 and 7
@@ -281,10 +279,14 @@ export default ({ data, pageContext }) => {
 
     const bmiData =
       analyte === "Benthic Macroinvertebrates"
-        ? siteWQData.filter(data => data.node.AnalyteName === analyte)[0].node
-            .data[0]
+        ? siteWQData
+            .filter(data => data.node.AnalyteName === analyte)[0]
+            .node.data.map(result => [
+              result.SampleDate,
+              result.Result,
+              bmiLookUp(result.Result),
+            ])
         : null
-    const bmiRank = bmiData ? bmiLookUp(bmiData.Result) : null
 
     panes = [
       {
@@ -315,16 +317,20 @@ export default ({ data, pageContext }) => {
                   </TableHeader>
                   <TableBody>
                     <TableRow>
-                      <TableCell>{bmiData.SampleDate}</TableCell>
-                      <TableCell>{bmiData.Result}</TableCell>
-                      <TableCell>
-                        {" "}
-                        <Icon
-                          name="circle"
-                          color={bmiColorLookUp[bmiRank]}
-                        ></Icon>
-                        {bmiRank}
-                      </TableCell>
+                      {bmiData.map((result, key) => (
+                        <Fragment key={key}>
+                          <TableCell>{result[0]}</TableCell>
+                          <TableCell>{result[1]}</TableCell>
+                          <TableCell>
+                            {" "}
+                            <Icon
+                              name="circle"
+                              color={bmiColorLookUp[result[2]]}
+                            ></Icon>
+                            {result[2]}
+                          </TableCell>
+                        </Fragment>
+                      ))}
                     </TableRow>
                   </TableBody>
                 </Table>
