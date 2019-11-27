@@ -12,8 +12,6 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import homeStyles from "../styles/home.module.css"
 import WQFeature from "../components/wqFeature"
 import Mapbox from "../components/homeMap"
-import pinTWP from "../images/marker-stroked-15.svg"
-import pinCEDEN from "../images/marker-stroked-15-ceden.svg"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`

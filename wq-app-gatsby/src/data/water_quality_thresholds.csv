@@ -30,4 +30,4 @@ Diesel Fuel,Other Toxics,below,0,NA,NA,NA,NA,NA
 Motor Oil,Other Toxics,equal to,0,NA,NA,https://www.epa.gov/sites/production/files/2014-12/documents/ca2-sanfrancisco-basin.pdf,NA,NA
 Grease,Other Toxics,equal to,0,NA,NA,https://www.epa.gov/sites/production/files/2014-12/documents/ca2-sanfrancisco-basin.pdf,NA,NA
 Gasoline,Other Toxics,below,0,NA,NA,NA,NA,NA
-BMIs,Creek Bugs,NA,NA,NA,NA,NA,NA,NA
+Benthic Macroinvertebrates,Creek Bugs,above,7,NA,Tolerance,NA,NA,NA

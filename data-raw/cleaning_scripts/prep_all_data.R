@@ -39,6 +39,26 @@ groups <- read_excel('data-raw/WQ data.xlsx', 'groups')
 #   toJSON() %>% 
 #   write_file('wq-app-gatsby/src/data/habitat_data.json')
 
+
+# "StationCode": "WIL050",
+# "AnalyteName": "Specific Conductivity",
+# "UnitDescription": "microSiemens",
+# "UnitName": "uS/cm",
+# "label": "Davis Park"
+# prep BMI data 
+bmi_raw <- read_excel('data-raw/BMI data.xlsx', sheet = 'BenthicResults') 
+
+bmi <- bmi_raw %>% 
+  group_by(SampleDate, StationCode) %>% 
+  summarise(Result = round(sum((Count/sum(Count)) * `Tolerance Value`), 2)) %>% 
+  ungroup() %>%  
+  mutate(site_id = StationCode, AnalyteName = 'Benthic Macroinvertebrates', 
+         category = 'Creek Bugs', UnitName = 'Tolerance', UnitDescription = 'weighted') %>% 
+  left_join(sites) %>% 
+  select(creek_id, StationCode, AnalyteName, UnitName, UnitDescription, 
+         category, label, SampleDate, Result)
+
+# prep bioswale data
 bax_raw <- read_excel('data-raw/baxter_bioswale_data.xlsx', range = "F7:S25", col_names = FALSE)
 
 bax <- raw %>% 
@@ -63,7 +83,7 @@ field_results_raw %>%
   left_join(units) %>% 
   left_join(groups) %>% 
   filter(!is.na(AnalyteName), !is.na(Result), Result >= 0, StationCode != 'BAX030') %>% 
-  bind_rows(bax) %>% 
+  bind_rows(bax, bmi) %>% 
   group_by(creek_id, StationCode, AnalyteName, UnitName, UnitDescription, category, label) %>% 
   nest() %>% 
   toJSON() %>% 
