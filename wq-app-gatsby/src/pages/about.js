@@ -51,8 +51,8 @@ const About = () => {
           >
             Clean Water Team Guidance Compendium for Watershed Monitoring and
             Assessment
-          </a>
-          {" "}for all of our monitoring activities. We calibrate meters before each
+          </a>{" "}
+          for all of our monitoring activities. We calibrate meters before each
           monitoring day, check their accuracy after monitoring, and collect
           multiple data points per feature so that we can calculate field
           precision, ensuring our data is accurate and replicable. For more
@@ -91,6 +91,17 @@ const About = () => {
             <li>Good = if proportion is .9 or greater</li>
             <li>Marginal = if proportion is between .9 and .5</li>
             <li>Bad = if proportion is less than .5</li>
+          </ul>
+        </p>
+        <p className={aboutStyles.paragraph}>
+          For Benthic Macroinvertebrates data, scores are calculated based on
+          the average tolerance values of the bugs found at a particular site
+          (tolerance values range from 0 to 10, with 0 being the least tolerant
+          to pollution and 10 being the most tolerant).
+          <ul className={aboutStyles.listStyle}>
+            <li>Good: if average is 7 or greater</li>
+            <li>Marginal: if proportion is between 3 and 7</li>
+            <li>Bad: if proportion is less than 3</li>
           </ul>
         </p>
       </Container>

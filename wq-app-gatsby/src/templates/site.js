@@ -13,6 +13,13 @@ import {
   Image,
   Container,
   Accordion,
+  Table,
+  TableRow,
+  TableHeader,
+  TableHeaderCell,
+  TableCell,
+  TableBody,
+  Icon,
 } from "semantic-ui-react"
 
 import Highcharts from "highcharts"
@@ -43,6 +50,7 @@ export default ({ data, pageContext }) => {
   const siteWQDataExists = siteWQData.length !== 0
 
   let panes
+
   const thresholdData = data.allWaterQualityThresholdsCsv.edges.filter(
     edge => edge.node.analyteName === analyte
   )
@@ -65,7 +73,29 @@ export default ({ data, pageContext }) => {
           .node.features.filter(feature => feature.name === analyte)[0]
           .feature_description
 
-  const barColors = {inflow: 'rgb(124, 181, 236)', outflow: 'rgb(247, 163, 92)'}
+  const barColors = {
+    inflow: "rgb(124, 181, 236)",
+    outflow: "rgb(247, 163, 92)",
+  }
+
+  const bmiLookUp = score => {
+    let status
+    if (score < 3) {
+      status = "Bad"
+    } else if (score >= 3 && score < 7) {
+      status = "Marginal"
+    } else {
+      status = "Good"
+    }
+    return status
+  }
+
+  const bmiColorLookUp = {
+    Good: "green",
+    Marginal: "yellow",
+    Bad: "red",
+    NA: "grey",
+  }
 
   const seriesAllSites =
     pageContext.siteID === "BAX030"
@@ -83,7 +113,7 @@ export default ({ data, pageContext }) => {
               moment.utc(pt.SampleDate).valueOf(),
               pt.Result,
             ]),
-            color: barColors[key]
+            color: barColors[key],
           }))
           .values()
           .value()
@@ -98,7 +128,6 @@ export default ({ data, pageContext }) => {
             visible:
               station.node.StationCode === pageContext.siteID ? true : false,
           }))
-
 
   if (siteWQDataExists) {
     const plotData = siteWQData.filter(
@@ -170,7 +199,22 @@ export default ({ data, pageContext }) => {
                 {category}: {analyte}
               </h4>
               <p>{wqFeatureDetails}</p>
-              <p>{label}</p>
+              <p>
+                {analyte === "Benthic Macroinvertebrates" ? (
+                  <Fragment>
+                    <p>
+                      <b>Ranking</b> <br />
+                      Good: if average is 7 or greater
+                      <br />
+                      Marginal: if proportion is between 3 and 7
+                      <br />
+                      Bad: if proportion is less than 3
+                    </p>
+                  </Fragment>
+                ) : (
+                  label
+                )}
+              </p>
               <p>
                 {notes === "NA" ? "" : notes} (Source:{" "}
                 <a href={sourceURL} target="_blank" rel="noopener noreferrer">
@@ -233,6 +277,17 @@ export default ({ data, pageContext }) => {
       return setAnalyte(e.target.textContent)
     }
 
+    const bmiData =
+      analyte === "Benthic Macroinvertebrates"
+        ? siteWQData
+            .filter(data => data.node.AnalyteName === analyte)[0]
+            .node.data.map(result => [
+              result.SampleDate,
+              result.Result,
+              bmiLookUp(result.Result),
+            ])
+        : null
+
     panes = [
       {
         menuItem: "Plots",
@@ -249,11 +304,52 @@ export default ({ data, pageContext }) => {
                 defaultValue={analyte}
               />
             </div>
-            <HighchartsReact highcharts={Highcharts} options={plotOptions} />
-            <p>Click and drag on the chart to zoom in</p>
-            {aquaticThreshold !== null ? (
-              <Accordion panels={detailsPanel} />
-            ) : null}
+            {analyte === "Benthic Macroinvertebrates" ? (
+              <Fragment>
+                <Divider hidden />
+                <Table basic="very" celled collapsing>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHeaderCell>Date</TableHeaderCell>
+                      <TableHeaderCell>Tolerance</TableHeaderCell>
+                      <TableHeaderCell>Ranking</TableHeaderCell>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    <TableRow>
+                      {bmiData.map((result, key) => (
+                        <Fragment key={key}>
+                          <TableCell>{result[0]}</TableCell>
+                          <TableCell>{result[1]}</TableCell>
+                          <TableCell>
+                            {" "}
+                            <Icon
+                              name="circle"
+                              color={bmiColorLookUp[result[2]]}
+                            ></Icon>
+                            {result[2]}
+                          </TableCell>
+                        </Fragment>
+                      ))}
+                    </TableRow>
+                  </TableBody>
+                </Table>
+                {aquaticThreshold !== null ? (
+                  <Accordion panels={detailsPanel} />
+                ) : null}
+              </Fragment>
+            ) : (
+              <Fragment>
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  options={plotOptions}
+                />
+                <p>Click and drag on the chart to zoom in</p>
+                {aquaticThreshold !== null ? (
+                  <Accordion panels={detailsPanel} />
+                ) : null}
+              </Fragment>
+            )}
           </Tab.Pane>
         ),
       },
