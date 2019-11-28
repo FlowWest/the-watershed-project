@@ -4,6 +4,7 @@ import mapStyles from "../styles/test.module.css"
 import watershedPolygons from "../data/watershedPolygons.js"
 import pinTWP from "../images/marker-stroked-15.svg"
 import pinCEDEN from "../images/marker-stroked-15-ceden.svg"
+import navigate from "gatsby"
 
 const TOKEN = process.env.GATSBY_MapboxAccessToken
 
@@ -18,8 +19,45 @@ class MapBox extends React.Component {
       lng: -122.076019,
       lat: 37.929787,
       zoom: 9,
+      selectedSite: null,
+      selectedWatershed: null,
     }
   }
+
+  setSelectedSite = site => {
+    this.setState({
+      selectedSite: site,
+    })
+  }
+
+  closePopup = () => {
+    this.setState({
+      selectedSite: null,
+    })
+  }
+
+  // onHover = event => {
+  //   const {
+  //     features,
+  //     srcEvent: { offsetX, offsetY },
+  //   } = event
+
+  //   const selectedWatershed =
+  //     features && features.find(f => f.layer.id === "data")
+
+  //   this.setState({ selectedWatershed, x: offsetX, y: offsetY })
+  // }
+
+  // renderTooltip() {
+  //   const { selectedWatershed, x, y } = this.state
+  //   return (
+  //     selectedWatershed && (
+  //       <div className={mapStyles.tooltip} style={{ left: x, top: y }}>
+  //         <div>{selectedWatershed.properties.ws_name}</div>
+  //       </div>
+  //     )
+  //   )
+  // }
 
   componentDidMount() {
     this.map = new mapboxgl.Map({
@@ -52,6 +90,7 @@ class MapBox extends React.Component {
       this.props.pts.map(pt => {
         var el = document.createElement('img')
         el.src = pt.source === "The Watershed Project" ? pinTWP : pinCEDEN
+        el.addEventListener('click', () => navigate(`/site/${pt.site_id}`))
         new mapboxgl.Marker(el)
         .setLngLat([pt.long, pt.lat])
         .addTo(this.map)
