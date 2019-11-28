@@ -39,13 +39,6 @@ groups <- read_excel('data-raw/WQ data.xlsx', 'groups')
 #   toJSON() %>% 
 #   write_file('wq-app-gatsby/src/data/habitat_data.json')
 
-
-# "StationCode": "WIL050",
-# "AnalyteName": "Specific Conductivity",
-# "UnitDescription": "microSiemens",
-# "UnitName": "uS/cm",
-# "label": "Davis Park"
-# prep BMI data 
 bmi_raw <- read_excel('data-raw/BMI data.xlsx', sheet = 'BenthicResults') 
 
 bmi <- bmi_raw %>% 
