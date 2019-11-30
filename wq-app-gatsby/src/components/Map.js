@@ -4,14 +4,14 @@ import mapStyles from "../styles/test.module.css"
 import watershedPolygons from "../data/watershedPolygons.js"
 import pinTWP from "../images/marker-stroked-15.svg"
 import pinCEDEN from "../images/marker-stroked-15-ceden.svg"
-import navigate from "gatsby"
+import {navigate} from "gatsby"
 
 const TOKEN = process.env.GATSBY_MapboxAccessToken
 
-mapboxgl.accessToken = TOKEN;
+mapboxgl.accessToken = TOKEN
 
 class MapBox extends React.Component {
-  map;
+  map
 
   constructor(props) {
     super(props)
@@ -22,6 +22,8 @@ class MapBox extends React.Component {
       selectedSite: null,
       selectedWatershed: null,
     }
+
+    this.navigateToPoint = this.navigateToPoint.bind(this)
   }
 
   setSelectedSite = site => {
@@ -35,6 +37,8 @@ class MapBox extends React.Component {
       selectedSite: null,
     })
   }
+
+  navigateToPoint = pointId => navigate(`/site/${pointId}`)
 
   // onHover = event => {
   //   const {
@@ -67,42 +71,51 @@ class MapBox extends React.Component {
       zoom: this.state.zoom,
     })
 
-    this.map.on('load', () => {
-      this.map.addSource('watersheds', {
-        type: 'geojson',
-        data: watershedPolygons
-      });
-
-      this.map.addLayer({
-        id: 'watersheds',
-        type: 'fill',
-        source: 'watersheds',
-        paint: {
-          "fill-color": {
-            property: "twp_monito",
-            stops: [[0, "#fff"], [1, "#999"]],
-          },
-          "fill-opacity": 0.2,
-          "fill-outline-color": "#000",
-        }
-      }, 'country-label-lg'); // ID metches `mapbox/streets-v9`
-
-      this.props.pts.map(pt => {
-        var el = document.createElement('img')
-        el.src = pt.source === "The Watershed Project" ? pinTWP : pinCEDEN
-        el.addEventListener('click', () => navigate(`/site/${pt.site_id}`))
-        new mapboxgl.Marker(el)
-        .setLngLat([pt.long, pt.lat])
-        .addTo(this.map)
+    this.map.on("load", () => {
+      this.map.addSource("watersheds", {
+        type: "geojson",
+        data: watershedPolygons,
       })
 
-    });
+      this.map.addLayer(
+        {
+          id: "watersheds",
+          type: "fill",
+          source: "watersheds",
+          paint: {
+            "fill-color": {
+              property: "twp_monito",
+              stops: [[0, "#fff"], [1, "#999"]],
+            },
+            "fill-opacity": 0.2,
+            "fill-outline-color": "#000",
+          },
+        },
+        "country-label-lg"
+      ) // ID metches `mapbox/streets-v9`
+
+
+      this.props.pts.map(pt => {
+        var popup = new mapboxgl.Popup({ offset: 20 }).setHTML(
+          pt.source === "The Watershed Project" ?
+          `<a href="/site/${(pt.site_id)}">${pt.name}</a>`:
+          `<a href="/ceden-site/${(pt.site_id)}">${pt.name}</a>`
+        )
+        var el = document.createElement("img")
+        el.src = pt.source === "The Watershed Project" ? pinTWP : pinCEDEN
+        // el.addEventListener("click", () => navigate(`/site/${pt.site_id}`))
+        new mapboxgl.Marker(el).setLngLat([pt.long, pt.lat]).setPopup(popup).addTo(this.map)
+      })
+    })
   }
 
   render() {
     return (
       <div>
-        <div ref={el => (this.mapContainer = el)} className={mapStyles.mapContainer}  />
+        <div
+          ref={el => (this.mapContainer = el)}
+          className={mapStyles.mapContainer}
+        />
         <div
           style={{
             backgroundColor: "rgba(252, 252, 252, .7)",
@@ -115,18 +128,22 @@ class MapBox extends React.Component {
         >
           <div>
             <span>
-              <img style={{display: 'inline-block'}} src={pinTWP}></img>
+              <img style={{ display: "inline-block" }} src={pinTWP}></img>
             </span>
             <span>
-              <p style={{display: 'inline-block', paddingLeft: '4px'}}>TWP Site</p>
+              <p style={{ display: "inline-block", paddingLeft: "4px" }}>
+                TWP Site
+              </p>
             </span>
           </div>
           <div>
             <span>
-              <img style={{display: 'inline-block'}} src={pinCEDEN}></img>
+              <img style={{ display: "inline-block" }} src={pinCEDEN}></img>
             </span>
             <span>
-              <p style={{display: 'inline-block', paddingLeft: '4px'}}>CEDEN Site</p>
+              <p style={{ display: "inline-block", paddingLeft: "4px" }}>
+                CEDEN Site
+              </p>
             </span>
           </div>
         </div>
