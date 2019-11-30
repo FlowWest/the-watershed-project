@@ -7,3 +7,23 @@
   height: 500px;
   width: 1000px;
 }
+
+/* twp maker */
+.marker1 {
+  background-image: url('../images/marker-stroked-15.svg');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* ceden maker */
+.marker2 {
+  background-image: url('../images/marker-stroked-15-ceden.svg');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}

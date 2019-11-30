@@ -22,8 +22,6 @@ class MapBox extends React.Component {
       selectedSite: null,
       selectedWatershed: null,
     }
-
-    this.navigateToPoint = this.navigateToPoint.bind(this)
   }
 
   setSelectedSite = site => {
@@ -38,7 +36,6 @@ class MapBox extends React.Component {
     })
   }
 
-  navigateToPoint = pointId => navigate(`/site/${pointId}`)
 
   // onHover = event => {
   //   const {
@@ -101,9 +98,8 @@ class MapBox extends React.Component {
           `<a href="/site/${(pt.site_id)}">${pt.name}</a>`:
           `<a href="/ceden-site/${(pt.site_id)}">${pt.name}</a>`
         )
-        var el = document.createElement("img")
-        el.src = pt.source === "The Watershed Project" ? pinTWP : pinCEDEN
-        // el.addEventListener("click", () => navigate(`/site/${pt.site_id}`))
+        var el = document.createElement('div');
+        el.className = pt.source === "The Watershed Project" ? mapStyles.marker1: mapStyles.marker2;
         new mapboxgl.Marker(el).setLngLat([pt.long, pt.lat]).setPopup(popup).addTo(this.map)
       })
     })
