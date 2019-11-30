@@ -1,11 +1,7 @@
 .map-container {
-  /* position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0; */
   height: 500px;
   width: 1000px;
+  z-index: 1;
 }
 
 /* twp maker */
@@ -26,4 +22,14 @@
   height: 30px;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.legend {
+  background-color: rgba(252, 252, 252, .7);
+  padding: 8px;
+  width: 150px;
+  position: absolute;
+  top: 5px;
+  right: 135px;
+  z-index: 2;
 }

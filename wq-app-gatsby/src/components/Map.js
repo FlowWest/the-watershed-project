@@ -97,20 +97,13 @@ class MapBox extends React.Component {
 
   render() {
     return (
-      <div>
+      <div style={{position: "relative"}}>
         <div
           ref={el => (this.mapContainer = el)}
           className={mapStyles.mapContainer}
         />
         <div
-          style={{
-            backgroundColor: "rgba(252, 252, 252, .7)",
-            padding: "8px",
-            width: "150px",
-            position: "relative",
-            top: 0,
-            right: 0,
-          }}
+          className={mapStyles.legend}
         >
           <div>
             <span>
