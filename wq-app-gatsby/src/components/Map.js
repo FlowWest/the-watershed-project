@@ -52,15 +52,19 @@ class MapBox extends React.Component {
         "country-label-lg"
       ) // ID metches `mapbox/streets-v9`
 
-      this.map.on("click", "watersheds-layer", (e) => {
-        console.log(e.features[0].properties.ws_name, '@@@@', e.lngLat)
+      this.map.on("click", "watersheds-layer", e => {
+        console.log(e.features[0].properties.ws_name, "@@@@", e.lngLat)
         new mapboxgl.Popup()
           .setLngLat(e.lngLat)
-          .setHTML(e.features[0].properties.ws_name)
+          .setHTML(
+            e.features[0].properties.twp_monito === 1
+              ? `<a href="creek/${e.features[0].properties.creek_id}">${e.features[0].properties.ws_name}</a>`
+              : e.features[0].properties.ws_name
+          )
           .addTo(this.map)
       })
 
-      // Change the cursor to a pointer when the mouse is over the states layer.
+      // Change the cursor to a pointer when the mouse is over the watershed layer.
       this.map.on("mouseenter", "watersheds-layer", () => {
         this.map.getCanvas().style.cursor = "pointer"
       })
@@ -110,7 +114,11 @@ class MapBox extends React.Component {
         >
           <div>
             <span>
-              <img style={{ display: "inline-block" }} src={pinTWP} alt=""></img>
+              <img
+                style={{ display: "inline-block" }}
+                src={pinTWP}
+                alt=""
+              ></img>
             </span>
             <span>
               <p style={{ display: "inline-block", paddingLeft: "4px" }}>
@@ -120,7 +128,11 @@ class MapBox extends React.Component {
           </div>
           <div>
             <span>
-              <img style={{ display: "inline-block" }} src={pinCEDEN} alt=""></img>
+              <img
+                style={{ display: "inline-block" }}
+                src={pinCEDEN}
+                alt=""
+              ></img>
             </span>
             <span>
               <p style={{ display: "inline-block", paddingLeft: "4px" }}>
