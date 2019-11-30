@@ -1,23 +1,35 @@
-.location-icon {
+.map-container {
+  height: 350px;
+  width: 100%;
+  z-index: 1;
+}
+
+/* twp maker */
+.marker1 {
+  background-image: url('../images/marker-stroked-15.svg');
+  background-size: cover;
   width: 30px;
   height: 30px;
+  border-radius: 50%;
   cursor: pointer;
 }
 
-.tooltip {
-  position: absolute;
-  margin: 8px;
-  padding: 4px;
-  color: rgb(47, 47, 47);
-  max-width: 300px;
-  font-size: 11px;
-  z-index: 9;
-  pointer-events: none;
+/* ceden maker */
+.marker2 {
+  background-image: url('../images/marker-stroked-15-ceden.svg');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-
-
-.legend{
-  padding: 2px;
-  display: inline-block;
+.legend {
+  background-color: rgba(252, 252, 252, .7);
+  padding: 8px;
+  width: 150px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 2;
 }

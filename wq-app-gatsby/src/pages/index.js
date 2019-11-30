@@ -11,7 +11,7 @@ import SEO from "../components/seo"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import homeStyles from "../styles/home.module.css"
 import WQFeature from "../components/wqFeature"
-import Mapbox from "../components/homeMap"
+import Mapbox from "../components/Map"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -163,7 +163,6 @@ const IndexPage = () => {
               lat={37.929787}
               long={-122.076019}
               zoom={9}
-              height={"100%"}
             />
             <p className={homeStyles.note}>
               Note: Shaded regions are watersheds that The Watershed Project (TWP)

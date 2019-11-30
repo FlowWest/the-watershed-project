@@ -96,7 +96,7 @@ export default ({ data, pageContext }) => {
                   <Mapbox
                     watershedPolygon={watershedPolygon}
                     pts={pts}
-                    height={400}
+                    // height={400}
                     zoom={10}
                     lat={creekData.creek_lat}
                     long={creekData.creek_long}
