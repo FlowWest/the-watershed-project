@@ -1,97 +1,97 @@
-import React, { Component } from "react"
-import ReactMapGL, {
-  Marker,
-  Popup,
-  NavigationControl,
-  Source,
-  Layer,
-} from "react-map-gl"
+import React from "react"
+import mapboxgl from "mapbox-gl"
 import mapStyles from "../styles/map.module.css"
-import pin from "../images/marker-stroked-15.svg"
-import { navigate } from "gatsby"
+import pinTWP from "../images/marker-stroked-15.svg"
 
 const TOKEN = process.env.GATSBY_MapboxAccessToken
 
-class Mapbox extends Component {
+mapboxgl.accessToken = TOKEN
+
+class MapBox extends React.Component {
+  map
+
   constructor(props) {
     super(props)
-
     this.state = {
-      viewport: {
-        width: "100%",
-        height: props.height,
-        latitude: props.lat,
-        longitude: props.long,
-        zoom: props.zoom,
-      },
-      selectedSite: null,
+      lng: this.props.long,
+      lat: this.props.lat,
+      zoom: this.props.zoom,
     }
   }
 
-  setSelectedSite = site => {
-    this.setState({
-      selectedSite: site,
+  componentDidMount() {
+    this.map = new mapboxgl.Map({
+      container: this.mapContainer,
+      style: "mapbox://styles/mapbox/light-v9?optimize=true",
+      center: [this.state.lng, this.state.lat],
+      zoom: this.state.zoom,
     })
+
+    this.map.on("load", () => {
+      this.map.addSource("watersheds", {
+        type: "geojson",
+        data: this.props.watershedPolygon,
+      })
+
+      this.map.addLayer(
+        {
+          id: "watersheds-layer",
+          type: "fill",
+          source: "watersheds",
+          paint: {
+            "fill-color": {
+              property: "twp_monito",
+              stops: [[0, "#fff"], [1, "#999"]],
+            },
+            "fill-opacity": 0.2,
+            "fill-outline-color": "#000",
+          },
+        },
+        "country-label-lg"
+      ) // ID metches `mapbox/streets-v9`
+
+      this.props.pts.map(pt => {
+        var popup = new mapboxgl.Popup({ offset: 20 }).setHTML(
+          `<a href="/site/${pt.site_id}">${pt.name}</a>`
+        )
+        var el = document.createElement("div")
+        el.className = mapStyles.marker1
+        new mapboxgl.Marker(el)
+          .setLngLat([pt.long, pt.lat])
+          .setPopup(popup)
+          .addTo(this.map)
+      })
+    })
+
+    this.map.addControl(new mapboxgl.NavigationControl(), "top-left")
   }
 
-  closePopup = () => {
-    this.setState({
-      selectedSite: null,
-    })
-  }
-
-  // mapStyle="mapbox://styles/mapbox/outdoors-v10?optimize=true"
   render() {
     return (
-      <ReactMapGL
-        mapboxApiAccessToken={TOKEN}
-        mapStyle="mapbox://styles/mapbox/light-v9?optimize=true"
-        {...this.state.viewport}
-        onViewportChange={viewport => this.setState({ viewport })}
-      >
-        <div style={{ position: "absolute", left: 0 }}>
-          <NavigationControl />
+      <div style={{ position: "relative" }}>
+        <div
+          ref={el => (this.mapContainer = el)}
+          className={mapStyles.mapContainer}
+        />
+        <div className={mapStyles.legend}>
+          <div>
+            <span>
+              <img
+                style={{ display: "inline-block" }}
+                src={pinTWP}
+                alt=""
+              ></img>
+            </span>
+            <span>
+              <p style={{ display: "inline-block", paddingLeft: "4px" }}>
+                TWP Site
+              </p>
+            </span>
+          </div>
         </div>
-        {this.props.pts.map((pt, key) => (
-          <Marker latitude={pt.lat} longitude={pt.long} key={key}>
-            <img
-              className={mapStyles.locationIcon}
-              src={pin}
-              onMouseEnter={() => this.setSelectedSite(pt)}
-              onClick={() => navigate(`/site/${pt.site_id}`)}
-              alt=""
-            ></img>
-          </Marker>
-        ))}
-        {this.state.selectedSite !== null ? (
-          <Popup
-            latitude={this.state.selectedSite.lat}
-            longitude={this.state.selectedSite.long}
-            onClose={this.closePopup}
-            closeOnClick={false}
-          >
-            <div>
-              <p>{`${this.state.selectedSite.name} (${this.state.selectedSite.site_id})`}</p>
-            </div>
-          </Popup>
-        ) : null}
-        <Source type="geojson" data={this.props.watershedPolygon}>
-          <Layer
-            type="line"
-            id="data"
-            // paint={{
-            //   "fill-color": {
-            //     property: "twp_monito",
-            //     stops: [[0, "#fff"], [1, "#999"]],
-            //   },
-            //   "fill-opacity": 0.2,
-            //   "fill-outline-color": "#000",
-            // }}
-          />
-        </Source>
-      </ReactMapGL>
+      </div>
     )
   }
 }
 
-export default Mapbox
+export default MapBox

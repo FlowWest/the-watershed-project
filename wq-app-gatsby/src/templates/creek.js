@@ -16,7 +16,7 @@ import {
   Dropdown,
   GridRow,
 } from "semantic-ui-react"
-// import Mapbox from "../components/creekMap"
+import Mapbox from "../components/creekMap"
 import creekStyles from "../styles/creek.module.css"
 import SEO from "../components/seo"
 import watershedPolygons from "../data/watershedPolygons.js"
@@ -93,14 +93,14 @@ export default ({ data, pageContext }) => {
             <Grid>
               <GridRow>
                 <GridColumn width={16}>
-                  {/* <Mapbox
+                  <Mapbox
                     watershedPolygon={watershedPolygon}
                     pts={pts}
-                    height={400}
+                    // height={400}
                     zoom={10}
                     lat={creekData.creek_lat}
                     long={creekData.creek_long}
-                  /> */}
+                  />
                 </GridColumn>
               </GridRow>
               <GridRow>
