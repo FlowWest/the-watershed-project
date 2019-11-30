@@ -1,0 +1,23 @@
+.location-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  margin: 8px;
+  padding: 4px;
+  color: rgb(47, 47, 47);
+  max-width: 300px;
+  font-size: 11px;
+  z-index: 9;
+  pointer-events: none;
+}
+
+
+
+.legend{
+  padding: 2px;
+  display: inline-block;
+}

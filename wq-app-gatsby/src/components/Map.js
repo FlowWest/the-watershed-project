@@ -1,6 +1,6 @@
 import React from "react"
 import mapboxgl from "mapbox-gl"
-import mapStyles from "../styles/test.module.css"
+import mapStyles from "../styles/map.module.css"
 import watershedPolygons from "../data/watershedPolygons.js"
 import pinTWP from "../images/marker-stroked-15.svg"
 import pinCEDEN from "../images/marker-stroked-15-ceden.svg"
@@ -9,15 +9,16 @@ const TOKEN = process.env.GATSBY_MapboxAccessToken
 
 mapboxgl.accessToken = TOKEN
 
+
 class MapBox extends React.Component {
   map
 
   constructor(props) {
     super(props)
     this.state = {
-      lng: -122.076019,
-      lat: 37.929787,
-      zoom: 9,
+      lng: this.props.long,
+      lat: this.props.lat,
+      zoom: this.props.zoom,
     }
   }
 
