@@ -19,46 +19,8 @@ class MapBox extends React.Component {
       lng: -122.076019,
       lat: 37.929787,
       zoom: 9,
-      selectedSite: null,
-      selectedWatershed: null,
     }
   }
-
-  setSelectedSite = site => {
-    this.setState({
-      selectedSite: site,
-    })
-  }
-
-  closePopup = () => {
-    this.setState({
-      selectedSite: null,
-    })
-  }
-
-
-  // onHover = event => {
-  //   const {
-  //     features,
-  //     srcEvent: { offsetX, offsetY },
-  //   } = event
-
-  //   const selectedWatershed =
-  //     features && features.find(f => f.layer.id === "data")
-
-  //   this.setState({ selectedWatershed, x: offsetX, y: offsetY })
-  // }
-
-  // renderTooltip() {
-  //   const { selectedWatershed, x, y } = this.state
-  //   return (
-  //     selectedWatershed && (
-  //       <div className={mapStyles.tooltip} style={{ left: x, top: y }}>
-  //         <div>{selectedWatershed.properties.ws_name}</div>
-  //       </div>
-  //     )
-  //   )
-  // }
 
   componentDidMount() {
     this.map = new mapboxgl.Map({
@@ -103,6 +65,8 @@ class MapBox extends React.Component {
         new mapboxgl.Marker(el).setLngLat([pt.long, pt.lat]).setPopup(popup).addTo(this.map)
       })
     })
+
+    this.map.addControl(new mapboxgl.NavigationControl(), 'top-left');
   }
 
   render() {
