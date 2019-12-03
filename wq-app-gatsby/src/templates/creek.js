@@ -41,7 +41,7 @@ export default ({ data, pageContext }) => {
       ? defaultImage
       : data.allImagesCsv.edges.filter(
           edge => edge.node.ID === pageContext.creekID
-        )[0].node.imageURL
+        )[0].node
 
   const pts = [].concat(...creekData.sites)
 
@@ -76,10 +76,10 @@ export default ({ data, pageContext }) => {
           </GridColumn>
           <GridColumn width={6}>
             {creekImage === defaultImage ? (
-              <Image src={creekImage} size="large"></Image>
+              <Image src={defaultImage} size="large"></Image>
             ) : (
-              <a href={creekImage} target="_blank" rel="noopener noreferrer">
-                <Image src={creekImage} size="large"></Image>
+              <a href={creekImage.imageURL} target="_blank" rel="noopener noreferrer">
+                <Image src={creekImage.imageURL} alt={creekImage.altText} size="large"></Image>
               </a>
             )}
 
@@ -220,6 +220,7 @@ export const query = graphql`
         node {
           imageURL
           ID
+          altText
         }
       }
     }
