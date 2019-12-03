@@ -362,12 +362,12 @@ export default ({ data, pageContext }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src={selectedImage.imageURL} alt="image"></Image>
+              <Image src={selectedImage.imageURL} alt={selectedImage.altText}></Image>
             </a>
             <Divider hidden />
             <Image.Group size="tiny">
               {images.map(image => (
-                <Image src={image.imageURL} onClick={() => setImage(image)} />
+                <Image src={image.imageURL} alt={image.altText} onClick={() => setImage(image)} />
               ))}
             </Image.Group>
             <Divider hidden />
@@ -508,6 +508,7 @@ export const query = graphql`
           imageOrder
           imageURL
           ID
+          altText
         }
       }
     }

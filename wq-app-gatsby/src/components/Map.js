@@ -4,11 +4,11 @@ import mapStyles from "../styles/map.module.css"
 import watershedPolygons from "../data/watershedPolygons.js"
 import pinTWP from "../images/marker-stroked-15.svg"
 import pinCEDEN from "../images/marker-stroked-15-ceden.svg"
+import { navigate } from "gatsby"
 
 const TOKEN = process.env.GATSBY_MapboxAccessToken
 
 mapboxgl.accessToken = TOKEN
-
 
 class MapBox extends React.Component {
   map
@@ -19,6 +19,7 @@ class MapBox extends React.Component {
       lng: this.props.long,
       lat: this.props.lat,
       zoom: this.props.zoom,
+      watershed: null,
     }
   }
 
@@ -53,26 +54,25 @@ class MapBox extends React.Component {
         "country-label-lg"
       ) // ID metches `mapbox/streets-v9`
 
-      // this.map.on("click", "watersheds-layer", e => {
-      //   new mapboxgl.Popup()
-      //     .setLngLat(e.lngLat)
-      //     .setHTML(
-      //       e.features[0].properties.twp_monito === 1
-      //         ? `<a href="creek/${e.features[0].properties.creek_id}">${e.features[0].properties.ws_name}</a>`
-      //         : e.features[0].properties.ws_name
-      //     )
-      //     .addTo(this.map)
-      // })
+      this.map.on("mousemove", "watersheds-layer", e => {
+        this.setState({ watershed: e.features[0].properties.ws_name })
 
-      // // Change the cursor to a pointer when the mouse is over the watershed layer.
-      // this.map.on("mouseenter", "watersheds-layer", () => {
-      //   this.map.getCanvas().style.cursor = "pointer"
-      // })
+        if (e.features[0].properties.twp_monito === 1) {
+          this.map.getCanvas().style.cursor = "pointer"
+        } else {
+          this.map.getCanvas().style.cursor = ""
+        }
+      })
 
-      // // Change it back to a pointer when it leaves.
-      // this.map.on("mouseleave", "watersheds-layer", () => {
-      //   this.map.getCanvas().style.cursor = ""
-      // })
+      this.map.on("mouseleave", "watersheds-layer", e => {
+        this.setState({ watershed: null })
+      })
+
+      this.map.on("click", "watersheds-layer", e => {
+        if (e.features[0].properties.twp_monito === 1) {
+          navigate(`creek/${e.features[0].properties.creek_id}`)
+        }
+      })
 
       this.props.pts.map(pt => {
         var popup = new mapboxgl.Popup({ offset: 20 }).setHTML(
@@ -97,14 +97,12 @@ class MapBox extends React.Component {
 
   render() {
     return (
-      <div style={{position: "relative"}}>
+      <div style={{ position: "relative" }}>
         <div
           ref={el => (this.mapContainer = el)}
           className={mapStyles.mapContainer}
         />
-        <div
-          className={mapStyles.legend}
-        >
+        <div className={mapStyles.legend}>
           <div>
             <span>
               <img
@@ -130,6 +128,13 @@ class MapBox extends React.Component {
             <span>
               <p style={{ display: "inline-block", paddingLeft: "4px" }}>
                 CEDEN Site
+              </p>
+            </span>
+          </div>
+          <div>
+            <span>
+              <p style={{ display: "inline-block", paddingTop: "10px" }}>
+                <b>{this.state.watershed}</b>
               </p>
             </span>
           </div>
