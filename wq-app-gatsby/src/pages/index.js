@@ -166,7 +166,7 @@ const IndexPage = () => {
             />
             <p className={homeStyles.note}>
               Note: Shaded regions are watersheds that The Watershed Project (TWP)
-              currently monitors, click to navigate to a creek overview page.
+              currently monitors.
               <br></br>
               CEDEN (California Environmental Data Exchange Network) is a state
               database housing water quality data from multiple agencies and
