@@ -56,12 +56,16 @@ class MapBox extends React.Component {
 
       this.map.on("mousemove", "watersheds-layer", e => {
         this.setState({ watershed: e.features[0].properties.ws_name })
-        
+
         if (e.features[0].properties.twp_monito === 1) {
           this.map.getCanvas().style.cursor = "pointer"
         } else {
           this.map.getCanvas().style.cursor = ""
         }
+      })
+
+      this.map.on("mouseleave", "watersheds-layer", e => {
+        this.setState({ watershed: null })
       })
 
       this.map.on("click", "watersheds-layer", e => {
