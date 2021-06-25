@@ -82,7 +82,7 @@ const IndexPage = () => {
               explores the data we’ve collected, as well as additional data
               collected by other groups. To get involved in our creek monitoring
               program, please contact{" "}
-              <a href="mailto:helen@thewatershedproject.org">Helen Fitanides</a>
+              <a href="mailto:satoko@thewatershedproject.org">Satoko Mills</a>
               .
             </p>
             <Divider />

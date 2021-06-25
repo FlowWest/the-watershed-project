@@ -56,10 +56,13 @@ class MapBox extends React.Component {
         )
         var el = document.createElement("div")
         el.className = mapStyles.marker1
-        new mapboxgl.Marker(el)
-          .setLngLat([pt.long, pt.lat])
-          .setPopup(popup)
-          .addTo(this.map)
+        
+        return(
+          new mapboxgl.Marker(el)
+        .setLngLat([pt.long, pt.lat])
+        .setPopup(popup)
+        .addTo(this.map)
+        )
       })
     })
 

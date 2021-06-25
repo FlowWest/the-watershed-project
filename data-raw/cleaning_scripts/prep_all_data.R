@@ -23,13 +23,13 @@ sites %>%
 stationcode_to_label <- sites %>%
   select(creek_id, StationCode = site_id, label)
   
-analytes <- read_excel('data-raw/WQ data.xlsx', 'analytes')
+analytes <- read_excel('data-raw/WQ_data.xlsx', 'analytes')
 
-units <- read_excel('data-raw/WQ data.xlsx', 'units')
+units <- read_excel('data-raw/WQ_data.xlsx', 'units')
 
-groups <- read_excel('data-raw/WQ data.xlsx', 'groups')
+groups <- read_excel('data-raw/WQ_data.xlsx', 'groups')
 
-# observations_raw <- read_excel('data-raw/WQ data.xlsx', 'Observations')
+# observations_raw <- read_excel('data-raw/WQ_data.xlsx', 'Observations')
 # 
 # observations_raw %>% 
 #   select(StationCode, SampleDate, AnalyteName, UnitName, Result = VariableResult) %>% 
@@ -54,7 +54,7 @@ bmi <- bmi_raw %>%
 # prep bioswale data
 bax_raw <- read_excel('data-raw/baxter_bioswale_data.xlsx', range = "F7:S25", col_names = FALSE)
 
-bax <- raw %>% 
+bax <- bax_raw %>% 
   select(StationCode = ...1, SampleDate = ...4, FlowDirection = ...6, 
          AnalyteName = ...12, UnitName = ...13, Result = ...14) %>% 
   filter(!is.na(StationCode)) %>% 
@@ -62,25 +62,26 @@ bax <- raw %>%
   left_join(units) %>% 
   left_join(groups) %>% 
   mutate(creek_id = 'BAX', label = 'Booker T. Anderson Community Center') %>% 
-  select(creek_id, StationCode, AnalyteName = Name, UnitName, UnitDescription, 
+  select(creek_id, StationCode, AnalyteName, UnitName, UnitDescription, 
          category, label, SampleDate, Result, FlowDirection)
 
-field_results_raw <- read_excel('data-raw/WQ data.xlsx', 'Measurements')
+field_results_raw <- read_excel('data-raw/WQ_data.xlsx', 'Measurements')
 
-field_results_raw %>% 
+field_results <- field_results_raw %>% 
   select(StationCode, SampleDate, AnalyteName, UnitName, Result) %>% 
-  left_join(analytes) %>% 
-  mutate(AnalyteName = Name) %>% 
+  left_join(analytes) %>%
   left_join(stationcode_to_label) %>% 
-  select(-Name) %>% 
   left_join(units) %>% 
   left_join(groups) %>% 
   filter(!is.na(AnalyteName), !is.na(Result), Result >= 0, StationCode != 'BAX030') %>% 
-  bind_rows(bax, bmi) %>% 
+  bind_rows(bax, bmi) 
+
+field_results %>% 
   group_by(creek_id, StationCode, AnalyteName, UnitName, UnitDescription, category, label) %>% 
   nest() %>% 
   toJSON() %>% 
   write_file('wq-app-gatsby/src/data/field_data.json')
+
 
 # TWP creek scores-----
 score_lu <- 0:2
@@ -208,3 +209,4 @@ wq_features %>%
 # prep thresholds ----
 read_csv('data-raw/water_quality_thresholds.csv') %>% 
   write_csv('wq-app-gatsby/src/data/water_quality_thresholds.csv')
+
