@@ -85,10 +85,13 @@ class MapBox extends React.Component {
           pt.source === "The Watershed Project"
             ? mapStyles.marker1
             : mapStyles.marker2
-        new mapboxgl.Marker(el)
+            
+        return(
+          new mapboxgl.Marker(el)
           .setLngLat([pt.long, pt.lat])
           .setPopup(popup)
           .addTo(this.map)
+        )
       })
     })
 

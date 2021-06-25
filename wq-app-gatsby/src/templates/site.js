@@ -288,6 +288,29 @@ export default ({ data, pageContext }) => {
             ])
         : null
 
+    const imageTab = selectedImage ? 
+      {
+        menuItem: "Images",
+        render: () => (
+          <Tab.Pane attached={false}>
+            <a
+              href={selectedImage.imageURL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src={selectedImage.imageURL} alt={selectedImage.altText}></Image>
+            </a>
+            <Divider hidden />
+            <Image.Group size="tiny">
+              {images.map(image => (
+                <Image src={image.imageURL} alt={image.altText} onClick={() => setImage(image)} />
+              ))}
+            </Image.Group>
+            <Divider hidden />
+          </Tab.Pane>
+        ),
+      } : null
+
     panes = [
       {
         menuItem: "Plots",
@@ -353,27 +376,7 @@ export default ({ data, pageContext }) => {
           </Tab.Pane>
         ),
       },
-      {
-        menuItem: "Images",
-        render: () => (
-          <Tab.Pane attached={false}>
-            <a
-              href={selectedImage.imageURL}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image src={selectedImage.imageURL} alt={selectedImage.altText}></Image>
-            </a>
-            <Divider hidden />
-            <Image.Group size="tiny">
-              {images.map(image => (
-                <Image src={image.imageURL} alt={image.altText} onClick={() => setImage(image)} />
-              ))}
-            </Image.Group>
-            <Divider hidden />
-          </Tab.Pane>
-        ),
-      },
+      imageTab
     ]
   } else {
     panes = null
@@ -397,7 +400,7 @@ export default ({ data, pageContext }) => {
 
             <p className={siteStyles.siteDescription}>
               {siteData.description} Please contact{" "}
-              <a href="mailto:helen@thewatershedproject.org">Helen Fitanides</a>{" "}
+              <a href="mailto:satoko@thewatershedproject.org">Satoko Mills</a>{" "}
               if you’d like to join us!
             </p>
             <div className={siteStyles.links}>
