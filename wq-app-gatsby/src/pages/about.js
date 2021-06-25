@@ -34,9 +34,9 @@ const About = () => {
           data and use the water quality meters, and get to visit creek sites
           throughout Contra Costa County. Monitoring days last from about
           9am-2pm, and are typically during the second week of the month. Please
-          contact Helen Fitanides at{" "}
-          <a href="mailto:helen@thewatershedproject.org">
-            helen@thewatershedproject.org
+          contact Satoko Mills at{" "}
+          <a href="mailto:satoko@thewatershedproject.org">
+            satoko@thewatershedproject.org
           </a>{" "}
           for more information.
         </p>
@@ -56,9 +56,9 @@ const About = () => {
           monitoring day, check their accuracy after monitoring, and collect
           multiple data points per feature so that we can calculate field
           precision, ensuring our data is accurate and replicable. For more
-          information on methods, please contact Helen Fitanides at{" "}
-          <a href="mailto:helen@thewatershedproject.org">
-            helen@thewatershedproject.org
+          information on methods, please contact Satoko Mills at{" "}
+          <a href="mailto:satoko@thewatershedproject.org">
+            satoko@thewatershedproject.org
           </a>
           .
         </p>
