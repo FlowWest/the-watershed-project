@@ -69,6 +69,7 @@ field_results_raw <- read_excel('data-raw/WQ_data.xlsx', 'Measurements')
 
 field_results <- field_results_raw %>% 
   select(StationCode, SampleDate, AnalyteName, UnitName, Result) %>% 
+  filter(AnalyteName != "Oxygen, Saturation") %>% 
   mutate(AnalyteName = case_when(
     AnalyteName == "SpecificConductivity" ~ "Specific Conductivity",
     AnalyteName == "Oxygen, Dissolved" ~ "Dissolved Oxygen",
