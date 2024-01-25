@@ -1,9 +1,10 @@
 creek_id,total,max,grade,letter_grade
 ALH,6,10,60,D-
 MSH,5,8,62.5,D-
-SPA,7,10,70,C-
-SRA,1,2,50,F
-SUP,6,8,75,C
+PIN,6,10,60,D-
+SPA,8,10,80,B-
+SRA,8,10,80,B-
+SUP,7,10,70,C-
 WAL,7,10,70,C-
-WIL,8,10,80,B-
+WIL,7,10,70,C-
 BAX,NA,NA,NA,NA
